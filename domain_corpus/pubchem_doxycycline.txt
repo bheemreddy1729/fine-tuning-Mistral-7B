@@ -1,0 +1,67 @@
+<<<PAGE 1>>>
+Drug Indication
+
+Doxycycline is indicated for the treatment of various infections by gram-positive and gram-negative bacteria, aerobes and anaerobes, as well other types of bacteria, including: - Early Lyme disease (as evidenced by erythema migraines) due to _Borrelia burgdorferi_ in adults and pediatric patients 8 years of age and older weighing 45 kg and above - Rickettsial infections, such as Rocky Mountain spotted fever, typhus fever and the typhus group, Q fever, rickettsialpox, and tick fevers - Sexually transmitted infections - Respiratory tract infections caused by _Mycoplasma pneumoniae_ and _Haemophilus influenzae_ - Specific bacterial infections after indicative bacteriologic testing. These include infections caused by _Escherichia coli_, _Enterobacter aerogenes_, _Shigella_ species, _Acinetobacter_ species, and _Klebsiella_ species - Ophthalmic infections, such as inclusion conjunctivitis caused by _Chlamydia trachomatis_ - Anthrax, including inhalational anthrax (post-exposure) - Alternative treatment for selected infections when [penicillin] is contraindicated - Adjunctive therapy in acute intestinal amebiasis and severe acne - Lymphogranuloma venereum caused by _Chlamydia trachomatis_ - Psittacosis (ornithosis) caused by _Chlamydophila psittaci_ - Trachoma caused by _Chlamydia trachomatis_, although the infectious agent is not always eliminated, as judged by immunofluorescence - Uncomplicated urethral, endocervical, or rectal infections in adults caused by _Chlamydia trachomatis_ - Nongonococcal urethritis caused by _Ureaplasma urealyticum_ - Relapsing fever due to _Borrelia recurrentis_ - Prophylaxis of malaria due to _Plasmodium falciparum_ in short-term travelers (<4 months) to areas with chloroquine and/or pyrimethamine-sulfadoxine resistant strains It is also used to treat infections caused by the following gram-negative microorganisms: - Chancroid caused by _Haemophilus ducreyi_ - Plague due to _Yersinia pestis_ - Tularemia due to _Francisella tularensis_ - Cholera caused by _Vibrio cholerae_ - Campylobacter fetus infections caused by _Campylobacter fetus_ - Brucellosis due to _Brucella_ species (in conjunction with [streptomycin]) - Bartonellosis due to _Bartonella bacilliformis_ - Granuloma inguinale caused by _Klebsiella granulomatis_
+
+<<<PAGE 2>>>
+Drug-Food Interactions
+
+Avoid multivalent ions. The absorption of tetracyclines is reduced when taken with foods, especially those which contain calcium.
+
+Take with or without food. The absorption of tetracyclines is reduced when taken with foods, but not to a significant extent. If gastric irritation occurs, it is recommended that doxycycline be given with food or milk.
+
+<<<PAGE 3>>>
+Pharmacodynamics
+
+Doxycycline and other tetracyclines are mainly bacteriostatic and are thought to exert antimicrobial effects by the inhibition of protein synthesis. They suppress the growth of bacteria or keep them in the stationary phase of growth. Tetracyclines have antimicrobial spectrum of activity against a variety of gram-positive and gram-negative microorganisms. Cross-resistance of these microorganisms to tetracyclines is a common occurrence. As it is a highly lipophilic drug, doxycycline crosses multiple membranes of target molecules. Doxycycline shows favorable intra-cellular penetration, with bacteriostatic activity against a wide range of bacteria. Doxycycline also exhibits antiparasitic properties and anti-inflammatory actions. Its anti-inflammatory effects were investigated in various inflammatory skin conditions, such as bullous dermatoses and rosacea.
+
+<<<PAGE 4>>>
+Absorption, Distribution and Excretion
+
+Doxycycline is virtually completely absorbed after oral administration with a bioavailability of ranging from 73-95%. Following an oral dose of 500 mg, the Cmax of 15.3 mg/L was reached in four hours. Following a 200 mg dose, normal adult volunteers averaged peak serum levels of 2.6 mcg/mL of doxycycline at 2 hours, decreasing to 1.45 mcg/mL at 24 hours. While a high-fat meal lowers Cmax and the rate of absorption, the effect is not clinically significant.
+
+Tetracyclines, including doxycycline, are concentrated in bile by the liver and excreted in the urine and feces at high concentrations and in a biologically active form. Excretion of doxycycline by the kidney is about 40%/72 hours in individuals with a creatinine clearance of about 75 mL/min. This percentage may fall as low as 1-5%/72 hours in individuals with a creatinine clearance below 10 mL/min.
+
+Population pharmacokinetic analysis of sparse concentration-time data of doxycycline following standard of care intravenous and oral dosing in 44 pediatric patients two to 18 years of age showed allometrically -scaled clearance (CL) ranging from 3.27 to 3.58 L/h/70 kg.
+
+<<<PAGE 5>>>
+Mechanism of Action
+
+Protein synthesis is essential for survival and functioning of cells, including bacteria. Doxycycline inhibits bacterial protein synthesis by allosterically binding to the 30S prokaryotic ribosomal subunit. The drug blocks the association charged aminoacyl-tRNA (aa-tRNA) with the ribosomal A site, which is the acceptor site on the mRNA-ribosome complex. Doxycycline ultimately impedes the elongation phase of protein synthesis and halts the production of essential proteins for bacterial survival and functioning. Doxycycline mediates anti-inflammatory actions by preventing calcium-dependent microtubular assembly and lymphocytic proliferation, thereby inhibiting leukocyte movement during inflammation. It also inhibits nitric oxide synthase, which is an enzyme that produces nitric oxide, an inflammatory signaling molecule.
+
+<<<PAGE 6>>>
+Protein Binding
+
+While there is limited information available, tetracyclines bound to plasma proteins in varying degree.
+
+<<<PAGE 7>>>
+Record Description
+
+Doxycycline (internal use) can cause developmental toxicity according to state or federal government labeling requirements.
+
+Doxycycline is tetracycline in which the 5beta-hydrogen is replaced by a hydroxy group, while the 6alpha-hydroxy group is replaced by hydrogen. A semi-synthetic tetracycline antibiotic, it is used to inhibit bacterial protein synthesis and treat non-gonococcal urethritis and cervicitis, exacerbations of bronchitis in patients with chronic obstructive pulmonary disease (COPD), and adult periodontitis. It has a role as a geroprotector, an antibacterial drug, an antimalarial, an immunomodulator and an anti-inflammatory agent.
+
+Doxycycline is a broad-spectrum antibiotic synthetically derived from [oxytetracycline]. It is a second-generation tetracycline that was first discovered in 1967. Second-generation tetracyclines exhibit lesser toxicity than first-generation tetracyclines. Doxycycline is used to treat a wide variety of gram-positive and gram-negative bacterial infections. It is also used to treat acne and malaria.
+
+See also: Doxycycline Hyclate (annotation moved to); Doxycycline (annotation moved to); Alpha-6-Deoxyoxytetracycline (annotation moved to).
+
+<<<PAGE 8>>>
+GHS Classification
+
+H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H361fd (33.3%): Suspected of damaging fertility; Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]
+
+P203, P261, P264, P264+P265, P270, P271, P273, P280, P301+P317, P302+P352, P304+P340, P305+P351+P338, P318, P319, P321, P330, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501 (click each P-code to see the statement)
+
+Aggregated GHS information provided per 3 reports by companies from 2 notifications to the ECHA C&L Inventory. Each notification may be associated with multiple companies.
+
+Information may vary between notifications depending on impurities, additives, and other factors. The percentage value in parenthesis indicates the notified classification ratio from companies that provide hazard codes. Only hazard codes with percentage values above 10% are shown. For more detailed information, please visit ECHA C&L website.

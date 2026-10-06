@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Model weights stay out of this repo
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.ckpt
+adapters/
+checkpoints/

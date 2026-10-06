@@ -1,0 +1,260 @@
+<<<PAGE 1>>>
+Drug Indication
+
+Azithromycin should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria in order to prevent the development antimicrobial resistance and maintain the efficacy of azithromycin. Azithromycin is indicated for the treatment of patients with mild to moderate infections caused by susceptible strains of the microorganisms listed in the specific conditions below. Recommended dosages, duration of therapy and considerations for various patient populations may vary among these infections. Refer to the FDA label and "Indications" section of this drug entry for detailed information. **Adults**: Acute bacterial exacerbations of chronic obstructive pulmonary disease due to _Haemophilus influenzae_, _Moraxella catarrhalis_ or _Streptococcus pneumoniae_ Acute bacterial sinusitis due to _Haemophilus influenzae_, _Moraxella catarrhalis_ or _Streptococcus pneumoniae_ Community-acquired pneumonia due to _Chlamydophila pneumoniae_, _Haemophilus influenzae_, _Mycoplasma pneumoniae_ or _Streptococcus pneumoniae_ in patients appropriate for oral therapy Pharyngitis/tonsillitis caused by _Streptococcus pyogenes_ as an alternative to first-line therapy in individuals who cannot use first-line therapy. Uncomplicated skin and skin structure infections due to _Staphylococcus aureus_, _Streptococcus pyogenes_, or _Streptococcus agalactiae_. Abscesses usually require surgical drainage. Urethritis and cervicitis due to _Chlamydia trachomatis_ or _Neisseria gonorrhoeae_. Genital ulcer disease in men due to _Haemophilus ducreyi_ (chancroid). Due to the small number of women included in clinical trials, the efficacy of azithromycin in the treatment of chancroid in women has not been established. **Pediatric Patients** Acute otitis media caused by _Haemophilus influenzae_, _Moraxella catarrhalis_ or _Streptococcus pneumoniae_ Community-acquired pneumonia due to _Chlamydophila pneumoniae_, _Haemophilus influenzae_, _Mycoplasma pneumoniae_ or _Streptococcus pneumoniae_ in patients appropriate for oral therapy. Pharyngitis/tonsillitis caused by _Streptococcus pyogenes_ as an alternative to first-line therapy in individuals who cannot use first-line therapy.
+
+Azithromycin is a broad-spectrum macrolide antimicrobial and one of the most frequently prescribed antimicrobial drugs in the United States. Azithromycin is an erythromycin derivative with greatly enhanced activity against gram-negative bacteria (including Enterobacteriaceae) that also provides coverage against many gram-positive organisms. As an inhibitor of bacterial protein synthesis, azithromycin is effective against many "atypical" bacteria such as chlamydiae (eg, Chlamydia trachomatis and Chlamydophila psittaci), legionella (eg, Legionella pneumophila), mycoplasma (eg, Mycoplasma pneumoniae), and mycobacteria (eg, Mycobacterium avium).
+
+<<<PAGE 2>>>
+Therapeutic Uses
+
+Azithromycin is used orally in children for the treatment of acute otitis media (AOM) caused by Haemophilus influenzae, M. catarrhalis, or S. pneumoniae. /Included in US product labeling/
+
+Azithromycin is used orally for the treatment of pharyngitis and tonsillitis caused by Streptococcus pyogenes (group A beta-hemolytic streptococci) in adults and children when first-line therapy (penicillins) cannot be used. /Included in US product labeling/
+
+Although further study is needed, azithromycin has been used in conjunction with an antimalarial agent (e.g., chloroquine, quinine, artesunate [not commercially available in the US]) for the treatment of uncomplicated malaria caused by Plasmodium falciparum, including multidrug-resistant strains. Azithromycin should not be used alone as monotherapy for the treatment of malaria. /NOT included in US product labeling/
+
+For more Therapeutic Uses (Complete) data for AZITHROMYCIN (52 total), please visit the HSDB record page.
+
+<<<PAGE 3>>>
+Drug Warnings
+
+Prolonged cardiac repolarization and QT interval, imparting a risk of developing cardiac arrhythmia and torsades de pointes, have been seen in treatment with macrolides, including azithromycin. Cases of torsades de pointes have been spontaneously reported during postmarketing surveillance in patients receiving azithromycin. Providers should consider the risk of QT prolongation which can be fatal when weighing the risks and benefits of azithromycin for at-risk groups including: patients with known prolongation of the QT interval, a history of torsades de pointes, congenital long QT syndrome, bradyarrhythmias or uncompensated heart failure; patients on drugs known to prolong the QT interval; or patients with ongoing proarrhythmic conditions such as uncorrected hypokalemia or hypomagnesemia, clinically significant bradycardia, and in patients receiving Class IA (quinidine, procainamide) or Class III (dofetilide, aminodarone, sotalol) antiarrhythmic agents. Elderly patients may be more susceptible to drug-associated effects on the QT interval.
+
+Pregnancy risk category: B /NO EVIDENCE OF RISK IN HUMANS. Adequate, well controlled studies in pregnant women have not shown increased risk of fetal abnormalities despite adverse findings in animals, or, in the absents of adequate human studies, animal studies show no fetal risk. The chance of fetal harm is remote but remains a possibility./
+
+The most frequent adverse effects of azithromycin involve the GI tract (i.e., diarrhea/loose stools, nausea, abdominal pain). While these adverse effects generally are mild to moderate in severity and occur less frequently than with oral erythromycin, adverse GI effects are the most frequent reason for discontinuing azithromycin therapy. Administration of conventional azithromycin tablets or oral suspension with food may improve GI tolerability.
+
+Azithromycin has been detected in human milk. The drug should be used with caution in nursing women.
+
+For more Drug Warnings (Complete) data for AZITHROMYCIN (30 total), please visit the HSDB record page.
+
+<<<PAGE 4>>>
+Drug-Food Interactions
+
+Take on an empty stomach. Take at least 1 hour before or 2 hours after meals.
+
+<<<PAGE 5>>>
+Pharmacodynamics
+
+Macrolides stop bacterial growth by inhibiting protein synthesis and translation, treating bacterial infections. Azithromycin has additional immunomodulatory effects and has been used in chronic respiratory inflammatory diseases for this purpose.
+
+<<<PAGE 6>>>
+Absorption, Distribution and Excretion
+
+Bioavailability of azithromycin is 37% following oral administration. Absorption is not affected by food. Macrolide absorption in the intestines is believed to be mediated by P-glycoprotein (ABCB1) efflux transporters, which are known to be encoded by the _ABCB1_ gene.
+
+Biliary excretion of azithromycin, primarily as unchanged drug, is a major route of elimination. Over a 1 week period, approximately 6% of the administered dose is found as unchanged drug in urine.
+
+After oral administration, azithromycin is widely distributed in tissues with an apparent steady-state volume of distribution of 31.1 L/kg. Significantly greater azithromycin concentrations have been measured in the tissues rather than in plasma or serum,. The lung, tonsils and prostate are organs have shown a particularly high rate of azithromycin uptake. This drug is concentrated within macrophages and polymorphonucleocytes, allowing for effective activity against Chlamydia trachomatis. In addition, azithromycin is found to be concentrated in phagocytes and fibroblasts, shown by in vitro incubation techniques. In vivo studies demonstrate that concentration in phagocytes may contribute to azithromycin distribution to inflamed tissues.
+
+Mean apparent plasma cl=630 mL/min (following single 500 mg oral and i.v. dose)
+
+Biliary excretion of azithromycin, predominantly as unchanged drug is a major route of elimination following oral administration.
+
+Azithromycin is rapidly absorbed from the GI tract after oral administration; absorption of the drug is incomplete but exceeds that of erythromycin. The absolute oral bioavailability of azithromycin is reported to be approximately 34-52% with single doses of 500 mg to 1.2 g administered as various oral dosage forms. Limited evidence indicates that the low bioavailability of zithromycin results from incomplete GI absorption rather acid degradation of the drug or extensive first-pss metabolism.
+
+Azithromycin appears to be distributed into most body tissues and fluids after oral or IV administration. The extensive tissue uptake of azithromycin has been attributed to cellular uptake of this basic antibiotic into relatively acidic lysosomes as a result of iron trapping and to an energy-dependent pathway associated with the nucleoside transport system.
+
+Because of rapid distribution into tissues and high intracellular concentrations of azithromycin, tissue concentrations of the drug generally exceed plasma concentrations by 10- to 100-fold following single dose administration; with multiple dosing, the tissue-to-plasma ratio increases.
+
+For more Absorption, Distribution and Excretion (Complete) data for AZITHROMYCIN (10 total), please visit the HSDB record page.
+
+<<<PAGE 7>>>
+Metabolism/Metabolites
+
+In vitro and in vivo studies to assess the metabolism of azithromycin have not been performed, however, this drug is eliminated by the liver,.
+
+The principal route of biotransformation involves N-demethylation of the desosamine sugar or at the 9a position on the macrolide ring. Other metabolic pathways include O-demethylation and hydrolysis and/or hydroxylation of the cladinose and desosamine sugar moieties and the macrolide ring. Up to 10 metabolites of azithromycin have been identified, and all are microbiologically inactive. While short-term administration of azithromycin produces hepatic accumulation of the drug and increases azithromycin demethylase activity, current evidence indicates that hepatic cytochrome p450 induction of inactivation via cytochrome-metabolite complex formation does not occur. In contrast to erythromycin, azithromycin does not inhibit its own metabolism via this pathway.
+
+<<<PAGE 8>>>
+Biological Half-Life
+
+An elimination half-life of 54.5 hours has been reported in children 4 months to 15 years of age receiving single or multiple oral doses of azithromycin.
+
+Plasma azithromycin concentrations following a single 500-mg oral or IV dose decline in a polyphasic manner with a terminal elimination half-life averaging 68 hours. The high values for apparent steady-state volume of distribution (31.3-33.3 L/kg) and plasma clearance (630 mL/minute, 10.18 mL/minute per kg) of azithromycin suggest that the prolonged half-life is related to extensive uptake and subsequent release of the drug from tissues. The average tissue half-life of azithromycin is estimated to be 1-4 days. The half-life of the drug in peripheral leukocytes ranges from 34-57 hours.
+
+<<<PAGE 9>>>
+Mechanism of Action
+
+In order to replicate, bacteria require a specific process of protein synthesis, enabled by ribosomal proteins. Azithromycin binds to the 23S rRNA of the bacterial 50S ribosomal subunit. It stops bacterial protein synthesis by inhibiting the transpeptidation/translocation step of protein synthesis and by inhibiting the assembly of the 50S ribosomal subunit,. This results in the control of various bacterial infections,. The strong affinity of macrolides, including azithromycin, for bacterial ribosomes, is consistent with their broad‐spectrum antibacterial activities. Azithromycin is highly stable at a low pH, giving it a longer serum half-life and increasing its concentrations in tissues compared to erythromycin.
+
+Azithromycin usually is bacteriostatic, although the drug may be bactericidal in high concentrations against selected organisms. Bactericidal activity has been observed in vitro against Streptococcus pyogenes, S. pneumoniae, and Haemophilus influenzae. Azithromycin inhibits protein synthesis in susceptible organisms by penetrating the cell wall and binding to 50S ribosomal subunits, thereby inhibiting translocation of aminoacyl transfer-RNA and inhibiting polypeptide synthesis. The site of action of azithromycin appears to be the same as that of the macrolides (i.e., erythromycin, clarithromycin), clindamycin, lincomycin, and chloramphenicol. The antimicrobial activity of azithromycin is reduced at low pH. Azithromycin concentrates in phagocytes, including polymorphonuclear leukocytes, monocytes, macrophages, and fibroblasts. Penetration of the drug into phagocytic cells is necessary for activity against intracellular pathogens (e.g., Staphylococcus aureus, Legionella pneumophila, Chlamydia trachomatis, Salmonella typhi).
+
+<<<PAGE 10>>>
+Toxicological Information
+
+Azithromycin, like other macrolides, is associated with QTc prolongation. Azithromycin administration can result in potentially lethal arrhythmias such as torsades de pointes. This is particularly true for patients with a history of QTc interval perturbation, cardiac arrhythmia, or concomitant use of other medications associated with QTc prolongation. In animal studies, although azithromycin was associated with similar QTc prolongation compared to other macrolides, it seemed to have a negligible proarrhythmic effect. While significant hepatoxicity resulting from azithromycin is relatively rare, macrolides are known to cause mixed hepatocellular/cholestatic drug-induced liver injury. With prompt discontinuation of azithromycin, liver injury is almost always reversible with minimal residual impairment. Often, azithromycin-induced hepatotoxicity has associated immunoallergenic features such as rash, fever, and eosinophilia. Severe reactions, such as anaphylaxis, SJS, and drug reaction with eosinophilia and systemic symptoms (DRESS), are rare. Gastrointestinal toxicity is common but typically mild, and most patients can complete the prescribed course of azithromycin. This toxicity is the result of azithromycin’s activation of pro-motility receptors in the gastrointestinal tract.
+
+There is no antidote for azithromycin overdose. General symptomatic and supportive measures should be instituted as necessary.
+
+Like other macrolide antibiotics, azithromycin has been linked to a low rate of acute, transient and asymptomatic elevation in serum aminotransferases which occurs in 1% to 2% of patients treated for short periods, and a somewhat higher proportion of patients given azithromycin long term.
+
+Azithromycin can also rarely cause clinically apparent liver injury. Because azithromycin has become so commonly used, it has also become one of the more common causes of drug induced liver injury. In large case series of drug-induced liver injury, azithromycin is usually listed as one of the top ten causes. The estimates of the incidence of clinically apparent liver injury with azithromycin therapy ranges widely from 1:2500 to 1:65,000, perhaps because of differences in risk with oral (outpatient) versus parenteral (inpatient) therapy. The typical liver injury caused by azithromycin resembles that described with other macrolides and is a self-limited, cholestatic hepatitis, arising within a few weeks after starting treatment, often days or even a few weeks after azithromycin is stopped (Case 1). The latency to onset can be quite short, within 3 days of starting azithromycin, but the usual time to clinical onset is 1 to 3 weeks. Typical symptoms are fatigue, jaundice, abdominal pain and pruritus. Fever and eosinophilia may also be present, but immunoallergic features are usually not prominent. This form of liver injury from azithromycin is usually benign, but in some instances is associated with prolonged jaundice and persistence of liver test abnormalities for 6 months or more. Liver histology in these cases generally demonstrates bile duct loss, which if severe, can result in vanishing bile duct syndrome and chronic cholestatic liver failure, ultimately requiring liver transplantation. Milder instances of bile duct loss and prolonged cholestatic hepatitis ultimately resolve but may be marked by persistent serum alkaline phosphatase elevations of uncertain clinical significance.
+
+Azithromycin can also cause hepatocellular injury with symptoms of fatigue, abdominal pain, and jaundice. In these cases, the latency is typically short and may be 1 to 3 days only (Case 2). Serum aminotransferase levels are markedly elevated and alkaline phosphatase values are usually less than twice the upper limit of normal, although they may rise to higher levels with time. The hepatocellular forms of liver injury from azithromycin can be severe and lead to acute liver failure and death or need for emergency liver transplantation. However, in most cases, recovery occurs within 4 to 8 weeks.
+
+Azithromycin has also been associated with severe cutaneous reactions such as erythema multiforme, drug reaction with eosinophilia and systemic signs (DRESS) syndrome, Stevens Johnson syndrome (SJS) and toxic epidermal necrosis (TEN). These severe cutaneous reactions are often associated with some degree of liver injury and may be accompanied by clinically apparent injury with jaundice, usually with a cholestatic pattern. However, the severe cutaneous reactions usually overshadow the liver injury.
+
+In cell culture, azithromycin exhibits some degree of antiviral activity and was shown to inhibit the Severe Acute Respiratory Syndrome, coronavirus type 2 (SARS-CoV-2), the cause of the pandemic of severe COVID-19 pneumonia that arose in 2019 and led to more than 3 million deaths worldwide. In view of the antiviral activity as well as antiinflammatory actions of azithromycin, it was repurposed as a potential therapy of COVID-19. Despite early promising reports, subsequent randomized controlled trials found that it had no benefit in either prevention of infection or amelioration of the course of COVID-19 illness. An emergency use authorization granted to azithromycin as therapy of COVID-19 in early 2020 was later withdrawn.
+
+Likelihood score: A (well known but rare cause of clinically apparent liver injury).
+
+Because of the low levels of azithromycin in breastmilk and use in infants in higher doses, it would not be expected to cause adverse effects in breastfed infants. Monitor the infant for possible effects on the gastrointestinal flora, such as vomiting, diarrhea, candidiasis (thrush, diaper rash).
+
+Maternal use of an eye drop that contains azithromycin presents negligible risk for the nursing infant. To substantially diminish the amount of drug that reaches the breastmilk after using eye drops, place pressure over the tear duct by the corner of the eye for 1 minute or more, then remove the excess solution with an absorbent tissue.
+
+A cohort study of infants diagnosed with infantile hypertrophic pyloric stenosis found that affected infants were 2.3 to 3 times more likely to have a mother taking a macrolide antibiotic during the 90 days after delivery. Stratification of the infants found the odds ratio to be 10 for female infants and 2 for male infants. All the mothers of affected infants nursed their infants. Most of the macrolide prescriptions were for erythromycin, but only 7% were for azithromycin. However, the authors did not state which macrolide was taken by the mothers of the affected infants.
+
+A retrospective database study in Denmark of 15 years of data found a 3.5-fold increased risk of infantile hypertrophic pyloric stenosis in the infants of mothers who took a macrolide during the first 13 days postpartum, but not with later exposure. The proportion of infants who were breastfed was not known, but probably high. The proportion of women who took each macrolide was also not reported.
+
+A study comparing the breastfed infants of mothers taking amoxicillin to those taking a macrolide antibiotic found no instances of pyloric stenosis. However, most of the infants exposed to a macrolide in breastmilk were exposed to roxithromycin. Only 10 of the 55 infants exposed to a macrolide were exposed to azithromycin. Adverse reactions occurred in 12.7% of the infants exposed to macrolides which was similar to the rate in amoxicillin-exposed infants. Reactions included rash, diarrhea, loss of appetite, and somnolence.
+
+Eight women who were given azithromycin 500 mg intravenously 15, 30 or 60 minutes prior to incision for cesarean section breastfed their newborn infants. No adverse events were noted in their infants.
+
+Two meta-analyses failed to demonstrate a relationship between maternal macrolide use during breastfeeding and infantile hypertrophic pyloric stenosis.
+
+In a double-blind, controlled study in Gambia, women who were nasopharyngeal carriers of Staphylococcus aureus, Streptococcus pneumoniae or group B streptococcus were given a single 2 gram dose of azithromycin during labor. Milk samples from women who received azithromycin had 9.6% prevalence of carriage of the organisms compared to 21.9% in women who received placebo. Nasopharyngeal carriage in mothers and infants was also reduced on day 6 postpartum. However, a later analysis found oral intrapartum azithromycin did not reduce carriage of Escherichia coli and Klebsiella pneumoniae and was associated with an increase in the prevalence of azithromycin-resistant E. coli and K. pneumoniae isolates in breastmilk.
+
+Azithromycin is an antibiotic that has been used to treat many bacterial infections, including lung infections (such as bronchitis and pneumonia), strep throat, and ear, sinus, and skin infections. It is also commonly used, including during pregnancy, to treat infections such as malaria, mycoplasma, and chlamydia. Brand names include Z-Pak®, Zithromax®, and Zmax®.For more information on malaria, see our fact sheet at https://mothertobaby.org/fact-sheets/malaria/Sometimes when women find out they are pregnant, they think about changing how they take their medication, or stopping their medication altogether. However, it is important to talk with your healthcare providers before making any changes to how you take your medication. Your healthcare providers can talk with you about the benefits of treating your condition and the risks of untreated illness during pregnancy.
+
+◈ I take azithromycin. Can it make it harder for me to get pregnant?
+
+It is not known if taking azithromycin can make it harder to get pregnant.
+
+◈ Does taking azithromycin increase the chance of miscarriage?
+
+Miscarriage is common and can occur in any pregnancy for many different reasons. Most studies on azithromycin and similar antibiotics have not reported an increased chance of miscarriage.
+
+◈ Does taking azithromycin increase the chance of birth defects?
+
+Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like azithromycin, might increase the chance of birth defects in a pregnancy.A few studies have suggested azithromycin might increase the chance of some birth defects. However, most studies have not found an increased chance of birth defects when azithromycin is used during pregnancy.
+
+◈ Does taking azithromycin in pregnancy increase the chance of other pregnancy-related problems?
+
+Azithromycin is not expected to increase the chance of other pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth).
+
+◈ Does taking azithromycin in pregnancy affect future behavior or learning for the child?
+
+One study looking at over 8,000 children exposed to azithromycin or other antibiotics like azithromycin during pregnancy found no significant increased chance of attention deficit hyperactivity disorder (ADHD) or autism spectrum disorder.
+
+Azithromycin passes into breast milk in small amounts. The amount of azithromycin that gets into breast milk is lower than what would be given to a child to treat an infection. Short term use of azithromycin is generally considered compatible with breastfeeding.There are some studies that suggest that the chance of pyloric stenosis (a condition where the muscles of the pylorus [the valve between the stomach and small intestine], get thicker and narrower, making it hard for food to pass through) might be increased when azithromycin is taken during the first two weeks of breastfeeding. Other studies have not reported an increased chance of pyloric stenosis. Overall, there is not enough information to determine if breastfeeding while taking azithromycin can increase the chance of pyloric stenosis.Children who are exposed to azithromycin or other antibiotics through breast milk might have diarrhea or develop thrush (fungal infection of the mouth). If you suspect that your baby has symptoms such as forceful vomiting, weight loss, fussiness, lethargy, and signs of dehydration such as fewer wet diapers, contact your baby’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions.
+
+◈ If a man takes azithromycin, could it affect his fertility or increase the chance of birth defects?
+
+Studies have not been done to see if azithromycin could affect men’s fertility (ability to make healthy sperm) or increase the chance of birth defects. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.
+
+Azithromycin is considered a safe antimicrobial agent, and only a few patients discontinue it due to adverse effects. This medication is also associated with fewer adverse cardiac effects than other macrolides (eg, erythromycin, clarithromycin).
+
+* Like other macrolides, azithromycin can cause QTc prolongation, which can result in torsades de pointes or polymorphic ventricular tachycardia. In a large retrospective cohort study, azithromycin use correlated with a small but significant absolute increase in cardiovascular death as well as an increased risk of cardiovascular death relative to amoxicillin. These results were most pronounced among patients with the highest baseline cardiovascular risk. However, another large cohort study failed to detect an increased risk of death from cardiovascular causes in young and middle-aged adults.
+
+* Azithromycin is rarely associated with hepatotoxicity, which primarily manifests as hepatocellular injury within 3 weeks of initiating therapy. Clinical features of hepatotoxicity include cholestatic jaundice and elevated transaminase concentrations.
+
+* Like other macrolides, azithromycin is associated with gastrointestinal adverse effects such as nausea and diarrhea. All macrolides exhibit dose-dependent activation of intestinal motilin receptors, stimulating gastric motility. Clinicians widely prescribe erythromycin for treating gastroparesis due to this mechanism.
+
+* Life-threatening hypersensitivity reactions to azithromycin, such as anaphylaxis and Stevens-Johnson syndrome (SJS), are rare.
+
+* Macrolides are also associated with the development of Clostridioides difficile infection but to a lesser degree than other common antimicrobial classes (eg, clindamycin, fluoroquinolones, and cephalosporins).
+
+* A retrospective cohort study found that outpatient azithromycin use was associated with a higher risk of cardiovascular and noncardiovascular death. However, causality cannot be established due to potential residual confounding.
+
+* Azithromycin should be avoided in patients taking the first-generation antipsychotic pimozide. Macrolide antimicrobials inhibit CYP3A4, the same cytochrome that metabolizes pimozide; concomitant use of azithromycin with pimozide can cause dangerous plasma concentrations of pimozide, leading to QTc prolongation and, potentially, lethal arrhythmias. While azithromycin is a poor inhibitor of CYP3A4 relative to other macrolides, avoiding this interaction is still advisable.
+
+* Azithromycin is an inhibitor of p-glycoprotein/ABCB1, a cell membrane glycoprotein transporter. Drugs that are substrates of P-glycoprotein, particularly those that are also substrates of CYP3A4, represent a relative contraindication to azithromycin administration. Examples include colchicine and small-molecule calcitonin gene-related peptide (CGRP) antagonists.
+
+* Intravesical Bacillus Calmette-Guérin (BCG) instillations are prescribed as a treatment for bladder cancer. While product labeling advises suspending BCG therapy during antibiotic treatment due to potential interference with clinical response, antibiotics may still be necessary during this interval. A recent study of 126 patients found no significant impact of antibiotics on recurrence-free or progression-free survival during BCG induction. Prolonged antibiotic treatment did extend the duration of BCG therapy, but overall, antibiotics did not adversely affect oncological outcomes or adverse effects; a thorough risk-benefit evaluation is required.
+
+Because concomitant use of pimozide and other macrolides (e.g., clarithromycin) has increased pimozide concentrations and is associated with a risk of prolonged QT interval and serious cardiovascular effects, the manufacturer of pimozide states that concomitant use of pimozide and macrolides (including azithromycin) is contraindicated.
+
+Although specific drug interaction studies have not been performed with azithromycin, concomitant use with other macrolides has resulted in increased phenytoin concentrations. Therefore, the patient should be carefully monitored if azithromycin and phenytoin are used concomitantly.
+
+Although the single-dose extended-release oral suspension of azithromycin may be taken without regard to antacids containing magnesium hydroxide and/or aluminum hydroxide, conventional oral azithromycin preparations (tablets or oral suspension) should not be administered simultaneously with aluminum- or magnesium-containing antacids. A study using azithromycin capsules (no longer commercially available) indicate that administration of oral azithromycin 500 mg with an aluminum- and magnesium hydroxide-containing antacid resulted in a decreased rate of absorption of azithromycin as evidenced by 24% reduction in peak serum azithromycin concentrations; however, the extent of azithromycin absorption (AUC) was unaffected.
+
+Although specific drug interaction studies have not been performed with azithromycin, concomitant use with other macrolides has resulted in increased concentrations of ergot alkaloids (ergotamine, dihydroergotamine). Therefore, the patient should be carefully monitored if azithromycin and ergot alkaloids are used concomitantly.
+
+For more Interactions (Complete) data for AZITHROMYCIN (14 total), please visit the HSDB record page.
+
+Emergency and supportive measures: Maintain an open airway and assist ventilation if necessary. Treat coma, seizures, hypotension, anaphylaxis, and hemolysis if they occur. Replace fluid losses resulting from gastroenteritis with intravenous crystalloids. /Antibacterial agents/
+
+Decontamination: Administer activated charcoal orally if conditions are appropriate. Gastric lavage is not necessary after small to moderate ingestions if activated charcoal can be given promptly. /Antibacterial agents/
+
+Enhanced elimination: Most antibiotics are excreted unchanged in the urine, so maintenance of adequate urine flow is important. The role of forced diuresis is unclear. Hemodialysis is not usually indicated, except perhaps in patients with renal dysfunction and a high level of a toxic agent. /Antibacterial agents/
+
+/SRP:/ Immediate first aid: Ensure that adequate decontamination has been carried out. If patient is not breathing, start artificial respiration, preferably with a demand valve resuscitator, bag-valve-mask device, or pocket mask, as trained. Perform CPR if necessary. Immediately flush contaminated eyes with gently flowing water. Do not induce vomiting. If vomiting occurs, lean patient forward or place on the left side (head-down position, if possible) to maintain an open airway and prevent aspiration. Keep patient quiet and maintain normal body temperature. Obtain medical attention. /Poisons A and B/
+
+For more Antidote and Emergency Treatment (Complete) data for AZITHROMYCIN (6 total), please visit the HSDB record page.
+
+/SIGNS AND SYMPTOMS/ Serious hypersensitivity reactions, including angioedema, anaphylaxis, and dermatologic reactions, have occurred rarely in patients receiving azithromycin. Fatalities have been reported.
+
+/CASE REPORTS/ /The investigators/ report the case of a 25-year-old female patient with severe aggravation of myasthenia gravis due to azithromycin which was prescribed for an influenza syndrome. One hour after the intake of 500 mg azithromycin the patient developed weakness of the legs and respiratory distress due to respiratory muscle failure. She was hospitalized in a comatose state and required intubation and mechanical ventilation for six days. Acute worsening of myasthenia gravis was observed in this patient in 1986 after parenteral administration of erythromycin. Erythromycin causing aggravation of myasthenia gravis by interfering with neuromuscular transmission is reported in the literature. The close temporal relationship between the intake of azithromycin and severe worsening of myasthenia gravis in our patient suggests that azithromycin, a new azalid-antibiotic of the macrolid group, can exacerbate myasthenia gravis. /The investigators/ conclude that azithromycin should be added to the list of drugs to be used with caution in patients with myasthenia gravis.
+
+/CASE REPORTS/ Vanishing bile duct syndrome is a severe cholestatic disease associated with toxic effects of medications. Stevens-Johnson syndrome is a hypersensitivity disorder that may also be caused by medications. We present a case of a 62-year-old male patient who developed vanishing bile duct syndrome a month after Stevens-Johnson syndrome. These adverse drug reactions were associated with the use of azithromycin (500 mg daily for 3 days). The patient was initially treated for Stevens-Johnson syndrome with steroids, antihistamines and proton pump inhibitors and fully recovered. However, a month after the beginning of Stevens-Johnson syndrome, he developed vanishing bile duct syndrome and was treated with steroids, ursodeoxycholic acid, antihistamines and tacrolimus. Unfortunately, the treatment was unsuccessful and he was listed for liver transplantation which was performed 7 months after the beginning of jaundice. ...
+
+/CASE REPORTS/ ... A case of an elderly patient with idiopathic dilated cardiomyopathy who developed a significative prolongation of the QT interval after two days of treatment with azithromycin for a community-acquired pneumonia /is reported/. QT prolongation is associated with a high risk of serious ventricular tachyarrhythmias. Three days after discontinuation of azithromycin, QT interval returned to the normal value.
+
+For more Human Toxicity Excerpts (Complete) data for AZITHROMYCIN (6 total), please visit the HSDB record page.
+
+/LABORATORY ANIMALS: Developmental or Reproductive Toxicity/ The potential reproductive toxicity and teratogenicity of azithromycin, an azalide antibiotic, was assessed in the rat and mouse. Reproduction and fertility studies were performed in the Long-Evans rat at oral doses of 10, 20 and 30 mg/kg/day. Males were treated for nine weeks prior to and during mating, and females for two weeks prior to mating and throughout mating, gestation and lactation. Half of the females were sacrificed and evaluated on day 14 of gestation, and the remaining females were killed on day 21 post-partum. Postnatal development testing on F1 pups was performed during lactation. F1 pups were raised to maturity and mated to produce an F2 generation, and all animals were sacrificed at weaning. Pregnancy rate was decreased at the 20 mg/kg/day level but no other azithromycin related effects were detected upon reproductive parameters in F0 dams or in the F1 or F2 generation. Two additional fertility studies suggested that azithromycin may cause a minimal reduction in fertility at 20 and 30 mg/kg compared to controls and that both male and female rats must be simultaneously treated to affect pregnancy rate. These pregnancy rates were, however, still within the range of our historical control data. Embryotoxicity and teratogenicity of azithromycin were evaluated in female Sprague-Dawley rats at oral doses of 10, 20, 40, 50, 100 and 200 mg/kg/day administered from days 6 to 15 post-insemination. A slight delay in ossification was noted in fetuses at the 200 mg/kg dose level and was related to evidence of maternal toxicity. Azithromycin was not teratogenic at any dose level. Similar studies in albino mice at the same dose level did not produce embryotoxic, fetotoxic, or teratogenic effects, and fetal tissue concentrations were higher than in maternal plasma or amniotic fluid. Azithromycin was tested in Sprague-Dawley rats to evaluate peri-natal effects on dams and on postnatal development of their pups. Dose levels were 10, 20, 40, 50, 100 or 200 mg/kg/day administered from day 15 post-insemination through day 20 post-partum. Effects noted at doses of 50 mg/kg and higher included decreased pup body weight, decreased pup viability and delayed development which correlated with greater litter size. There were no malformations or severe lesions in any of the pups.
+
+/GENOTOXICITY/ Azithromycin was subjected to a series of three in vitro and one in vivo genetic toxicology assays for the detection of drug-associated gene or chromosomal effects. In the Ames Salmonella typhimurium tester strains TA1535, TA1537, TA98 and TA100, the presence of azithromycin was not associated with any increase in the number of his- revertants. Urine from mice dosed with up to 200 mg/kg of azithromycin also had no effect on the number of revertants in these same strains suggesting the absence of mutagenic excretory products following oral exposure. When tested up to the cytotoxic level of 240 ug/ml, azithromycin caused no increase in the mutant frequency at the thymidine kinase locus of L5178Y/TK cells. Both the mammalian and microbial gene mutation assays included the presence of rat-liver postmitochondrial (S9) fraction for the detection of mutagenic biotransformation products. Mitogen-stimulated human lymphocytes cultured in the presence of 2.5-7.5 micrograms/ml azithromycin for 24 hr or 30.0-40.0 micrograms/ml azithromycin for 3 hr in the presence of rat S9 had chromosomal aberration frequencies that were no different than negative control cells even though slight to moderate mitotic suppression was associated with these concentrations. In vivo assessment of this compound was completed in male and female mice with a single oral dose of 200 mg/kg followed by sacrifice at 6, 24 or 48 hr later and metaphase analysis of bone marrow for chromosomal aberrations. No statistically significant elevations of chromosomally aberrant cells were found. We conclude that azithromycin does not cause gene mutations in microbial or mammalian cells, or chromosomal aberrations in cultured human lymphocytes or in mouse bone marrow in vivo.
+
+/OTHER TOXICITY INFORMATION/ Phospholipidosis (intracellular phospholipid accumulation) has been observed in some tissues of mice, rats, and dogs given multiple doses of azithromycin. Such phospholipid accumulation has been demonstrated in numerous organ systems (e.g., eye, dorsal root ganglia, liver, gallbladder, kidney, spleen, pancreas) in dogs at azithromycin doses approximately equivalent to twice the recommended adult human dose (on a mg/kg basis) and in rats at doses comparable to the recommended adult human dose. Phospholipidosis also has been observed in the tissues of neonatal rats and dogs given azithromycin daily for 10-30 days; the extent of phospholipidosis observed in these neonates was similar to that observed in adult animals. In neonatal rats or dogs given 30 or 10 mg/kg, respectively, of azithromycin, phospholipidosis was observed at a peak plasma azithromycin concentration of 1.3 ug/mL (6 times greater than the peak plasma concentration of 0.216 mcg/mL observed in children receiving azithromycin 10 mg/kg) or 1.5 ug/mL (7 times greater than the peak plasma concentration observed in children receiving azithromycin 10 mg/kg), respectively. On a mg/sq m basis, azithromycin 30 mg/kg in the rat (135 mg/sq m) or 10 mg/kg in the dog (79 mg/sq m) are approximately 0.4 or 0.6 times, respectively, the recommended pediatric dose for a child who weighs 25 kg.
+
+/GENOTOXICITY/ Azithromycin was not mutagenic in several in vitro tests, including the mouse lymphoma assay ... and mouse bone marrow clastogenic assay.
+
+Prolonged cardiac repolarization and QT interval, imparting a risk of developing cardiac arrhythmia and torsades de pointes, have been seen in treatment with macrolides, including azithromycin. Cases of torsades de pointes have been spontaneously reported during postmarketing surveillance in patients receiving azithromycin. Providers should consider the risk of QT prolongation which can be fatal when weighing the risks and benefits of azithromycin for at-risk groups including: patients with known prolongation of the QT interval, a history of torsades de pointes, congenital long QT syndrome, bradyarrhythmias or uncompensated heart failure; patients on drugs known to prolong the QT interval; or patients with ongoing proarrhythmic conditions such as uncorrected hypokalemia or hypomagnesemia, clinically significant bradycardia, and in patients receiving Class IA (quinidine, procainamide) or Class III (dofetilide, aminodarone, sotalol) antiarrhythmic agents. Elderly patients may be more susceptible to drug-associated effects on the QT interval.
+
+Because azithromycin is eliminated principally via the liver, the drug should be used with caution in patients with impaired hepatic function. In addition, because of limited data regarding use of azithromycin in patients with renal impairment, the drug should be used with caution in patients with glomerular filtration rates less than 10 mL/minute.
+
+/The investigators/ report the case of a 25-year-old female patient with severe aggravation of myasthenia gravis due to azithromycin which was prescribed for an influenza syndrome. ... The close temporal relationship between the intake of azithromycin and severe worsening of myasthenia gravis in our patient suggests that azithromycin, a new azalid-antibiotic of the macrolid group, can exacerbate myasthenia gravis. /The investigators/ conclude that azithromycin should be added to the list of drugs to be used with caution in patients with myasthenia gravis.
+
+<<<PAGE 11>>>
+Protein Binding
+
+The serum protein binding of azithromycin varies in humans, decreasing from 51% at 0.02 µg/mL to 7% at 2 µg/mL.
+
+<<<PAGE 12>>>
+Record Description
+
+Azithromycin is a macrolide antibiotic useful for the treatment of bacterial infections. It has a role as a xenobiotic, an antibacterial drug and an environmental contaminant. It is a conjugate base of an azithromycin(2+).
+
+Azithromycin is an antibacterial prescription medicine approved by the U.S. Food and Drug Administration (FDA) for the treatment of certain bacterial infections, such as:
+
+Various bacterial respiratory diseases, including community-acquired pneumonia, acute sinus and ear infections, acute worsening of chronic bronchitis, and throat and tonsil infections
+
+Genital ulcer disease and infections of the urethra and cervix
+
+Community-acquired pneumonia, a bacterial respiratory disease, can be an opportunistic infection (OI) of HIV.
+
+Azithromycin is a broad-spectrum macrolide antibiotic with a long half-life and a high degree of tissue penetration. It was initially approved by the FDA in 1991. It is primarily used for the treatment of respiratory, enteric and genitourinary infections and may be used instead of other macrolides for some sexually transmitted and enteric infections. It is structurally related to erythromycin. Azithromycin [9-deoxo-9a-aza-9a-methyl-9a-homoerythromycin] is a part of the azalide subclass of macrolides, and contains a 15-membered ring, with a methyl-substituted nitrogen instead of a carbonyl group at the 9a position on the aglycone ring, which allows for the prevention of its metabolism. This differentiates azithromycin from other types of macrolides. In March 2020, a small study was funded by the French government to investigate the treatment of COVID-19 with a combination of azithromycin and the anti-malaria drug [hydroxychloroquine]. The results were positive, all patients taking the combination were virologically cured within 6 days of treatment, however, larger studies are required.
+
+Azithromycin is a Macrolide Antimicrobial. The chemical classification of azithromycin is Macrolides.
+
+Azithromycin is a semisynthetic macrolide antibiotic which is commonly used for a wide variety of mild-to-moderate bacterial infections. Azithromycin has been linked to rare instances of acute liver injury that can be severe and even fatal.
+
+Azithromycin Anhydrous is the anhydrous form of azithromycin, an orally bioavailable azalide derived from erythromycin, and a member of a subclass of macrolide antibiotics, with anti-bacterial activity. Upon oral administration, azithromycin reversibly binds to the 23S rRNA of the 50S ribosomal subunit of the bacterial ribosome of susceptible microorganisms, thereby inhibiting the translocation step of protein synthesis by preventing the assembly of the 50S ribosomal subunit. This inhibits bacterial protein synthesis, inhibits cell growth and causes cell death.
+
+Azithromycin is an azalide, derived from erythromycin, and a member of a subclass of macrolide antibiotics with bacteriocidal and bacteriostatic activities. Azithromycin reversibly binds to the 50S ribosomal subunit of the 70S ribosome of sensitive microorganisms, thereby inhibiting the translocation step of protein synthesis, wherein a newly synthesized peptidyl tRNA molecule moves from the acceptor site on the ribosome to the peptidyl (donor) site, and consequently inhibiting RNA-dependent protein synthesis leading to cell growth inhibition and cell death.
+
+A semi-synthetic macrolide antibiotic structurally related to ERYTHROMYCIN. It has been used in the treatment of Mycobacterium avium intracellulare infections, toxoplasmosis, and cryptosporidiosis.
+
+See also: Erythromycin (broader); Clarithromycin (related); Roxithromycin (related) ... View More ...
+
+<<<PAGE 13>>>
+GHS Classification
+
+H317 (97.5%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H334 (96.7%): May cause allergy or asthma symptoms or breathing difficulties if inhaled [Danger Sensitization, respiratory]
+
+H372 (28.7%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (29.5%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (30.3%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+P233, P260, P261, P264, P270, P271, P272, P273, P280, P284, P302+P352, P304+P340, P319, P321, P333+P317, P342+P316, P362+P364, P391, P403, and P501 (click each P-code to see the statement)
+
+Aggregated GHS information provided per 122 reports by companies from 8 notifications to the ECHA C&L Inventory. Each notification may be associated with multiple companies.
+
+Information may vary between notifications depending on impurities, additives, and other factors. The percentage value in parenthesis indicates the notified classification ratio from companies that provide hazard codes. Only hazard codes with percentage values above 10% are shown. For more detailed information, please visit ECHA C&L website.

@@ -2,7 +2,7 @@
 
 Reply with one id, for example `accept A1`. Work starts only for that item. The next item stays pending until you accept it.
 
-Current item: **A6**. A1 through A5 are done. Nothing has been pushed.
+Current item: **B1**, closed until accepted. A1 through A7 are done.
 
 ## Locked already
 
@@ -122,27 +122,37 @@ Done when the before and after dedup row is saved and the dedup check passes.
 
 ### A6 — PubChem monographs
 
-Status: pending
+Status: done
 
-PubChem is not a PDF. Fetch the clinical sections for amoxicillin, doxycycline, vancomycin, ceftriaxone, azithromycin, metronidazole, artesunate, and artemether-lumefantrine.
+Run with `python src/corpus_pipeline.py pubchem`. Nine drugs, 104 section-pages, 38,327 words. Every drug is its own file. Language, length, and dedup checks passed. Dedup removed 0 section-pages. PDF gate is unchanged: 7 PDFs, 1,122 pages. PubChem does not count toward either gate.
 
-Keep a drug as its own file when it has at least 1,000 words. Merge shorter drugs into one file named as PubChem text. Run the same language, length, and dedup checks on that text.
+Files are `domain_corpus/pubchem_*.txt`. Counts are in `reports/pubchem_drug_counts.csv` and `reports/pubchem_stats.csv`. `sources.json` labels the source as not a PDF.
+
+Artemether-lumefantrine combination CID 6450800 has almost no clinical text, so the corpus uses the component records artemether CID 68911 and lumefantrine CID 6437380.
+
+The first 13 clinical headings leave doxycycline at 759 words. Protein Binding, Record Description, and GHS Classification are English drug-information sections on the same record and bring doxycycline to 1,109 words, so it passes the same 1,000-word rule.
+
+PubChem is not a PDF. Fetch the clinical sections for amoxicillin, doxycycline, vancomycin, ceftriaxone, azithromycin, metronidazole, artesunate, artemether, and lumefantrine.
+
+Keep a drug as its own file when it has at least 1,000 words and at least 3 section-pages. Merge shorter drugs into one file. Run the same language, length, and dedup checks on that text.
 
 PubChem files do not count toward the minimum of five PDFs and do not count toward the 300-page gate.
 
-Done when the PubChem files are in the corpus, labeled in `sources.json`, and excluded from the PDF page total.
-
 ### A7 — Final gate, notebook, and push
 
-Status: pending
+Status: done
+
+Run with `python src/corpus_pipeline.py gate`, or the full rebuild `python src/corpus_pipeline.py part-a`. The notebook `part_a_corpus.ipynb` calls `run_part_a()` and stores the output. Gate result: 7 surviving PDFs and 1,122 kept PDF pages. PubChem's 104 section-pages stay out of that total. WHO attribution in `sources.json` includes CC BY-NC-SA 3.0 IGO.
+
+The download check lives in `verify_or_download_pdfs()`. It confirms each raw PDF against `sources.json` and downloads a file only when the copy on disk does not match.
+
+Deduplication removed the most pages among the three filters: 15 pages, 13 of them near-duplicates in NICE NG253. Extraction found 27 pages with fewer than 30 letters. Those are non-content, not language removals. The language filter removed 1 non-English page.
 
 Gate: at least five surviving PDF documents, and at least 300 kept pages from those PDFs only. A failed gate stops the push.
 
 The notebook displays the extraction row and the before/after table for language, length, and dedup. The prose names `langdetect`, states SHA-256 plus Jaccard of at least 0.90 on 5-word shingles, justifies the length rule, and says which step removed the most pages and why.
 
 Push to `main` only after every check passes: pipeline, reports, `domain_corpus/`, `data/sources.json`, and `data/raw_pdfs/`. Model weights stay out of the repo. WHO text is pushed with the CC BY-NC-SA 3.0 IGO attribution in `sources.json`.
-
-Done when the gate passes and the commit is on `main`.
 
 ## Later, after Part A is pushed
 

@@ -1,0 +1,92 @@
+<<<PAGE 1>>>
+Drug Indication
+
+Lumefantrine and artemether combination therapy is indicated for the treatment of acute uncomplicated malaria caused by Plasmodium falciparum, including malaria acquired in chloroquine-resistant areas. May also be used to treat uncomplicated malaria when the Plasmodium species has not been identified. Indicated for use in adults and children greater than 5 kg.
+
+<<<PAGE 2>>>
+Therapeutic Uses
+
+The efficacy and safety of the 6-dose regimen of artemether-lumefantrine were assessed in an open randomized trial in children and adults presenting with acute, uncomplicated Plasmodium falciparum malaria in Thailand between November 1997 and March 1998. 200 patients were enrolled in 2 centers: 150 received artemether-lumefantrine (i.e., a median total dose of 9.6 mg/kg (interquartile range 8.7-10.7) and 57.9 mg/kg of lumefantrine (52.4-64.0)) and 50 the standard combination of artesunate (12 mg/kg over 3 d) and mefloquine (25 mg/kg). All patients had rapid initial clinical and parasitological responses. The 28 day cure rates were high: 97.7% (95% confidence interval (95% CI) 93.5-99.5%) for artemether-lumefantrine and 100% (95% CI 92.5-100%) for artesunate-mefloquine. The 6-dose regimen of artemether-lumefantrine was better tolerated than, and as effective as, artesunate-mefloquine, the current standard treatment in this area of multidrug-resistant P. falciparum malaria. /Artemether-lumefantrine fixed combination/
+
+We report here the results of a randomized double blind trial comparing coartemether (CGP56697), a combination of artemether and benflumetol, with pyrimethamine/sulfadoxine (P/S). Two hundred eighty-seven children 1-5 years of age with uncomplicated falciparum malaria were enrolled at two centers in The Gambia between July 1996 and December 1996. Following treatment, children were visited at home every 24 hr until a blood film free of asexual parasites was obtained. Genotyping of parasites was used to distinguish recrudescence from new infections. Three days after the start of treatment, 133 (100%) of the CGP56697-treated children compared with 128 (93.4%) of children treated with P/S had cleared their parasites (P = 0.003). The day 15 cure rate was 93.3% for CGP56697 and 97.7% for P/S (P = 0.13). Within the third and fourth week after initiation of therapy, 20 children treated with CGP56697 and one of the P/S-treated children returned with second malaria episodes (P < 0.0001). Genotyping suggested that the majority (19 of 23 (82.6%)) of these second episodes were due to new infections, supporting the World Health Organization recommendation that longer follow-up is not relevant for the assessment of drug efficacy. At the two-week follow-up, 28.9% of the P/S treated children but none of the CGP56697-treated children carried gametocytes (P < 0.0001). This study showed that CGP56697 is safe in African children with acute uncomplicated falciparum malaria, clears parasites more rapidly than P/S, and results in fewer gametocyte carriers. More frequent new infections within the third and fourth week following treatment with CGP56697 than treatment with P/S are likely to be due to the short prophylactic effect of CGP56697. /Artemether-lumefantrine fixed combination/
+
+Two hundred and sixty patients were enrolled into a randomized, double-blind, parallel group, dose-finding trial. CGP 56697 /artemether and benflumetol in a fixed combination tablet/ was given orally, either as: A, 4 x 4 tablets over 48 hr; B, 4 x 2 tablets over 48 hr or C, 3 x 4 tablets over 24 hr. Each tablet contained artemether 20 mg amd benflumetol 120 mg. The pharmacokinetics were determined using a population-based approach combining full profiles (42 patients) and sparse data (218 patients). Parasite clearance time and 28 day cure rate were correlated with the derived pharmacokinetic parameters. ... Using a population-based approach it was confirmed that the pharmacokinetic and pharmacodynamic properties of benflumetol and artemether differ markedly. Benflumetol AUC is associated with cure and the effect of benflumetol when coadministered with artemether is to prevent recrudescence. The mode of action of benflumetol is consistent with its longer elimination half-life. A short course of low-dose artemether, which is rapidly absorbed and has a short elimination half-life, produced effective parasite clearance. The complementary pharmacokinetic and pharmacodynamic properties of benflumetol and artemether was the main rationale for developing a fixed-dose combination. While the 4 x 4 dose regimen is very effective in most endemic areas, the poorer absorption (2.5 fold lower than in China) and the more resistant parasites in Thailand require higher doses of this drug. /Artemether-lumefantrine fixed combination/
+
+For more Therapeutic Uses (Complete) data for BENFLUMETOL (6 total), please visit the HSDB record page.
+
+<<<PAGE 3>>>
+Drug Warnings
+
+An open, randomized comparison of artemether-benflumetol (CGP 56 697; Novartis) with artesunate-mefloquine was conducted in 617 patients with acute uncomplicated multidrug-resistant falciparum malaria on the western border of Thailand. ... Both regimens were well tolerated. Nausea, vomiting, dizziness, sleep disorders, and other neurological side effects were between two and four times more common in the artesunate-mefloquine group than in the artemether-benflumetol group (P < 0.001). /Artemether-lumefantrine fixed combination/
+
+Artemether-lumefantrine is a new fixed antimalarial combination effective against multidrug-resistant falciparum malaria. A prospective electrocardiographic study was conducted in 150 patients receiving artemetherlumefantrine and 50 treated with artesunate-mefloquine. There was no evidence for clinically significant changes in the electrocardiographic intervals and in particular no relationship between plasma concentrations of lumefantrine and QTc prolongation. Artemether-lumefantrine does not have significant cardiac effects at therapeutic doses. /Artemether-lumefantrine fixed combination/
+
+Artemether-lumefantrine (A-L), a new fixed-dose oral antimalarial drug, combines the fast onset of action of artemether (an artemisinin derivative) in terms of parasite clearance with the high cure rate of lumefantrine in the treatment of acute uncomplicated Plasmodium falciparum malaria. The extensive clinical trial database of A-L has allowed a comprehensive evaluation of its tolerability and safety in a total of 1869 patients (including 243 children aged 5-12 years and 368 children aged < 5 years). The most commonly reported and possibly related adverse effects following A-L therapy involved the gastro-intestinal (abdominal pain, anorexia, nausea, vomiting, diarrhoea) and central nervous (headache, dizziness) systems. Pruritus and rash were reported by < 2% of patients. More than 90% of the reported adverse events, many of which overlapped considerably with the clinical symptomatology or evolution of acute malaria, were rated mild to moderate in intensity. /Artemether-lumefantrine fixed combination/
+
+<<<PAGE 4>>>
+Pharmacodynamics
+
+Lumefantrine is a blood schizonticide active against erythrocytic stages of <i>Plasmodium falciparum</i>. It is thought that administration of lumefantrine with artemether results in cooperate antimalarial clearing effects. Artemether has a rapid onset of action and is rapidly cleared from the body. It is thus thought to provide rapid symptomatic relief by reducing the number of malarial parasites. Lumefantrine has a much longer half life and is believed to clear residual parasites.
+
+<<<PAGE 5>>>
+Absorption, Distribution and Excretion
+
+The combination of artemether and lumefantrine (benflumetol) is a new and very well tolerated oral antimalarial drug effective even against multidrug-resistant falciparum malaria. ... The lumefantrine component is absorbed variably in malaria, and is eliminated more slowly (half-life of 3 to 6 days). Absorption is very dependent on coadministration with fat, and so improves markedly with recovery from malaria.
+
+The pharmacokinetics of benflumetol as a fixed combination, artemether-benflumetol (CGP 56697), following three regimens (regimen A: four tablets at 0, 8, 24 and 48 hr (320 mg artemether, 1,920 mg benflumetol); regimen B: two tablets at 0, 8, 24 and 48 hr (160 mg artemether, 960 mg benflumetol); regimen C: four tablets at 0, 8 and 24 hr (240 mg artemether, 1,440 mg benflumetol)) were investigated in 39 patients with acute uncomplicated falciparum malaria. All patients showed a rapid initial response with a median parasite clearance time of 40, 41 and 39.5 hr and a fever clearance time of 27.8, 32 and 24.5 hr for regimens A, B and C, respectively. In nine patients (two, four and three patients in regimens A, B and C, respectively), however, parasitemia reappeared in the peripheral blood smear between days 9 and 23. The pharmacokinetics of benflumetol were highly variable, with coefficients of variation in pharmacokinetic parameters ranging from 14.9% to 144%. Absorption and elimination of benflumetol were relatively slow. Median Cmax per dose (first dose) was significantly higher in regimen B (6.29 ng/ml/mg dose) than in regimen A (2.6 ng/ml/mg dose) and regimen C (3.06 ng/ml/mg dose). Mean T1/2z in regimen C (2.65 hr) was significantly shorter than in regimen A (4.5 hr) and regimen B (3.89 hr). In patients on regimens A and B who showed a sensitive response, plasma concentrations of benflumetol were significantly higher than in those with treatment failure.
+
+...Three combination regimens containing an average adult lumefantrine dose of 1,920 mg over 3 days (four doses) (regimen A) or 2,780 mg over 3 or 5 days (six doses) (regimen B or C, respectively) were given to 266 Thai patients. Detailed observations were obtained for 51 hospitalized adults, and sparse data were collected for 215 patients of all ages in a community setting. The population absorption half-life of lumefantrine was 4.5 hr. The model-based median (5th and 95th percentiles) peak plasma lumefantrine concentrations were 6.2 (0.25 and 14.8) ug/mL after regimen A, 9. 0 (1.1 and 19.8) ug/mL after regimen B, and 8 (1.4 and 17.4) ug/mL after regimen C. During acute malaria, there was marked variability in the fraction of drug absorbed by patients (coefficient of variation, 150%). The fraction increased considerably and variability fell with clinical recovery, largely because food intake was resumed; taking a normal meal close to drug administration increased oral bioavailability by 108% (90% confidence interval, 64 to 164) (P, 0.0001). The higher-dose regimens (B and C) gave 60 and 100% higher areas under the concentration-time curves (AUC), respectively, and thus longer durations for which plasma lumefantrine concentrations exceeded the putative in vivo MIC of 280 ug/mL (median for regimen B, 252 hr; that for regimen C, 298 hr; that for regimen A, 204 hr [P, 0.0001]) and higher cure rates. Lumefantrine oral bioavailability is very dependent on food and is consequently poor in acute malaria but improves markedly with recovery. The high cure rates with the two six-dose regimens resulted from increased AUC and increased time at which lumefantrine concentrations were above the in vivo MIC.
+
+<<<PAGE 6>>>
+Metabolism/Metabolites
+
+Extensively metabolized in the liver primarily by cytochrome P450 3A4. The major metabolite found in plasma is desbutyl-lumefantrine.
+
+<<<PAGE 7>>>
+Biological Half-Life
+
+Three combination regimens containing an average adult lumefantrine dose of 1,920 mg over 3 days (four doses) (regimen A) or 2,780 mg over 3 or 5 days (six doses) (regimen B or C, respectively) were given to 266 Thai patients. ... The population absorption half-life of lumefantrine was 4.5 hr.
+
+...Three combination regimens containing an average adult lumefantrine dose of 1,920 mg over 3 days (four doses) (regimen A) or 2,780 mg over 3 or 5 days (six doses) (regimen B or C, respectively) were given to 266 Thai patients. ... The population absorption half-life of lumefantrine was 4.5 hr. ...
+
+<<<PAGE 8>>>
+Mechanism of Action
+
+The exact mechanism by which lumefantrine exerts its antimalarial effect is unknown. However, available data suggest that lumefantrine inhibits the formation of &beta;-hematin by forming a complex with hemin and inhibits nucleic acid and protein synthesis.
+
+<<<PAGE 9>>>
+Toxicological Information
+
+/HUMAN EXPOSURE STUDIES/ ...Three combination regimens containing an average adult lumefantrine dose of 1,920 mg over 3 days (four doses) (regimen A) or 2,780 mg over 3 or 5 days (six doses) (regimen B or C, respectively) were given to 266 Thai patients. Detailed observations were obtained for 51 hospitalized adults, and sparse data were collected for 215 patients of all ages in a community setting. The population absorption half-life of lumefantrine was 4.5 hr. The model-based median (5th and 95th percentiles) peak plasma lumefantrine concentrations were 6.2 (0.25 and 14.8) ug/mL after regimen A, 9. 0 (1.1 and 19.8) ug/mL after regimen B, and 8 (1.4 and 17.4) ug/mL after regimen C. During acute malaria, there was marked variability in the fraction of drug absorbed by patients (coefficient of variation, 150%). The fraction increased considerably and variability fell with clinical recovery, largely because food intake was resumed; taking a normal meal close to drug administration increased oral bioavailability by 108% (90% confidence interval, 64 to 164) (P, 0.0001). The higher-dose regimens (B and C) gave 60 and 100% higher areas under the concentration-time curves (AUC), respectively, and thus longer durations for which plasma lumefantrine concentrations exceeded the putative in vivo MIC of 280 ug/mL (median for regimen B, 252 hr; that for regimen C, 298 hr; that for regimen A, 204 hr [P, 0.0001]) and higher cure rates. Lumefantrine oral bioavailability is very dependent on food and is consequently poor in acute malaria but improves markedly with recovery. The high cure rates with the two six-dose regimens resulted from increased AUC and increased time at which lumefantrine concentrations were above the in vivo MIC.
+
+/ALTERNATIVE IN VITRO TESTS/ Using a continuous in vitro culture system, the sensitivity of Plasmodium falciparum to artemether and a new antimalarial drug, benflumetol (lumefantrine), alone and in combination, was investigated with a multiresistant strain (T-996) from Thailand and a chloroquine-resistant strain (LS-21) from India. Both strains showed similar 50% inhibitory concentration (IC50) levels with artemether alone or benflumetol alone, but the IC90 was higher in strain T-996 compared with strain LS-21: for artemether, 34.45 and 7.11 nmol/L (10.28 and 2.12 ng/mL of erythrocyte-medium mixture [EMM]), and for benflumetol, 293.03 and 95.61 nmol/L (154.69 and 50.47 ng/mL of EMM). When tested in association at artemether:benflumetol (mol: mol) ratios between 100:1 and 1:100, substantial synergism was seen in both strains, especially at the IC90 and IC99 levels.
+
+<<<PAGE 10>>>
+Record Description
+
+Lumefantrine is a member of the class of fluorenes that is 9-(p-chlorobenzylidene)-9H-fluorene which is substitutec by chlorine at positions 2 and 7, and by a 2-(dibutylamino)-1-hydroxyethyl group at position 4. An antimalarial drug used in combination with artemether for the treatment of multi-drug resistant strains of falciparum malaria. It has a role as an antimalarial. It is a member of fluorenes, a tertiary amine, a secondary alcohol and a member of monochlorobenzenes.
+
+Lumefantrine is an antimalarial agent used to treat acute uncomplicated malaria. It is administered in combination with artemether for improved efficacy. This combination therapy exerts its effects against the erythrocytic stages of Plasmodium spp. and may be used to treat infections caused by P. falciparum and unidentified Plasmodium species, including infections acquired in chloroquine-resistant areas.
+
+A fluorene derivative that is used in combination with ARTEMETHER for the treatment of MALARIA (see ARTEMETHER-LUMEFANTRINE DRUG COMBINATION).
+
+<<<PAGE 11>>>
+GHS Classification
+
+This chemical does not meet GHS hazard criteria for 50% (1 of 2) of reports.
+
+H315 (50%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (50%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H335 (50%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+P261, P264, P264+P265, P271, P280, P302+P352, P304+P340, P305+P351+P338, P319, P321, P332+P317, P337+P317, P362+P364, P403+P233, P405, and P501 (click each P-code to see the statement)
+
+Aggregated GHS information provided per 2 reports by companies from 2 notifications to the ECHA C&L Inventory. Each notification may be associated with multiple companies.
+
+Reported as not meeting GHS hazard criteria per 1 of 2 reports by companies.
+
+There is 1 notification provided by 1 of 2 reports by companies with hazard statement code(s).
+
+Information may vary between notifications depending on impurities, additives, and other factors. The percentage value in parenthesis indicates the notified classification ratio from companies that provide hazard codes. Only hazard codes with percentage values above 10% are shown. For more detailed information, please visit ECHA C&L website.

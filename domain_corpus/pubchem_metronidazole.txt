@@ -1,0 +1,281 @@
+<<<PAGE 1>>>
+Drug Indication
+
+Metronidazole is indicated for the treatment of confirmed trichomoniasis caused by Trichomonas vaginalis (except for in the first trimester of pregnancy) and the patient's sexual partners, bacterial vaginosis, certain types of amebiasis, and various anaerobic infections. The above anaerobic infections may occur on the skin and skin structures, the abdomen, the heart, reproductive organs, central nervous system, and the respiratory system. Some may also be present in the bloodstream in cases of septicemia. Common infections treated by metronidazole are Bacteroides species infections, Clostridium infections, and Fusobacterium infections, as well as Peptococcus and Peptostreptococcus infections. Topical formulations of metronidazole are indicated for the treatment of inflammatory lesions of rosacea. It is also used off-label in the treatment of Crohn's disease, as a prophylactic agent after surgery, and in the treatment of Helicobacter pylori infection. It has also been studied in the prevention of preterm births and to treat periodontal disease.
+
+Metronidazole is one of the mainstay drugs for the treatment of anaerobic bacterial infections, protozoal infections, and microaerophilic bacterial infections. It is cytotoxic to facultative anaerobic microorganisms.
+
+<<<PAGE 2>>>
+Therapeutic Uses
+
+Mesh Heading: Anti-infective agents, antiprotozoal agents, radiation-sensitizing agents
+
+MEDICATION (VET): The success of metronidazole in treating human infections of giardiasis, vaginal and oral trichomoniasis, and hepatic and intestinal amoebiasis has lead to investigation of its potential use against certain protozoan diseases of domestic animals. These are principally bovine urogenital trichomoniasis and canine, feline, or primate intestinal giardiasis, trichomoniasis, amoebiasis, or Balantidium infection. ...
+
+Oral metronidazole (extended release formulation) is used in the treatment of bacterial vaginosis caused by Gardnerella vaginalis, Mobiluncus spp, mycoplasma hominis and anaerobes (peptostreptococcus spp and Bacteroides spp). /Included in US or Canadian product labeling/
+
+For more Therapeutic Uses (Complete) data for METRONIDAZOLE (25 total), please visit the HSDB record page.
+
+<<<PAGE 3>>>
+Drug Warnings
+
+Metronidazole crosses the placenta and enters the fetal circulation rapidly. Adequate and well-controlled studies in humans have not been done. ... However, the use of metronidazole in the treatment of trichomoniasis is not recommended during the first trimester. If metronidazole is used during the second and the third trimesters for trichomoniasis it is recommended that its use be limited to those patients whose symptoms are not controlled by local palliative treatment. Also, the 1 day course of therapy should not be used since this results in higher maternal and fetal serum concentrations.
+
+No information is available on the relationship of age to the effects of metronidazole in geriatric patients. However, elderly patients are more likely to have an age-related decrease in hepatic function, which may require an adjustment in dosage in patients receiving metronidazole.
+
+Peripheral neuropathy, characterized by numbness, tingling, or paresthesia of an extremity, and convulsive seizures have been reported rarely with oral or IV metronidazole. Peripheral neuropathy is usually reversible if metronidazole is discontinued but may persist in patients who receive prolonged therapy or higher than recommended dosage of the drug. Dizziness, vertigo, incoordination, ataxia, confusion, irritability, depression, weakness, insomnia, headache, syncope, tinnitus, and hearing loss have also occurred with metronidazole. Headache occurred in 18% of nonpregnant women receiving oral metronidazole (administered as extended-release tablets) for bacterial vaginosis, and among those reporting headache, 10% described it as severe.
+
+Urethral burning or discomfort, dysuria, cystitis, polyuria, incontinence, a sense of pelvic pressure, dryness of the vagina or vulva, dyspareunia, and decreased libido have been reported with oral metronidazole. Urine may be dark or reddish-brown in color following oral or IV administration of metronidazole due to the presence of water-soluble pigments which result from metabolism of the drug. Vulvovaginal candidiasis (or yeast vaginitis) was reported in 15% of nonpregnant women receiving oral metronidazole (administered as extended-release tablets) and in 12% of those receiving clindamycin phosphate (2% clindamycin) vaginal cream in a comparative study for the treatment of bacterial vaginosis. Although a definite causal relationship to the drug has not been established, genital pruritus, dysmenorrhea, and urinary tract infection have been reported in 5, 3, and 2%, respectively, of nonpregnant women receiving oral metronidazole (administered as extended-release tablets) for the treatment of bacterial vaginosis.
+
+For more Drug Warnings (Complete) data for METRONIDAZOLE (18 total), please visit the HSDB record page.
+
+<<<PAGE 4>>>
+Drug-Food Interactions
+
+Avoid alcohol. Unpleasant symptoms such as nausea, vomiting, and abdominal distress may occur with alcohol.
+
+Take with or without food. The extended release formulation should, however, be taken without food.
+
+<<<PAGE 5>>>
+Pharmacodynamics
+
+Metronidazole treats amebiasis, trichomoniasis, and giardiasis, exerting both antibacterial and antiprotozoal activities. Metronidazole is an effective treatment for some anaerobic bacterial infections. Metronidazole has shown antibacterial activity against the majority of obligate anaerobes, however, during in vitro studies, it does not demonstrate significant action against facultative anaerobes or obligate aerobes. The nitro group reduction of metronidazole by anaerobic organisms is likely responsible for the drug's antimicrobial cytotoxic effects, causing DNA strand damage to microbes. A note on convulsions and neuropathy and carcinogenesis It is important to be aware of the risk of peripheral neuropathy and convulsions associated with metronidazole, especially at higher doses. If convulsions or numbness of an extremity occur, discontinue the drug immediately. Metronidazole has been found to be carcinogenic in mice and rats. The relevance to this effect in humans is unknown. It is advisable to only administer metronidazole when clinically necessary and only for its approved indications.
+
+<<<PAGE 6>>>
+Absorption, Distribution and Excretion
+
+After the intravenous infusion of a 1.5g dose, peak concentration was reached within 1 hour and was peak level of 30-40 mg/L. When a multiple-dose regimen of 500mg three times a day administered intravenously, steady-state concentrations were achieved within about 3 days and peak concentration was measured at 26 mg/L. When administered orally in the tablet form, metronidazole is absorbed entirely absorbed, showing a bioavailability of greater than 90%. One resource indicates that Cmax after a single oral dose of 500mg metronidazole ranges from 8 to 13 mg/L, with a Tmax of 25 minutes to 4 hours. The AUC following a single 500mg oral dose of metronidazole was 122 ± 10.3 mg/L • h. A note on the absorption of topical preparations Insignificant percutaneous absorption of metronidazole occurs after the application of 1% metronidazole cream topically. Healthy volunteers applied one 100 mg dose of 14C-labelled metronidazole 2% cream to unbroken skin. After 12 hours, metronidazole was not detected in the plasma. Approximately 0.1% to 1% of the administered metronidazole was measured in the urine and feces.
+
+Metronidazole and metabolites are 60 to 80% eliminated in the urine, and 6-15% excreted in the feces.
+
+Metronidazole is widely distributed throughout the body and various body fluids. They include the bile, saliva, breastmilk, cerebrospinal fluid, and the placenta. Steady-state volume distribution of metronidazole in adults ranges from 0.51 to 1.1 L/kg. It attains 60 to 100% of plasma concentrations in various tissues, such as the central nervous system, however, is not measured in high concentrations in the placental tissue.
+
+Dose adjustments may be required in patients with hepatic impairment, as clearance is impaired in these patients. The clearance of metronidazole in the kidneys is estimated at 10 mL/min/1.73 m2. The total clearance from serum is about 2.1 to 6.4 L/h/kg.
+
+Distributed to saliva, bile, seminal fluid, breast milk, bone, liver and liver abscesses, lungs, and vaginal secretions; crosses the placenta and blood-brain barrier, also.
+
+At least 80% of an oral dose of metronidazole is absorbed from the GI tract. Following oral administration of a single 250-mg, 500-mg, or 2-g dose of metronidazole as immediate-release (conventional) preparations in healthy, fasting adults, peak plasma concentrations of unchanged drug and active metabolites are attained within 1-3 hours and average 4.6-6.5 ug/mL, 11.5-13 ug/mL, and 30-45 ug/mL, respectively. When a single 750-mg dose of metronidazole is administered as two 375-mg capsules or three 250-mg conventional tablets in healthy, fasting adult women, average peak plasma concentrations of unchanged drug and active metabolites of 20.4-21.4 ug/mL are attained in an average of 1.4-1.6 hours; metronidazole capsules and conventional tablets are bioequivalent at a single dose of 750 mg. The rate of absorption and peak plasma concentrations of metronidazole are decreased when conventional tablets or capsules of the drug are administered with food; however, the total amount of drug absorbed is not affected.
+
+Following oral administration of metronidazole 750 mg once daily as the extended-release tablet for 7 consecutive days in healthy, adult women, steady-state peak plasma concentrations average 12.5 mcg/mL and are attained an average of 6.8 hours after the dose when the drug is given under fasting conditions; when the drug is given at the same dosage under nonfasting conditions, steady-state peak plasma concentrations average 19.4 mcg/mL and are attained an average of 4.6 hours after the dose. Administration of metronidazole extended-release tablets with food increases the rate of absorption and peak plasma concentrations of the drug. According to the manufacturer, metronidazole extended-release and conventional tablets are bioequivalent at a dose of 750 mg given under fasting conditions.
+
+For more Absorption, Distribution and Excretion (Complete) data for METRONIDAZOLE (12 total), please visit the HSDB record page.
+
+<<<PAGE 7>>>
+Metabolism/Metabolites
+
+Metronidazole undergoes hepatic metabolism via hydroxylation, oxidation, and glucuronidation. The metabolism of metronidazole yields 5 metabolites. The hydroxy metabolite, 1-(2-hydroxy-ethyl)-2-hydroxy methyl-5-nitroimidazole, is considered the major active metabolite. Unchanged metronidazole is found in the plasma along with small amounts of its 2- hydroxymethyl metabolite. Several metabolites of metronidazole are found in the urine. They are primarily a product of side-chain oxidation in addition to glucuronide conjugation. Only 20% of the dose found in the urine is accounted for by unchanged metronidazole. The two main oxidative metabolites of metronidazole are hydroxy and acetic acid metabolites.
+
+Approximately 30-60% of an oral or IV dose of metronidazole is metabolized in the liver by hydroxylation, side-chain oxidation, and glucuronide conjugation. The major metabolite, 2-hydroxy metronidazole, has some antibacterial and antiprotozoal activity.
+
+... Four other nitro-group-containing metabolites have been identified, each derived from side-chain oxidation of ethyl and/or methyl group. They include 1-acetic acid-2-methyl-5-nitroimidazole and 1-(2-hydroxyethyl)-2-carboxylic acid-5-nitroimidazole salt.
+
+The liver is the main site of metabolism, and this accounts for over 50% of the systemic clearance of metronidazole. The 2 principal metabolites result from oxidation of side chains, a hydroxy derivative and an acid. The hydroxy metabolite has a longer half-life (about 12 hr) and nearly 50% of the antitrichomonal activity of metronidazole. Formation of glucuronides also is observed. Small quantities of reduced metabolites, including ring-cleavage products, are formed by the gut flora. The urine of some patients may be reddish-brown owing to the presence of unidentified pigments derived from the drug.
+
+Hepatic metabolism by hydroxylation, oxidation, and glucuronidation. Half Life: 6-8 hours
+
+<<<PAGE 8>>>
+Biological Half-Life
+
+The elimination half-life of metronidazole is 7.3 ± 1.0 after a single 500mg IV dose in healthy subjects. Another resource indicates that the elimination half-life for metronidazole ranges from 6 to 10 hours.
+
+The plasma half-life of metronidazole is reported to be 6-8 hours in adults with normal renal and hepatic function. In one study using radiolabeled metronidazole hydrochloride, the half-life of unchanged metronidazole averaged 7.7 hours and the half-life of total radioactivity averaged 11.9 hours. The plasma half-life of metronidazole is not affected by changes in renal function; however, the half-life may be prolonged in patients with impaired hepatic function. In one study in adults with alcoholic liver disease and impaired hepatic function, half-life of metronidazole averaged 18.3 hours (range: 10.3-29.5 hours).
+
+Half-life: Neonates 25-75 hours; Others: 6-8 hours, increases with hepatic impairment.
+
+The elimination half-life in dogs is 4.5hr, and in horses 1.5-3.3hr
+
+<<<PAGE 9>>>
+Mechanism of Action
+
+The exact mechanism of action of metronidazole has not been fully established, however, it is possible that an intermediate in the reduction of metronidazole which is only made by anaerobic bacteria and protozoa, binds deoxyribonucleic acid and electron-transport proteins of organisms, blocking nucleic acid synthesis. After administration, metronidazole enters cells by passive diffusion. Following this, ferredoxin or flavodoxin reduce its nitro group to nitro radicals. The redox potential of the electron transport portions of anaerobic or microaerophilic microorganisms renders metronidazole selective to these organisms, which cause nitro group reduction, leading to the production of toxic metabolites. These include N-(2-hydroxyethyl) oxamic acid and acetamide, which may damage DNA of replicating organisms.
+
+Microbicidal; active against most obligate anaerobic bacteria and protozoa by undergoing intracellular chemical reduction via mechanisms unique to anaerobic metabolism. Reduced metronidazole, which is cytotoxic but short-lived, interacts with DNA to cause loss of helical structure, strand breakage, and resultant inhibition of nucleic acid synthesis and cell death.
+
+Metronidazole is bactericidal, amebicidal, and trichomonacidal in action. The exact mechanism of action of the drug has not been fully elucidated. Metronidazole is un-ionized at physiologic pH and is readily taken up by anaerobic organisms or cells. In susceptible organisms or cells, metronidazole is reduced by low-redox-potential electron transport proteins (e.g., nitroreductases such as ferredoxin) to unidentified polar product(s) which lack the nitro group. The reduction product(s) appears to be responsible for the cytotoxic and antimicrobial effects of the drug which include disruption of DNA and inhibition of nucleic acid synthesis. Metronidazole is equally effective against dividing and nondividing cells.
+
+In in vivo studies in rats given metronidazole in dosages of 2-4 mg/100 g of body weight, the drug reportedly inhibited the development of formalin-induced edema in the rat paw. In vitro in neutrophils, metronidazole has a dose-dependent inhibitory effect on generation of hydrogen peroxide and hydroxyl radicals, oxidants that may cause tissue injury at the site of inflammation. This antioxidant effect appears to be caused by a direct effect on neutrophil function and may contribute to the drug's anti-inflammatory effect in vivo.
+
+Results of in vitro studies using leukocytes obtained from patients with Crohn's disease indicate that exposing the cells to metronidazole concentrations of 10 or 50 mcg/mL improved both spontaneous and induced leukocyte migration in cells that previously exhibited reduced migration; the drug had no effect on leukocytes obtained from healthy adults or patients with Crohn's disease when the cells exhibited normal migration prior to exposure to the drug. This effect on leukocyte migration also was observed in vivo in adults with Crohn's disease who received a single 400-mg dose of metronidazole. It has been suggested that metronidazole may increase leukocyte migration by a direct effect on the leukocytes, possibly by causing the release of surface-bound immune complexes from the cell surface.
+
+<<<PAGE 10>>>
+Toxicological Information
+
+There have been reports of disulfiram-like reactions in patients drinking alcohol while administered systemic or vaginal metronidazole. A typical disulfiram reaction causes flushing, tachycardia, palpitations, nausea, and vomiting. Alcohol should be avoided during treatment and from up to forty-eight hours to fourteen days after treatment completion, depending on the source; the manufacturer's product information recommends avoiding alcohol ingestion during metronidazole therapy and for at least 48 hours afterward. Ethanol-containing medications such as elixirs and tipranavir, capsules, intravenous (IV) anidulafungin, IV trimethoprim-sulfamethoxazole, and many cough/cold syrups can also lead to a disulfiram-like reaction when ingested with metronidazole.
+
+Metronidazole is a prodrug. Unionized metronidazole is selective for anaerobic bacteria due to their ability to intracellularly reduce metronidazole to its active form. This reduced metronidazole then covalently binds to DNA, disrupt its helical structure, inhibiting bacterial nucleic acid synthesis and resulting in bacterial cell death.
+
+Despite the wide use of metronidazole, only rare cases of hepatotoxicity have been reported, and metronidazole is not listed among causes of drug induced liver injury and acute liver failure in large case series. High doses of metronidazole given parenterally or in an overdose can cause elevations in serum aminotransferase levels, but these are usually self-limited and minimally symptomatic (Case 1). Acute, clinically apparent liver injury from metronidazole is rare. Ornidazole, another synthetic nitroimidazole that was available in Europe, was implicated in several cases of drug induced liver injury, with a latency of a few days or weeks and a hepatocellular pattern of injury. Metronidazole has been associated with a similar acute hepatitis-like syndrome with a short incubation period, but much more rarely. Fever, rash and eosinophilia are uncommon as are autoimmune features. A fatal recurrence of acute liver injury after reexposure to metronidazole has been published (Case 2). Strikingly, multiple instances of metronidazole hepatoxicity have been reported in the rare genetic disease, Cockayne syndrome in which there is an absence or deficiency in an important DNA repair enzyme responsible for nucleotide excision repair. The cases were marked by a short latency (1 to 7 days) to onset of jaundice, a hepatocellular pattern of enzyme elevations and severe course with a high mortality rate. Whether patients with Cockayne syndrome have a similar high risk for severe hepatitis with other nitroimidazoles (such as tinidazole) is not known.
+
+Likelihood score: C (probable rare cause of clinically apparent liver injury).
+
+Benchmark Dataset for the Liver Toxicity Knowledge Base (LTKB)
+
+Metronidazole: reasonably anticipated to be a human carcinogen.
+
+Volume Sup 7: Overall Evaluations of Carcinogenicity: An Updating of IARC Monographs Volumes 1 to 42, 1987; 440 pages; ISBN 92-832-1411-0 (out of print)
+
+With maternal intravenous and oral therapy, breastfed infants receive metronidazole in doses that are less than those used to treat infections in infants, although the active metabolite adds to the total infant exposure. Plasma levels of the drug and metabolite are measurable, but less than maternal plasma levels. Case reports of Candida infections and diarrhea have been reported, and a comparative trial suggested that oral and rectal colonization with Candida might be more common in infants exposed to metronidazole.
+
+Because of the well demonstrated genotoxicity and mutagenicity in bacteria, carcinogenicity in animals, and possible mutagenicity in humans, concern has been raised about exposure of healthy infants to metronidazole via breastmilk. The relevance of these findings have been questioned and no definitive study has yet been performed in humans.
+
+Opinions vary among experts on the advisability of using metronidazole during longer-term therapy while breastfeeding, but some sources recommend discontinuing breastfeeding for 12 to 24 hours after a single dose of 2 grams, but not after lower dosages. Other drugs are available for some conditions that metronidazole is used to treat. Topical or use of metronidazole during breastfeeding is acceptable. The manufacturer of one vaginal product recommends not breastfeeding during treatment and for 2 days after the last dose.
+
+None of ten 5-day-old infants who were breastfed every 4 hours after a single maternal 200 mg oral dose of metronidazole had any signs of oral or gastrointestinal upset during the 12-hour study period.
+
+Sixteen newborn breastfed infants (aged 0 to 22 days) of mothers receiving 200 mg or 400 mg of oral metronidazole 3 times daily reportedly suffered no observable adverse reactions during the 9 days of the study.
+
+A case of diarrhea and secondary lactose intolerance was possibly caused by metronidazole in breastmilk transmitted to the infant in the early neonatal period.
+
+In a controlled, comparative study, 35 newborn infants were monitored for 10 days during maternal therapy with metronidazole and another antibiotic (33 ampicillin, 1 erythromycin and 1 cephalexin) for postpartum infection or prophylaxis. Dosages and routes of administration were not stated, but some mothers received the drugs intravenously initially and then were switched to oral therapy. Compared to infants of mothers who received ampicillin alone or no antibiotics, more infants exposed to metronidazole and ampicillin had very loose stools than in the other groups, especially when the drugs were given intravenously. More frequent and heavier growth of Candida species was found in the oral and perianal swabs of metronidazole-exposed infants, but this did not quite reach statistical significance (p=0.053). One infant exposed to metronidazole and ampicillin developed oral thrush. No differences were found between the groups in diaper rash, feeding problems or weight gain to the time of discharge.
+
+Relevant published information was not found as of the revision date.
+
+Metronidazole is an antimicrobial medication that has been used to treat infections, including vaginal infections. Metronidazole is available in oral, rectal, topical, vaginal and intravenous (I.V.) forms. Flagyl®, Metrogel®, Metrolotion®, and Noritate® are some brand names for metronidazole.Sometimes when women find out they are pregnant, they think about changing how they take their medication, or stopping their medication altogether. However, it is important to talk with your healthcare providers before making any changes to how you take your medication. Your healthcare providers can talk with you about the benefits of treating your condition and the risks of untreated illness during pregnancy.
+
+◈ I take metronidazole. Can it make it harder for me to get pregnant?
+
+It is not known if metronidazole can make it harder to get pregnant.
+
+◈ Does taking metronidazole increase the chance of miscarriage?
+
+Miscarriage is common and can occur in any pregnancy for many different reasons. It is unlikely that metronidazole would increase the chance of a miscarriage. A study that looked at over 4,000 pregnancies with exposure to metronidazole early in pregnancy did not find an increased chance for miscarriage. A smaller study with 53 pregnancy exposures to metronidazole suggested a greater chance for miscarriage. It is not clear if the miscarriage risk in this study was from the medication or related to the underlying infection that was being treated.
+
+◈ Does taking metronidazole increase the chance of birth defects?
+
+Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. Research involving over 5,000 women who took metronidazole in pregnancy did not find an increased chance for birth defects.
+
+◈ Does taking metronidazole in pregnancy increase the chance of other pregnancy related problems?
+
+Metronidazole is not expected to increase the chance for other pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth).
+
+◈ Does taking metronidazole in pregnancy affect future behavior or learning for the child?
+
+Studies have not been done to see if metronidazole can cause behavior or learning issues for the child.
+
+Metronidazole passes into breastmilk. The amount of metronidazole that passes into breastmilk can depend on the dose and how the medication is taken (by mouth, by IV, vaginally, or topically). With oral or IV use, the amount of metronidazole in breast milk can be similar to the dose given to infants for treatment. The amounts in breastmilk might be lower with vaginal or topical use, but this is not known. Most babies exposed to metronidazole through breast milk have not had any side effects. If your baby shows symptoms like loose stools, diaper rash, or thrush, contact their healthcare provider.Some metronidazole product labels have suggested to not breastfeed during treatment and for two days after the last dose. But the benefit of using metronidazole may outweigh possible risks. Your healthcare providers can talk with you about using metronidazole and what treatment is best for you. Be sure to talk to your healthcare provider about all of your breastfeeding questions.
+
+◈ If a man takes metronidazole, could it affect fertility or increase the chance of birth defects?
+
+It is not known if metronidazole could affect male fertility (ability to get a woman pregnant) or increase the chance of birth defects in a partner’s pregnancy. In general, exposures that fathers or sperm donors have are unlikely to increase the risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.
+
+Well absorbed (at least 80%) with peak plasma concentrations achieved in 1-3 hours following oral administration of therapeutic doses of immediate release formulation.
+
+Adverse effects include reversible peripheral neuropathy with prolonged therapy, CNS toxicity, disulfiram effect with alcohol, dark red-brown urine, metallic taste, nausea, epigastric distress, dizziness, vertigo and paresthesias associated with high doses, and neutropenia (reversible and mild).
+
+The primary adverse effects of metronidazole include confusion, peripheral neuropathy, metallic taste, nausea, vomiting, and diarrhea. Adverse events seen in greater than 10% of the population include headache (18%), vaginitis (15%), and nausea (10% to 12%). Adverse events affecting less than 10% of the population are metallic taste (9%), dizziness (4%), genital pruritus (5%), abdominal pain (4%), diarrhea (4%), xerostomia (2%), dysmenorrhea (3%), urine abnormality (3%), urinary tract infection (2%), bacterial infection (7%), candidiasis (3%), flu-like symptoms (6%), upper respiratory tract infection (4%), pharyngitis (3%), and sinusitis (3%). Rarely, there are reports of transient leukopenia and neutropenia as well.
+
+Metronidazole comes with a black box warning that it may be carcinogenic based on some animal studies in mice and rats. However, the risks are considered low, and additional follow-up studies of patients treated do not reveal an increased cancer incidence. As with any medication choice, physicians and patients must decide whether the benefit from therapy outweighs the potential risk. The use of metronidazole should be reserved for conditions approved by the FDA; it should not be used prophylactically or unnecessarily.
+
+Additional warnings and precautions for metronidazole exist. Prolonged drug courses can cause severe neurological disturbances due to the risk of cumulative neurotoxicity. Monitor for neurologic sequela and discontinue therapy if any abnormal neurologic symptoms occur. Prolonged use may also result in fungal or bacterial superinfection, including C. difficile-associated diarrhea (CDAD) and pseudomembranous colitis. There are reports of CDAD even after more than two months of postantibiotic treatment. Candidiasis infection may also be more prominent during metronidazole treatment.
+
+It is recommended that metronidazole not be used concurrently with, or for at least 1 day following, ingestion of alcohol; accumulation of acetaldehyde by interference with the oxidation of alcohol may occur, resulting in disulfiram-like effects such as abdominal cramps, nausea, vomiting, headache, or flushing; in addition, modifications in the taste of alcoholic beverages have been reported during concurrent use.
+
+Effects may be potentiated when /coumarin- or indandione-derivative anticoagulants/ are used concurrently with metronidazole, because of inhibition of enzymatic metabolism of anticoagulants; periodic prothrombin time determinations may be required during therapy to determine if dosage adjustments of anticoagulants are necessary.
+
+Hepatic metabolism of metronidazole may be decreased when metronidazole and cimetidine are used concurrently, possibly resulting in delayed elimination and increased serum metronidazole concentrations; monitoring of serum concentrations as a guide to dosage is recommended since dosage adjustments of metronidazole may be necessary during and after cimetidine therapy.
+
+It is recommended that metronidazole not be used concurrently with, or for 2 weeks following, disulfiram in alcoholic patients; such use may result in confusion and psychotic reactions because of combined toxicity.
+
+For more Interactions (Complete) data for METRONIDAZOLE (12 total), please visit the HSDB record page.
+
+Maintain an open airway and assist ventilation if necessary. Treat coma, seizures, hypotension, anaphylaxis, and hemolysis if they occur. Replace fluid losses resulting from gastroenteritis with intravenous crystalloids. ... Administer activated charcoal. Gastric emptying is not necessary if activated charcoal can be given promptly. Most antibiotics are excreted unchanged in the urine, so maintenance of adequate urine flow is important. The role of forced diuresis is unclear. Hemodialysis is not usually indicated, except perhaps in patients with renal dysfunction and a high level of toxic agent. /Antibacterial Agents/
+
+/SRP:/ Basic treatment: Establish a patent airway (oropharyngeal or nasopharyngeal airway, if needed). Suction if necessary. Watch for signs of respiratory insufficiency and assist ventilations if needed. Administer oxygen by nonrebreather mask at 10 to 15 L/min. Monitor for pulmonary edema and treat if necessary ... . Monitor for shock and treat if necessary ... . Anticipate seizures and treat if necessary ... . For eye contamination, flush eyes immediately with water. Irrigate each eye continuously with 0.9% saline (NS) during transport ... . Do not use emetics. For ingestion, rinse mouth and administer 5 ml/kg up to 200 ml of water for dilution if the patient can swallow, has a strong gag reflex, and does not drool ... . Cover skin burns with dry sterile dressings after decontamination ... . /Poisons A and B/
+
+/SRP:/ Advanced treatment: Consider orotracheal or nasotracheal intubation for airway control in the patient who is unconscious, has severe pulmonary edema, or is in severe respiratory distress. Positive-pressure ventilation techniques with a bag valve mask device may be beneficial. Consider drug therapy for pulmonary edema ... . Consider administering a beta agonist such as albuterol for severe bronchospasm ... . Monitor cardiac rhythm and treat arrhythmias as necessary ... . Start IV administration of D5W /SRP: "To keep open", minimal flow rate/. Use 0.9% saline (NS) or lactated Ringer's if signs of hypovolemia are present. For hypotension with signs of hypovolemia, administer fluid cautiously. Watch for signs of fluid overload ... . Treat seizures with diazepam or lorazepam ... . Use proparacaine hydrochloride to assist eye irrigation ... . /Poisons A and B/
+
+PRECAUTIONS FOR "CARCINOGENS": Whenever medical surveillance is indicated, in particular when exposure to a carcinogen has occurred, ad hoc decisions should be taken concerning ... /cytogenetic and/or other/ tests that might become useful or mandatory. /Chemical Carcinogens/
+
+/SIGNS AND SYMPTOMS/ Some patients receiving metronidazole experience ... incr in blood pressure caused by release of sympathomimetic amines.
+
+/SIGNS AND SYMPTOMS/ Neurotoxic effects, including seizures and peripheral neuropathy, have occurred in individuals who received 6-10.4 g of metronidazole orally every other day for 5-7 days for the treatment of malignant tumors. Nausea, vomiting, and ataxia without serious resultant toxicity have been reported in individuals who ingested up to 19.5 g of metronidazole in a single dose.
+
+/SIGNS AND SYMPTOMS/ Metronidazole (Flagyl), a commonly prescribed antimicrobial agent, can produce a reaction similar to that of disulfiram (Antabuse) when administered to patients drinking ethanol. This drug/chemical interaction results in accumulation of acetaldehyde in the blood. Acetaldehyde is hepatotoxic, cardiotoxic, and arrythmogenic; no lethal serum acetaldehyde level has been established. Sudden death has been reported in patients taking disulfiram while using ethanol; ... fatalities have been reported due to ethanol/ metronidazole interactions.
+
+/CASE REPORTS/ Neuropathy in 20 year old girl in which complete subjective recovery has not apparently resulted 2 years after discontinuing drug is reported. Patient was treated with 800 mg orally twice daily for 7 wks before developing numbness of hands and feet.
+
+For more Human Toxicity Excerpts (Complete) data for METRONIDAZOLE (6 total), please visit the HSDB record page.
+
+/LABORATORY ANIMALS: Chronic Exposure or Carcinogenicity/ Metronidazole was administered for lifetime in the diet of groups of six- to eight-week old Swiss mice at levels of 0.06% (effective numbers: nine males and 10 females), 0.15% (19 males and 20 females), 0.3% (18 males and 20 females) and 0.5% (35 males and 36 females); 70 male and 70 female mice were used as untreated controls. Survival was similar in all groups. The incidence of lung tumours rose from 19% in untreated males to 33, 58, 67 and 77% in treated males and from 20% in untreated females to 40, 50, 70 and 44% in treated females. Female mice also exhibited a significantly increased incidence of lymphomas at the two highest dose levels, whereas no significant increase was observed in the two other groups of treated females and in none of the groups of treated males.
+
+/LABORATORY ANIMALS: Chronic Exposure or Carcinogenicity/ Metronidazole has been shown to be carcinogenic in a number of studies in mice. Pulmonary tumorigenesis has been reported in six studies in mice, including one study in which the animals were dosed on an intermittent schedule (every four weeks). Malignant hepatic tumors have also been reported in male mice given very high doses (approximately 500 mg/kg/day). Malignant lymphomas have been reported in one lifetime feeding study in mice.
+
+/LABORATORY ANIMALS: Chronic Exposure or Carcinogenicity/ Metronidazole has also been shown to be carcinogenic in rats. Several long-term, oral-dosing studies in rats have shown that metronidazole causes a statistically significant increase in the incidence of various neoplasms, especially mammary and hepatic tumors, in female rats.
+
+/LABORATORY ANIMALS: Chronic Exposure or Carcinogenicity/ Metronidazole was administered at a concentration of 0.135% in the diet to weanling female Sprague-Dawley rats for 66 weeks, followed by a 10-week observation period; 36 rats survived for more than 10 weeks. Twelve rats developed benign mammary fibroadenomas and three mammary adenocarcinomas. In an untreated control group, 12 rats developed fibroadenomas and six adenocarcinomas among 71 rats surviving for more than 10 weeks. Whereas untreated rats developed no more than one mammary tumour, those developing, mammary tumours after metronidazole treatment had an average of 2.8 tumours per tumour-bearing rat.
+
+For more Non-Human Toxicity Excerpts (Complete) data for METRONIDAZOLE (11 total), please visit the HSDB record page.
+
+Metronidazole (Flagyl), a commonly prescribed antimicrobial agent, can produce a reaction similar to that of disulfiram (Antabuse) when administered to patients drinking ethanol. This drug/chemical interaction results in accumulation of acetaldehyde in the blood. Acetaldehyde is hepatotoxic, cardiotoxic, and arrythmogenic; no lethal serum acetaldehyde level has been established. Sudden death has been reported in patients taking disulfiram while using ethanol; ... fatalities have been reported due to ethanol/ metronidazole interactions.
+
+Metronidazole crosses the placenta and enters the fetal circulation rapidly. Adequate and well-controlled studies in humans have not been done. ... However, the use of metronidazole in the treatment of trichomoniasis is not recommended during the first trimester. If metronidazole is used during the second and the third trimesters for trichomoniasis it is recommended that its use be limited to those patients whose symptoms are not controlled by local palliative treatment. Also, the 1 day course of therapy should not be used since this results in higher maternal and fetal serum concentrations.
+
+<<<PAGE 11>>>
+Clinical Laboratory Methods
+
+BIOASSAY PROCEDURES USING AGAR DIFFUSION TECHNIQUES HAVE BEEN REPORTED: LEVISON ME, ANTIMICROB AGENTS CHEMOTHER (5) 446-468, 1974 & RALPH ED ET AL, J INFECT DIS (132) 587-591, 1975. PLASMA; GAS CHROMATOGRAPHY: MIDHA KK ET AL, J CHROMAT (87) 491-497, 1973 & WOOD NF, J PHARM SCI (64) 1048-1049, 1975.
+
+SENSITIVE ASSAY WAS DEVELOPED FOR DETERMINATION OF METRONIDAZOLE IN PLASMA. LIMIT OF DETECTION FOR 2 ML SAMPLE IS 0.1 MCG/ML. ASSAY MAY BE EMPLOYED FOR ANALYSIS OF URINE.
+
+Analyte: metronidazole; matrix: blood, biological fluid; procedure: high-performance liquid chromatography with ultraviolet detection at 250 nm
+
+For more Clinical Laboratory Methods (Complete) data for METRONIDAZOLE (12 total), please visit the HSDB record page.
+
+<<<PAGE 12>>>
+Protein Binding
+
+Metronidazole is less than 20% bound to plasma proteins.
+
+<<<PAGE 13>>>
+Record Description
+
+Metronidazole can cause cancer according to an independent committee of scientific and health experts.
+
+Metronidazole is a white to pale-yellow crystalline powder with a slight odor. Bitter and saline taste. pH (saturated aqueous solution) about 6.5. (NTP, 1992)
+
+Metronidazole is a member of the class of imidazoles substituted at C-1, -2 and -5 with 2-hydroxyethyl, nitro and methyl groups respectively. It has activity against anaerobic bacteria and protozoa, and has a radiosensitising effect on hypoxic tumour cells. It may be given by mouth in tablets, or as the benzoate in an oral suspension. The hydrochloride salt can be used in intravenous infusions. Metronidazole is a prodrug and is selective for anaerobic bacteria due to their ability to intracellularly reduce the nitro group of metronidazole to give nitroso-containing intermediates. These can covalently bind to DNA, disrupting its helical structure, inducing DNA strand breaks and inhibiting bacterial nucleic acid synthesis, ultimately resulting in bacterial cell death. It has a role as a radiosensitizing agent, an antiamoebic agent, an antimicrobial agent, an antiparasitic agent, a xenobiotic, an antibacterial drug, a prodrug, an antitrichomonal drug and an environmental contaminant. It is a primary alcohol, a member of imidazoles and a C-nitro compound. It is a conjugate base of a metronidazole(1+).
+
+Metronidazole is a commonly used antibiotic, belonging to the nitroimidazole class of antibiotics. It is frequently used to treat gastrointestinal infections as well as trichomoniasis and giardiasis, and amebiasis which are parasitic infections. Metronidazole has been used as an antibiotic for several decades, with added antiparasitic properties that set it apart from many other antibacterial drugs, allowing it to treat a wide variety of infections. It is available in capsule form, tablet form, and topical form, and suppository preparations for the treatment of various infections.
+
+Metronidazole is a nitroimidazole derivative bactericidal agent widely used in the treatment of many anaerobic and certain protozoan and parasitic infections. Metronidazole has been linked to rare instances of acute, clinically apparent liver injury.
+
+metronidazole has been reported in Actinomadura and Streptomyces hygroscopicus with data available.
+
+Metronidazole is a synthetic nitroimidazole derivative with antiprotozoal and antibacterial activities. Although its mechanism of action is not fully elucidated, un-ionized metronidazole is readily taken up by obligate anaerobic organisms and is subsequently reduced by low-redox potential electron-transport proteins to an active, intermediate product. Reduced metronidazole causes DNA strand breaks, thereby inhibiting DNA synthesis and bacterial cell growth.
+
+TRICOM is tRIad of COstimulatory Molecules (B7-1, ICAM-1 and LFA-3). An immunostimulant.
+
+A nitroimidazole used to treat amebiasis; vaginitis; trichomonas infections; giardiasis; anaerobic bacteria; and treponemal infections. It has also been proposed as a radiation sensitizer for hypoxic cells. According to the Fourth Annual Report on Carcinogens (NTP 85-002, 1985) this substance may reasonably be anticipated to be a carcinogen.
+
+A nitroimidazole used to treat AMEBIASIS; VAGINITIS; TRICHOMONAS INFECTIONS; GIARDIASIS; ANAEROBIC BACTERIA; and TREPONEMAL INFECTIONS.
+
+See also: Metronidazole Benzoate (active moiety of); Metronidazole Phosphate (narrower); Metronidazole Hydrochloride (active moiety of) ... View More ...
+
+<<<PAGE 14>>>
+GHS Classification
+
+This chemical does not meet GHS hazard criteria for 1.1% (2 of 177) of reports.
+
+H302 (15.3%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H312 (16.4%): Harmful in contact with skin [Warning Acute toxicity, dermal]
+
+H332 (16.9%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H341 (53.7%): Suspected of causing genetic defects [Warning Germ cell mutagenicity]
+
+H351 (34.5%): Suspected of causing cancer [Warning Carcinogenicity]
+
+H373 (29.4%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H412 (39.5%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]
+
+P203, P260, P261, P264, P270, P271, P273, P280, P301+P317, P302+P352, P304+P340, P317, P318, P319, P321, P330, P362+P364, P405, and P501 (click each P-code to see the statement)
+
+Aggregated GHS information provided per 177 reports by companies from 31 notifications to the ECHA C&L Inventory. Each notification may be associated with multiple companies.
+
+Reported as not meeting GHS hazard criteria per 2 of 177 reports by companies.
+
+There are 30 notifications provided by 175 of 177 reports by companies with hazard statement code(s).
+
+Information may vary between notifications depending on impurities, additives, and other factors. The percentage value in parenthesis indicates the notified classification ratio from companies that provide hazard codes. Only hazard codes with percentage values above 10% are shown. For more detailed information, please visit ECHA C&L website.

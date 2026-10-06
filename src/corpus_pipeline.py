@@ -11,7 +11,10 @@ import hashlib
 import json
 import re
 import sys
+from collections import Counter
 from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
 import fitz
 from langdetect import DetectorFactory, detect
@@ -23,6 +26,7 @@ STAGING_DIR = ROOT / "data" / "extracted"
 LANGUAGE_DIR = ROOT / "data" / "staged" / "after_language"
 LENGTH_DIR = ROOT / "data" / "staged" / "after_length"
 DEDUP_DIR = ROOT / "data" / "staged" / "after_dedup"
+CORPUS_DIR = ROOT / "domain_corpus"
 REPORTS_DIR = ROOT / "reports"
 STATS_PATH = REPORTS_DIR / "corpus_stats.csv"
 SHORT_PAGES_PATH = REPORTS_DIR / "extraction_short_pages.csv"
@@ -38,6 +42,9 @@ MIN_PAGES = 3
 MIN_WORDS = 1000
 SHINGLE_SIZE = 5
 JACCARD_THRESHOLD = 0.90
+MIN_PDF_DOCUMENTS = 5
+MIN_KEPT_PDF_PAGES = 300
+DOWNLOAD_USER_AGENT = "BITS-Mistral-corpus/1.0 (educational assignment)"
 LENGTH_JUSTIFICATION = (
     "A document is kept only when the text that survived the language filter still has "
     "at least 3 pages and at least 1,000 words. Three pages is the minimum useful document "
@@ -839,11 +846,271 @@ def verify_dedup_output(documents: list[dict]) -> dict[str, list]:
     return {"hashes": hash_failures, "pages": page_failures, "documents": document_failures}
 
 
+def pdf_matches_manifest(path: Path, source: dict) -> bool:
+    if not path.is_file() or path.stat().st_size != int(source["bytes"]):
+        return False
+    if path.read_bytes()[:5] != b"%PDF-":
+        return False
+    document = fitz.open(path)
+    try:
+        return document.page_count == int(source["page_count"])
+    finally:
+        document.close()
+
+
+def download_pdf(source: dict, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    request = Request(source["url"], headers={"User-Agent": DOWNLOAD_USER_AGENT})
+    try:
+        with urlopen(request, timeout=180) as response:
+            payload = response.read()
+    except (HTTPError, URLError) as error:
+        note = source.get("download_note", "")
+        raise RuntimeError(f"{source['id']} download failed: {error}. {note}") from error
+    path.write_bytes(payload)
+
+
+def verify_or_download_pdfs() -> list[str]:
+    """Confirm each raw PDF matches sources.json. Download only a missing or mismatched file."""
+    verified = []
+    for source in load_sources():
+        path = ROOT / source["file"]
+        if not pdf_matches_manifest(path, source):
+            download_pdf(source, path)
+        if not pdf_matches_manifest(path, source):
+            raise RuntimeError(f"{source['id']} does not match sources.json after download")
+        verified.append(source["id"])
+    update_checks({"download_verified_pdfs": len(verified), "download_page_counts_match": True})
+    return verified
+
+
+def markdown_table(rows: list[dict], columns: list[str]) -> str:
+    header = "| " + " | ".join(columns) + " |"
+    separator = "| " + " | ".join("---" for _ in columns) + " |"
+    body = ["| " + " | ".join(str(row[column]) for column in columns) + " |" for row in rows]
+    return "\n".join([header, separator, *body])
+
+
+def corpus_narrative() -> str:
+    by_stage = {row["stage"]: row for row in read_stats()}
+    extracted = by_stage["extracted"]
+    after_language = by_stage["after_language"]
+    after_length = by_stage["after_length"]
+    after_dedup = by_stage["after_dedup"]
+    short_pages = int(extracted["short_page_count"])
+    language_pages = int(after_language["language_pages_removed"])
+    noncontent_pages = int(after_language["noncontent_pages_removed"])
+    length_pages = int(after_length["pages_removed"])
+    length_documents = int(after_length["documents_removed"])
+    dedup_pages = int(after_dedup["pages_removed"])
+    named_filters = {
+        "the language filter": language_pages,
+        "the length filter": length_pages,
+        "deduplication": dedup_pages,
+    }
+    top_filter = max(named_filters, key=named_filters.get)
+    with DEDUP_REMOVED_PAGES_PATH.open(encoding="utf-8", newline="") as handle:
+        removed_pages = list(csv.DictReader(handle))
+    exact_pages = sum(row["reason"] == "exact" for row in removed_pages)
+    near_pages = sum(row["reason"] == "near" for row in removed_pages)
+    by_file = Counter(Path(row["file"]).name for row in removed_pages)
+    if by_file:
+        top_file, top_count = by_file.most_common(1)[0]
+        dedup_share = f"{top_file} accounts for {top_count} of the deduplicated pages. "
+    else:
+        dedup_share = "No page was removed by deduplication. "
+    with LANGUAGE_REMOVED_PATH.open(encoding="utf-8", newline="") as handle:
+        language_rows = list(csv.DictReader(handle))
+    language_detail = "; ".join(
+        f"{Path(row['file']).name} page {row['page_number']} detected as {row['detected_language']}"
+        for row in language_rows
+    )
+    return "\n".join(
+        [
+            (
+                f"The language filter uses langdetect. DetectorFactory.seed is set to 0 before every "
+                f"detection, including the recheck. A page counts as a language removal only when it has "
+                f"at least {MIN_LETTERS} letters and langdetect does not return English."
+            ),
+            (
+                "Deduplication hashes the normalized page with SHA-256, then scores near copies with "
+                f"Jaccard similarity of at least {JACCARD_THRESHOLD:.2f} on {SHINGLE_SIZE}-word shingles. "
+                "Normalization lowercases the page and collapses whitespace. The kept copy is the one that "
+                "sorts first by source file name, then page number."
+            ),
+            LENGTH_JUSTIFICATION,
+            (
+                f"Extraction found {short_pages} pages with fewer than {MIN_LETTERS} letters. "
+                f"The language filter removed {language_pages} non-English page"
+                f"{'' if language_pages == 1 else 's'}"
+                f"{f' ({language_detail})' if language_detail else ''}. "
+                f"The {noncontent_pages} short pages are listed as non-content and are not language removals. "
+                f"The length filter removed {length_documents} documents and {length_pages} pages. "
+                f"Deduplication removed {dedup_pages} pages: {exact_pages} exact and {near_pages} near-duplicate. "
+                f"Among those three filters, {top_filter} removed the most pages ({named_filters[top_filter]}). "
+                f"{dedup_share}"
+                f"If the {noncontent_pages} non-content pages were added to the language stage, that stage "
+                f"would drop {noncontent_pages + language_pages} pages, but the language-removal count stays "
+                f"{language_pages}."
+            ),
+        ]
+    )
+
+
+def apply_final_gate() -> dict:
+    """Copy surviving PDF text into domain_corpus and enforce the PDF page gate."""
+    documents = load_sources()
+    who = next(source for source in documents if source["source"] == "WHO")
+    if "CC BY-NC-SA 3.0 IGO" not in who.get("license", "") or "CC BY-NC-SA 3.0 IGO" not in who.get("attribution", ""):
+        raise RuntimeError("WHO CC BY-NC-SA 3.0 IGO attribution is missing from sources.json")
+
+    checks = load_checks()
+    required = [
+        "language_all_kept_pages_english",
+        "length_all_kept_documents_pass",
+        "dedup_no_repeated_hash",
+        "dedup_no_page_pair_at_or_above_threshold",
+        "dedup_no_document_pair_at_or_above_threshold",
+        "pubchem_length_check_passed",
+        "pubchem_language_check_passed",
+        "pubchem_dedup_check_passed",
+    ]
+    failed_checks = [name for name in required if checks.get(name) is not True]
+    if failed_checks:
+        raise RuntimeError(f"Earlier checks are not passing: {failed_checks}")
+
+    CORPUS_DIR.mkdir(parents=True, exist_ok=True)
+    surviving = []
+    for source in documents:
+        staged_path = DEDUP_DIR / f"{source['id']}.txt"
+        if not staged_path.is_file():
+            continue
+        text = staged_path.read_text(encoding="utf-8")
+        destination = CORPUS_DIR / f"{source['id']}.txt"
+        destination.write_text(text, encoding="utf-8")
+        reloaded = parse_staged_text(destination.read_text(encoding="utf-8"))
+        page_count, words, characters = totals(reloaded)
+        surviving.append(
+            {
+                "id": source["id"],
+                "file": f"domain_corpus/{source['id']}.txt",
+                "page_count": page_count,
+                "word_count": words,
+                "character_count": characters,
+            }
+        )
+    keep_names = {f"{item['id']}.txt" for item in surviving}
+    keep_names.update(path.name for path in CORPUS_DIR.glob("pubchem_*.txt"))
+    for path in CORPUS_DIR.glob("*.txt"):
+        if path.name not in keep_names:
+            path.unlink()
+
+    pdf_count = len(surviving)
+    page_count = sum(item["page_count"] for item in surviving)
+    by_stage = {row["stage"]: row for row in read_stats()}
+    after_dedup = by_stage["after_dedup"]
+    if pdf_count != int(after_dedup["pdf_count"]) or page_count != int(after_dedup["page_count"]):
+        raise RuntimeError(
+            f"Corpus PDF count {pdf_count} pages {page_count} does not match after_dedup "
+            f"{after_dedup['pdf_count']} pages {after_dedup['page_count']}"
+        )
+    pubchem_pages = int(checks["pubchem_section_pages"])
+    passed = pdf_count >= MIN_PDF_DOCUMENTS and page_count >= MIN_KEPT_PDF_PAGES
+    narrative = corpus_narrative()
+    manifest = json.loads(SOURCES_PATH.read_text(encoding="utf-8"))
+    by_id = {item["id"]: item for item in surviving}
+    for source in manifest["documents"]:
+        kept = by_id.get(source["id"])
+        source["kept_text"] = kept["file"] if kept else None
+        source["kept_pages"] = kept["page_count"] if kept else 0
+    manifest["gate"] = {
+        "min_pdf_documents": MIN_PDF_DOCUMENTS,
+        "min_kept_pdf_pages": MIN_KEPT_PDF_PAGES,
+        "surviving_pdf_documents": pdf_count,
+        "kept_pdf_pages": page_count,
+        "pubchem_section_pages_excluded": pubchem_pages,
+        "passed": passed,
+    }
+    SOURCES_PATH.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    update_checks(
+        {
+            "gate_min_pdf_documents": MIN_PDF_DOCUMENTS,
+            "gate_min_kept_pdf_pages": MIN_KEPT_PDF_PAGES,
+            "gate_surviving_pdf_documents": pdf_count,
+            "gate_kept_pdf_pages": page_count,
+            "gate_pubchem_pages_excluded": pubchem_pages,
+            "gate_passed": passed,
+            "who_attribution_present": True,
+        }
+    )
+    extraction_table = markdown_table(
+        [by_stage["extracted"]],
+        ["stage", "pdf_count", "page_count", "word_count", "character_count", "short_page_count"],
+    )
+    filter_rows = [
+        by_stage[stage]
+        for stage in [
+            "before_language",
+            "after_language",
+            "before_length",
+            "after_length",
+            "before_dedup",
+            "after_dedup",
+        ]
+    ]
+    filter_table = markdown_table(
+        filter_rows,
+        [
+            "stage",
+            "pdf_count",
+            "page_count",
+            "word_count",
+            "documents_removed",
+            "pages_removed",
+            "noncontent_pages_removed",
+            "language_pages_removed",
+        ],
+    )
+    gate_line = (
+        f"PDF gate: {pdf_count} surviving PDFs and {page_count} kept PDF pages. "
+        f"Minimum is {MIN_PDF_DOCUMENTS} PDFs and {MIN_KEPT_PDF_PAGES} kept PDF pages. "
+        f"PubChem section-pages excluded: {pubchem_pages}. Passed: {passed}."
+    )
+    report = {
+        "pdf_count": pdf_count,
+        "page_count": page_count,
+        "passed": passed,
+        "files": surviving,
+        "extraction_table": extraction_table,
+        "filter_table": filter_table,
+        "gate_line": gate_line,
+        "narrative": narrative,
+    }
+    if not passed:
+        raise RuntimeError(gate_line)
+    return report
+
+
+def run_part_a() -> dict:
+    verify_or_download_pdfs()
+    extract_corpus()
+    apply_language_filter()
+    apply_length_filter()
+    apply_dedup_filter()
+    from pubchem_monographs import build_pubchem_corpus
+
+    build_pubchem_corpus()
+    return apply_final_gate()
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Assignment 1B domain corpus pipeline")
-    parser.add_argument("stage", choices=["extract", "language", "length", "dedup"])
+    parser.add_argument("stage", choices=["download", "extract", "language", "length", "dedup", "pubchem", "gate", "part-a"])
     args = parser.parse_args()
-    if args.stage == "extract":
+    if args.stage == "download":
+        verified = verify_or_download_pdfs()
+        print(f"download verified={len(verified)}")
+    elif args.stage == "extract":
         result = extract_corpus()
         stats = result["stats"]
         print(
@@ -889,6 +1156,29 @@ def main() -> None:
         for row in result["removed_pages"]:
             reasons[row["reason"]] = reasons.get(row["reason"], 0) + 1
         print(f"page_reasons {reasons}")
+    elif args.stage == "pubchem":
+        from pubchem_monographs import build_pubchem_corpus
+
+        result = build_pubchem_corpus()
+        print(
+            "pubchem "
+            f"files={len(result['files'])} "
+            f"pdf_pages_excluding_pubchem={result['pdf_pages']}"
+        )
+        for drug in result["drugs"]:
+            print(
+                f"{drug['id']} pages={drug['page_count']} words={drug['word_count']} own_file={drug['own_file']}"
+            )
+    elif args.stage == "gate":
+        report = apply_final_gate()
+        print(report["gate_line"])
+        print(report["extraction_table"])
+        print(report["filter_table"])
+        print(report["narrative"])
+    elif args.stage == "part-a":
+        report = run_part_a()
+        print(report["gate_line"])
+        print(report["narrative"])
 
 
 if __name__ == "__main__":

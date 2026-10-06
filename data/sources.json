@@ -12,7 +12,9 @@
       "attribution": "World Health Organization. WHO guidelines for malaria, 30 November 2024. World Health Organization. https://doi.org/10.2471/B09146. License: CC BY-NC-SA 3.0 IGO.",
       "file": "data/raw_pdfs/who_malaria_2024-11-30.pdf",
       "page_count": 463,
-      "bytes": 5446355
+      "bytes": 5446355,
+      "kept_text": "domain_corpus/who_malaria_2024-11-30.txt",
+      "kept_pages": 462
     },
     {
       "id": "cdc_sti_2021",
@@ -25,7 +27,9 @@
       "download_note": "The cdc.gov PDF URL returned HTTP 403 to a scripted download. This file is the CDC Stacks original, cdc_109048_DS1.pdf.",
       "file": "data/raw_pdfs/cdc_sti_treatment_guidelines_2021.pdf",
       "page_count": 192,
-      "bytes": 4796005
+      "bytes": 4796005,
+      "kept_text": "domain_corpus/cdc_sti_2021.txt",
+      "kept_pages": 190
     },
     {
       "id": "nice_ng253_sepsis",
@@ -37,7 +41,9 @@
       "attribution": "National Institute for Health and Care Excellence. Suspected sepsis in people aged 16 or over: recognition, assessment and early management. NICE guideline NG253.",
       "file": "data/raw_pdfs/nice_ng253_sepsis.pdf",
       "page_count": 97,
-      "bytes": 444020
+      "bytes": 444020,
+      "kept_text": "domain_corpus/nice_ng253_sepsis.txt",
+      "kept_pages": 84
     },
     {
       "id": "nice_ng136_hypertension",
@@ -49,7 +55,9 @@
       "attribution": "National Institute for Health and Care Excellence. Hypertension in adults: diagnosis and management. NICE guideline NG136.",
       "file": "data/raw_pdfs/nice_ng136_hypertension.pdf",
       "page_count": 52,
-      "bytes": 296345
+      "bytes": 296345,
+      "kept_text": "domain_corpus/nice_ng136_hypertension.txt",
+      "kept_pages": 52
     },
     {
       "id": "icmr_antimicrobial_2019",
@@ -61,7 +69,9 @@
       "attribution": "Indian Council of Medical Research. Treatment Guidelines for Antimicrobial Use in Common Syndromes. 2nd edition. ICMR, New Delhi, 2019.",
       "file": "data/raw_pdfs/icmr_antimicrobial_use_2019.pdf",
       "page_count": 206,
-      "bytes": 4917213
+      "bytes": 4917213,
+      "kept_text": "domain_corpus/icmr_antimicrobial_2019.txt",
+      "kept_pages": 206
     },
     {
       "id": "icmr_stw_vol1_2019",
@@ -73,7 +83,9 @@
       "attribution": "Indian Council of Medical Research. Standard Treatment Workflows of India, 2019 Edition, Vol. 1. New Delhi: ICMR, Department of Health Research, Ministry of Health and Family Welfare, Government of India.",
       "file": "data/raw_pdfs/icmr_stw_vol1_2019.pdf",
       "page_count": 75,
-      "bytes": 16190186
+      "bytes": 16190186,
+      "kept_text": "domain_corpus/icmr_stw_vol1_2019.txt",
+      "kept_pages": 62
     },
     {
       "id": "icmr_stw_vol3_2022",
@@ -85,9 +97,120 @@
       "attribution": "Indian Council of Medical Research. Standard Treatment Workflows of India, 2022 Edition, Vol. 3. New Delhi: ICMR, Department of Health Research, Ministry of Health and Family Welfare, Government of India.",
       "file": "data/raw_pdfs/icmr_stw_vol3_2022.pdf",
       "page_count": 80,
-      "bytes": 24676960
+      "bytes": 24676960,
+      "kept_text": "domain_corpus/icmr_stw_vol3_2022.txt",
+      "kept_pages": 66
     }
   ],
   "pdf_count": 7,
-  "total_pages": 1165
+  "total_pages": 1165,
+  "pdf_page_total_from_pdf_files": 1165,
+  "pdf_pages_after_dedup_excluding_pubchem": 1122,
+  "pubchem": {
+    "counts_toward_minimum_pdf_count": false,
+    "counts_toward_pdf_page_gate": false,
+    "license": "NCBI PubChem compound summaries. Public-domain US government data. Linked annotations keep their original source terms.",
+    "page_definition": "One clinical heading is one section-page. These section-pages are not PDF pages.",
+    "artemether_lumefantrine_note": "Combination CID 6450800 has almost no clinical text. Artemether CID 68911 and lumefantrine CID 6437380 are the two component records.",
+    "extra_headings": [
+      "Protein Binding",
+      "Record Description",
+      "GHS Classification"
+    ],
+    "extra_headings_reason": "The first 13 clinical headings leave doxycycline at 759 words. Protein Binding, Record Description, and GHS Classification are English drug-information sections on the same PubChem record and bring that drug over the 1,000-word document rule.",
+    "section_page_count": 104,
+    "files": [
+      "domain_corpus/pubchem_amoxicillin.txt",
+      "domain_corpus/pubchem_doxycycline.txt",
+      "domain_corpus/pubchem_vancomycin.txt",
+      "domain_corpus/pubchem_ceftriaxone.txt",
+      "domain_corpus/pubchem_azithromycin.txt",
+      "domain_corpus/pubchem_metronidazole.txt",
+      "domain_corpus/pubchem_artesunate.txt",
+      "domain_corpus/pubchem_artemether.txt",
+      "domain_corpus/pubchem_lumefantrine.txt"
+    ],
+    "drugs": [
+      {
+        "id": "amoxicillin",
+        "cid": 33613,
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/33613",
+        "section_pages_after_language": 12,
+        "words_after_language": 5756,
+        "own_file": true
+      },
+      {
+        "id": "doxycycline",
+        "cid": 54671203,
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/54671203",
+        "section_pages_after_language": 8,
+        "words_after_language": 1109,
+        "own_file": true
+      },
+      {
+        "id": "vancomycin",
+        "cid": 14969,
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/14969",
+        "section_pages_after_language": 11,
+        "words_after_language": 5611,
+        "own_file": true
+      },
+      {
+        "id": "ceftriaxone",
+        "cid": 5479530,
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5479530",
+        "section_pages_after_language": 9,
+        "words_after_language": 1632,
+        "own_file": true
+      },
+      {
+        "id": "azithromycin",
+        "cid": 447043,
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/447043",
+        "section_pages_after_language": 13,
+        "words_after_language": 6748,
+        "own_file": true
+      },
+      {
+        "id": "metronidazole",
+        "cid": 4173,
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4173",
+        "section_pages_after_language": 14,
+        "words_after_language": 6339,
+        "own_file": true
+      },
+      {
+        "id": "artesunate",
+        "cid": 6917864,
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6917864",
+        "section_pages_after_language": 13,
+        "words_after_language": 4592,
+        "own_file": true
+      },
+      {
+        "id": "artemether",
+        "cid": 68911,
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/68911",
+        "section_pages_after_language": 13,
+        "words_after_language": 4012,
+        "own_file": true
+      },
+      {
+        "id": "lumefantrine",
+        "cid": 6437380,
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6437380",
+        "section_pages_after_language": 11,
+        "words_after_language": 2528,
+        "own_file": true
+      }
+    ]
+  },
+  "gate": {
+    "min_pdf_documents": 5,
+    "min_kept_pdf_pages": 300,
+    "surviving_pdf_documents": 7,
+    "kept_pdf_pages": 1122,
+    "pubchem_section_pages_excluded": 104,
+    "passed": true
+  }
 }
