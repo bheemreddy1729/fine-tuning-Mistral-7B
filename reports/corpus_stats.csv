@@ -1,0 +1,8 @@
+stage,pdf_count,page_count,word_count,character_count,documents_removed,pages_removed,short_page_count,noncontent_pages_removed,language_pages_removed
+extracted,7,1165,609037,4248733,0,0,27,0,0
+before_language,7,1165,609037,4246239,0,0,27,0,0
+after_language,7,1137,608691,4243770,0,1,0,27,1
+before_length,7,1137,608691,4243770,0,0,0,0,0
+after_length,7,1137,608691,4243770,0,0,0,0,0
+before_dedup,7,1137,608691,4243770,0,0,0,0,0
+after_dedup,7,1122,604498,4216446,0,15,0,0,0

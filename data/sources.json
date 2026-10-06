@@ -1,0 +1,93 @@
+{
+  "item": "A1",
+  "note": "Page counts are measured from the downloaded PDF with PyMuPDF. PubChem is not part of A1.",
+  "documents": [
+    {
+      "id": "who_malaria_2024-11-30",
+      "source": "WHO",
+      "title": "WHO guidelines for malaria, 30 November 2024",
+      "url": "https://iris.who.int/server/api/core/bitstreams/ce77cf41-2afe-4598-a221-dbd1a1a7243d/content",
+      "catalog_url": "https://iris.who.int/handle/10665/379635",
+      "license": "CC BY-NC-SA 3.0 IGO. Attribution required. Non-commercial redistribution is allowed.",
+      "attribution": "World Health Organization. WHO guidelines for malaria, 30 November 2024. World Health Organization. https://doi.org/10.2471/B09146. License: CC BY-NC-SA 3.0 IGO.",
+      "file": "data/raw_pdfs/who_malaria_2024-11-30.pdf",
+      "page_count": 463,
+      "bytes": 5446355
+    },
+    {
+      "id": "cdc_sti_2021",
+      "source": "CDC",
+      "title": "Sexually Transmitted Infections Treatment Guidelines, 2021",
+      "url": "https://stacks.cdc.gov/view/cdc/109048/cdc_109048_DS1.pdf",
+      "catalog_url": "https://stacks.cdc.gov/view/cdc/109048",
+      "license": "US government work.",
+      "attribution": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep 2021;70(4):1-187. CDC Stacks: https://stacks.cdc.gov/view/cdc/109048",
+      "download_note": "The cdc.gov PDF URL returned HTTP 403 to a scripted download. This file is the CDC Stacks original, cdc_109048_DS1.pdf.",
+      "file": "data/raw_pdfs/cdc_sti_treatment_guidelines_2021.pdf",
+      "page_count": 192,
+      "bytes": 4796005
+    },
+    {
+      "id": "nice_ng253_sepsis",
+      "source": "NICE",
+      "title": "Suspected sepsis in people aged 16 or over: recognition, assessment and early management (NG253)",
+      "url": "https://www.nice.org.uk/guidance/ng253/resources/suspected-sepsis-in-people-aged-16-or-over-recognition-assessment-and-early-management-pdf-66144015386053",
+      "catalog_url": "https://www.nice.org.uk/guidance/ng253",
+      "license": "NICE copyright.",
+      "attribution": "National Institute for Health and Care Excellence. Suspected sepsis in people aged 16 or over: recognition, assessment and early management. NICE guideline NG253.",
+      "file": "data/raw_pdfs/nice_ng253_sepsis.pdf",
+      "page_count": 97,
+      "bytes": 444020
+    },
+    {
+      "id": "nice_ng136_hypertension",
+      "source": "NICE",
+      "title": "Hypertension in adults: diagnosis and management (NG136)",
+      "url": "https://www.nice.org.uk/guidance/ng136/resources/hypertension-in-adults-diagnosis-and-managementpdf-66141722710213",
+      "catalog_url": "https://www.nice.org.uk/guidance/ng136",
+      "license": "NICE copyright.",
+      "attribution": "National Institute for Health and Care Excellence. Hypertension in adults: diagnosis and management. NICE guideline NG136.",
+      "file": "data/raw_pdfs/nice_ng136_hypertension.pdf",
+      "page_count": 52,
+      "bytes": 296345
+    },
+    {
+      "id": "icmr_antimicrobial_2019",
+      "source": "ICMR",
+      "title": "Treatment Guidelines for Antimicrobial Use in Common Syndromes, 2019, 2nd edition",
+      "url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/resource-guidelines/Treatment_Guidelines_2019_Final.pdf",
+      "catalog_url": "https://www.icmr.gov.in/guidelines",
+      "license": "All rights reserved. Indian Council of Medical Research, 2019.",
+      "attribution": "Indian Council of Medical Research. Treatment Guidelines for Antimicrobial Use in Common Syndromes. 2nd edition. ICMR, New Delhi, 2019.",
+      "file": "data/raw_pdfs/icmr_antimicrobial_use_2019.pdf",
+      "page_count": 206,
+      "bytes": 4917213
+    },
+    {
+      "id": "icmr_stw_vol1_2019",
+      "source": "ICMR",
+      "title": "Standard Treatment Workflows of India, Volume 1, 2019 edition",
+      "url": "https://stw.icmr.org.in/Pdfs/Vol1.pdf",
+      "catalog_url": "https://stw.icmr.org.in/Pdfs/Vol1.pdf",
+      "license": "Indian Council of Medical Research and Department of Health Research, Ministry of Health and Family Welfare, Government of India.",
+      "attribution": "Indian Council of Medical Research. Standard Treatment Workflows of India, 2019 Edition, Vol. 1. New Delhi: ICMR, Department of Health Research, Ministry of Health and Family Welfare, Government of India.",
+      "file": "data/raw_pdfs/icmr_stw_vol1_2019.pdf",
+      "page_count": 75,
+      "bytes": 16190186
+    },
+    {
+      "id": "icmr_stw_vol3_2022",
+      "source": "ICMR",
+      "title": "Standard Treatment Workflows of India, Volume 3, 2022 edition",
+      "url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/downloadable-books/STW_Vol_3_2022.pdf",
+      "catalog_url": "https://www.icmr.gov.in/downloadable-books",
+      "license": "Indian Council of Medical Research and Department of Health Research, Ministry of Health and Family Welfare, Government of India.",
+      "attribution": "Indian Council of Medical Research. Standard Treatment Workflows of India, 2022 Edition, Vol. 3. New Delhi: ICMR, Department of Health Research, Ministry of Health and Family Welfare, Government of India.",
+      "file": "data/raw_pdfs/icmr_stw_vol3_2022.pdf",
+      "page_count": 80,
+      "bytes": 24676960
+    }
+  ],
+  "pdf_count": 7,
+  "total_pages": 1165
+}
