@@ -2,15 +2,15 @@
 
 Reply with one id, for example `accept A1`. Work starts only for that item. The next item stays pending until you accept it.
 
-Current item: **Part A Step 2 is done.** The bfloat16 baseline ran on an NVIDIA RTX A6000. Saved outputs are in `part_a_baseline.ipynb`. B1 stays closed.
+Current item: **B1 accepted (in progress).** Part A is complete (corpus + bfloat16 baseline). B2 and B3 stay closed until the previous item is done. The Part B plan below was revised after review against `Assignment-1B.pdf` and Variant 4 of `Enterprise_Variants_All_Assignments.pdf`.
 
 ## Locked already
 
-- Domain: Medical and Clinical Literature. Use case: Clinical Protocol Lookup Assistant.
-- Model for later parts: `mistralai/Mistral-7B-v0.1` on the BITS A100, with that model's own tokenizer.
-- Adapter for later training: Adapter B (`r=16`, `alpha=32`, `q_proj`, `v_proj`).
-- Draft model for later speculative decoding: `HuggingFaceTB/SmolLM2-1.7B-Instruct`, with its own tokenizer.
-- Instruction block for later training and evaluation:
+- Domain: Medical and Clinical Literature. Use case: Variant 4 Clinical Protocol Lookup Assistant.
+- Model: `mistralai/Mistral-7B-v0.1` (base; no official chat template). Tokenizer: `AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1")` for every Mistral load.
+- Adapter for Part B: **Adapter B only** (`r=16`, `alpha=32`, targets `q_proj`, `v_proj`).
+- Draft model for Part C speculative decoding: `HuggingFaceTB/SmolLM2-1.7B-Instruct`, with its own tokenizer. Do not swap tokenizers.
+- Instruction block for training and evaluation (Mistral has no chat template, so this is the SFT format):
 
 ```text
 ### Instruction:
@@ -20,14 +20,19 @@ Current item: **Part A Step 2 is done.** The bfloat16 baseline ran on an NVIDIA 
 {response}
 ```
 
-- After Part A, the JSONL target is 50 pairs: definition 8, explanation 7, procedure 8, comparison 7, troubleshooting 6, scenario 7, advantages and limitations 7.
-- Each response is 1–3 sentences, at least 30 words of clinical content, paraphrased from the corpus, then the full disclaimer: "This output is for educational/reference purposes only and must not replace professional clinical judgment."
-- Kept PDF pages after the three filters must total at least 300.
-- Public repo: https://github.com/bheemreddy1729/fine-tuning-Mistral-7B
-
-Parts B and C are listed at the bottom so the sequence stays visible. They are not open for acceptance until Part A is pushed.
+- JSONL target: exactly **50 pairs** with this mix — definition 8 (16%), explanation 7, procedure 8, comparison 7, troubleshooting 6, scenario 7, advantages/limitations 7.
+- Each response: 1–3 sentences, ≥30 words of clinical content (disclaimer does not count toward the 30), paraphrased from `domain_corpus/` only, then the exact Variant 4 disclaimer: `This output is for educational/reference purposes only and must not replace professional clinical judgment.`
+- No instruction template may account for more than 20% of the 50 instructions.
+- Split: 80/20 with seed 42 → **40 train / 10 eval**.
+- Spot-check: 10–15 pairs reviewed in the notebook (correctness, grounding, disclaimer, no verbatim copy).
+- If an LLM drafts pairs, the generation prompt must include: `Each response must be a concise 1–3 sentence answer in your own words. Do not copy text verbatim.`
+- The same 3 clinical prompts from Part A Step 2 are reused in Part B3 and Part C.
+- Kept PDF pages after the three filters: 1,122 (≥300). Public repo: https://github.com/bheemreddy1729/fine-tuning-Mistral-7B
+- GPU used for baseline: NVIDIA RTX A6000 (46 GB). Part B QLoRA can run on that pod or on BITS A100/L40S. Cost tables in Part C must use the hourly rate that matches the GPU actually used (brief lists ₹12/hour for A100).
 
 ## Project-wide implementation rule
+
+- **Execution environment.** The user runs the code in their own Jupyter instance (BITS or pod GPU; the browser token is shared in chat when needed). Every item therefore ships as a `.ipynb` whose cells call `src/` and keep their outputs, an `.html` export of that notebook, and its files under `reports/`. Notebooks must run top to bottom on that instance. `requirements.txt` is the single source of dependencies: the first code cell of every notebook finds the repo root and runs `%pip install -q -r {ROOT}/requirements.txt`, so no manual install is needed. Each item that adds libraries (for example B2: torch, peft, trl==0.12.1, bitsandbytes, accelerate) adds them, pinned, to `requirements.txt` in the same change. Part A's notebooks get the same first cell the next time they are re-run. The token is used only for the actions the user asks for.
 
 - Every data transformation, validation, model run, benchmark, metric, and report must be produced by committed programmatic logic in this repository.
 - Terminal commands may invoke project code or install dependencies, but must not contain the only implementation of an assignment step.
@@ -156,26 +161,187 @@ Push to `main` only after every check passes: pipeline, reports, `domain_corpus/
 
 ### Part A Step 2 — Baseline model output
 
-Status: code ready, GPU run pending
+Status: done
 
-This is the assignment's Part A Step 2 (1 mark). The plan table below calls the same work B2.
+Assignment Part A Step 2 (1 mark). Ran on NVIDIA RTX A6000. Notebook `part_a_baseline.ipynb` stores the architecture printout and the three greedy outputs (`max_new_tokens=150`, no system prompt). Reports: `reports/baseline_architecture.json`, `reports/baseline_outputs.csv`. Measured: 7,241,732,096 parameters, 32 layers, hidden size 4096, vocab 32,000.
 
-`python src/baseline.py check` confirms three clinical prompts, no system prompt, the shared instruction block, greedy decoding, and `max_new_tokens=150`. It does not download the model.
+Hidden size is `model.config.hidden_size`: the width of each token representation in the residual stream.
 
-`python src/baseline.py run` on the A100 loads `mistralai/Mistral-7B-v0.1` in bfloat16 with `AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1")`. It prints parameter count, decoder layers, hidden size, and vocabulary size from the loaded model, then saves `reports/baseline_architecture.json` and `reports/baseline_outputs.csv`. The notebook is `part_a_baseline.ipynb`.
+These three prompts are fixed for Part B3 and Part C:
 
-Hidden size is `model.config.hidden_size`: the width of each token representation in the residual stream. The code reads it from the loaded model.
+| Id | Corpus target | Instruction |
+|---|---|---|
+| `malaria_uncomplicated_pf` | `who_malaria_2024-11-30.txt` | What treatment does the malaria guidance recommend for uncomplicated Plasmodium falciparum malaria in adults and in children weighing at least 25 kg? |
+| `sepsis_iv_antibiotics` | `nice_ng253_sepsis.txt` | In an adult with suspected sepsis, when should intravenous antibiotics be started, and what should happen if the source of infection is still uncertain? |
+| `hypertension_first_line` | `nice_ng136_hypertension.txt` | What first-line antihypertensive treatment does the adult hypertension guidance recommend, and how does age change that choice? |
 
-## Later, after the baseline is saved
+---
 
-These stay closed until you accept them.
+## Part B — Instruction Fine-Tuning with QLoRA [5 Marks]
+
+Assignment page 3. Fine-tune the same base model with QLoRA on an instruction dataset built only from `domain_corpus/`. Same tokenizer and model family throughout. Every step follows the project-wide rule: logic in `src/`, notebook calls it and keeps cell outputs, reports are reproducible.
+
+### What Part B is about
+
+Part A gave us cleaned clinical text and a weak baseline (untuned Mistral answers that drift and invent structure). Part B teaches the model to answer clinical-protocol questions in our locked response shape, using a small supervised set:
+
+1. **B1** turns the corpus into 50 grounded instruction–response pairs and an 80/20 split.
+2. **B2** loads the base model in 4-bit NF4 and trains **one** LoRA adapter (Adapter B) with PEFT + TRL SFT.
+3. **B3** runs the same 3 Part A prompts through the adapter and writes a side-by-side comparison with the bfloat16 baseline.
+
+Marks: B1 = 2, B2 = 2, B3 = 1.
+
+### B1 — Instruction dataset creation [2 Marks]
+
+Status: implemented, awaiting your review. Files: `instruction_dataset.jsonl`, `data/instruction/`, `prompts/instruction_draft_prompt.txt`, `reports/instruction_checks.json`, `reports/instruction_spotcheck.csv`, `part_b_dataset.ipynb` and `.html`, `tests/test_instruction_dataset.py`.
+
+**Assignment requirements** (checked against `Assignment-1B.pdf` page 3)
+
+- Source: only cleaned `.txt` files from Part A Step 1 (`domain_corpus/`). No external clinical facts.
+- Format: JSONL; each row has `instruction` and `response`.
+- Method: synthetic generation via an external LLM. The brief requires **the exact prompt template** and **5 sample instruction–response pairs** shown in the notebook.
+- Split: 80% train / 20% eval, fixed seed; report example counts for both.
+- Justify dataset size and average tokens per example relative to model/GPU.
+- Variant 4: the exact disclaimer must be in **every** pair.
+
+**Our locked extras (binding)**
+
+| Rule | Value |
+|---|---|
+| Pair count | Exactly 50 |
+| Type mix | definition 8, explanation 7, procedure 8, comparison 7, troubleshooting 6, scenario 7, advantages/limitations 7 |
+| Response shape | 1–3 sentences of clinical content (the disclaimer is **not** counted as a sentence), ≥30 clinical words, naming the source guideline ("Per WHO malaria guidelines, …") like the Variant 4 samples, then the full Variant 4 disclaimer sentence |
+| Grounding | Paraphrase from a named corpus file; no verbatim long copy |
+| Template diversity | No single instruction template >20% of the 50 |
+| Split | seed 42 → 40 train / 10 eval |
+| Spot-check | 10–15 pairs reviewed in the notebook |
+
+**Proposed implementation**
+
+- Code: `src/instruction_dataset.py` with subcommands `chunks`, `build`, `validate`, `split`, `report`. Notebook: `part_b_dataset.ipynb` (imports the module, displays results).
+- Drafter: **Claude** (exact model id recorded in `data/instruction/drafting_log.json`), separate from Mistral. Pipeline so the step stays reproducible:
+  1. `chunks` selects source chunks programmatically (seed 42) from `domain_corpus/`, covering every family, and writes `data/instruction/chunks.jsonl` (chunk id, source file, text, target pair type).
+  2. The exact prompt template lives in `prompts/instruction_draft_prompt.txt` (committed). One call per chunk, with the type and chunk filled in. It contains the assignment's tip adapted to our format ("based ONLY on this text", `instruction` / `response` keys), the locked sentence `Each response must be a concise 1–3 sentence answer in your own words. Do not copy text verbatim.`, the source-naming rule, the requirement to end with the exact disclaimer, and a ban on facts outside the chunk.
+  3. Raw Claude outputs are committed unedited as `data/instruction/drafts_raw.jsonl` (with model id, date, temperature). Anyone can re-run `build` from them without calling the LLM.
+  4. `build` programmatically selects and trims drafts to the locked 50-pair mix, rejecting any draft that fails a check below. Rejected drafts go to `reports/instruction_rejected.csv` with the reason.
+- Files: `instruction_dataset.jsonl` at repo root (submission name, only `instruction` and `response`), `data/instruction/pairs_meta.jsonl` (`id`, `type`, `source_file`, `chunk_id`, `template_family`), `data/instruction/train.jsonl`, `data/instruction/eval.jsonl`.
+- Coverage: every family (WHO malaria, CDC STI, NICE sepsis, NICE hypertension, ICMR antimicrobial, ICMR STW vols 1 and 3, PubChem). No single PDF above 30% of pairs; PubChem counts as one family for that cap.
+- Do **not** copy the Variant 4 sample rows from the enterprise PDF into the dataset; they are style examples only.
+
+**Automated checks (script fails on violation)**
+
+1. Exactly 50 rows; keys `instruction` and `response` present and non-empty; no other keys in `instruction_dataset.jsonl`.
+2. Type counts match the locked mix (from metadata).
+3. Every response ends with the exact disclaimer string.
+4. Clinical text before the disclaimer: ≥30 words and 1–3 sentences. The splitter is one defined function in code that protects `e.g.`, `i.e.`, `P. falciparum`, `mg/kg`, decimals and `vs.`.
+5. Template family: lowercase the instruction, replace drug, disease and number slots with a placeholder, and take the first 4 tokens. No family above 20% (max 10 of 50), and at least 2 families per type.
+6. Every `source_file` exists under `domain_corpus/`.
+7. **Grounding:** (a) no 8-word sequence in a response appears verbatim in its source chunk; (b) every number in a response (doses, days, thresholds) appears in its source chunk; (c) the response names its source guideline.
+8. **No leakage:** no instruction in train or eval equals or near-duplicates (Jaccard ≥0.7 on word sets) any of the 3 fixed Part A prompts; no duplicate instructions inside the 50.
+9. Split is 40/10 with seed 42; disjoint ids; both splits written; type coverage reported for each.
+10. Token-length report: mean, p95 and max tokens of `format_prompt(instruction)+response+EOS` with the Mistral tokenizer; justify `max_seq_length` for B2 from it.
+
+**Notebook must show** (each item is in the brief or in our own rules)
+
+- Justification for 50 pairs and 40 train rows on Mistral-7B + Adapter B, including the **measured average tokens per example** and what that means for VRAM and steps (small, high-quality set; the aim is format and grounding, not new knowledge).
+- **The exact generation prompt template**, printed from `prompts/instruction_draft_prompt.txt`, plus the drafter model id.
+- **5 sample instruction–response pairs** (one printed per distinct type, from different source families).
+- Validation table (counts by type, source family share, template share, length stats, check pass/fail).
+- Spot-check table for 10–15 pairs (id, correct / grounded / disclaimer / not verbatim, pass or fail, short reason). Spot-check results are saved to `reports/instruction_spotcheck.csv`.
+- Train and eval counts (40 and 10) with the seed.
+- A sentence stating that the Mistral base has no chat template, so the SFT format is `### Instruction / ### Response`, as the brief allows ("where applicable").
+
+**Done when** `instruction_dataset.jsonl` exists, all checks pass, train/eval splits exist, the notebook has saved outputs (and an HTML export), and the files are ready to commit.
+
+### B2 — QLoRA fine-tuning with Adapter B [2 Marks]
+
+Status: closed until B1 is accepted and done
+
+**Assignment requirements**
+
+- QLoRA via `transformers`, `peft`, `bitsandbytes` (4-bit base).
+- Train **one** of Adapter A/B/C — we train **Adapter B**.
+- SFT setup matching the model’s instruction format (for Mistral-7B-v0.1: our `### Instruction` / `### Response` block; no chat template).
+- Report batch size, learning rate, epochs/steps, max sequence length.
+
+**Proposed training design (confirm on accept)**
+
+| Setting | Proposed value | Why |
+|---|---|---|
+| Base load | 4-bit NF4, `bnb_4bit_compute_dtype=bfloat16`, double quant on | Assignment Part C uses the same NF4 pattern; QLoRA standard |
+| LoRA | r=16, alpha=32, dropout 0.05, targets `q_proj`,`v_proj` | Locked Adapter B |
+| Trainer | TRL `SFTTrainer` (lab pin `trl==0.12.1` on Kubeflow; match pod pins where possible) | Assignment SFT setup |
+| Dataset | 40 train / 10 eval from B1 | Locked split |
+| Max seq length | **256** (B1 measured max 239 tokens, p95 219) | Covers every example; 512 would only add padding |
+| Epochs | **3** | Small set; more epochs overfit |
+| Learning rate | **2e-4** | Common QLoRA LoRA LR |
+| Batch | per-device **1**, grad accum **4** (effective 4); tune if VRAM allows 2 | Safe on 46 GB with 7B 4-bit |
+| LR schedule / warmup | linear, warmup ratio 0.03 | Stable short run |
+| Seed | 42 | Match data split |
+| Logging | loss each step; eval loss each epoch | Notebook table |
+| Output | `adapters/adapter_b/` (gitignored weights) + `reports/qlora_training.json` hyperparameters and final metrics | Weights stay out of GitHub |
+| EOS | Every training text ends with `</s>` (the tokenizer's EOS) after the disclaimer | Without it the adapter never learns to stop and runs on to `max_new_tokens` |
+| Padding | `pad_token` set to `unk` (not EOS), `padding_side="right"` for training | Pad = EOS makes the collator mask the EOS label |
+| Loss masking | `DataCollatorForCompletionOnlyLM` with `response_template="### Response:"`; `packing=False` | Loss on the answer only; 40 rows cannot afford wasted signal |
+| Eval loss | Also compute eval loss of the **untuned** base on the same 10 rows in the same format | Gives a quantitative before/after for B3 |
+| Dependencies | Pin `torch`, `transformers`, `peft`, `trl==0.12.1`, `bitsandbytes`, `accelerate`, `datasets` in `requirements.txt` after checking the pod versions (the file currently lists only Part A packages) | `SFTTrainer` argument names differ across TRL versions |
+
+Code: `src/qlora_train.py` with `check` and `run`. Notebook: `part_b_qlora.ipynb` (calls train, prints hyperparams and train/eval loss).
+
+The notebook must state the four hyperparameters the brief asks for (batch size, learning rate, epochs and steps, max sequence length), say why Mistral-7B-v0.1 uses a hand-built instruction format instead of a chat template, and justify Adapter B (r=16, alpha=32, q_proj and v_proj).
+
+**Done when** training finishes, adapter files exist on the GPU machine, hyperparameter report is in the notebook and `reports/qlora_training.json`, and a smoke generate on one train-style prompt succeeds and stops on its own with the disclaimer.
+
+### B3 — Evaluation and comparative analysis [1 Mark]
+
+Status: closed until B2 is done
+
+**Assignment requirements**
+
+- Run the trained adapter on the **same 3 domain prompts** from Part A Step 2.
+- Side-by-side comparison: baseline vs adapter.
+- Describe what improved or degraded (correctness, domain terminology, completeness, hallucinations).
+
+**Proposed implementation**
+
+- Code: `src/adapter_eval.py` loads the **bf16 base + Adapter B** (same dtype as the Part A baseline, so the only change is fine-tuning). Same generate settings as the baseline: greedy, `max_new_tokens=150`, no system prompt, same instruction block, same 3 prompts from Part A Step 2.
+- A second, optional row set uses the 4-bit base + adapter (the training dtype), labelled separately.
+- Save `reports/baseline_vs_adapter.csv` with columns: `prompt_id`, `baseline_output`, `adapter_output`, `baseline_tps`, `adapter_tps`, plus `adapter_has_disclaimer`, `adapter_stopped_on_eos`, `adapter_new_tokens`.
+- Also report eval loss of base vs adapter on the 10 held-out pairs (from B2).
+- Notebook `part_b_eval.ipynb` displays the side-by-side table and a written analysis: one short paragraph per prompt and an overall judgment, each covering **correctness, domain terminology, completeness and hallucinations** (the four items the brief names), with quoted examples from the outputs.
+- Analysis must note: baseline drift and hallucinated “Evidence/References” sections vs whether the adapter stays closer to protocol language and includes the disclaimer. Also state honestly what **degraded** (for example, wrong or invented doses, over-confident short answers, or content the 50 pairs never covered).
+
+**Done when** the three-prompt comparison is saved, the written analysis is in the notebook output, and HTML export for Part B work is produced (or included in the main submission notebook export).
+
+### Part B acceptance sequence
+
+Reply with one id. Work starts only for that item.
+
+| Id | Work | Marks |
+|---|---|---|
+| B1 | Build and validate the 50-pair JSONL, spot-check, 40/10 split, notebook with outputs | 2 |
+| B2 | QLoRA train Adapter B; report hyperparameters and losses | 2 |
+| B3 | Same 3 prompts: baseline vs adapter + written comparison | 1 |
+
+Decisions made on review:
+
+1. **Pair drafting:** LLM-assisted by Claude, with the reproducibility steps in B1.
+2. **Submission JSONL:** only `{instruction, response}`; metadata in `data/instruction/pairs_meta.jsonl`.
+3. **Training hyperparameters:** 3 epochs, lr 2e-4, batch 1 × accum 4; max sequence length set from the B1 token report (512 unless p95 is far lower).
+4. **B3 generate dtype:** bf16 base + adapter against the bf16 baseline.
+
+## Final submission (single notebook, required by the brief)
+
+`Assignment-1B.pdf` (Submission Deliverables) asks for **one** notebook covering Parts A–C and **one** HTML export of it. Our per-part notebooks (`part_a_corpus`, `part_a_baseline`, `part_b_*`, later `part_c_*`) are the working notebooks. Before submission, build `assignment_1b.ipynb` that imports `src/`, shows every part's outputs and inferences in order, and states the final prompts, hyperparameters and benchmark settings. Export `assignment_1b.html` with outputs visible. The submission set is: `assignment_1b.ipynb`, `assignment_1b.html`, `instruction_dataset.jsonl`, `domain_corpus/*.txt`. The GPU-run cells (baseline, QLoRA, Part C) must be executed on the pod so their outputs are saved in the notebook.
+
+---
+
+## Part C — closed until Part B is done
+
+Assignment pages 4–6. Benchmarks are on the **base** model (not the adapter), except the unmarked optional extension.
 
 | Id | Work |
 |---|---|
-| B1 | Build the 50-pair JSONL from `domain_corpus/` only, with the locked mix, prompt, length filter, template check, and your 15-pair spot check. Split 80/20 with seed 42. |
-| B2 | Part A baseline: load Mistral-7B-v0.1 in bfloat16, print parameter count, layers, hidden size, and vocabulary size, and save 3 clinical prompts. |
-| B3 | QLoRA with Adapter B on the training split. Report batch size, learning rate, epochs or steps, and max sequence length. |
-| B4 | Same 3 prompts, baseline versus adapter, with a written comparison. |
-| C1 | Greedy, beam search, top-k, top-p, and temperature at 0.3, 0.7, and 1.2. Same 3 prompts. `max_new_tokens=150`. Record text and tokens per second. Write the 100-word deployment choice. |
+| C1 | Greedy, beam, top-k, top-p, temperature 0.3 / 0.7 / 1.2. Same 3 prompts. `max_new_tokens=150`. Tokens/sec + 100-word deployment choice. |
 | C2 | Speculative decoding with SmolLM2-1.7B-Instruct and its own tokenizer. |
-| C3 | 4-bit NF4 benchmark on 10 prompts using the winning decoder. Fill VRAM, throughput, and cost per 1 million tokens at ₹12/hour for bfloat16, 4-bit, and 4-bit plus speculative decoding. Export the notebook to HTML. |
+| C3 | 4-bit NF4 on 10 prompts with the winning decoder. VRAM, throughput, cost per 1M tokens (use the hourly rate for the GPU actually used). HTML export. |

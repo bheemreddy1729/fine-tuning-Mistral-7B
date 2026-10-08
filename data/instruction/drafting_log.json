@@ -1,0 +1,22 @@
+{
+  "drafter": "Claude (claude-sonnet-5-5) via Claude Code, one chunk at a time",
+  "prompt_template": "prompts/instruction_draft_prompt.txt",
+  "chunks": "data/instruction/chunks.jsonl (seed 42; rank 1 primary, rank 2 spare)",
+  "raw_drafts": "data/instruction/drafts_raw.jsonl (saved drafts, one JSON object per attempt)",
+  "validation_loop": "each draft was checked with check_draft() as it was written. Most failing drafts were reworded before being saved; one failing attempt (s10r1, attempt 1) is kept in drafts_raw.jsonl and was replaced by attempt 2.",
+  "attempts_total": 51,
+  "attempts_selected": 50,
+  "attempts_failing_checks_kept_in_raw": 1,
+  "spares_used": [
+    "s08r2",
+    "s17r2",
+    "s23r2",
+    "s25r2",
+    "s28r2",
+    "s42r2",
+    "s45r2",
+    "s48r2",
+    "s50r2"
+  ],
+  "note": "Spare chunks replaced chunks that were tables of contents or evidence tables. Drafts avoid answering the three fixed Part A prompts directly."
+}

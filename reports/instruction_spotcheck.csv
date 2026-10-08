@@ -1,0 +1,13 @@
+id,type,source_file,correct,grounded,disclaimer,not_verbatim,verdict,note
+p02,procedure,who_malaria_2024-11-30.txt,yes,yes,yes,yes,pass,"Single 0.25 mg/kg primaquine dose, exclusions and the 25 to <50 kg dose of 7.5 mg match the WHO dosing table text."
+p06,comparison,who_malaria_2024-11-30.txt,yes,yes,yes,yes,pass,"Antibiotics, no recommendation on exchange transfusion, phenobarbital 20 mg/kg mortality finding and corticosteroid advice all match the chunk."
+p07,definition,who_malaria_2024-11-30.txt,yes,yes,yes,yes,pass,"Definition of non-immune travellers, higher severe-malaria risk, >90% cure-rate rule and the chemoprophylaxis rule match the chunk."
+p08,advantages_limitations,who_malaria_2024-11-30.txt,yes,yes,yes,yes,pass,"Two non-randomized studies, 14-day 0.25 mg/kg primaquine, very low certainty and the <4% of 400 000 side-effect figure match the chunk."
+p09,procedure,cdc_sti_2021.txt,yes,yes,yes,yes,pass,Two-stage doxycycline then azithromycin or moxifloxacin regimens and the warning against single 1-g azithromycin match the chunk.
+p15,explanation,cdc_sti_2021.txt,yes,yes,yes,yes,pass,"Transmission, screening and antibody-then-NAAT testing match; the <0.1% prevalence exception is omitted for length, which is acceptable."
+p16,procedure,icmr_antimicrobial_2019.txt,yes,yes,yes,yes,pass,"Patient groups, Pseudomonas/Acinetobacter benefit and infusion hours (4, 4, 3, 2) match the chunk."
+p18,comparison,icmr_antimicrobial_2019.txt,yes,yes,yes,yes,pass,"Artesunate dosing, artemether fallback doses and completion with 3 days of ACT match the chunk."
+p28,procedure,nice_ng136_hypertension.txt,yes,yes,yes,yes,pass,"Monotherapy with ACE inhibitor or ARB, equivalence, and possible early step 2 match the chunk; no age rule on first-line choice is taught."
+p35,comparison,icmr_stw_vol1_2019.txt,yes,yes,yes,yes,pass,"Indications versus do-not-do list, 5 cm and 12 week limits, and the under-40 second-opinion rule match the workflow text."
+p38,definition,icmr_stw_vol3_2022.txt,yes,yes,yes,yes,pass,"BSA tiers for topical, phototherapy and systemic therapy, biologics for resistant cases and the steroid exception match the chunk."
+p41,definition,pubchem_azithromycin.txt,yes,yes,yes,yes,pass,"Class, subclass, uses and 50S ribosome mechanism match the PubChem record text."

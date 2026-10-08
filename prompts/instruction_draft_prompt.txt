@@ -1,0 +1,25 @@
+You are drafting supervised fine-tuning data for a Clinical Protocol Lookup Assistant.
+
+Read the text below and write exactly 1 instruction-response pair of type "{pair_type}" in JSON format, based ONLY on this text. The JSON object must have the keys "instruction" and "response".
+
+Source document: {source_file}, page {page}.
+
+Rules for the instruction:
+- It is a question or request a clinician, nurse or pharmacist would ask on its own. It must make sense without the text and must not say "the text", "the passage" or "the page".
+- It must match the requested type: definition (what is X), explanation (why or how X works), procedure (steps or recommended treatment), comparison (X versus Y), troubleshooting (what to do when something fails, is contraindicated or goes wrong), scenario (a short patient case and what the guideline advises), advantages_limitations (benefits and limits or cautions).
+- Vary the wording. Do not start every instruction with the same words.
+
+Rules for the response:
+- Each response must be a concise 1–3 sentence answer in your own words. Do not copy text verbatim.
+- Use at least 30 words of clinical content before the disclaimer.
+- Name the source guideline once, for example "Per WHO malaria guidelines, ..." or "According to NICE hypertension guidance, ...".
+- Use only facts, doses, durations and thresholds that appear in the text. Do not add outside medical knowledge. If a number is not in the text, do not write it.
+- End with this exact sentence, unchanged, as the last sentence of the response:
+  This output is for educational/reference purposes only and must not replace professional clinical judgment.
+
+If the text cannot support a pair of the requested type, reply with {"skip": true} and nothing else.
+
+Text:
+"""
+{chunk_text}
+"""

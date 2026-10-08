@@ -1,2 +1,9 @@
 pymupdf>=1.24
 langdetect>=1.0.9
+pandas
+transformers
+sentencepiece
+nbformat
+nbclient
+nbconvert
+hf_transfer  # pods set HF_HUB_ENABLE_HF_TRANSFER=1
