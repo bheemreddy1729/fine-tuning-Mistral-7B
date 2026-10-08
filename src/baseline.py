@@ -137,6 +137,10 @@ def architecture_report(model, tokenizer) -> dict:
             f"Tokenizer vocab {report['tokenizer_vocab_size']} does not match "
             f"model vocab {report['vocab_size']}"
         )
+    import torch
+
+    report["gpu_name"] = torch.cuda.get_device_name(0)
+    report["gpu_memory_gb"] = round(torch.cuda.get_device_properties(0).total_memory / 1e9, 2)
     return report
 
 
@@ -238,7 +242,8 @@ def main() -> None:
             f"parameters={architecture['parameter_count']} "
             f"layers={architecture['num_hidden_layers']} "
             f"hidden_size={architecture['hidden_size']} "
-            f"vocab_size={architecture['vocab_size']}"
+            f"vocab_size={architecture['vocab_size']} "
+            f"gpu={architecture['gpu_name']}"
         )
         for row in result["outputs"]:
             print(f"{row['prompt_id']} new_tokens={row['new_tokens']} tokens_per_second={row['tokens_per_second']}")

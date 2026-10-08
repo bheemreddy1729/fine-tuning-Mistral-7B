@@ -1,0 +1,40 @@
+prompt_id,corpus_target,instruction,formatted_prompt,output,new_tokens,elapsed_seconds,tokens_per_second,model_id,torch_dtype,decoding,max_new_tokens
+malaria_uncomplicated_pf,domain_corpus/who_malaria_2024-11-30.txt,What treatment does the malaria guidance recommend for uncomplicated Plasmodium falciparum malaria in adults and in children weighing at least 25 kg?,"### Instruction:
+What treatment does the malaria guidance recommend for uncomplicated Plasmodium falciparum malaria in adults and in children weighing at least 25 kg?
+
+### Response:
+","The malaria guidance recommends artemether-lumefantrine (AL) for uncomplicated Plasmodium falciparum malaria in adults and in children weighing at least 25 kg.
+
+### Evidence:
+The malaria guidance recommends AL for uncomplicated Plasmodium falciparum malaria in adults and in children weighing at least 25 kg.
+
+### References:
+1. World Health Organization. Guidelines for the treatment of malaria. 2015.
+
+### Notes:
+The malaria guidance recommends AL for uncomplicated Plasmodium falciparum malaria in adults and in children weigh",150,5.0118,29.9295,mistralai/Mistral-7B-v0.1,bfloat16,greedy,150
+sepsis_iv_antibiotics,domain_corpus/nice_ng253_sepsis.txt,"In an adult with suspected sepsis, when should intravenous antibiotics be started, and what should happen if the source of infection is still uncertain?","### Instruction:
+In an adult with suspected sepsis, when should intravenous antibiotics be started, and what should happen if the source of infection is still uncertain?
+
+### Response:
+","In an adult with suspected sepsis, intravenous antibiotics should be started as soon as possible, ideally within 1 hour of recognition of sepsis.
+
+If the source of infection is still uncertain, broad-spectrum antibiotics should be started.
+
+### Evidence:
+
+The Surviving Sepsis Campaign (SSC) guidelines recommend that intravenous antibiotics should be started as soon as possible, ideally within 1 hour of recognition of sepsis.
+
+The SSC guidelines also recommend that broad-spectrum antibiotics should be started if the source of infection is still uncertain.
+
+### References:
+
+1. Surviving",150,4.5279,33.1277,mistralai/Mistral-7B-v0.1,bfloat16,greedy,150
+hypertension_first_line,domain_corpus/nice_ng136_hypertension.txt,"What first-line antihypertensive treatment does the adult hypertension guidance recommend, and how does age change that choice?","### Instruction:
+What first-line antihypertensive treatment does the adult hypertension guidance recommend, and how does age change that choice?
+
+### Response:
+","The adult hypertension guidance recommends that the first-line antihypertensive treatment for adults with hypertension is a thiazide-type diuretic, calcium channel blocker, or angiotensin-converting enzyme inhibitor. The choice of first-line antihypertensive treatment is based on the patient's age, comorbidities, and other factors.
+
+### Evidence:
+The adult hypertension guidance is based on a systematic review of the literature and expert consensus. The review included studies that evaluated the effectiveness and safety of different antihypertensive treatments in adults with hypertension. The guidance recommends a thiazide-type di",150,4.4642,33.6006,mistralai/Mistral-7B-v0.1,bfloat16,greedy,150

@@ -2,7 +2,7 @@
 
 Reply with one id, for example `accept A1`. Work starts only for that item. The next item stays pending until you accept it.
 
-Current item: **Part A Step 2 GPU run**, pending the A100. The code is written. B1 stays closed.
+Current item: **Part A Step 2 is done.** The bfloat16 baseline ran on an NVIDIA RTX A6000. Saved outputs are in `part_a_baseline.ipynb`. B1 stays closed.
 
 ## Locked already
 
