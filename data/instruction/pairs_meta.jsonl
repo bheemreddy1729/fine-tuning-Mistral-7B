@@ -16,8 +16,8 @@
 {"id": "p16", "type": "procedure", "family": "icmr_antimicrobial", "source_file": "icmr_antimicrobial_2019.txt", "page": 186, "chunk_id": "s16r1", "template_family": "when are prolonged beta-lactam"}
 {"id": "p17", "type": "procedure", "family": "icmr_antimicrobial", "source_file": "icmr_antimicrobial_2019.txt", "page": 149, "chunk_id": "s17r2", "template_family": "what antibiotic prophylaxis does"}
 {"id": "p18", "type": "comparison", "family": "icmr_antimicrobial", "source_file": "icmr_antimicrobial_2019.txt", "page": 21, "chunk_id": "s18r1", "template_family": "how does <term> compare"}
-{"id": "p19", "type": "explanation", "family": "icmr_antimicrobial", "source_file": "icmr_antimicrobial_2019.txt", "page": 44, "chunk_id": "s19r1", "template_family": "why does <term> advise"}
-{"id": "p20", "type": "explanation", "family": "icmr_antimicrobial", "source_file": "icmr_antimicrobial_2019.txt", "page": 95, "chunk_id": "s20r1", "template_family": "why does <term> advise"}
+{"id": "p19", "type": "explanation", "family": "icmr_antimicrobial", "source_file": "icmr_antimicrobial_2019.txt", "page": 45, "chunk_id": "s19r1", "template_family": "why does <term> advise"}
+{"id": "p20", "type": "explanation", "family": "icmr_antimicrobial", "source_file": "icmr_antimicrobial_2019.txt", "page": 87, "chunk_id": "s20r1", "template_family": "how should a suspected"}
 {"id": "p21", "type": "definition", "family": "icmr_antimicrobial", "source_file": "icmr_antimicrobial_2019.txt", "page": 58, "chunk_id": "s21r1", "template_family": "what is reduced-osmolarity <term>"}
 {"id": "p22", "type": "troubleshooting", "family": "icmr_antimicrobial", "source_file": "icmr_antimicrobial_2019.txt", "page": 84, "chunk_id": "s22r1", "template_family": "what should be done"}
 {"id": "p23", "type": "procedure", "family": "nice_sepsis", "source_file": "nice_ng253_sepsis.txt", "page": 73, "chunk_id": "s23r2", "template_family": "how should an adult"}

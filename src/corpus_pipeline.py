@@ -16,7 +16,7 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-import fitz
+import pymupdf
 from langdetect import DetectorFactory, detect
 from langdetect.lang_detect_exception import LangDetectException
 
@@ -92,9 +92,11 @@ def load_sources() -> list[dict]:
 
 
 def extract_pdf_pages(pdf_path: Path) -> list[str]:
-    document = fitz.open(pdf_path)
+    document = pymupdf.open(pdf_path)
     try:
-        return [page.get_text("text") for page in document]
+        # Collapse runs of spaces: pymupdf versions differ in how many spaces they emit, which made
+        # the extracted text (and character counts) vary between machines.
+        return [re.sub(r" {2,}", " ", page.get_text("text")) for page in document]
     finally:
         document.close()
 
@@ -851,7 +853,7 @@ def pdf_matches_manifest(path: Path, source: dict) -> bool:
         return False
     if path.read_bytes()[:5] != b"%PDF-":
         return False
-    document = fitz.open(path)
+    document = pymupdf.open(path)
     try:
         return document.page_count == int(source["page_count"])
     finally:

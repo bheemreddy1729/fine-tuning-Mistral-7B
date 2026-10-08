@@ -34,6 +34,7 @@ Current item: **B1 accepted (in progress).** Part A is complete (corpus + bfloat
 
 - **Execution environment.** The user runs the code in their own Jupyter instance (BITS or pod GPU; the browser token is shared in chat when needed). Every item therefore ships as a `.ipynb` whose cells call `src/` and keep their outputs, an `.html` export of that notebook, and its files under `reports/`. Notebooks must run top to bottom on that instance. `requirements.txt` is the single source of dependencies: the first code cell of every notebook finds the repo root and runs `%pip install -q -r {ROOT}/requirements.txt`, so no manual install is needed. Each item that adds libraries (for example B2: torch, peft, trl==0.12.1, bitsandbytes, accelerate) adds them, pinned, to `requirements.txt` in the same change. Part A's notebooks get the same first cell the next time they are re-run. The token is used only for the actions the user asks for.
 
+- **Cross-machine check (done).** The corpus pipeline and both Part A notebooks were re-run on the RTX A6000 pod after adding the install cell. Extraction now collapses runs of spaces, because pymupdf versions differ in how many spaces they emit; after that change `domain_corpus/`, `data/sources.json` and every corpus report are byte-identical on the Windows machine and the pod. The baseline re-run reproduced the three greedy outputs exactly (only timings differ).
 - Every data transformation, validation, model run, benchmark, metric, and report must be produced by committed programmatic logic in this repository.
 - Terminal commands may invoke project code or install dependencies, but must not contain the only implementation of an assignment step.
 - Reusable logic belongs in `src/`; the notebook imports and calls it, displays results, and records interpretations.
@@ -76,7 +77,7 @@ Extract each PDF page by page. Write one text file per PDF under a staging folde
 
 The extraction row records total PDF pages, pages with fewer than 30 letters, and characters extracted. Pages with fewer than 30 letters stay in this row. They are not counted as language-filter removals.
 
-Run with `python src/corpus_pipeline.py extract`. Result: 7 PDFs, 1,165 pages, 609,037 words, 4,248,733 characters, 27 pages with fewer than 30 letters. Staged text is in `data/extracted/`. The short-page list is `reports/extraction_short_pages.csv`.
+Run with `python src/corpus_pipeline.py extract`. Result: 7 PDFs, 1,165 pages, 609,037 words, 4,242,287 characters (spaces collapsed so every machine gives the same count), 27 pages with fewer than 30 letters. Staged text is in `data/extracted/`. The short-page list is `reports/extraction_short_pages.csv`.
 
 Done when the extraction table exists for all seven PDFs and short pages are listed with file name and page number.
 
@@ -327,7 +328,7 @@ Decisions made on review:
 
 1. **Pair drafting:** LLM-assisted by Claude, with the reproducibility steps in B1.
 2. **Submission JSONL:** only `{instruction, response}`; metadata in `data/instruction/pairs_meta.jsonl`.
-3. **Training hyperparameters:** 3 epochs, lr 2e-4, batch 1 × accum 4; max sequence length set from the B1 token report (512 unless p95 is far lower).
+3. **Training hyperparameters:** 3 epochs, lr 2e-4, batch 1 × accum 4; max sequence length 256 (measured in B1: max 239 tokens, p95 219).
 4. **B3 generate dtype:** bf16 base + adapter against the bf16 baseline.
 
 ## Final submission (single notebook, required by the brief)

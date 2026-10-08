@@ -635,7 +635,7 @@ would significantly add to the complexity and cost of the intervention.
 be appropriate, such as during a small focal outbreak of P. vivax in a temperate area. However, under such 
 circumstances the GDG considered that an MDA programme providing a schizonticide in addition to an 
 8-aminoquinoline would likely be a better strategy. 
-Strong recommendation for , High certainty evidence  Updated 
+Strong recommendation for , High certainty evidence Updated 
 Malaria vaccines (2023) 
 WHO recommends the use of malaria vaccines for the prevention of P. falciparum malaria in children living in malaria-
 endemic areas, prioritizing areas of moderate and high transmission. 
@@ -733,7 +733,7 @@ Revised dose recommendation for dihydroartemisinin + piperaquine in young childr
 Children weighing <25kg treated with dihydroartemisinin + piperaquine should receive a minimum of 2.5 mg/
 kg bw per day of dihydroartemisinin and 20 mg/ kg bw per day of piperaquine daily for 3 days. 
 *Not evaluated using the GRADE framework 
-Strong recommendation for , Low certainty evidence  Updated 
+Strong recommendation for , Low certainty evidence Updated 
 Reducing the transmissibility of treated P. falciparum infections (2024) 
 In low-transmission areas, a single dose of 0.25 mg/kg bw primaquine should be given with an ACT to patients 
 with P. falciparum malaria (except pregnant women) to reduce transmission. G6PD testing is not required. 
@@ -799,11 +799,11 @@ In areas with chloroquine-susceptible infections, adults and children with uncom
 malariae or P. knowlesi malaria should be treated with either an ACT or chloroquine. 
 In areas with chloroquine-resistant infections, adults and children with uncomplicated P. vivax, P. ovale, P. 
 malariae or P. knowlesi malaria should be treated with an ACT. 
-Good practice statement  Updated 
+Good practice statement Updated 
 Blood stage infection (2024) 
 The G6PD status of patients should be used to guide administration of either primaquine or tafenoquine for 
 preventing relapse. 
-Strong recommendation for , Moderate certainty evidence  New 
+Strong recommendation for , Moderate certainty evidence New 
 Qualitative near-patient G6PD tests (2024) 
 Qualitative near-patient tests for G6PD deficiency should be used to inform administration of specific treatment 
 regimens to prevent relapses of P. vivax and P. ovale. G6PD non-deficient individuals can receive 0.5 mg/kg/day 
@@ -815,7 +815,7 @@ accurate to distinguish G6PD above or below a threshold of 30% of normal G6PD ac
 • These tests cannot be used to identify females with intermediate G6PD deficiency (30–70% G6PD activity) due to a 
 heterozygous genotype. Instead, females with G6PD activity in this intermediate range will be classified as normal with 
 a qualitative test. 
-Strong recommendation for , Moderate certainty evidence  New 
+Strong recommendation for , Moderate certainty evidence New 
 Semi-quantitative near-patient G6PD tests (2024) 
 Semi-quantitative near-patient tests with fixed standard thresholds for deficient, intermediate and normal G6PD 
 activity should be used to inform administration of specific treatment regimens. The dose of 1 mg/kg/day 
@@ -837,7 +837,7 @@ WHO guidelines for malaria - 30 November 2024 - World Health Organization (WHO)
 
 <<<PAGE 22>>>
 5.2.1.7 Anti-relapse treatment of P. vivax and P. ovale 
-Conditional recommendation for , Low certainty evidence  New 
+Conditional recommendation for , Low certainty evidence New 
 Tafenoquine as anti-relapse therapy (2024) 
 Tafenoquine is recommended as an alternative to primaquine (3.5 mg/kg total dose) for preventing relapses of P. 
 vivax in patients ≥ 2years of age, who have ≥ 70% G6PD activity and who receive chloroquine treatment.   
@@ -850,7 +850,7 @@ vivax.
 • Controlled deployment and /or further research is encouraged outside of South America, to generate evidence of the 
 efficacy and safety of tafenoquine compared to primaquine as an anti-relapse treatment. 
 • No data is available comparing tafenoquine with primaquine given at a total dose of 7.0 mg/kg.  
-Strong recommendation for , Moderate certainty evidence  Updated 
+Strong recommendation for , Moderate certainty evidence Updated 
 Primaquine as anti-relapse therapy (2024) 
 To prevent relapse, children and adult (except pregnant women, infants aged < 1 months and women 
 breastfeeding infants aged < 1 months, and people with G6PD deficiency), primaquine should be given at a high 
@@ -21318,7 +21318,7 @@ Certainty of the
 evidence 
 (Quality of evidence) 
 Summary 
-1, 2, 3, 4.  Systematic review [63] 
+1, 2, 3, 4. Systematic review [63] 
 Mosquito 
 mortality - 
 Unwashed nets 
@@ -34817,30 +34817,30 @@ Certainty of the
 evidence 
 (Quality of evidence) 
 Summary 
-1.  Systematic review [224] with included studies: Roth 2018a, Kayentao 2012, Sagara 2018 (Bougoula, Mali), Sagara 2018 
+1. Systematic review [224] with included studies: Roth 2018a, Kayentao 2012, Sagara 2018 (Bougoula, Mali), Sagara 2018 
 (Bobo-Doiulasso, Burkina Faso), Sagara 2018 (Sotuba, Mali), Sagara 2018 (Kolle, Mali), Tshefu 2010. 
 2, 4, 12, 14. Inconsistency: no serious. Indirectness: serious. The trials included adults and children and had sites in Africa 
 and Asia. However, across the trials, only 115 children and 0 adults were randomized to ASPY in Asia. Further adequately 
 powered studies in adults and children in Asia would be needed to fully apply this result.. Imprecision: serious. The CIs are 
 wide and include both almost no effect and clinically significant effect.. 
-3.  Systematic review [224] with included studies: Kayentao 2012, Sagara 2018 (Kolle, Mali), Sagara 2018 (Sotuba, Mali), 
+3. Systematic review [224] with included studies: Kayentao 2012, Sagara 2018 (Kolle, Mali), Sagara 2018 (Sotuba, Mali), 
 Tshefu 2010, Sagara 2018 (Bobo-Doiulasso, Burkina Faso), Roth 2018a, Sagara 2018 (Bougoula, Mali). 
-5.  Systematic review [224] with included studies: Roth 2018a, Sagara 2018 (Bobo-Doiulasso, Burkina Faso), Sagara 2018 
+5. Systematic review [224] with included studies: Roth 2018a, Sagara 2018 (Bobo-Doiulasso, Burkina Faso), Sagara 2018 
 (Bougoula, Mali), Sagara 2018 (Sotuba, Mali), Tshefu 2010, Sagara 2018 (Kolle, Mali), Kayentao 2012. 
 6, 8. Inconsistency: serious. There was quantitative heterogeneity between studies.. Indirectness: serious. The trials 
 included adults and children and had sites in Africa and Asia. However, across the trials, only 115 children and 0 adults were 
 randomized to ASPY in Asia. Further adequately powered studies in adults and children in Asia would be needed to fully apply 
 this result.. Imprecision: no serious. 
-7.  Systematic review [224] with included studies: Tshefu 2010, Sagara 2018 (Sotuba, Mali), Kayentao 2012, Roth 2018a, 
+7. Systematic review [224] with included studies: Tshefu 2010, Sagara 2018 (Sotuba, Mali), Kayentao 2012, Roth 2018a, 
 Sagara 2018 (Bobo-Doiulasso, Burkina Faso), Sagara 2018 (Bougoula, Mali), Sagara 2018 (Kolle, Mali). 
-9.  Systematic review [224] with included studies: Tshefu 2010, Roth 2018a, Kayentao 2012. 
+9. Systematic review [224] with included studies: Tshefu 2010, Roth 2018a, Kayentao 2012. 
 10. Inconsistency: no serious. Indirectness: no serious. Imprecision: very serious. The low number of events recorded 
 in the studies is insufficient for confidently estimating the effect size. . 
-11.  Systematic review [224] with included studies: Kayentao 2012, Roth 2018a, Sagara 2018 (Sotuba, Mali), Sagara 2018 
+11. Systematic review [224] with included studies: Kayentao 2012, Roth 2018a, Sagara 2018 (Sotuba, Mali), Sagara 2018 
 (Bobo-Doiulasso, Burkina Faso), Sagara 2018 (Kolle, Mali), Tshefu 2010, Sagara 2018 (Bougoula, Mali). 
-13.  Systematic review [224] with included studies: Roth 2018a, Sagara 2018 (Bougoula, Mali), Sagara 2018 (Bobo-Doiulasso, 
+13. Systematic review [224] with included studies: Roth 2018a, Sagara 2018 (Bougoula, Mali), Sagara 2018 (Bobo-Doiulasso, 
 Burkina Faso), Sagara 2018 (Sotuba, Mali), Kayentao 2012, Tshefu 2010, Sagara 2018 (Kolle, Mali). 
-15.  Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Kolle, Mali), Sagara 2018 
+15. Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Kolle, Mali), Sagara 2018 
 (Sotuba, Mali), Kayentao 2012, Sagara 2018 (Bobo-Doiulasso, Burkina Faso), Tshefu 2010. 
 16. Inconsistency: no serious. Indirectness: serious. The trials included adults and children and had sites in Africa and 
 Asia. However, across the trials, only 115 children and 0 adults were randomized to ASPY in Asia. Further adequately powered 
@@ -35109,34 +35109,34 @@ Certainty of the
 evidence 
 (Quality of evidence) 
 Summary 
-1.  Systematic review [224] with included studies: Sagara 2018 (Ouagadougou, Burkina Faso), Sagara 2018 (Kolle, Mali), 
+1. Systematic review [224] with included studies: Sagara 2018 (Ouagadougou, Burkina Faso), Sagara 2018 (Kolle, Mali), 
 Sagara 2018 (Bougoula, Mali), Sagara 2018 (Mafrinyah, Guinea), Sagara 2018 (Djoliba, Mali), Sagara 2018 (Sotuba, Mali). 
 2. Inconsistency: no serious. Indirectness: serious. The data are drawn from one study, conducted in six sites in three 
 countries in West Africa. Further studies in Asia would be needed to fully apply this result.. Imprecision: serious. The CI is 
 large and includes both no effect and clinically important effects.. 
-3.  Systematic review [224] with included studies: Sagara 2018 (Ouagadougou, Burkina Faso), Sagara 2018 (Sotuba, Mali), 
+3. Systematic review [224] with included studies: Sagara 2018 (Ouagadougou, Burkina Faso), Sagara 2018 (Sotuba, Mali), 
 Sagara 2018 (Kolle, Mali), Sagara 2018 (Mafrinyah, Guinea), Sagara 2018 (Bougoula, Mali), Sagara 2018 (Djoliba, Mali). 
 4. Inconsistency: no serious. Indirectness: serious. The data are drawn from one study, conducted in six sites in three 
 countries in West Africa. Further studies in Asia would be needed to fully apply this result.. Imprecision: serious. The effect 
 estimate is close to no effect, but the CI is wide.. 
-5.  Systematic review [224] with included studies: Sagara 2018 (Mafrinyah, Guinea), Sagara 2018 (Bougoula, Mali), Sagara 
+5. Systematic review [224] with included studies: Sagara 2018 (Mafrinyah, Guinea), Sagara 2018 (Bougoula, Mali), Sagara 
 2018 (Ouagadougou, Burkina Faso), Sagara 2018 (Sotuba, Mali), Sagara 2018 (Kolle, Mali), Sagara 2018 (Djoliba, Mali). 
 6, 8. Inconsistency: no serious. Indirectness: serious. The data are drawn from one study, conducted in six sites in three 
 countries in West Africa. Further studies in Asia would be needed to fully apply this result.. Imprecision: no serious. 
-7.  Systematic review [224] with included studies: Sagara 2018 (Djoliba, Mali), Sagara 2018 (Ouagadougou, Burkina Faso), 
+7. Systematic review [224] with included studies: Sagara 2018 (Djoliba, Mali), Sagara 2018 (Ouagadougou, Burkina Faso), 
 Sagara 2018 (Sotuba, Mali), Sagara 2018 (Kolle, Mali), Sagara 2018 (Mafrinyah, Guinea), Sagara 2018 (Bougoula, Mali). 
-9.  Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Ouagadougou, Burkina Faso), 
+9. Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Ouagadougou, Burkina Faso), 
 Sagara 2018 (Sotuba, Mali), Sagara 2018 (Mafrinyah, Guinea), Sagara 2018 (Kolle, Mali), Sagara 2018 (Djoliba, Mali). 
 10. Inconsistency: no serious. Indirectness: serious. The data are drawn from one study, conducted in six sites in three 
 countries in West Africa. Further studies in Asia would be needed to fully apply this result.. Imprecision: serious. The low 
 number of events recorded in the study is insufficient for confidently estimating the effect size. However, aggregate analysis of 
 ALT increase across different comparator drugs provides indirect evidence that the point estimate may be accurate.. 
-11.  Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Sotuba, Mali), Sagara 2018 
+11. Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Sotuba, Mali), Sagara 2018 
 (Djoliba, Mali), Sagara 2018 (Kolle, Mali), Sagara 2018 (Ouagadougou, Burkina Faso), Sagara 2018 (Mafrinyah, Guinea). 
 12, 14. Inconsistency: no serious. Indirectness: serious. The data are drawn from one study, conducted in six sites in three 
 countries in West Africa. Further studies in Asia would be needed to fully apply this result.. Imprecision: very serious. The CI 
 is very large and includes both no effect and clinically important effects.. 
-13.  Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Sotuba, Mali), Sagara 2018 
+13. Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Sotuba, Mali), Sagara 2018 
 (Kolle, Mali), Sagara 2018 (Ouagadougou, Burkina Faso), Sagara 2018 (Djoliba, Mali), Sagara 2018 (Mafrinyah, Guinea). 
 15. Serious adverse events data were not available disaggregated by site to allow inclusion in this comparison. 
 events 15 
@@ -35335,7 +35335,7 @@ Certainty of the
 evidence 
 (Quality of evidence) 
 Summary 
-1, 3, 5, 7, 9, 11, 12, 14, 16.  Systematic review [224] with included studies: Rueangweerayut 2012. 
+1, 3, 5, 7, 9, 11, 12, 14, 16. Systematic review [224] with included studies: Rueangweerayut 2012. 
 2. Inconsistency: no serious. Indirectness: serious. Of the 1271 children and adults aged greater than 5 years enrolled in 
 this trial, 81.3% (1033) were enrolled and treated in trial sites in Asia (Cambodia, India, Thailand, and Vietnam), and only 
 18.7% (237) in Africa (Burkina Faso, Ivory Coast, and Tanzania). Further studies in African children are necessary to fully apply 
@@ -35619,33 +35619,33 @@ Certainty of the
 evidence 
 (Quality of evidence) 
 Summary 
-1.  Systematic review [224] with included studies: Shin 2011, Nelwan 2015, Kayentao 2012, Roth 2018a, Rueangweerayut 
+1. Systematic review [224] with included studies: Shin 2011, Nelwan 2015, Kayentao 2012, Roth 2018a, Rueangweerayut 
 2012, Tshefu 2010, Poravuth 2011. 
 2, 8. Inconsistency: no serious. Indirectness: no serious. Imprecision: serious. The CI includes both no effect and 
 clinically important effects.. 
-3.  Systematic review [224] with included studies: Poravuth 2011, Shin 2011, Sagara 2018 (Mafrinyah, Guinea), Kayentao 
+3. Systematic review [224] with included studies: Poravuth 2011, Shin 2011, Sagara 2018 (Mafrinyah, Guinea), Kayentao 
 2012, Sagara 2018 (Sotuba, Mali), Sagara 2018 (Bougoula, Mali), Tshefu 2010, Sagara 2018 (Sotuba, Mali), Sagara 2018 
 (Ouagadougou, Burkina Faso), Sagara 2018 (Bobo-Doiulasso, Burkina Faso), Rueangweerayut 2012, Sagara 2018 
 (Bougoula, Mali), Sagara 2018 (Kolle, Mali), Sagara 2018 (Djoliba, Mali), Nelwan 2015, Sagara 2018 (Kolle, Mali), Roth 2018a. 
 4. Inconsistency: no serious. Indirectness: no serious. Imprecision: no serious. Although the CI is wide, there were few 
 events.. 
-5.  Systematic review [224] with included studies: Kayentao 2012, Sagara 2018 (Kolle, Mali), Nelwan 2015, Shin 2011, Sagara 
+5. Systematic review [224] with included studies: Kayentao 2012, Sagara 2018 (Kolle, Mali), Nelwan 2015, Shin 2011, Sagara 
 2018 (Bougoula, Mali), Poravuth 2011, Sagara 2018 (Sotuba, Mali), Roth 2018a, Sagara 2018 (Kolle, Mali), Rueangweerayut 
 2012, Sagara 2018 (Mafrinyah, Guinea), Sagara 2018 (Bougoula, Mali), Tshefu 2010, Sagara 2018 (Ouagadougou, Burkina 
 Faso), Sagara 2018 (Bobo-Doiulasso, Burkina Faso), Sagara 2018 (Djoliba, Mali), Sagara 2018 (Sotuba, Mali). 
 6. Inconsistency: no serious. Indirectness: no serious. Imprecision: serious. The CI includes both almost no effect and 
 clinically important effects. 
-7.  Systematic review [224] with included studies: Sagara 2018 (Sotuba, Mali), Sagara 2018 (Kolle, Mali), Tshefu 2010, Shin 
+7. Systematic review [224] with included studies: Sagara 2018 (Sotuba, Mali), Sagara 2018 (Kolle, Mali), Tshefu 2010, Shin 
 2011, Sagara 2018 (Mafrinyah, Guinea), Sagara 2018 (Bobo-Doiulasso, Burkina Faso), Rueangweerayut 2012, Sagara 2018 
 (Djoliba, Mali), Poravuth 2011, Sagara 2018 (Bougoula, Mali), Sagara 2018 (Bougoula, Mali), Nelwan 2015, Sagara 2018 
 (Ouagadougou, Burkina Faso), Sagara 2018 (Kolle, Mali), Sagara 2018 (Sotuba, Mali), Kayentao 2012. 
-9.  Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Djoliba, Mali), Sagara 2018 
+9. Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Djoliba, Mali), Sagara 2018 
 (Kolle, Mali), Sagara 2018 (Bobo-Doiulasso, Burkina Faso), Sagara 2018 (Sotuba, Mali), Sagara 2018 (Kolle, Mali), Sagara 
 2018 (Sotuba, Mali), Sagara 2018 (Bougoula, Mali), Sagara 2018 (Mafrinyah, Guinea), Sagara 2018 (Ouagadougou, Burkina 
 Faso). 
 10. Inconsistency: no serious. Indirectness: serious. The CI includes both no effect and clinically important effects.. 
 Imprecision: serious. 
-11.  Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Sotuba, Mali), Sagara 2018 
+11. Systematic review [224] with included studies: Sagara 2018 (Bougoula, Mali), Sagara 2018 (Sotuba, Mali), Sagara 2018 
 (Kolle, Mali), Sagara 2018 (Bobo-Doiulasso, Burkina Faso), Sagara 2018 (Mafrinyah, Guinea), Sagara 2018 (Djoliba, Mali), 
 Sagara 2018 (Bougoula, Mali), Sagara 2018 (Ouagadougou, Burkina Faso), Sagara 2018 (Kolle, Mali), Sagara 2018 (Sotuba, 
 Mali). 
@@ -35736,7 +35736,7 @@ WHO guidelines for malaria - 30 November 2024 - World Health Organization (WHO)
 References 
 224. Pryce J, Taylor M, Fox T, Hine P. Pyronaridine-artesunate for treating uncomplicated Plasmodium falciparum malaria. 
 Cochrane Database Syst Rev 2022;6(6) Pubmed Journal 
-13.  Systematic review [224] with included studies: Sagara 2018 (Sotuba, Mali), Sagara 2018 (Bougoula, Mali), Sagara 2018 
+13. Systematic review [224] with included studies: Sagara 2018 (Sotuba, Mali), Sagara 2018 (Bougoula, Mali), Sagara 2018 
 (Mafrinyah, Guinea), Sagara 2018 (Bobo-Doiulasso, Burkina Faso), Sagara 2018 (Kolle, Mali), Sagara 2018 (Djoliba, Mali), 
 Sagara 2018 (Ouagadougou, Burkina Faso), Sagara 2018 (Kolle, Mali), Sagara 2018 (Sotuba, Mali), Sagara 2018 (Bougoula, 
 Mali). 

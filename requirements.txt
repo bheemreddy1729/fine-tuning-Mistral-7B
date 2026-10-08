@@ -7,3 +7,5 @@ nbformat
 nbclient
 nbconvert
 hf_transfer  # pods set HF_HUB_ENABLE_HF_TRANSFER=1
+torch
+accelerate

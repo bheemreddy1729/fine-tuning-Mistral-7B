@@ -37,7 +37,7 @@ Kindly visit our web portal (stw.icmr.org.in) for more information.
 Research, Ministry of Health & Family Welfare, Government of India.
 
 <<<PAGE 7>>>
-•  INTRODUCTION
+• INTRODUCTION
 NEPHROLOGY
 ACUTE KIDNEY INJURY
 CHRONIC KIDNEY DISEASE 
@@ -74,7 +74,7 @@ DENGUE FEVER
 ACUTE DIARRHEA
 FEVER IN CHILDREN
 SEPSIS AND SEPTIC SHOCK IN CHILDREN
-SEVERE  ACUTE MALNUTRITION
+SEVERE ACUTE MALNUTRITION
 SEVERE PNEUMONIA IN CHILDREN
 OBG
 ANTENATAL MANAGEMENT
@@ -100,7 +100,7 @@ HEARING IMPAIRMENT IN PEDIATRIC AGE GROUP
 NECK SPACE INFECTION
 OTORRHOEA
 PHARYNGITIS AND SORE THROAT
-•  CONTRIBUTORS
+• CONTRIBUTORS
 Department of Health Research
 Ministry of Health and Family Welfare, Government of India
 
@@ -127,18 +127,18 @@ diseases studies
 Oxford Handbook
 • Review by Editorial Board 
 • Approval by Advisory 
-Committee  
+Committee 
 • Public Comments
-• 100 Meetings 650 hours  
+• 100 Meetings 650 hours 
 Consultations 
-  (5200 person hours)
+ (5200 person hours)
 • Participation also from 
 Public Health Specialists 
 Search Strategists 
 Clinical Scientists 
 TOPIC 
 PRIORITIZATION
-  DEVELOP STWS & 
+ DEVELOP STWS & 
 CONVERT THEM 
 INTO 
 INFOGRAPHICS
@@ -231,7 +231,7 @@ SUSPECT ?
 SYMPTOMS
 - Rapid rate palpitations with or without 
 • General fatigue or weakness or
-  exhaustion
+ exhaustion
 • Dizziness, near syncope or syncope
 • Shortness of breath
 • Chest pain
@@ -314,8 +314,8 @@ instability
 Beta blocker or calcium blocker or 
 combination
 BB + digoxin in HF
-   Pharmacological Cardioversion
-   Long Term Rhythm Control
+ Pharmacological Cardioversion
+ Long Term Rhythm Control
 Rate aim to be less than 110/ min
 Hemodynamic instability
 Uncontrolled symptoms despite HR 
@@ -343,7 +343,7 @@ Abnormal LVH
 Amiodarone
 CHF
 Normal Heart
-   CAD, LVH
+ CAD, LVH
 Amiodarone
 Flecainide
 Propafenone
@@ -354,7 +354,7 @@ Flecainide
 Ibutilide
 Propafenone
 Pill in pocket
-(Flecainide OR  
+(Flecainide OR 
 Propafenone)
 Normal Heart
 Yes
@@ -395,7 +395,7 @@ MANAGEMENT ALGORITHM
 MANAGEMENT
 INVESTIGATIONS
 Sign/ symptoms suugestive of AF
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 • Re-assess clinical status, adequacy of AC 
 • Consider need of NOAC 
 • Optimise management of underlying cardiac disease 
@@ -437,7 +437,7 @@ BASIC EVALUATION
 • Drowsiness/ impaired 
 consciousness
 • BP, heart rate
-  Patient presenting to PHC/CHC:
+ Patient presenting to PHC/CHC:
 • 12-lead ECG
 • Blood urea, serum creatinine
 • Electrolytes
@@ -458,16 +458,16 @@ intracranial event)
 - Sinus node disease with pauses >3 s long
  
 - Bradycardia (HR < 50 bpm)
-               (with or without hyperkalemia, serum K > 5 mEq/L) 
+ (with or without hyperkalemia, serum K > 5 mEq/L) 
  1. TREATMENT OF ASSOCIATED CONDITIONS 
-        - Hyperkalemia  
-        - Suspected drug (BB or CCB) overdose: 
-         i. Withhold the drug
-       ii. iv insulin (1 U/kg bolus followed by 0.5 U/kg/h)  with glucose monitoring(or) iv
-          glucagon if available
+ - Hyperkalemia 
+ - Suspected drug (BB or CCB) overdose: 
+ i. Withhold the drug
+ ii. iv insulin (1 U/kg bolus followed by 0.5 U/kg/h) with glucose monitoring(or) iv
+ glucagon if available
 2. TEMPORARY PACEMAKER INSERTION 
-        (iv dopamine or adrenaline may be given till the  time TPI can be placed)
-  Findings on 12-lead ECG
+ (iv dopamine or adrenaline may be given till the time TPI can be placed)
+ Findings on 12-lead ECG
 • Atrioventricular block
 • Sinus node dysfunction
 • Other conduction disorders with 1:1 AV 
@@ -480,7 +480,7 @@ INDICATIONS FOR PERMANENT PACING
 - Renal dysfunction, hyperkalemia
 - Drug toxicity (BB, CCB, clonidine, Lithium)
 - Sleep apnea (clinical scoring systems such as Epworth
-      Sleepiness Scale may be used for initial assessment)
+ Sleepiness Scale may be used for initial assessment)
 2. Transthoracic echocardiography
 AV NODAL DISEASE
 • Complete heart block, advanced AV block, 
@@ -500,33 +500,33 @@ CONDUCTION
 • Others (alternating BBB, inﬁltrative/ neuromuscular 
 disease)
 1. Advanced imaging (cMRI) may be needed if inﬁltrative disease 
-    is suspected
+ is suspected
 2. Ambulatory ECG may be needed
  
 - In patients with ﬁrst or second degree AV block for 
-               symptom correlation
+ symptom correlation
  
 - In patients with suspected sinus node disease for 
-               detection of pauses and symptom correlation
+ detection of pauses and symptom correlation
  
 - In symptomatic patients with LBBB or bifascicular block
 3. Implantable Loop Recorder and EPS (consult published society 
 guidelines)
-  ADDITIONAL TESTING 
+ ADDITIONAL TESTING 
 1. SND with intact AV conduction 
  
 - Atrial-based single or dual chamber pacing
  
 - VVI pacing is reasonable if symptoms are 
-                infrequent 
+ infrequent 
 2. AV node disease
  
 - VVI/Dual chamber pacing in patients with 
-                LVEF >50%
+ LVEF >50%
  
 - CRT (or HBP) in patients with LVEF 
-               36-50% and requiring ventricular pacing  
-               >40% of the time
+ 36-50% and requiring ventricular pacing 
+ >40% of the time
 - CRT (or HBP) if LVD <35%
 RECOMMENDED PACING MODES
 Breathlessness/ chest pain on 
@@ -543,12 +543,12 @@ ECG: THIRD DEGREE HEART BLOCK
 
 <<<PAGE 12>>>
 SPIRONOLACTONE
-  • Dose 25-50 mg once daily PO
-  • Keep watch on serum potassium and creatinine 
+ • Dose 25-50 mg once daily PO
+ • Keep watch on serum potassium and creatinine 
 every 2-4 weekly
 ENALAPRIL
 • Dose 2.5 to 10 mg twice daily PO
-• Start with low dose with BP  >100 
+• Start with low dose with BP >100 
 mmHg, normal electrolyte and 
 creatinine less than 2.5 mg/dl
 • Uptitrate dose 1-2 weekly till maximum 
@@ -557,10 +557,10 @@ tolerable dose
 before every increment and on 
 follow-up
 FUROSEMIDE
-  • Dose 20-80 mg daily PO
-  • Intravenous 10-40 mg SOS in acute stage
-  • Change to oral when symptoms subside
-  • Monitor serum electrolytes, creatinine and uric acid
+ • Dose 20-80 mg daily PO
+ • Intravenous 10-40 mg SOS in acute stage
+ • Change to oral when symptoms subside
+ • Monitor serum electrolytes, creatinine and uric acid
  on therapy
 CARVEDILOL
 • Dose 3.125 to 25 mg twice daily PO
@@ -579,7 +579,7 @@ Developed with the special contribution of the Heart Failure Association (HFA) o
 3. Chronic heart failure in adults: diagnosis and management. NICE guideline [NG106] Published date: September 2018 
 4. 2013 ACCF/AHA Guideline for the Management of Heart Failure. A Report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines. Yancy CW, Jessup M, 
 Bozkurt B. J Am Coll Cardiol. 2013;62-16: e150-e210
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 BASIC INVESTIGATIONS
 • Hemogram, ESR 
 • Blood sugar
@@ -608,26 +608,26 @@ REFER IF FOLLOWING:
 • Respiratory rate > 30/min or cyanosis
 • Oliguria
 • Altered sensorium
-  MANAGEMENT AT DISTRICT HOSPITAL
+ MANAGEMENT AT DISTRICT HOSPITAL
 • Admit and re-assess 
 • Optimise therapy with furosemide/ enalapril/ 
-  spironolactone/ O2 and stabilize
+ spironolactone/ O2 and stabilize
 • Consider non-invasive ventilation if marked respiratory 
 distress and O2 saturation < 90%
-• Echocardiography:  conﬁrm diagnosis of HFrEF: LV 
-  ejection fraction < 35%
+• Echocardiography: conﬁrm diagnosis of HFrEF: LV 
+ ejection fraction < 35%
 • Search for etiological diagnosis 
 • Consider carvedilol after decongestion
 • Refer back to CHC/ PHC after stabilization
 REFER TO
 COMMUNITY
 HEALTH CENTRE
-   KEEP WATCHING
+ KEEP WATCHING
 1. Respiratory distress 
-    and oxygen saturation
+ and oxygen saturation
 2. BP and heart rate
 3. Electrolytes and renal 
-    parameters
+ parameters
 REFER TO TERTIARY CARE IF
 • CHF uncontrolled, 
 • Unstable hemodynamics
@@ -642,20 +642,20 @@ MANAGEMENT AT TERTIARY HOSPITAL
 (EF 35%) vs HFpEF (EF 35-50%) 
 3. Optimize therapy with furosemide, enalapril, carvedilol, 
 spironolactone and O2 
-4. Consider  ARNI and ivabradine
+4. Consider ARNI and ivabradine
 5. Pneumococcal and inﬂuenza vaccines
 6. Investigate for etiology and manage
 7. Consider non-pharmacological invasive therapy
  
-a. ICD:  In selected patients (Ref Arrhythmia STW) 
+a. ICD: In selected patients (Ref Arrhythmia STW) 
  
-b. BiV:  Consider in NYHA class II/ III Symptomatic patient , 
-                   EF <35%, QRS >150msec in sinus rhythm with LBBB 
-                   morphology and optimal medical therapy of  >3 months
+b. BiV: Consider in NYHA class II/ III Symptomatic patient , 
+ EF <35%, QRS >150msec in sinus rhythm with LBBB 
+ morphology and optimal medical therapy of >3 months
 8. Etiology based Interventions
-               a. PCI
-               b. Valve replacement
-               c. CABG
+ a. PCI
+ b. Valve replacement
+ c. CABG
 MANAGEMENT AT PHC
 REFER TO A
 DISTRICT
@@ -716,7 +716,7 @@ SYMPTOMS
 6. H/o CHF/ MI
 1. Tachypnoea
 2. Tachycardia or irregular 
-    pulse
+ pulse
 3. Basal crepitations
 4. Cardiomegaly 
 5. Presence of murmurs
@@ -734,7 +734,7 @@ HFrEF: Heart Failure with reduced Ejection Fraction
 HFpEF: Heart Failure with preserved Ejection Fraction
 STEMI: ST elevation Myocardial Infarction
 LV: Left Ventricle
-COPD: Chronic  Obstructive Pulmonary Disease
+COPD: Chronic Obstructive Pulmonary Disease
  OPTIONAL INVESTIGATION
 • Prolonged ECG monitoring
 • Coronary angiography
@@ -816,12 +816,12 @@ relieved by rest or NTG in 1-2 min
 ACUTE CORONARY SYNDROME
 • Angina at rest or lasting more than 20 minutes
 • Recent worsening of stable angina (crescendo) to 
-   CCS class III    
+ CCS class III 
 • New onset effort angina of less than 1 month in 
-   CCS class II/ III 
+ CCS class II/ III 
 • Post infarction angina
 For management: refer to STEMI/ NSTEMI STW
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES : STRENGTHEN SECONDARY PREVENTION WITH STATINS, BB & ACE-I
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES : STRENGTHEN SECONDARY PREVENTION WITH STATINS, BB & ACE-I
 ESSENTIAL INVESTIGATIONS
 1. Hemogram
 2. Urea, Creatinine, Electrolytes
@@ -870,7 +870,7 @@ MANAGEMENT AT PHC/ CHC
 LEVEL
 1. Control angina : 
 Metoprolol
-    Add nitrates if symptoms 
+ Add nitrates if symptoms 
 not controlled
 2. ECG for Q waves, ST - T 
 changes, BBB or chamber 
@@ -884,10 +884,10 @@ MANAGEMENT AT DISTRICT HOSPITAL LEVEL
 2. Echocardiography for LV function or structural heart 
 disease
 3. Risk stratify by exercise treadmill test in low, intermediate 
-or  high risk (DUKE risk score) for cardio-vascular events , if 
+or high risk (DUKE risk score) for cardio-vascular events , if 
 patient is ambulatory and ECG is interpretable
 4. Refer to tertiary centres if:
-•  Angina uncontrolled on optimal medical therapy
+• Angina uncontrolled on optimal medical therapy
 • Echo reveals abnormality
 • Non-ambulatory patient or un-interpretable ECG
 • High risk on exercise stress test for possible 
@@ -895,14 +895,14 @@ re-vascularization
 MANAGEMENT AT TERTIARY LEVEL
 1. Reassess and optimise drug therapy: If 
 uncontrolled choose from trimetazidine, 
-nicorandil ranolazine and ivabid  
+nicorandil ranolazine and ivabid 
 2. Risk stratify with exercise treadmill test if not 
 already done
 3. Stress imaging if following:
 • Non ambulatory patient
 • Abnormal or uninterpretable baseline 
 ECG
-• Exercise  treadmill test result is 
+• Exercise treadmill test result is 
 equivocal 
 • Compromised LV function
 MANAGEMENT
@@ -911,16 +911,16 @@ PATIENT PRESENTING
 WITH CHEST PAIN 
 STABLE ANGINA: GENERAL MANAGEMENT
 1. Manage factors potentaiting angina 
--  Anemia, Thyrotoxicosis, Pregnancy, febrille illness
--  Hypertension, Ventricular hypertrophy, CHF
--  Tachy or brady-arrhythmia
--  Drugs : bronchodilators, steroids
+- Anemia, Thyrotoxicosis, Pregnancy, febrille illness
+- Hypertension, Ventricular hypertrophy, CHF
+- Tachy or brady-arrhythmia
+- Drugs : bronchodilators, steroids
 2. Risk factor control
 3. Other atherosclerotic CV disease : PVD, stroke
 4. Secondary prevention : Statins, BB, ACE-I
 RISK CATEGORY MANAGEMENT
 REVASCULARIZATION
-    Low/ Intermediate Risk 
+ Low/ Intermediate Risk 
 Group
 1. Optimal anti-anginal therapy
 2. Follow up 3-6 monthly at 
@@ -932,10 +932,10 @@ High Risk Group
 1. Discuss pros and cons of possible 
 revascularization and dual anti-platelet therapy 
 2. Angiography, if any of following
- -  Angina not controlled on optimal medical 
+ - Angina not controlled on optimal medical 
 therapy
--  High risk on non-invasive testing
--  Cardiac arrest survivor or documented VT
+- High risk on non-invasive testing
+- Cardiac arrest survivor or documented VT
 1. Revascularize if anatomy is suitable
 2. Prefer CABG over PCI in DM with 
 multivessel disease or left main disease
@@ -957,13 +957,13 @@ A. Very high:
 -Uncontrolled Ventricular arrhythmia
  
 -Severe MR
-B.    High Risk:
+B. High Risk:
  
 -GRACE score > 140 or TIMI score >4
-C.   Intermediate Risk:
+C. Intermediate Risk:
  
 -GRACE score 109-140 or TIMI score 2-3
-D.   Low Risk:
+D. Low Risk:
  
 -Grace score <108 or TIMI score 0-1
 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. These broad guidelines are advisory, and are 
@@ -977,7 +977,7 @@ October/ 2019
 <<<PAGE 14>>>
 GENERAL MEASURES
 1. Admit in ICU equipped with continuous ECG monitoring & deﬁbrillation
-2. Routine bio-chemistry and serial cardiac  enzymes (troponin)
+2. Routine bio-chemistry and serial cardiac enzymes (troponin)
 3. Pain relief by opioid
 4. O2 if saturation less than 90%
 5. Aspirin 325 mg, Clopidogrel 300 mg and Atorvastatin 80 mg
@@ -1013,13 +1013,13 @@ changes
 Life threatening 
 ventricular
  arrhythmias
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 Previous intra-
 cerebral 
 hemorrhage or stroke of 
 unknown 
 etiology
-  Ischemic stroke 
+ Ischemic stroke 
 in last 6 
 months
 CNS neoplasm or 
@@ -1073,21 +1073,21 @@ infusion to maintain APTT at
 50-70 sec
 2. Enoxaparin: 1 mg/Kg SC 12 hrly
 Thrombolyic Therapy:
-  Tenecteplase 
-   35 mg IV bolus if  60-70 Kg
-   40 mg IV bolus if 70-80 Kg
-   45 mg IV bolus if  more than 
+ Tenecteplase 
+ 35 mg IV bolus if 60-70 Kg
+ 40 mg IV bolus if 70-80 Kg
+ 45 mg IV bolus if more than 
 80 Kg
-  Reteplase
-   10 mg IV bolus, repeat after 30 
+ Reteplase
+ 10 mg IV bolus, repeat after 30 
 min
-  Alteplase
-   15 mg IV bolus followed by 
+ Alteplase
+ 15 mg IV bolus followed by 
 0.75 mg/Kg over 30 min upto 
 50 Kg weight, then 0.5 mg/Kg 
 over 60 min up to 35 mg
-  Streptokinase 
-   1.5 million units IV over 60 min
+ Streptokinase 
+ 1.5 million units IV over 60 min
 DRUGS & DOSAGE
 ABSOLUTE CONTRA-INDICATIONS TO THROMBOLYIC THERAPY:
 Primary-PCI
@@ -1138,7 +1138,7 @@ ACUTE CORONARY SYNDROME:
  
  1. Angina at rest or lasting more than 20 minutes
 2. Recent worsening of stable angina (crescendo) to CCS 
-class III    
+class III 
 3. New onset effort angina of less than 1 month in CCS class II/ 
 III 
 4. Post infarction angina
@@ -1155,50 +1155,50 @@ fatigue or breathlessness or profuse
 sweating or epigastric discomfort/ syncope
 More likelihood if known patient of CAD/ 
 multiple risk factors
-  Variable 
+ Variable 
 location or 
 characteristic
-  Long lasting (hours to 
+ Long lasting (hours to 
 days) or short lasting 
 (less than a minute)
-  Restricted to areas 
+ Restricted to areas 
 above jaw or 
 below epigatrium
-  Localized 
+ Localized 
 to a point
-  Precipitated by movement 
+ Precipitated by movement 
 of neck or arms or 
 respiration
 ANGINA UNLIKELY IF:
-   Pricking or piercing 
+ Pricking or piercing 
 or stabbing type of 
 pain 
 Pleuritis/ Pneumonitis/ embolism/ pneumothorax
 Pericardial rub
 Neuralgia or herpes
 ECG REVEALS ST ELEVATION MI*
-Refer to primary angioplasty/    
+Refer to primary angioplasty/ 
 thrombolysis capable hospital
 *Includes new onset LBBB
 Respiratory evaluation
 Unequal or absent peripheral pulses
  Dissection of Aorta
-LOOK  FOR OTHER 
+LOOK FOR OTHER 
 CAUSES OF CHEST 
 PAIN (ONGOING OR 
 WITHIN 12 HRS)
 POST THROMBOLYSIS
 1. ECG to be done at 60-90 min after starting thrombolysis to assess whether thrombolysis 
-    is successful ( >50% ST settlement with pain relief) or not
+ is successful ( >50% ST settlement with pain relief) or not
 2. If successful, transfer patient for PCI within 3-24 hours
 3. If thrombolysis failed, transfer patient immediately for PCI capable hospital
 4. Enoxaparin (preferred over unfractionated heparin) to be continued till PCI OR discharge
 THROMBOLYSE
 1. Within 12 hours of symptom onset, if no contra-indication
-2. Preferably with ﬁbrin speciﬁc agent Tenecteplase/ TPA/ Reteplase or Streptokinase,    
-     if ﬁbrin-speciﬁc are unavailable 
+2. Preferably with ﬁbrin speciﬁc agent Tenecteplase/ TPA/ Reteplase or Streptokinase, 
+ if ﬁbrin-speciﬁc are unavailable 
 3. Therapy to be started within 10 min preferably
-B.  If Transfer to PCI capable hospital not feasible
+B. If Transfer to PCI capable hospital not feasible
 Department of Health Research
 Ministry of Health and Family Welfare, Government of India
 October/ 2019
@@ -1214,34 +1214,34 @@ ICD-10-I20.0
 ACUTE CORONARY SYNDROME: 
 1.Angina at rest or lasting more than 20 minutes
 2.Recent worsening of stable angina (crescendo) to 
-CCS class III    
+CCS class III 
 3.New onset effort angina of less than 1 month in 
 CCS class II/ III 
 4.Post infarction angina
-ECG:   
-- If ST Elevation: Follow ST Elevation MI (STEMI)  
+ECG: 
+- If ST Elevation: Follow ST Elevation MI (STEMI) 
 STW
 - If no ST Elavation: UA/NSTEMI
 MANAGEMENT
 PHC/ CHC LEVEL
 1, ECG, Troponin.
 2. Start 
-    -Aspirin, Clopidogrel
-    -Heparin/ LMWH
-    -High dose atorvastatin
-    -Metoprolol
+ -Aspirin, Clopidogrel
+ -Heparin/ LMWH
+ -High dose atorvastatin
+ -Metoprolol
 3. Risk stratify GRACE score or 
 TIMI score 
-   - Refer High/ Intermediate  risk 
+ - Refer High/ Intermediate risk 
 to
-     PCI capable centre
-   - Refer Low risk for further
-     evaluation to DH
+ PCI capable centre
+ - Refer Low risk for further
+ evaluation to DH
 4. Refer to PCI capable centre if:
-   - Acute LVF
-   - Hypotension
-   - Systolic murmur
-   - Arrythmia
+ - Acute LVF
+ - Hypotension
+ - Systolic murmur
+ - Arrythmia
 DISTRICT HOSPITAL
 1.Admit in ICU equipped with 
 ECG monitoring and 
@@ -1256,15 +1256,15 @@ Metoprolol
 5.Add nitrates if needed
 6.Management for different 
 risk categories:
-    -Very high,High or 
+ -Very high,High or 
 Intermediate risk
-     or LVEF <40%: Refer for
-     revascularization
-    -Low risk patients: 
-     Conservative management
-     Life style modiﬁcation
-     Risk factor control
-     Secondary prevention
+ or LVEF <40%: Refer for
+ revascularization
+ -Low risk patients: 
+ Conservative management
+ Life style modiﬁcation
+ Risk factor control
+ Secondary prevention
 TERTIARY CENTRE
 1. Admit, reassess clinically and monitor in ICCU
 2. Continue aspirin and heparin 
@@ -1273,7 +1273,7 @@ TERTIARY CENTRE
 intra-venous nitrates if ongoing pain, severe MR or LVF)
 5. Detailed echocardiography 
 6. Low risk patients may undergo non-invasive risk stratiﬁcation with exercise stress 
-test, CT coronary angiography or stress  imaging
+test, CT coronary angiography or stress imaging
 7. Very high risk, high risk and intermediate risk patients may be subjected to 
 coronary revascularization 
 Revascularization:
@@ -1287,14 +1287,14 @@ with Ticagrelor or prasugrel if PCI is planned
 3. Intermeditae risk patients: Revascularization (within 72 hours)
 4. Continue Dual anti-platelets in patients undergoing PCI for atleast 12 months in 
 DES and for 3 months in BMS 
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURE
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURE
 CONSIDER ANGINA IF
 • Diffuse retrosternal pain, heaviness or 
 constriction. Radiation to arms or neck or back
 • Associated with sweating
 • Easily reproduced with post-meal exertion
 • Consider atypical presentation: Exertional 
-fatigue or breathlessness or profuse sweating  
+fatigue or breathlessness or profuse sweating 
 or epigastric discomfort
 More likelihood if known patient of CAD/ multiple 
 risk factors
@@ -1312,7 +1312,7 @@ rub
 Neuralgia or 
 herpes
 2. TIMI SCORE:
-    One point for each of following
+ One point for each of following
 1. Age >65 yrs
 2. More than 3 risk factors
 3. Known CAD (>50% lesion)
@@ -1484,22 +1484,22 @@ High risk: same-day transfer
 Intermediate risk: transfer for PCI withing 72 h
 Low risk: transfer if pursuing invasive 
 treatment
-  Variable 
+ Variable 
 location or 
 characteristic
-  Long lasting (hours to 
+ Long lasting (hours to 
 days) or short lasting 
 (less than a minute)
-  Restricted to areas 
+ Restricted to areas 
 above jaw or 
 below epigatrium
-  Localized 
+ Localized 
 to a point
-  Precipitated by 
+ Precipitated by 
 movement of neck or 
 arms or respiration
 ANGINA UNLIKELY IF:
-       UA/NSTEMI: RISK CATEGORIZATION:
+ UA/NSTEMI: RISK CATEGORIZATION:
 Based on clinical features, GRACE score & TIMI score
 A).Very high risk: 
  
@@ -1510,16 +1510,16 @@ A).Very high risk:
 -Uncontrolled Ventricular arrhythmia
  
 -Severe MR
-B.    High Risk:
+B. High Risk:
  
 -GRACE score > 140 or TIMI score >4
-C.   Intermediate Risk:
+C. Intermediate Risk:
  
 -GRACE score 109-140 or TIMI score 2-3
-D.   Low Risk:
+D. Low Risk:
  
 -Grace score <108 or TIMI score 0-1
-       UA/NSTEMI: RISK CATEGORY MANAGEMENT:
+ UA/NSTEMI: RISK CATEGORY MANAGEMENT:
 A)Low risk: 
 1.Conservative management: Aspirin, clopidogrel, BB 
 and statin
@@ -1529,11 +1529,11 @@ stratify
 -Recurrent pain
 -Hemodynamic deterioration
 -New ECG change 
-                                     
+ 
 B. Intermediate/ Very High/ High risk: Re-vascularization
 OPTIONAL INVESTIGATIONS
 1. Stress Radionuclide/ 
-echocardiographic  
+echocardiographic 
 imaging
 2. CT scan including 
 coronary angiography
@@ -1542,17 +1542,17 @@ coronary angiography
 Reserve
 5. Intra-vascular Ultrasound
 6. VQ scan
-   Pricking or piercing 
+ Pricking or piercing 
 or stabbing type of 
 pain 
-   RED FLAG 
+ RED FLAG 
 SIGNS
 • Pain lasting for more than 20 minutes
 • Recurrent or ongoing pain or rest pain
 • Associated breathlessness, profuse sweating or syncope
 • Hemodynamic instability
-   Refer as emergency to nearest Primary PCI/Thrombolysis capable centre
-   Rest pain beyond 24hrs or without  above features may be referred early for further evaluation
+ Refer as emergency to nearest Primary PCI/Thrombolysis capable centre
+ Rest pain beyond 24hrs or without above features may be referred early for further evaluation
 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. These broad guidelines are advisory, and are 
 based on expert opinions and available scientiﬁc evidence. There may be variations in the management of an individual patient based on his/her speciﬁc condition, as decided by the 
 treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information.
@@ -1565,7 +1565,7 @@ October/ 2019
 Standard Treatment Workﬂow (STW) for the Management of
 ACUTE RHINOSINUSITIS
 ICD 10 J01.90 
-   CLINICAL EXAMINATION 
+ CLINICAL EXAMINATION 
 INDICATIONS OF PARENTERAL 
 ANTIBIOTIC THERAPY
 ∙ Orbital/ intracranial 
@@ -1583,27 +1583,27 @@ DESIRABLE
 ∙ Nasal endoscopy
 RED FLAGS FOR REFERRAL TO DISTRICT HOSPITAL
 ∙ Known diabetic/ immunocompromised 
-∙ Suspicion of complications viz. (A) Orbital involvement  (Periorbital edema/ erythema, displaced globe,
-  ophthalmoplegia, visual disturbance); (B) Meningitis/ altered sensorium; (C) Frontal fullness.
+∙ Suspicion of complications viz. (A) Orbital involvement (Periorbital edema/ erythema, displaced globe,
+ ophthalmoplegia, visual disturbance); (B) Meningitis/ altered sensorium; (C) Frontal fullness.
 ∙ Non-resolution with oral antibiotics for ten days
 ∙ Pointers of invasive fungal sinusitis (Facial hypoesthesia, facial skin/palatal/turbinate discoloration)
 LABORATORY INVESTIGATIONS 
 Desirable in non-resolving/worsening cases despite antibiotic 
 therapy
-  
+ 
 ∙ Endoscopy- for guided nasal swabs/ KOH smear 
 ∙ CT PNS (for suspected complications / non-resolving cases on 
 antibiotics for 14 days)
 ∙ Screen for Diabetes / Immunodeﬁciency
-MANAGEMENT  
+MANAGEMENT 
 PHC / PRIMARY LEVEL
 Duration of treatment 7-14 days
-∙ Oral antibiotics- Amoxycillin/ Co-amoxyclav for 7-10 days. Levoﬂoxacin and Azithromycin can be  
-  opted for patients intolerant/ sensitive to penicillins.
-∙ Topical budesonide/ mometasone nasal spray once/twice a day for 2 weeks provides earlier  
-  symptomatic relief.
+∙ Oral antibiotics- Amoxycillin/ Co-amoxyclav for 7-10 days. Levoﬂoxacin and Azithromycin can be 
+ opted for patients intolerant/ sensitive to penicillins.
+∙ Topical budesonide/ mometasone nasal spray once/twice a day for 2 weeks provides earlier 
+ symptomatic relief.
 ∙ Normal saline nasal washes help in clearing secretions and improved effect of topical 
-  medications
+ medications
 ∙ Topical/ oral decongestant (Oxymetazline/ pseudoephedrine) for 3-5 days relieves symptoms.
 ∙ Adequate hydration and steam inhation.
 ∙ Antihistaminics (patients with co-existing allergy).
@@ -1615,12 +1615,12 @@ sinusitis like- DNS/ adenoid hypertrophy/ anatomical variations seen on CT
 • Invasive fungal sinusitis- start antifungal medications, control underlying 
 immunocompromising co-morbidity and consider debridement.
 TERTIARY LEVEL
-   Cases of acute invasive fungal sinusitis/ 
+ Cases of acute invasive fungal sinusitis/ 
 complicated acute bacterial sinusitis 
 and patients with 
 immunocompromised status may be 
 referred for management. 
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 REFERENCES
 1. Indian Council of Medical Research. Treatment Guidelines for Antimicrobial Use in Common Syndromes. New Delhi, India, 2017.
  2. Fokkens W, Lund V, Mullol J, et al. EPOS 2012: European Position Paper on Rhinosinusitis and Nasal Polyps 2012. Rhinol 2012;50(Suppl 23):1-298.
@@ -1696,7 +1696,7 @@ to irritants/ pollutants
 (refer to hyperlink)
 • Allergic rhinitis, aspirin 
 sensitivity, asthma,
-  laryngopharyngeal 
+ laryngopharyngeal 
 reﬂux, smoking
 • Adenoid hypertrophy, 
 bottle feeding, passive 
@@ -1710,17 +1710,17 @@ psychotropic drugs,
 prolonged use of 
 topical nasal 
 decongestants)
-  AIT: Allergen Immuno Therapy  
+ AIT: Allergen Immuno Therapy 
 DNS: Deviated Nasal Septum
 REFERENCES
-• Fokkens W, Lund V, Mullol J, et al. EPOS 2012: European Position Paper on Rhinosinusitis and Nasal Polyps 2012. Rhinol 2012;50(Suppl 23):1-298.  
+• Fokkens W, Lund V, Mullol J, et al. EPOS 2012: European Position Paper on Rhinosinusitis and Nasal Polyps 2012. Rhinol 2012;50(Suppl 23):1-298. 
  
  
  
 • Cain RB, Lal D. Update on the management of chronic rhinosinusitis. Infect Drug Resist. 2013;6:1-14. 
 • Ah-See KL, MacKenzie JM, As-See KW. Management of chronicrhinosinusitis. BMJ. 2012;345:e7054. 
 • Slovick A, Long J, Hopkins C: Updates in the management of chronic rhinosinusitis. Clin Pract. 2014;11(6):649–63. 10.2217/cpr.14.71 
-  CT: Computerized Tomogram      
+ CT: Computerized Tomogram 
 ABBREVIATIONS
 HYPERLINK
 (https://www.dovemed.c
@@ -1741,9 +1741,9 @@ intracranial
 complications
 a. Fever with headache
 b. Neck stiffness 
-c.  Photophobia 
+c. Photophobia 
 d. Altered sensorium
-e.  Vomiting 
+e. Vomiting 
 Frontal 
 swelling 
 Known diabetic/ AIDS/
@@ -1756,7 +1756,7 @@ PRESENCE OF NASAL
 POLYPI, RULE OUT 
 ALLERGY/ALLERGIC 
 RHINITIS
-1.  Consider allergen 
+1. Consider allergen 
 avoidance
 2. Skin prick test
 3. Co-existing bronchial 
@@ -1836,7 +1836,7 @@ discouraged.
 Standard Treatment Workﬂow (STW) for the Management of
 EPISTAXIS
 ICD-10-R04.0
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 ESSENTIAL
 1. Hemoglobin level
 2. Coagulation proﬁle
@@ -1847,11 +1847,11 @@ obvious cause// suspected benign or
 malignant lesion
 INVESTIGATIONS
 FOLLOW UP SERVICES
-1. Continued nasal lubrication for 2 weeks with liquid  
+1. Continued nasal lubrication for 2 weeks with liquid 
 parafﬁn
 2. Repeat anterior rhinoscopy/ endoscopy to 
 know/conﬁm the cause of bleeding
-3. Oral hematinics to  be considered if needed
+3. Oral hematinics to be considered if needed
 CLINICAL 
 SCENARIOS
 Acute bleeding from the 
@@ -1918,7 +1918,7 @@ in 4% xylocaine with adrenaline may be used)
 7. H2blockers/ PPI to be given in case of blood aspiration to avoid gastritis
 8. Persisting bleeding despite nasal packing > consider arterial ligation (sphenopalatine / 
 anterior ethmoidal artery).
-9. Selective embolization  is an alternative to surgery
+9. Selective embolization is an alternative to surgery
 10. Address identiﬁed etiology, if any
 MANAGEMENT
 Trotter’s 
@@ -1940,16 +1940,16 @@ Standard Treatment Workﬂow (STW) for the
 Management of HEARING IMPAIRMENT IN 
 PEDIATRIC AGE GROUP (0 - 12 YEARS)
 ICD 10 H90.5
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 REFERENCES
 • Indian Council of Medical Research. Audiological evaluation protocols. Task force project on prevalence and etiology of hearing impairment, New Delhi. 2015 
  
  
 • Ramesh A, Jagdish C, Suman Rao PN et al. Low cost calibrated mechanical noisemaker for hearing screening in resource constrained settings. Indian Journal of Medical Research. 2012, 135: 170 - 176.
-•  Rathna.B.Shetty. Manual for training parents of hearing impaired children (Kannada : Kivudu makkalige kalisuva vidhana). Parents association of deaf children. Mysore. 
+• Rathna.B.Shetty. Manual for training parents of hearing impaired children (Kannada : Kivudu makkalige kalisuva vidhana). Parents association of deaf children. Mysore. 
  
  
-•  Chapal Mkhasnabis, Karen Heinicke Motsch (eds.) Towards community based inclusive development. World Health Organisation: 2010.  
+• Chapal Mkhasnabis, Karen Heinicke Motsch (eds.) Towards community based inclusive development. World Health Organisation: 2010. 
  
  
  
@@ -1968,10 +1968,10 @@ UNIVERSAL HEARING SCREENING FOR
 CONGENITAL DEAFNESS
 • Community based hearing screening:
 i. May be co-ordinated with 
-   immunization schedule
+ immunization schedule
 ii. By primary health care workers.
 iii. Using calibrated noisemakers/ 
-     toys
+ toys
 • All children who fail preliminary 
 screen to undergo detailed evaluation 
 at health care facility.
@@ -1989,8 +1989,8 @@ syndrome, FA) associated with HL.
 7. Head Trauma
 8. Recurrent/ persistent (>/=3 months) middle ear disease
 9. Chemo/ Radiotherapy to head and neck
-MANAGEMENT  
-DIVISION OF RESPONSIBILITIES  
+MANAGEMENT 
+DIVISION OF RESPONSIBILITIES 
 GUIDING PRINCIPLES
 PHC LEVEL
 • Suspect HL
@@ -2006,15 +2006,15 @@ DH LEVEL
 5. Training programme for parents of hearing impaired children
 to enhance pre-school language development
 TERTIARY LEVEL
-•  Surgical intervention options : Cochlear implant / BAHA (as per ADIP 
+• Surgical intervention options : Cochlear implant / BAHA (as per ADIP 
 guidelines)
-•  Interdisciplinary team based interventions in children with multiple 
+• Interdisciplinary team based interventions in children with multiple 
 disabilities.
 QUALITY ASSESSMENT PARAMETERS
-•  Short term: Quality of ampliﬁcation using 
+• Short term: Quality of ampliﬁcation using 
 electroacoustic objective measures and culturally 
 appropriate subjective questionnaire tools
-•  Long term (Desirable) : Use CBR matrix based 
+• Long term (Desirable) : Use CBR matrix based 
 measurement for ensuring holistic rehabilitation
 FOLLOW UP SERVICES
 1. Home visits by Health Worker/ASHA to ensure utilization of assistive devices and support parents to enhance language development.
@@ -2022,7 +2022,7 @@ FOLLOW UP SERVICES
 3. Home/ school visit by social worker for evaluation of social/ educational/ livelihood/ justice and empowerment domains of the child
 EVALUATION 
 ESSENTIAL
-1.  Clinical examination to look for ear canal deformities, tympanic membrane and 
+1. Clinical examination to look for ear canal deformities, tympanic membrane and 
 middle ear status by otoscopy/ otoendoscopy.
 2. Age appropriate audiological/ behavioral observation tests in a soundproof room by 
 audiologist/ ENT specialist.
@@ -2103,25 +2103,25 @@ MRI – Magnetic Resonance Imaging
 Rapidly progressive bacterial infections which spread along facial planes and spaces of head and neck region. They may be fatal unless 
 emergently treated. Most of these infections are secondary to dental infection.
 CLINICAL SCENARIOS
-    They usually present as 
-•  Ludwig’s angina 
+ They usually present as 
+• Ludwig’s angina 
 (submandibular space infection)
-•  Peritonsillar abscess
-•  Parapharyngeal abscess
-•  Retropharyngeal abscess
-   The typical presentation is with acute onset of pain and swelling in the neck with fever, 
+• Peritonsillar abscess
+• Parapharyngeal abscess
+• Retropharyngeal abscess
+ The typical presentation is with acute onset of pain and swelling in the neck with fever, 
 malaise, trismus and dysphagia.
-   Extension along spaces to involve multiple deep neck spaces is frequent and may 
+ Extension along spaces to involve multiple deep neck spaces is frequent and may 
 extend to parotid space, masticator space, temporal space, visceral vascular 
 (carotid) space. 
-   Cervical space infection may spread inferiorly to the anterior mediastinum and 
+ Cervical space infection may spread inferiorly to the anterior mediastinum and 
 posteriorly along prevertebral space. 
-   Tubercular cold abscess involves the same anatomical spaces but would not 
+ Tubercular cold abscess involves the same anatomical spaces but would not 
 display inﬂammatory signs or rapid progression.
-  SYSTEMIC ASSESSMENT 
+ SYSTEMIC ASSESSMENT 
 Screen for diabetes mellitus, HIV infection, agranulocytosis and immunosuppressive therapy or chemotherapy. 
 Signs of inﬂammation may be less marked and disease course may be more rapidly progressive in immunocompromised patients. 
-   CLINICAL EXAMINATION 
+ CLINICAL EXAMINATION 
 • Airway assessment to rule out stridor or respiratory compromise 
 • Look for signs of dehydration
 • Monitor temperature, heart rate, respiratory rate, BP, and signs 
@@ -2144,7 +2144,7 @@ or blisters suggest necrotizing ﬁbrofascitis.
 • Facial pufﬁness suggestive of venous 
 thrombosis
 • Mediastinal extension
- INVESTIGATIONS  
+ INVESTIGATIONS 
 ESSENTIAL INVESTIGATIONS
 1. Contrast enhanced CT scan of head and neck is the standard in evaluation of neck space infections. If CT Scan facility is not available, following 
 should be done:- 
@@ -2153,14 +2153,14 @@ suggestive of retropharyngeal abscess. It may also demonstrate foreign bodies, s
 b. Ultrasound neck can suggest abscess and guide aspiration attempts.
 2. Blood: Total and differential leukocyte count, blood sugar, urea 
 3. Abscess Cultures with Gram stain to direct antimicrobial therapy. Anaerobic culture, when available. 
-QUALITY ASSESSMENT PARAMETERS  
+QUALITY ASSESSMENT PARAMETERS 
 FOLLOW UP SERVICES 
 Complete resolution of infection and follow up to ensure no recurrence; 
 treatment of initial cause of infection in tooth or tonsil.
 Consider cold tonsillectomy for patients with history of multiple 
 episodes of tonsillar abscess
-MANAGEMENT  
- DISTRICT HOSPITAL   
+MANAGEMENT 
+ DISTRICT HOSPITAL 
 PHC/PRIMARY LEVEL
 1. Hospitalization: As an emergency for close watch and intensive 
 management.
@@ -2168,7 +2168,7 @@ management.
 airway compromise, consider securing the airway early. During acute 
 respiratory difﬁculty, tracheostomy should be done if intubation is 
 difﬁcult
-3. Correction of ﬂuid and electrolyte imbalance  
+3. Correction of ﬂuid and electrolyte imbalance 
 4. Antibiotics: Early and aggressive IV antibiotic therapy with a 
 combination of Crystalline Penicillin, Aminoglycoside and 
 Metronidazole or Clindamycin is preferred. 
@@ -2211,7 +2211,7 @@ October/ 2019
 Standard Treatment Workﬂow (STW) for the Management of
 OTORRHOEA
 ICD-10-H92.10
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 REFERENCES
 • Otitis media (acute): antimicrobial prescribing. NICE guideline. Published: 28 March 2018. nice.org.uk/guidance/ng91
 • Primary ear and hearing care training resource, Student’s workbook: intermediate level. Chronic disease prevention and management. WHO 2006
@@ -2224,7 +2224,7 @@ EAC: External Auditory Canal
 URI: Upper Respiratory Infection
 AOM: Acute Otitis Media
 CSOM: Chronic Suppurative Otitis Media 
-MANAGEMENT  
+MANAGEMENT 
 CLINICAL SCENARIOS 
 PHC / PRIMARY LEVEL
 • Acute otitis externa: Oral Ciproﬂoxacin/ Amoxycillin clavulanic acid combination for 7-10 days (2 weeks 
@@ -2234,13 +2234,13 @@ pus pointing furuncle to DH
 • Eczematous otitis externa: Ciproﬂoxacin ear drops with steroid combination.
 • AOM / Resolving AOM: Oral amoxicillin / Erythromycin / Clarithromycin for 10 days. With no response in 3 
 days start Amoxycillin clavulanic acid combination for 10 days. Refer to DH if no resolution
-• Inactive CSOM: Referral to DH for surgery.  
+• Inactive CSOM: Referral to DH for surgery. 
 • Active CSOM: Ciproﬂoxacin ear drops with dry mopping & referral to DH for surgery. A course of oral 
 antibiotics maybe prescribed in ase of persistant otorrhoea after topical antibiotics 
 • Traumatic perforation: Topical antibiotics for otorrhoea if any and maintain ear dry till healing complete 
 • In case of suspicion of complications start intravenous Amoxycillin clavulanic acid combination and refer to 
 DH
- DISTRICT HOSPITAL  
+ DISTRICT HOSPITAL 
 • Surgical interventions except 
 neurosurgical interventions (eg I&D, 
 tympanoplasty, mastoidectomy)
@@ -2259,7 +2259,7 @@ entry e.g ear-plugs during bathing
 • To ensure adequate immunization (measles/ H.Inﬂuenza/ Pneumococcus) in recurrent AOM and to adopt correct posture during 
 breastfeeding while avoiding bottle feeding
 • Pus culture sensitivity to guide antibiotic regime in recurrent/ complicated cases
-  Patient education to refrain from indigenous (oil/ hot water/ acid etc) ear treatments
+ Patient education to refrain from indigenous (oil/ hot water/ acid etc) ear treatments
 INVESTIGATIONS
 CLINICAL EXAMINATIONS
 RED FLAGS FOR REFERRAL TO DISTRICT LEVEL
@@ -2316,7 +2316,7 @@ conﬁrmation
 • Acute onset bloody discharge with neural deﬁcits/ neck nodes: 
 Neoplasia
 • Watery otorrhoea (may be associated with trauma) : CSF Otorrhoea
-  FIGURES 
+ FIGURES 
 1: Furunculosis
 2: Otomycosis
 3: Resolving AOM
@@ -2326,15 +2326,15 @@ perforation)
 5A: Unsafe CSOM (cholesteatoma)
 5B: Unsafe CSOM (granulation)
 6: Traumatic Perforation
-  Fig 1
-  Fig 2
-  Fig 3
-  Fig 5A
-  Fig 5B
-  Fig 4A
-  Fig 4B
-  Fig 6
-   ABBREVIATIONS
+ Fig 1
+ Fig 2
+ Fig 3
+ Fig 5A
+ Fig 5B
+ Fig 4A
+ Fig 4B
+ Fig 6
+ ABBREVIATIONS
 Department of Health Research
 Ministry of Health and Family Welfare, Government of India
 October/ 2019
@@ -2347,10 +2347,10 @@ treating physician. There will be no indemnity for direct or indirect consequenc
 Standard Treatment Workﬂow (STW) for the Management of
 PHARYNGITIS AND SORE THROAT
 ICD-10-J02
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 REFERENCES
-    Cochrane Database Syst Rev. 21. CD004872.
-                                          
+ Cochrane Database Syst Rev. 21. CD004872.
+ 
 ABBREVIATIONS
 GABHS: Group A Beta Hemolyticus Streptococcus
 GERD: Gastro Esophageal Reﬂux Disease
@@ -2365,31 +2365,31 @@ varying from simple
 viral pharyngitis to 
 dreaded neck space 
 infection.
-   Acute onset of throat pain with or without – Fever, tonsillo-pharyngeal exudates, odynophagia 
+ Acute onset of throat pain with or without – Fever, tonsillo-pharyngeal exudates, odynophagia 
 and tender cervical lymphadenopathy is typically seen in bacterial pharyngitis. 
 Streptococcal (GABHS) pharyngitis is the commonest cause of bacterial pharyngitis
-   Rhinitis, conjunctivitis, skin or mucosal rashes point towards a viral etiology. 
+ Rhinitis, conjunctivitis, skin or mucosal rashes point towards a viral etiology. 
 Pharyngitis and sore throat may be the initial symptoms in epidemics of ﬂu
 Sore throat followed by high grade fever, cough, drooling, lymphadenopathy, 
 breathing difﬁculty suggest Epiglottitis or Laryngotracheobronchitis, 
 especially in pediatric patients 
-   An adherent membrane extending beyond the tonsillar conﬁnes with 
+ An adherent membrane extending beyond the tonsillar conﬁnes with 
 toxaemia suggests Diphtheria
-   Pharyngitis with generalized lymphadenopathy is consistent with Infectious 
+ Pharyngitis with generalized lymphadenopathy is consistent with Infectious 
 Mononucleosis (IM)
-   CLINICAL EXAMINATION 
- INVESTIGATIONS  
-MANAGEMENT  
+ CLINICAL EXAMINATION 
+ INVESTIGATIONS 
+MANAGEMENT 
 FOLLOW UP SERVICES 
-  DESIRABLE 
-  Lab tests to rule out EB Virus, Coxsackie virus, 
+ DESIRABLE 
+ Lab tests to rule out EB Virus, Coxsackie virus, 
 Herpes virus, fungal or Gonococcal pharyngitis
-  ESSENTIAL 
+ ESSENTIAL 
  Throat swab for culture, routine hemogram including 
 total and differential leukocyte counts and peripheral 
 smear to look for atypical lymphocytes (seen in IM).
-  OPTIONAL
-  GABHS rapid antigen detection test (RADT)
+ OPTIONAL
+ GABHS rapid antigen detection test (RADT)
 PHC / PRIMARY LEVEL
 1. Assess the patient for signs of toxicity, epiglottitis or oropharyngeal abscess
 2. Ensure vitals/ hydration of the patient
@@ -2401,8 +2401,8 @@ b. Patients with Centor score of 2&3 to be treated with antibiotics only if anti
 c. Patients with Centor score of only 1 not to be treated with antibiotics
 d. Amoxicillin (50 mg/kg/d in 2-3 doses orally) for 10 days is the ﬁrst choice for GABHS infection. For patients who are 
 sensitive for penicillin group, Erythromycin or Azithromycin is the antibiotic of choice
-6. Parenteral antibiotics (Ceftriaxone/ cefotaxime) and steroids are to be started when the airway is compromised due to suspected  
-     epiglottis/ Croup. 
+6. Parenteral antibiotics (Ceftriaxone/ cefotaxime) and steroids are to be started when the airway is compromised due to suspected 
+ epiglottis/ Croup. 
  DISTRICT HOSPITAL
 Management of 
 complication 
@@ -2428,7 +2428,7 @@ enlargement
 • Tonsillar 
 membrane going 
 beyond its 
-   conﬁnes 
+ conﬁnes 
 • Agranulocyosis
 • Epidemic of ﬂu 
 PRELIMINARY 
@@ -2449,11 +2449,11 @@ and
 ascertain 
 its 
 score
-  Score = 0-1
-  Score = 4
-  Score = 2-3
-  Absence of cough
-  Tonsillar exudate
+ Score = 0-1
+ Score = 4
+ Score = 2-3
+ Absence of cough
+ Tonsillar exudate
  Anterior cervical 
 lymphadenopathy
 1
@@ -2470,7 +2470,7 @@ LIKELY TO HAVE
 GABHS
 REQUIRE LAB TESTS TO 
 CONFIRM GABHS INFECTION 
-  Smoking and GERD are common causes of non-infective pharyngitis
+ Smoking and GERD are common causes of non-infective pharyngitis
 Department of Health Research
 Ministry of Health and Family Welfare, Government of India
 October/ 2019
@@ -2568,7 +2568,7 @@ oxygen
 • Timely referral after stabilisation
 RED FLAGS FOR URGENT
 REFERRAL
-• Indications for dialysis    
+• Indications for dialysis 
 • Unexplained AKI
 • Involvement of other organs
 • Sepsis
@@ -2622,7 +2622,7 @@ and pulmonary oedema
 genetic tests)
 • Kidney biopsy
 • Dialysis (PD or HD)
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 MANAGEMENT
 ABBREVIATIONS
 AKI: Acute Kidney Injury
@@ -2662,7 +2662,7 @@ VITAMIN D THERAPY
 • Supplement 60,000 
 units cholecalciferol 
 q2W
-• Correction of acidosis  
+• Correction of acidosis 
 with oral sodium 
 bicarbonate
 • Activated vitamin D if 
@@ -2675,7 +2675,7 @@ plum, cabbage, carrot, cauliﬂower,
 onion, radish, peppers, chillies, 
 brinjal, cucumber, green beans, 
 peas, rice, bread
-  EVALUATION OF NEWLY DIAGNOSED PATIENT 
+ EVALUATION OF NEWLY DIAGNOSED PATIENT 
 WITH CKD
 • Serum creatinine, electrolytes, bicarbonate
 • Estimate glomerular ﬁltration rate using CKD-EPI 
@@ -2705,8 +2705,8 @@ WHEN TO LOOK FOR CKD
 • Unexplained hypertension or anemia
 • Longstanding diabetes, hypertension, CVD, stroke, PVD
 • Systemic diseases (e.g. connective tissue disease)
-  WHAT IS CKD?
-   Abnormalities of 
+ WHAT IS CKD?
+ Abnormalities of 
 kidney structure or 
 function, present for >3 
 months, with 
@@ -2775,7 +2775,7 @@ PREPARATION FOR RENAL REPLACEMENT THERAPY
 CONSERVATIVE CARE
 • If life expectancy limited, multiple comorbidities/personal preference
 • Decision-making should be shared with patient/family
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 INITIAL ASSESSMENT FOR
 • Conﬁrmation of CKD diagnosis (repeat tests after 
 3 months)
@@ -2855,8 +2855,8 @@ DO NOT USE DIURETICS
 ALBUMIN can be given in 
 severe Hypoalbuminemia
 CAUTION
-•  Non-nephrotic proteinuria: rule out orthostatic cases
-•  Isolated hematuria: rule out urological causes
+• Non-nephrotic proteinuria: rule out orthostatic cases
+• Isolated hematuria: rule out urological causes
 LOOK FOR COMPLICATIONS
 • Malnutrition
 • Hypovolemia
@@ -2901,13 +2901,13 @@ TERTIARY CARE HOSPITALS
 • Start antihypertensives and diuretics
 • Kidney biopsy
 • Prepare treatment plan and refer back to primary care
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 RECOMMENDED PHARMACOLOGICAL TREATMENT
 INDICATIONS FOR REFERRAL
 • All cases >12 years old and less than 1 year old
 • In children: 
-                  • Frequent relapses (=>3 per year)
-                  • Steroid dependent or resistant state
+ • Frequent relapses (=>3 per year)
+ • Steroid dependent or resistant state
 • Recent rise in serum creatinine
 • Appearance of complications related to disease 
 or treatment
@@ -2934,8 +2934,8 @@ DISTRICT HOSPITALS
 • Look for and treat complications
 • Start general treatment
 • Can treat 
-            • Uncomplicated NS in 1-12 y old
-            • Infrequent relapses
+ • Uncomplicated NS in 1-12 y old
+ • Infrequent relapses
 • Prepare treatment plan and refer back to primary care
 MANAGEMENT
  Evaluate bleeding risk:
@@ -2943,10 +2943,10 @@ Do not use if risk high
 S alb <2 + non-ambulatory: 
 start aspirin, OAC if high risk
 SEROLOGY
-• ASO                                   • HBsAg, anti-HCV 
-• HIV (high risk)                   • C3 
-• ANA                                   • ANCA              
-• Anti-GBM antibody          • SPEP (>50 y)
+• ASO • HBsAg, anti-HCV 
+• HIV (high risk) • C3 
+• ANA • ANCA 
+• Anti-GBM antibody • SPEP (>50 y)
 • Anti-PLA2R
 EVALUATION OF A PATIENT WITH GN
 • Full history and clinical examination
@@ -2958,21 +2958,21 @@ EVALUATION OF A PATIENT WITH GN
 • Kidney biopsy
 WHAT IS GN?
 Glomerulonephritis 
-refers to an  
+refers to an 
 inﬂammation of the 
 glomerulus hence it is 
 not strictly a single 
 disease, its 
 presentation depends 
-on the speciﬁc  
+on the speciﬁc 
 disease entity. It may 
-present as  
+present as 
 symptomatic urinary 
 abnormalities/ 
 nephrotic syndrome/ 
 nephritic syndrome/ 
 AKI/ CKD
-  KIDNEY BIOPSY
+ KIDNEY BIOPSY
 • Age <1 y or >12 y
 • Steroid resistant state
 • Family history of kidney disease
@@ -3004,7 +3004,7 @@ This STW has been prepared by national experts of India with feasibility conside
 based on expert opinions and available scientiﬁc evidence. There may be variations in the management of an individual patient based on his/her speciﬁc condition, as decided by the 
 treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information.
 © Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India.
- ADMISSION CRITERIA:  Initial evaluation, kidney biopsy, or management of complications
+ ADMISSION CRITERIA: Initial evaluation, kidney biopsy, or management of complications
 Department of Health Research
 Ministry of Health and Family Welfare, Government of India
 October/ 2019
@@ -3012,7 +3012,7 @@ October/ 2019
 <<<PAGE 28>>>
 Age 1-5 yr
 • Ultrasound
-• DMSA  scan
+• DMSA scan
 MCU if ultrasound or 
 DMSA scan is abnormal
 Standard Treatment Workﬂow (STW) for the Management of
@@ -3026,12 +3026,12 @@ pain)
 OR
 Dipstick +ve for 
 leucocyte esterase and 
-nitrite if <3  symptoms
+nitrite if <3 symptoms
 OR
 • CUE >10 WBC/HPF in 
-  uncentrifuged urine + 
+ uncentrifuged urine + 
 • Urine culture 
-  >105 CFU of single 
+ >105 CFU of single 
 species/ml in Mid stream 
 urine (multiple species 
 indicate contamination)
@@ -3054,11 +3054,11 @@ PRIMARY CARE
 refer
 • Refer special groups
 • Treatment in primary care
-•  Acute cystitis females
-•  Acute cystitis males
+• Acute cystitis females
+• Acute cystitis males
 • Treatment
-•  Nitrofurantoin
-•  Trimethoprim 
+• Nitrofurantoin
+• Trimethoprim 
 sulphamethoxazole
 • Symptomatic relief
 INITIAL ASSESSMENT
@@ -3087,69 +3087,69 @@ ALL OTHER UTI IN MALES-REFER
 • Pelvic/perineal pain (prostatitis)
 Plenty of 
 water
-  Urine alkalinizer recommended eg citrate
+ Urine alkalinizer recommended eg citrate
  - Avoid if patient on nitrofurantoin
-  Phenazopyridine 
+ Phenazopyridine 
 200mg tid for 2 days
-  Local Estrogen creams for recurrent 
+ Local Estrogen creams for recurrent 
 UTI in post menopausal women
-  Paracetamol 
+ Paracetamol 
 for pain
-  Cranberry 
+ Cranberry 
 can be used
-•  Send for culture
-•  Imaging if no response to antibiotics in 48 hrs
-•  Urology services if obstruction
-  Rx 
+• Send for culture
+• Imaging if no response to antibiotics in 48 hrs
+• Urology services if obstruction
+ Rx 
 Pyelonephritis/ 
 complicated UTI
-  Rx 
+ Rx 
 pregnancy 
 UTI
-  Rx all male UTI 
+ Rx all male UTI 
 including 
 prostatitis
-  Rx 
+ Rx 
 recurrent 
 UTI
-  Rx 
+ Rx 
 non-resolving 
 UTI
 SYMPTOMATIC TREATMENT
 TERTIARY LEVEL
 RED FLAG SIGNS - REFER
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 Empiric Outpatient: 
 • Urine c/s
 • Consider initial dose of a parenteral 
 agent 
-  - Ceftriaxone 1-2 g IV/IM x 1 
-  - Gentamicin 5 mg/kg IV/IM x 1
+ - Ceftriaxone 1-2 g IV/IM x 1 
+ - Gentamicin 5 mg/kg IV/IM x 1
 • Followed by
-  - Ciproﬂoxacin 500 mg PO BD x 7d
-  - Levoﬂoxacin 750 mg PO OD x 5 d
-  - Cefuroxime 500 mg PO BD x10-14d
-  - Amoxy clav x10-14 days
-  - TMP-SMX 1 DS BD x 7-10 days
+ - Ciproﬂoxacin 500 mg PO BD x 7d
+ - Levoﬂoxacin 750 mg PO OD x 5 d
+ - Cefuroxime 500 mg PO BD x10-14d
+ - Amoxy clav x10-14 days
+ - TMP-SMX 1 DS BD x 7-10 days
 Empiric Inpatient :
 • Ceftriaxone 1-2 g IV once daily+ /-AMP 
 • Gentamicin +/-AMP
 • Others as per c/s- Carbapenem, 
 Piperacillin Tazo
  
-  IV therapy required until afebrile x 
+ IV therapy required until afebrile x 
 48 hrs, then switch to PO If no 
 response in 3 days imaging
 ASYMPTOMATIC BACTERIURIA
 • No symptoms
-• Bacteria in urine culture    
-  >105CFU/ml
+• Bacteria in urine culture 
+ >105CFU/ml
 • No treatment required
 • Exceptions when you
-  should treat
-  - Pregnancy
-  - Before any urological 
-    intervention
+ should treat
+ - Pregnancy
+ - Before any urological 
+ intervention
 LONG TERM CONSEQUENCES
 • Renal scars
 • Hypertension
@@ -3158,7 +3158,7 @@ LONG TERM CONSEQUENCES
 * Pregnancy UTI, 
 Catheter UTI may also be 
 managed at secondary 
-level.  
+level. 
 Age <1 yr
 • Ultrasound
 • MCU
@@ -3166,13 +3166,13 @@ Age <1 yr
 • UTI symptoms+ pelvic 
 pain/ fever
 • Refer
-• Urine culture  & MSU 
+• Urine culture & MSU 
 • Digital rectal exam- 
 tender prostate
 • Older >35 yrs- 
  - Septran DS BD
  - Levoﬂoxacin 500mg OD, 
-   ciproﬂox 500 mg BD
+ ciproﬂox 500 mg BD
  - Avoid nitrofurantoin
 • Young males- 
  - Doxy 100mg bd /azithro 1 
@@ -3188,10 +3188,10 @@ antenatal visit
 • For asymptomatic 
 bacteriuria/acute cystitis: 
 - Nitrofurantoin 100 mg PO
-  BD x 5-7 d (avoid near- 
-  term ) 
+ BD x 5-7 d (avoid near- 
+ term ) 
 - Cephalexin 500 mg PO
-  QID x 5-7 d
+ QID x 5-7 d
  - TMP/SMX 1 DS tab PO BD x 
 5-7 d (avoid in 1st trimester & 
 near term; supplement with 
@@ -3205,32 +3205,32 @@ antenatal visit
 prophylaxis till term
 • Uncomplicated 
 RUTI 
-  - post coital voiding 
+ - post coital voiding 
 and post coital 
 antibiotic
-  - Low dose 
+ - Low dose 
 nitrofurantoin 50 
 mgX 6 months
-  - Single strength 
+ - Single strength 
 septran x 6 
 months
-  - Or  norﬂox 200mg, 
+ - Or norﬂox 200mg, 
 ciproﬂox200mg , 
 cephalexin 250mg
-  - Vaginal cream in 
+ - Vaginal cream in 
 post menopausal
 • Complicated RUTI
-  - Urology referral
-  - Cystoscopy, 
+ - Urology referral
+ - Cystoscopy, 
 urodynamics (post 
 menopausal)
 • Rx of asymptomatic 
-CAUTI  NOT 
+CAUTI NOT 
 recommended 
 • Urinary catheters 
 should be removed as 
 soon as not required 
-• If  indwelling catheter 
+• If indwelling catheter 
 for >2 weeks and is still 
 indicated, replacing 
 the catheter is 
@@ -3239,8 +3239,8 @@ recommended
  - (Fever, back pain, new 
 onset delirium, rigors)
  - Send culture
- - Rx as complicated  
-   UTI
+ - Rx as complicated 
+ UTI
 • No role of routine 
 antibiotic prophylaxis 
 for prevention
@@ -3252,25 +3252,25 @@ CATHETER UTI
 MALES WITH PROSTATITIS
 RECURRENT UTI
 SYMPTOMS
-• Neonates and  Infants < 1yr
-  - Fever,vomiting, diarrhoea, jaundice, Poor 
+• Neonates and Infants < 1yr
+ - Fever,vomiting, diarrhoea, jaundice, Poor 
 stream
-  - Older children same as adults
+ - Older children same as adults
 TREATMENT
-  - Infants <3months as upper UTI (PN) with 
+ - Infants <3months as upper UTI (PN) with 
 IV antibiotics
 - Urinary bladder catheterisation for infants 
 with upper tract UTI
-  - Older children 
-  • Upper UTI-  IV antibiotics 
-     gentamicin, amikacin, ceftriax
-     one
-  • Lower UTI- oral ceﬁxime, oﬂox, 
-     ciproﬂox, amoxyclav
+ - Older children 
+ • Upper UTI- IV antibiotics 
+ gentamicin, amikacin, ceftriax
+ one
+ • Lower UTI- oral ceﬁxime, oﬂox, 
+ ciproﬂox, amoxyclav
 • Duration of Rx
-  - Upper UTI- 10-14 days
-  - Lower UTI 7-10 days
-  - Adolescents 3-5 days
+ - Upper UTI- 10-14 days
+ - Lower UTI 7-10 days
+ - Adolescents 3-5 days
 REFER
 Upper UTI(PN), infants UTI, recurrent UTI
 PREVENTION
@@ -3281,19 +3281,19 @@ If ultrasound
 abnormal:
 MCU and DMSA 
 scan
-  All patients with recurrent UTI need 
+ All patients with recurrent UTI need 
 detailed evaluation with 
 ultrasonography DMSA scan and MCU
-  *Avoid if GFR <45,caution in elderly
+ *Avoid if GFR <45,caution in elderly
 PRIMARY/ SECONDARY LEVEL
 • Pyelonephritis
 • Complicated UTI
-  • Special situations (Children, pregnancy, 
+ • Special situations (Children, pregnancy, 
 males except simple cystitis, catheter UTI)
 • Non response within 3 days of AB
 • Recurrent UTI
-  SIMPLE CYSTITIS/ LOWER UTI
-  • Dysuria, urgency, frequency
+ SIMPLE CYSTITIS/ LOWER UTI
+ • Dysuria, urgency, frequency
 PYELONEPHRITIS/ UPPER UTI
 • Fever
 • Chills and rigors
@@ -3328,7 +3328,7 @@ treating physician. There will be no indemnity for direct or indirect consequenc
 Standard Treatment Workﬂow (STW) for the 
 APPROACH TO ACUTE PARALYSIS
 ICD 10 G82, G83
-PRESENTATION WITH ACUTE ONSET (WITHIN HOURS TO DAYS) PARAPLEGIA OR QUADRIPLEGIA              
+PRESENTATION WITH ACUTE ONSET (WITHIN HOURS TO DAYS) PARAPLEGIA OR QUADRIPLEGIA 
 Are There Any Signs Of Upper Motor Neuron (UMN) 
 Involvement?
 • Brisk reﬂexes
@@ -3340,7 +3340,7 @@ NO
 YES
  Is the weakness predominantly 
 proximal or distal?
-  Likely to be : 
+ Likely to be : 
 ∙ Acute myelopathy like 
 tuberculosis
 ∙ Trauma
@@ -3348,14 +3348,14 @@ tuberculosis
 ∙ Transverse myelitis 
 ∙ Epidural abscess
 ∙ Spinal cord stroke
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
-    Likely to be : 
-  • Guillain Barre Syndrome (GBS) or 
-  • Hypokalemic periodic paralysis.
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ Likely to be : 
+ • Guillain Barre Syndrome (GBS) or 
+ • Hypokalemic periodic paralysis.
  
-  Presence of Lower Motor Neuron 
+ Presence of Lower Motor Neuron 
 (LMN) signs like wasting, absent 
-reﬂexes and sensory impairment  
+reﬂexes and sensory impairment 
 WEAKNESS 
 PROXIMAL
 WEAKNESS 
@@ -3418,7 +3418,7 @@ medications and rehabilitation
 MANAGEMENT
 If no sensory impairment and 
 normal extra ocular movements 
-  Likely to be :
+ Likely to be :
 • Myopathy (eg polymyositis)
 MANAGEMENT
 • Check pulse, BP and respiration
@@ -3429,11 +3429,11 @@ hospital/ medical college with
 facility for NCS & EMG
 • After treatment follow up at CHC 
 for medications and rehabilitation 
-  Likely to be : 
+ Likely to be : 
 • Myasthenia gravis or 
 • Snake bite
-  Likely to be :
-  Acute onset peripheral neuropathy 
+ Likely to be :
+ Acute onset peripheral neuropathy 
 (due to toxin/drug)
 ADMISSION CRITERIA 
 • Any progressive weakness
@@ -3468,7 +3468,7 @@ treating physician. There will be no indemnity for direct or indirect consequenc
 © Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India.
 
 <<<PAGE 31>>>
-  Cognitive decline in 
+ Cognitive decline in 
 more than one 
 domain
 No
@@ -3482,27 +3482,27 @@ Yes
 Treat
 Yes
 No
-  Follow up and Re-evaluation
+ Follow up and Re-evaluation
 Yes
 Dementia
-  Typical clinical proﬁle (age, progression, no focal signs)
+ Typical clinical proﬁle (age, progression, no focal signs)
 Yes
 Probable AD
 ASHA
 PHC
 CHC
 DH
-  VD/ mixed dementia
-  Lab investigation 
+ VD/ mixed dementia
+ Lab investigation 
 TSH, vit. B12
 No
 Other causes
-  Medical college 
-  Tertiary level centre
+ Medical college 
+ Tertiary level centre
 Standard Treatment Workﬂow (STW) for the Management of
 DEMENTIA
 ICD 10 - F02,F03,G30
-CLINICAL  
+CLINICAL 
 FEATURES OF 
 DEMENTIA
 Impaired memory
@@ -3521,10 +3521,10 @@ DISTRICT HOSPITAL (SPECIALIST- PHYSICIAN/
 PSYCHIATRIST) 
 EVALUATION OF DEMENTIA
 MEDICATIONS RECOMMENDED FOR USE FOR ALZHIEMERS DEMENTIA
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 FOR COGNITION
 • Donepezil: 5 mg once after breakfast x 1 month, then 10 mg after breakfast to continue 
-  If any side effect/ not tolerating: Rivastigmine to be used start dose 1.5 mg BD / 1 month then 3 
+ If any side effect/ not tolerating: Rivastigmine to be used start dose 1.5 mg BD / 1 month then 3 
 mg BD x 1 month, then 4.5 mg BD x 1 month, then 6 mg twice after meals only x 1 month.
 • Memantine: in moderate to severe dementia 5 mg BD x 1 month, then 10 mg BD to continue.
 • Galantamine: 8 mg BD if not tolerating 1
@@ -3536,14 +3536,14 @@ triggers
 • Non 
 pharmacological 
 interventions
-  History and 
+ History and 
 examination
-  Lab investigation 
+ Lab investigation 
 TSH,Vit B12, vit D
-  LFT/RFT/FBS
+ LFT/RFT/FBS
 Neuropsychiatry 
 testing
-  Optional tests 
+ Optional tests 
 based on clinical 
 features
 CT scan/MRI
@@ -3552,14 +3552,14 @@ Anxiety
 adequate dose and 
 duration of 
 prescribed 
-  medications
+ medications
 • Presence of red ﬂags
 • Diagnose dementia after detailed history
 • Screening for:
-  - Treatable causes of dementia - thyroid disorders, B-12
-     deﬁciency, subdural hemorrhage.
-  - Depression.
-  - Vascular risk factors
+ - Treatable causes of dementia - thyroid disorders, B-12
+ deﬁciency, subdural hemorrhage.
+ - Depression.
+ - Vascular risk factors
 • Lab investigations- CBC, biochemistry, liver function 
 tests, hemogram, lipid proﬁle, TFT, VDRL, vit B12 level, vit 
 D level
@@ -3598,7 +3598,7 @@ ongoing support program for them.
 ongoing clinical support and supervision
 REASONS FOR 
 REFERRAL
-  RED FLAGS
+ RED FLAGS
 • Fever
 • Rapid progression
 • Seizures
@@ -3627,8 +3627,8 @@ treating physician. There will be no indemnity for direct or indirect consequenc
 Standard Treatment Workﬂow (STW) for the Management of 
 EPILEPSY
 ICD 10 - G40
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
-  Episodes could be single 
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ Episodes could be single 
 with high risk of 
 recurrence. Prolonged 
 motor convulsion of > 5 
@@ -3636,30 +3636,30 @@ mins with loss of
 consciousness - STATUS 
 EPILEPTICUS (SE) - 
 MEDICAL EMERGENCY
-  CLINICAL 
+ CLINICAL 
 FEATURES
-  Episodic, few 
+ Episodic, few 
 secs-mins
-  Abnormal jerky 
+ Abnormal jerky 
 movements
-  Loss of 
+ Loss of 
 consciousness/ 
 awareness
-  Blank 
+ Blank 
 staring 
-  Sudden 
+ Sudden 
 drops/ falls, 
 brief jerks
-  With or without urine/ 
+ With or without urine/ 
 stool incontinence, 
 tongue bite, drooling
-  Bizzare activity 
+ Bizzare activity 
 out of context
-  Any other episode 
+ Any other episode 
 lasting for few mins 
 (usually<5 mins)
-  REASONS FOR REFERRAL 
-  PRIMARY HEALTH CENTRE (MEDICAL OFFICER)
+ REASONS FOR REFERRAL 
+ PRIMARY HEALTH CENTRE (MEDICAL OFFICER)
 • Clinical diagnosis of epilepsy: detailed history from an eyewitness
 • Differentiate between provoked seizures and epilepsy (provoked due to fever, 
 acute CNS insult, antibiotics, and metabolic causes)
@@ -3667,27 +3667,27 @@ acute CNS insult, antibiotics, and metabolic causes)
 hemogram, lipid proﬁle, vit D levels, TFT (whichever feasible)
 • Initiation of treatment: 
 - Treat the patient if patient has epilepsy (2 or more episodes of unprovoked
-  seizures)
+ seizures)
 - Treat a single seizure if risk of recurrence is high as in patients with focal 
-   seizures,mentally retarded, neurological deﬁcits having family history of 
+ seizures,mentally retarded, neurological deﬁcits having family history of 
 seizures abnormalEEG, neuroimaging
 - Anti Epileptic Drug (AED broad spectrum, low dose, start low go slow, except
-   status epilepticus)
+ status epilepticus)
 - Emergency medical care of status epilepticus
 • Treatment counselling: side effects/toxicities of drugs, red ﬂags, importance of 
 adherence, maintaining treatment diary
 • Advice on prevention of seizures: regular medication, sleep 7-8 hrs, avoid excess 
-TV/mobile/ photic stimulation, regular diet, lifestyle choices(avoid alcohol)  
+TV/mobile/ photic stimulation, regular diet, lifestyle choices(avoid alcohol) 
 • Evaluate any possibility of superimposed non-epileptic seizure
 • Training of MLP/ANM/ASHA on epilepsy 
 • For excessive alcohol use, refer to ANM/MLP where psychosocial interventions are 
-carried out for substance use disorders    
+carried out for substance use disorders 
 • Follow up visits for treatment monitoring & difﬁcult patients under neurologist at 
 STC centre
 • Basic management of co-morbidities (behaviour, cognition, reproductive health, 
 bone health)
 • Alert to signs of abuse and neglect
-• Maintain upward referrals with paediatrician/physician at DH  
+• Maintain upward referrals with paediatrician/physician at DH 
 • Careful evaluation of all 
 referral patients, provide 
 specialized management 
@@ -3699,24 +3699,24 @@ ongoing clinical support
 and supervision of MOs at 
 PHC
 • Laboratory investigation 
--  CBC, liver function
-     tests, antiepileptic drug
-     levels, routine
-     biochemistry,
-     hemogram, lipid proﬁle,
-     vit D levels, TFT, CT
-     brain (when necesary)
+- CBC, liver function
+ tests, antiepileptic drug
+ levels, routine
+ biochemistry,
+ hemogram, lipid proﬁle,
+ vit D levels, TFT, CT
+ brain (when necesary)
 • Monitor side effects of 
 AED
-• Clinical Psychologist:  
+• Clinical Psychologist: 
 counselling health 
 services for persons with 
 epilepsy or upon referral 
 from PHC/UPHC 
-  DISTRICT HOSPITALS
-  (centres with specialists like 
+ DISTRICT HOSPITALS
+ (centres with specialists like 
 paediatrician, 
-  neurologist)
+ neurologist)
 • Redﬂag Signs
 • Progressive problems, rapid 
 appearance of new symptoms
@@ -3730,27 +3730,27 @@ dose and duration of
 medication
 • Serious side effects
 • Neuroimaging 
-  RED FLAG SIGNS 
+ RED FLAG SIGNS 
 • Fever
 • Headache
 • Vomiting
 • Altered Sensorium
 • Severe Giddiness
 • Loss of function of body
-  IMPENDING SE
-  ESTABLISHED SE
-  REFRACTORY SE
+ IMPENDING SE
+ ESTABLISHED SE
+ REFRACTORY SE
 5 MIN
 30 MIN
 60 MIN 2 IV drugs fail (Benzo + IV AED)
- Out of Hospital/home :  Buccal/Intranasal IMDZ with acute repititive seizures/status (0.3-0.5 mg/kg)
-  EMERGENCY ROOM
-  IV Lorazepam up to 0.1 mg/kg @ 2mg/min 
-                                  OR
-  IV Midazolam 0.1-0.2 mg/kg bolus or 0.05-0.5 mg/kg/hr in CIV
-                                  OR
-  IV Diazepam upto 0.25-0.4 mg/kg over 2-3 min
-  • Phenytoin @50 mg/min   20 mg/kg repeat
+ Out of Hospital/home : Buccal/Intranasal IMDZ with acute repititive seizures/status (0.3-0.5 mg/kg)
+ EMERGENCY ROOM
+ IV Lorazepam up to 0.1 mg/kg @ 2mg/min 
+ OR
+ IV Midazolam 0.1-0.2 mg/kg bolus or 0.05-0.5 mg/kg/hr in CIV
+ OR
+ IV Diazepam upto 0.25-0.4 mg/kg over 2-3 min
+ • Phenytoin @50 mg/min 20 mg/kg repeat
 plus 10 mg/kg if seizures do not stop in 15-20 min
 • If seizures not controlled or contra indiction (CI) to PHT
 Intravenous Valproate 25-40 mg/kg @3-6 mg/kg/min
@@ -3829,7 +3829,7 @@ Maintenance dose:200-400
 Ataxia, sedation, gum hyperplasia, coarsening 
 of facial features, hirsutism, memory 
 problems, osteomalacia & bone loss, skin rash 
-Folic Acid 5 mg/day to be added along with AEDs in all women of child bearing age. Polytherapy and valproate  to be avoided in women with epilepsy
+Folic Acid 5 mg/day to be added along with AEDs in all women of child bearing age. Polytherapy and valproate to be avoided in women with epilepsy
 FIRST ABCS TO BE DONE FROM WHEN YOU SEE PATIENT SIMULTANEOUSLY WITH MEDICATION
 Department of Health Research
 Ministry of Health and Family Welfare, Government of India
@@ -3842,11 +3842,11 @@ treating physician. There will be no indemnity for direct or indirect consequenc
 <<<PAGE 33>>>
 TREATMENT OF MAJOR CATASTROPHIC HEADACHES AT TERTIARY CENTRE
 REFERENCES
-1.  Hainer BL, Matheson EM. Approach to acute headache in adults. American family physician. 2013 May 15;87(10).
-2.  https://www.uptodate.com/contents/evaluation-of-headache-in-adults
+1. Hainer BL, Matheson EM. Approach to acute headache in adults. American family physician. 2013 May 15;87(10).
+2. https://www.uptodate.com/contents/evaluation-of-headache-in-adults
 ABBREVIATIONS
-    CSF: Cerobrospinal Fluid,  UFH: Unfractionated Heparin,  LMWH: Low Molecular Weight Heparin
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ CSF: Cerobrospinal Fluid, UFH: Unfractionated Heparin, LMWH: Low Molecular Weight Heparin
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 REASONS FOR REFERRAL
 • Non responding 
 headaches
@@ -3860,20 +3860,20 @@ FOLLOW UP OF HEADACHE PATIENTS
  Intra cerebral hemorrhage
 Seizures
 Cerebral venous sinus thrombosis
-Migraine                     
-  CAUSES OF HEADACHE
+Migraine 
+ CAUSES OF HEADACHE
 Good control of blood pressure 
 Antiepileptic medications 
 Follow up of anticoagulation
 Give prophylaxis for 
 adequate duration of time 
 and taper after remission
-  TREATMENT OF HEADACHE
+ TREATMENT OF HEADACHE
 Standard Treatment Workﬂow (STW) for the Management of
 ICD-10-G43-44
 CONTINUOUS HEADACHES
 • Progressive headache of acute or subacute 
-onset persisting more than 1 week   
+onset persisting more than 1 week 
 • Possibilities: Cerebral Venous Thrombosis, 
 Intra Cranial Space Occupying Lesion, 
 Meningitis, Brain abscess
@@ -3957,9 +3957,9 @@ Frequency > 2 /month -
  • Flunarizine 10 mg OD 
 Acute management
 • Analgesics( Paracetamol 650 mg, or 
-Indomethacin  50  mg) and 
+Indomethacin 50 mg) and 
 • Antiemetics ( Prochlorperazine 10mg). 
-  Life style changes
+ Life style changes
 • Good sleep at least 6 hrs, food habit 
 modiﬁcation, avoiding triggers of migraine.
 Brain 
@@ -3984,15 +3984,15 @@ Brain imaging
 if atypical 
 features exist
 CHRONIC TENSION HEADACHE
-Continuous bilateral headache  for many years with 
+Continuous bilateral headache for many years with 
 signiﬁcant insomnia and psychosomatic complaints. 
 Indomethacin 
-(25mg TID)  for 
+(25mg TID) for 
 7 days
 Refer to 
 tertiary care 
 centre
-TRIGEMINAL AUTONOMIC CEPHALGIAS  
+TRIGEMINAL AUTONOMIC CEPHALGIAS 
 Rapid onset peri orbital and temporal 
 pain with autonomic features
 CLUSTER HEADACHE, PAROXYSMAL HEMICRANIAS, SHORT 
@@ -4051,7 +4051,7 @@ episode of headache due to primary
 headache disorder can be discharged
  
 • Secondary headache disorders-
-  secondary headache disorders with 
+ secondary headache disorders with 
 essential work up, diagnosis and 
 treatment as per individual case can 
 be discharged
@@ -4069,10 +4069,10 @@ HEADACHE
 Intoxications-drugs/toxins
 AT TERTIARY CARE HOSPITALS-SELECTED DISTRICT HOSPITALS/MEDICAL COLLEGES
 • Neuroimaging-MRI/CT with contrast to rule out abscess/herniations. 
-  If abscess-emergency neurosurgical consultation for favour of aspiration –open/stereotactic
+ If abscess-emergency neurosurgical consultation for favour of aspiration –open/stereotactic
 • Blood cultures-aerobic/anaerobic
 • CSF analysis-biocehmistry/cytology/gram staining/culture-bacterial , AFB and fungal/viral PCR/TB-PCR/fungal antigen
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 Standard Treatment Workﬂow (STW) for the Management of
 NEUROINFECTIONS
 Acute onset-hours to days
@@ -4096,8 +4096,8 @@ ESSENTIAL
 • Inj Steroids
  When IV access not available-intra nasal or buccal Midazolam 0.2 mg/kg /intra rectal Diazepam 0.3-0.4 mg/kg
  Urgent referral to higher centres with intensive care facilities 
-  If seizing- IV/IM Lorazepam 0.1 mg/kg followed by loading with Phenytoin 20 mg/kg weight at a rate of 
-  50 mg/minute
+ If seizing- IV/IM Lorazepam 0.1 mg/kg followed by loading with Phenytoin 20 mg/kg weight at a rate of 
+ 50 mg/minute
 Correct hypoglycemia (blood sugar 50 mg/dl) with IV 100ml of 25% dextrose solution
 Establish IV access-urgent blood for hemogram/sugar/electrolytes/malaria testing-peripheral smear/rapid 
 antigen detection
@@ -4117,24 +4117,24 @@ Viral-Herpes
 simplex/Zoster
 • Inj Acyclovir 
 500 mg IV
-  8 hourly for 
-  10 days      
-  Cerebral malaria
-  Inj Artesunate 2.4 mg/kg IM or IV 3 doses 
-  12 hours apart and then OD /
-  Inj Quinine 20 mg/kg IV stat followed by 10mg/kg 
+ 8 hourly for 
+ 10 days 
+ Cerebral malaria
+ Inj Artesunate 2.4 mg/kg IM or IV 3 doses 
+ 12 hours apart and then OD /
+ Inj Quinine 20 mg/kg IV stat followed by 10mg/kg 
 TDS till patient can take orally,then 
-  oral Artesunate+Pyrimethamine /Sulphadoxine for 
-3 days OR oral Quinine 10 mg/kg TDS  for total 7 
+ oral Artesunate+Pyrimethamine /Sulphadoxine for 
+3 days OR oral Quinine 10 mg/kg TDS for total 7 
 days + Doxycycline 3 mg/kg OD for 7 days.
-*If uncomplicated-back referral to Secondary care centre for completing treatment regimen/monitoring.  
+*If uncomplicated-back referral to Secondary care centre for completing treatment regimen/monitoring. 
 Seizures/postictal state
 DIFFERENTIAL 
 DIAGNOSIS
 COMPLICATIONS
 Raised ICP
  ICD-10-G03.9
-  Altered 
+ Altered 
 sensorium/seizures
 /focal 
 deﬁcits/hemodyna
@@ -4159,9 +4159,9 @@ be ensured for the prescribed duration.
 CRITERIA FOR DISCHARGE
 ESSENTIAL
  Emergency CT/referral to centre with 24 hour CT facilities
-Start treatment for cerebral malaria-ﬁrst dose of IV Artesunate 2.4 mg/kg  OR 
+Start treatment for cerebral malaria-ﬁrst dose of IV Artesunate 2.4 mg/kg OR 
 Quinine 20 mg/kg bolus
-  Stomach wash/activated charcoal administration-if history or suspicion of drug overdose/ 
+ Stomach wash/activated charcoal administration-if history or suspicion of drug overdose/ 
 non corrosive poison intake 
  Inj Thiamine 100 mg IV
 Establish and maintain airway: Intubate if GCS<8, impaired airway reﬂexes, abnormal 
@@ -4175,7 +4175,7 @@ hemorrhage/infarcts/focal edema or lesions
 • First dose of empirical treatment of pyogenic 
 meningitis-Inj Ceftriaxone 2 g + Inj Vancomycin 
 500 mg. 
-  Add Inj Ampicillin 2 g if older than 50 years / 
+ Add Inj Ampicillin 2 g if older than 50 years / 
 immunocompromised along with Inj 
 Dexamethasone 8 mg 
 • Fundus examination,CSF study to rule out 
@@ -4275,15 +4275,15 @@ exercises, health education)
 FOLLOW UP at 2nd week, 1st month, 3rd 
 month and 6th month
 ISCHEMIC: *
-  IV tPA (0-4.5 hrs) or 
+ IV tPA (0-4.5 hrs) or 
 endovascular treatment 
 according to eligibility 
 and availability
-HAEMORRHAGIC:  
+HAEMORRHAGIC: 
 • Dysphagia assessment, 
 • Blood pressure/blood sugar monitoring and IV ﬂuids. 
 • Prevention of Pneumonia
-• Prophylaxis for deep venous thrombosis etc, monitor and record  ECG
+• Prophylaxis for deep venous thrombosis etc, monitor and record ECG
 Rapid Assessment, CODE Stroke, Blood pressure and Blood Sugar monitoring, NIHSS, Intravenous lines
 Endovascular treatment with Mechanical thrombectomy using stent retriever (4.5 hrs to 24hrs) according to 
 eligibility
@@ -4322,13 +4322,13 @@ ALL PATIENTS
 SELECTED PATIENTS
 STROKE ONSET TIME: <4.5 HOURS
 STROKE ONSET TIME: >4.5 HOURS
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 STROKE UNIT MANAGEMENT
 · Medical and Nursing staff : control of blood pressure; control of diabetes; swallow assessment; DVT prophylaxis; antiplatelet drugs
 · Rehabilitation staff: 
-    » Acute phase: basic bed mobility, transfer techniques, communication training, prevention of complications
-    » Subacute and chronic phase: mobility, gait and balance training, training of activities of daily living (grooming, eating, dressing etc), bowel/bladder
-      training, perceptual and cognitive rehabilitation, provision of assistive devices. 
+ » Acute phase: basic bed mobility, transfer techniques, communication training, prevention of complications
+ » Subacute and chronic phase: mobility, gait and balance training, training of activities of daily living (grooming, eating, dressing etc), bowel/bladder
+ training, perceptual and cognitive rehabilitation, provision of assistive devices. 
 WARNING SIGNS (BEFAST)
 • BALANCE : Loss of balance or 
 coordination
@@ -4361,7 +4361,7 @@ FIRST VISIT (PREFERABLY IN FIRST TRIMESTER)
 • LMP
 • Parity & obstetric history 
 • Any complaints especially excessive 
-nausea & vomiting/  bleeding PV
+nausea & vomiting/ bleeding PV
 • H/o medical illness : diabetes, 
 hypertension, cardiac problem, 
 epilepsy or any other chronic illness
@@ -4407,14 +4407,14 @@ motherhood booklet
 to woman
 • Give Tab Folic Acid 
 daily
-• Give  ﬁrst dose of 
+• Give ﬁrst dose of 
 tetanus toxoid
 DO
-  ESSENTIAL TESTS
+ ESSENTIAL TESTS
 • Hemoglobin
 • Urine R & M
 • ABO & Rh grouping
-  DESIRABLE TESTS
+ DESIRABLE TESTS
 • VDRL/ RPR
 • HIV
 • HBsAg
@@ -4423,8 +4423,8 @@ GDM
 • TSH in high risk cases (BOH, goiter, obesity 
 or residing in iodine deﬁciency prone 
 areas)
-  OPTIONAL TESTS*
-  Aneuploidy screen* by USG & double 
+ OPTIONAL TESTS*
+ Aneuploidy screen* by USG & double 
 marker 
 INVESTIGATIONS
 • Any com-
@@ -4452,7 +4452,7 @@ EXAMINE
 <11g%) daily with water or lemon juice
 • Calcium carbonate 500 mg with vitamin D 
 250 mcg tablet twice daily with meals. 
-• Calcium Carbonate  and IFA not to be given 
+• Calcium Carbonate and IFA not to be given 
 together
 • Single dose of Albendazole 400mg
 • Ensure compliance for investigations and 
@@ -4470,7 +4470,7 @@ malformations)
 • WHO OGTT/ DIPSI test if >24weeks & at least 4 weeks have 
 elapsed after 1st test
 OPTIONAL TESTS*
-  Quadruple test as per availability
+ Quadruple test as per availability
 *Should be performed only if adequate counselling facilities are available
 INVESTIGATIONS
 SECOND VISIT (SECOND TRIMESTER)
@@ -4480,7 +4480,7 @@ above
 • Same as above
 • Auscultate FHS
 • Measurement of 
-abdominal girth        
+abdominal girth 
 and Symphysiofundal 
 Height
 BIRTH PREPAREDNESS MUST INCLUDE 
@@ -4494,7 +4494,7 @@ ASK
 EXAMINE
 • Continue IFA and calcium tablets and ensure compliance
 • If non compliant or Hb < 9g% give parenteral iron sucrose therapy (not > 200mg 
-at one time & not > 3 times a week)  and refer patient with Hb < 7g% to higher 
+at one time & not > 3 times a week) and refer patient with Hb < 7g% to higher 
 centre
 • Refer to higher centre if any discrepancy between fundal height and period of 
 gestation
@@ -4515,7 +4515,7 @@ mild exertion.
 • Decreased or absent fetal movements at > 28 weeks gestation
 • Leaking of watery ﬂuid per vaginum (P/V)
 • Severe headache/ blurring of vision/ convulsion
-• Passing lesser amounts of urine and/ or  burning sensation during 
+• Passing lesser amounts of urine and/ or burning sensation during 
 micturition
 • Itching all over the body 
 COUNSELLING AT ALL LEVELS FOR : 
@@ -4554,25 +4554,25 @@ delivered at district
 hospital/medical college 
 * Preferably to have antenatal 
 care also at these centres
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 At 12 th week : Just palpable above the symphysis pubis
 At 16 th week : At lower one-third of the distance between the symphysis pubis and
-                         umbilicus 
+ umbilicus 
 At 20th week : At two-thirds of the distance between symphysis pubis and umbilicus
 At 24 th week : At the level of umbilicus
 At 28th week : At lower one-third of the distance between the umbilicus and 
-                        xiphisternum
+ xiphisternum
 At 32 nd week : At two-thirds of the distance between the umbilicus and xiphisternum
 At 36 th week : At the level of xiphisternum
 At 40th week : Sinks back to the level of the 32
 nd week, but the ﬂanks are full, unlike
-                       that in the 32
+ that in the 32
 nd week
 ASSESSMENT OF FUNDAL HEIGHT & ITS CORRELATION WITH 
 GESTATIONAL AGE
 UMBILICUS
 •
-      COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
+ COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
 Department of Health Research
 Ministry of Health and Family Welfare, Government of India
 October/ 2019
@@ -4598,19 +4598,19 @@ PRE- OPERATIVE REQUISITES
 Presence of a valid indication
 General medical ﬁtness & no contraindication
 A written informed consent
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
-      COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
 D&C is a blind procedure and may miss the pathology in some cases. In cases where focal pathology is suspected, tissue should be 
 obtained under hysteroscopic visualization.
-  Abnormal uterine bleeding in 
+ Abnormal uterine bleeding in 
 appropriate cases (refer to HMB STW)
 GYNAECOLOGICAL
-  Post menopausal bleeding 
+ Post menopausal bleeding 
 (ECC with D&C)
 Infertility (to rule out TB) 
  Amenorrhoea
 As a haemostatic measure in women 
-with  excessive / prolonged vaginal 
+with excessive / prolonged vaginal 
 bleeding
 EARLY PREGNANCY COMPLICATIONS
 Retained products of conception- as a 
@@ -4631,7 +4631,7 @@ Dilatation and Evacuation [D & E]
 D & C
 Evacuation (with or without suction)
 ANESTHESIA (ANY OF THE FOLLOWING)
-    • General anesthesia       • Regional anesthesia      • Paracervical block with 1% xylocaine    • IV sedation         • IM/ oral analgesia
+ • General anesthesia • Regional anesthesia • Paracervical block with 1% xylocaine • IV sedation • IM/ oral analgesia
 POST PROCEDURE CARE & FOLLOW UP
 • Observe the patient for minimum two 
 hours after the procedure for haemorrhage 
@@ -4642,8 +4642,8 @@ comfortable and alert.
 • Most common side effect is abdominal 
 cramps which can be managed by oral 
 analgesics.
-• Warning signals to report back are to be  
-explained  at the time of discharge - severe 
+• Warning signals to report back are to be 
+explained at the time of discharge - severe 
 pain, bleeding, foul smelling discharge or 
 fever.
 • Follow up is done after a week with 
@@ -4653,7 +4653,7 @@ COMPLICATIONS
 • Cervical laceration
 • Perforation of the uterus
 • Injury to bowel and 
-bladder  
+bladder 
 • Pelvic infection
 • Post-operative intra 
 uterine adhesions
@@ -4693,7 +4693,7 @@ OR
 OR
 OR
 OR
-    Strict asepsis to be maintained.   Antibiotics to be used judiciously and decided as per need of individual case.
+ Strict asepsis to be maintained. Antibiotics to be used judiciously and decided as per need of individual case.
 ALL TISSUE REMOVED MUST BE SENT FOR HISTOPATHOLOGICAL EXAMINATION
 INDICATIONS :
 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. These broad guidelines are advisory, and are 
@@ -4769,8 +4769,8 @@ Standard Treatment Workﬂow (STW) for the Management of
 HEAVY MENSTRUAL BLEEDING (HMB)
 ICD-10-H90.5
 * R/o Pregnancy in doubt especially in all women of reproductive age group after appropriate consent
-** Amongst progestogens Norethisterone provides the best hemostasis  
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+** Amongst progestogens Norethisterone provides the best hemostasis 
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 MANAGEMENT OF HMB AT PRIMARY LEVEL
 MANAGEMENT OF HMB AT SECONDARY LEVEL (CHC)
 MANAGEMENT OF HMB AT TERTIARY LEVEL 
@@ -4793,23 +4793,23 @@ BLEEDING EPISODE
 - IV Tranexamic acid 1g stat 
 slowly followed by oral 
 Tranexamic acid 0.5-1g, 
-  6-8 hourly  for 5 days
+ 6-8 hourly for 5 days
 - Blood transfusion if 
 indicated 
 HORMONE THERAPY
 - Norethisterone (max daily 
 dose 40 mg) 
-  OR
+ OR
 - Medroxyprogesterone 
 acetate (max daily dose 
 40 mg) 
 Hormone therapy should 
 be given orally daily in 
-divided doses from the  
+divided doses from the 
 ﬁfth day of the cycle for 
 three weeks and repeated 
 in a cyclical manner for 
-total of  4-6 cycles of 
+total of 4-6 cycles of 
 treatment 
  HIGH RISK FOR ENDOMETRIAL 
 CANCER
@@ -4833,13 +4833,13 @@ INVESTIGATIONS
 heavy bleeding
 SUPPORTIVE TREATMENT 
 TO DO AT ALL LEVELS
-  Conservative modalities
+ Conservative modalities
 - Tranexamic Acid
 - Progestogens
-  - LNG IUS
-  - Ormeloxifene
-  - Ablative   
-    techniques
+ - LNG IUS
+ - Ormeloxifene
+ - Ablative 
+ techniques
  
 (Preferably after 
 second opinion)
@@ -4870,11 +4870,11 @@ Adolescents
 Do USG
 - Progestogens
 - Levonorgestrel- 
-  releasing intrauterine 
-  system (LNG IUS)
+ releasing intrauterine 
+ system (LNG IUS)
 Hormonal therapy to 
 continue for 6 months
-  In absence of obvious 
+ In absence of obvious 
 cause
 - NSAIDS
 - Tranexamic Acid
@@ -4906,16 +4906,16 @@ INVESTIGATIONS
 INVESTIGATIONS
 • Hemoglobin
 • CBC with peripheral
-  smear 
+ smear 
 • BT / CT
 • General 
-    Evaluate pallor
-    Calculate BMI
+ Evaluate pallor
+ Calculate BMI
 • Systemic 
-  CVS, RS and hepatosplenomegaly
-• Local examination (where indicated and   
-  feasible) P/S and P/V
-      COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
+ CVS, RS and hepatosplenomegaly
+• Local examination (where indicated and 
+ feasible) P/S and P/V
+ COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
 No abnormality
 R/o pregnancy*
 Speculum examination
@@ -4947,12 +4947,12 @@ surgical management
 medical treatment
 • Endometrial hyperplasia with atypia.
 • CIN II with poor compliance or CIN III
-IN WOMEN AGED LESS THAN 40 AND/OR LOW PARITY IT IS MANDATORY TO HAVE A SECOND  
-OPINION FROM A QUALIFIED GYNAECOLOGIST  
+IN WOMEN AGED LESS THAN 40 AND/OR LOW PARITY IT IS MANDATORY TO HAVE A SECOND 
+OPINION FROM A QUALIFIED GYNAECOLOGIST 
 LEIOMYOMA 
 ENDOMETRIOSIS
 PROLAPSE
-  Third or fourth degree utero vaginal prolapse
+ Third or fourth degree utero vaginal prolapse
 PRE - INVASIVE
 DISEASES
 OTHERS
@@ -4968,9 +4968,9 @@ HYSTERECTOMY
 prolapse
 • Non descent 
 hysterectomy
-• LAPAROSCOPIC  
+• LAPAROSCOPIC 
  
-•  In appropriately 
+• In appropriately 
 selected 
 patients 
 Simple ovarian cysts less than 5 cm in size and without other signiﬁcant/ suspicious features 
@@ -4996,7 +4996,7 @@ INDICATIONS :
 ∙ Electrocardiogram
 ∙ X ray chest
 ∙ Others as indicated 
-COMPONENTS OF  PRE OPERATIVE COUNSELLING 
+COMPONENTS OF PRE OPERATIVE COUNSELLING 
 AND INFORMED CONSENT
 INVESTIGATIONS
 HYSTERECTOMY SHOULD NOT BE DONE FOR
@@ -5032,8 +5032,8 @@ FOLLOW UP
 • Avoid lifting heavy weight for 8 weeks
 • Abstinence for eight weeks
 • Evaluate need for hormones in very selected patients 
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
-      COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
 • Adnexal masses : Need for hysterectomy to be individualised 
 and justiﬁed
 • Recurrent post-menopausal bleeding (even in the absence 
@@ -5050,14 +5050,14 @@ October/ 2019
 <<<PAGE 41>>>
 Standard Treatment Workﬂow (STW) for the Management of
 ICD O72
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 More than 500 ml of blood loss or any amount of bleeding which causes 
 derangement of vital parameters is PPH
-  RED FLAG SIGN: 
+ RED FLAG SIGN: 
 ∙ PR > 120/min 
 ∙ Systolic BP < 100 mm Hg 
 ∙ Tachypnea < 95%
-∙ SpO2  < 95%
+∙ SpO2 < 95%
 ∙ Deterioration of 
 sensorium 
 MANAGEMENT OF ATONIC PPH
@@ -5109,12 +5109,12 @@ Explore uterus for retained bits
 for next 30 minutes and every 30 minutes for next 3-6 hours or 
 until stable
 • Continue Oxytocin infusion @5-10 units /hr 
-  (total Oxytocin not to exceed 100 IU in 24 hours)
+ (total Oxytocin not to exceed 100 IU in 24 hours)
 Continue bimanual compression & Oxytocin infusion @10-20 units /hr
 Inj Methyl Ergometrine 0.2 mg IM or IV slowly 
 ∙ Contraindicated in hypertension, severe 
 anemia, heart disease
-∙ Can be repeated after 15 minutes to a          
+∙ Can be repeated after 15 minutes to a 
 maximum of 5 doses (1mg)
 Inj Carboprost (PGF2 alpha) 250 µg IM 
 • Contraindicated in asthma 
@@ -5132,22 +5132,22 @@ If bleeding continues
 without any apparent cause 
 check for coagulopathy
 SUPPORTIVE MANAGEMENT
-  Surgical intervention 
+ Surgical intervention 
 • Uterine compression sutures
 • Systematic uterine devascularisation by doing 
-  Uterine       Ovarian      Internal Iliac artery ligation
+ Uterine Ovarian Internal Iliac artery ligation
 • Hysterectomy
-      COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
+ COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
 Tranexamic Acid (1g slow IV) has recently been 
 recommended as an adjunctive treatment for PPH 
 to be used as early as possible irrespective of cause 
-but deﬁnitely within three hours of delivery.  It can 
+but deﬁnitely within three hours of delivery. It can 
 be repeated after 30 minutes if bleeding persists. 
 Standard treatment for PPH must continue 
 meanwhile 1, 2
-1  The WOMAN trial,  The Lancet, 2017 
-2  WHO update on Tranexamic Acid, 2017
-• Call  for help
+1 The WOMAN trial, The Lancet, 2017 
+2 WHO update on Tranexamic Acid, 2017
+• Call for help
 • Rapid Initial Assessment - evaluate vital signs: PR, BP, RR and Temperature 
 • Establish two IV lines with wide bore cannula (16-18 gauge) 
 • Draw blood for grouping and cross matching
@@ -5209,7 +5209,7 @@ P/V: Assess for uterine size (enlarged
 and/or irregular uterus)
 EXAMINATION
 ASYMPTOMATIC FIBROIDS <5CM DO NOT NEED TO BE TREATED
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 Heavy menstrual/ irregular 
 bleeding
 Mass in lower abdomen
@@ -5219,7 +5219,7 @@ Urinary pressure symptoms
 Infertility
 Asymptomatic
 ALL THERAPUTIC OPTIONS NEED TO BE EXPLAINED TO THE PATIENT INCLUDING JUST KEEPING THE PATIENT ON OBSERVATION.
-ALL PATIENTS OF FIBROID UTERUS DO NOT  NECESSARILY NEED HYSTERECTOMY.
+ALL PATIENTS OF FIBROID UTERUS DO NOT NECESSARILY NEED HYSTERECTOMY.
 Uterine artery
 embolization 
 Non surgical
@@ -5260,7 +5260,7 @@ Thick pedicle
 Observation
 Symptomatic
 Hysteroscopic removal 
-      COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
+ COUNSELLING IS AN IMPORTANT ADJUNCT TO MANAGEMENT
 INVESTIGATIONS
 Hemoglobin
 Complete blood count
@@ -5317,35 +5317,35 @@ NEUROLOGICAL EXAMINATION
 DESIRABLE
 ESSENTIAL
 OPTIONAL
-  CBC, LFT, KFT, blood sugar, CECT Brain, 
-  CSF examination* (cytology, biochemistry, culture, 
+ CBC, LFT, KFT, blood sugar, CECT Brain, 
+ CSF examination* (cytology, biochemistry, culture, 
 AFB staining, Gene Xpert), peripheral smear for 
 malarial parasite, Rapid Malarial Antigen Test
-  MRI Brain, CSF PCR for Herpes 
+ MRI Brain, CSF PCR for Herpes 
 simplex encephalitis, JE 
 serology, EEG, Dengue 
 serology and NS1 testing, HIV 
 testing
-  CSF Neurovirology panel, anti-NMDA receptor antibody 
+ CSF Neurovirology panel, anti-NMDA receptor antibody 
 testing, PCR viral testing of other samples (throat swab, 
 nasopharyngeal aspirates, stool etc), Blood Tandem Mass 
 Spectrometry and urine gas chromatography, antinuclear 
 antibodies
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 *Lumbar puncture is contra-indicated or neuroimaging must be obtained before lumbar puncture
-  1.Fundus: papilledema  2. Platelet count < 50,000   3. Focal neurological deﬁcits   4. Asymmetric/unreactive pupils   5.Decerebrate/decorticate posturing
-    ##Treatment of seizures
-  1st Line: IV Lorazepam 0.1mg/kg or Midazolam 0.2 mg/kg 
+ 1.Fundus: papilledema 2. Platelet count < 50,000 3. Focal neurological deﬁcits 4. Asymmetric/unreactive pupils 5.Decerebrate/decorticate posturing
+ ##Treatment of seizures
+ 1st Line: IV Lorazepam 0.1mg/kg or Midazolam 0.2 mg/kg 
 orDiazepam 0.3 mg/kg). 
-  If no IV access: IM Midazolam 0.2 mg/kg
-  2nd Line: Inj. Phenytoin 20 mg/kg (in Normal saline 
+ If no IV access: IM Midazolam 0.2 mg/kg
+ 2nd Line: Inj. Phenytoin 20 mg/kg (in Normal saline 
 1mg/kg/min)
-  If seizures still persist: 
-  Refractory status: Transfer to PICU -> midazolam infusion 
-  (1-18 microgram/kg/min)
+ If seizures still persist: 
+ Refractory status: Transfer to PICU -> midazolam infusion 
+ (1-18 microgram/kg/min)
  If ICU facilities not available: sodium valproate (20 mg/kg) or
-  levetiracetam (20-40 mg/kg) or phenobarbitone (20mg/kg)
-  #Management of raised intracranial pressure
+ levetiracetam (20-40 mg/kg) or phenobarbitone (20mg/kg)
+ #Management of raised intracranial pressure
 • Intubate if: GCS <8 / evidence of herniation / irregular respirations and inability to 
 maintain airway
 • Signs of impending herniation: patient to be hyperventilated to a target PaCO2 of 
@@ -5356,7 +5356,7 @@ hours.
 (preferable to mannitol) 0.1–1 mL/kg/hr by infusion; serum sodium to be targeted to 
 145-155 meq/L
 • Adequate sedation and analgesia
-• Avoid noxious stimuli  
+• Avoid noxious stimuli 
 • Administer nebulized lignocaine prior to endotracheal tube suctioning
 INVESTIGATIONS
 • Rash, vesicles, past history of chicken pox
@@ -5373,7 +5373,7 @@ epidemic of AES in neighborhood
 • Pre-morbid developmental/ neurological status of the child
 MANAGEMENT
 EXAMINATION
-  Fever, headache, vomiting, 
+ Fever, headache, vomiting, 
 lethargy, unconsciousness
 Seizures
 Abnormal posturing 
@@ -5397,8 +5397,8 @@ Step III: Empirical Treatment (must be started if CSF cannot be
 done/ report will take time and patient sick)
 • Ceftriaxone: 100 mg/kg/day in 2 divided doses X 10-14 days
 • Acyclovir (use in all suspected sporadic viral encephalitis):
-  3 mo to 12 y: 500mg/m2 8 hourly (min 21 days)
-  >12 y: 10mg/Kg 8 hourly (14-21 days in conﬁrmed cases)**
+ 3 mo to 12 y: 500mg/m2 8 hourly (min 21 days)
+ >12 y: 10mg/Kg 8 hourly (14-21 days in conﬁrmed cases)**
 • Artesunate combination therapy (stop if peripheral smear and RDT are 
 negative) : 3mg/kg in child <20 kg, and 2.4mg/kg in child > 20kg IV/IM at 0,12 
 and 24 hours, followed by once daily parental/oral X 3-7 days
@@ -5406,7 +5406,7 @@ Step IV: Supportive care and treatment
 • Maintain euglycemia, hydration and control fever
 • Treat raised intracranial pressure#, mild head-end elevation–15-30°
 • Treat seizures##; Give anticonvulsant if: history of seizures / GCS <8 / 
-  child has features of raised ICP
+ child has features of raised ICP
 • Steroids: Pulse steroids (methylprednisolone) to be given in children with 
 suspected acute disseminated encephalomyelitis or autoimmune 
 encephalitis
@@ -5418,10 +5418,10 @@ exposure keratitis
 infections, coagulation disturbances
 • Nutrition: early feeding
 • Psychological support to patient and family
-  All patients need to be admitted. 
-  If any of the following signs are present, the child should be referred to tertiary care facility with PICU and facilities for mechanical ventilation:
-  • Glasgow Coma Scale < 8 • Abnormal breathing pattern • Shock not responding to ﬂuid bolus • Decerebrate or decorticate posturing
-  • Seizures persisting despite benzodiazepine and phenytoin
+ All patients need to be admitted. 
+ If any of the following signs are present, the child should be referred to tertiary care facility with PICU and facilities for mechanical ventilation:
+ • Glasgow Coma Scale < 8 • Abnormal breathing pattern • Shock not responding to ﬂuid bolus • Decerebrate or decorticate posturing
+ • Seizures persisting despite benzodiazepine and phenytoin
  **If therapy was started empirically stop acyclovir, in case an alternative diagnosis is 
 conﬁrmed, or HSV PCR of CSF is negative on two occasions (24-48 h apart) and MRI 
 imaging not suggestive of Herpes Simplex Encephalitis
@@ -5493,7 +5493,7 @@ weight for height / MUAC)
 • Classify malnutrition if any
 • Signs of dehydration & 
 classify dehydration
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 1. IMCI (WHO) module on Diarrhea 2014.
 2. WHO Treatment for Diarrhea - A manual for physicians and other senior health workers 2005.
 3. WHO GLOBAL TASK FORCE ON CHOLERA CONTROL 2010.
@@ -5561,7 +5561,7 @@ DYSENTERY
 • Treat dehydration according to assessment.
 • Ciproﬂoxacin 15mg/kg twice a day and reassess 
 after 2 days. 
-   Improvement: 3 days of treatment
+ Improvement: 3 days of treatment
 • No improvement → Ceﬁxime 10 mg//kg/d, 2 div 
 doses. Reassess after 2 days. If better complete 
 3 -5 days of treatment.
@@ -5583,18 +5583,18 @@ PATIENT EDUCATION
 • Vaccination as per IAP guidelines
 INVESTIGATIONS
 • Some dehydration: 
-  Preferable Tests- electrolytes
+ Preferable Tests- electrolytes
 • Severe dehydration: 
-  Essential tests- CBC, electrolytes 
-  Preferable Tests- Renal Function Tests, VBG
+ Essential tests- CBC, electrolytes 
+ Preferable Tests- Renal Function Tests, VBG
 • In suspected cholera cases: 
-  Preferable tests- stool for hanging drop and 
+ Preferable tests- stool for hanging drop and 
 stool culture
 • Dysentery: (no response to antibiotic in 2 
 days) Preferable test- stool culture & stool 
 routine for trophozoites of Ameoba
 • Persistent diarrhea: 
-  Preferable test- stool routine microscopy, 
+ Preferable test- stool routine microscopy, 
 urine routine microscopy, urine culture , 
 sepsis screen
 SOME DEHYDRATION: PLAN B
@@ -5647,43 +5647,43 @@ more
 • Start IV ﬂuid immediately 
 • Ideal ﬂuid is Ringer lactate solution / Normal 
 saline (DNS in malnourished)
-  
-•  If child can drink, give ORS by mouth while 
+ 
+• If child can drink, give ORS by mouth while 
 the drip is set up
-•  Assess heart rate/ respiratory rate/ BP/ CFT/ 
+• Assess heart rate/ respiratory rate/ BP/ CFT/ 
 consciousness and recognize early shock
-•  Refer for hospitalization
-•  If prevalance of cholera – 
-   Doxycycline single dose 300mg or 
+• Refer for hospitalization
+• If prevalance of cholera – 
+ Doxycycline single dose 300mg or 
 Tetracycline 12.5mg/kg 4 times a day x 3 days. 
 For young children Erythromycin 12.5mg/kg 
 4 times a day x 3 days
-•  Associated vomitings –
-   Ondanstetron 0.15 mg/kg/dose IV/oral in 
+• Associated vomitings –
+ Ondanstetron 0.15 mg/kg/dose IV/oral in 
 addition to rehydration therapy
 • Reassess every 15-30 minutes till a strong 
 radial pulse is present and then every hour 
-   If hydration status is not improving, give IV 
+ If hydration status is not improving, give IV 
 drip more rapidly
 • After 6 hours (infants) and 3 hours (older 
 patients) - evaluate for dehydration and 
 choose the appropriate plan (A, B, or C) to 
 continue treatment
-•  Give ORS (about 5 ml/kg/hour) as soon as 
+• Give ORS (about 5 ml/kg/hour) as soon as 
 the child can drink: usually after 3-4 hours 
 (infants) or 1-2 hours (children)
-•  Observe for 6 hours after the child has been 
+• Observe for 6 hours after the child has been 
 fully rehydrated. 
  • In hypernatremic and hyponatremic 
 dehydration child appears relatively less ill / 
 more ill respectively and needs to be 
 referred for hospitalization
 DISCHARGE CRITERIA 
-•  Suffcient rehydration (indicated by wt gain 
+• Suffcient rehydration (indicated by wt gain 
 &/or clinical status)
-•  IV ﬂuids no longer needed
-•  Oral intake = / > losses
-•  Medical f/u available 
+• IV ﬂuids no longer needed
+• Oral intake = / > losses
+• Medical f/u available 
 AGE
 Infant (< 12 
 months)
@@ -5718,10 +5718,10 @@ dehydration
 PERSISTENT DIARRHEA
 • Appropriate ﬂuids to prevent or treat dehydration
 • Nutrition: 
-     • If breastfeeding, give more frequent, longer breastfeeds, day and night. 
-     • Other milk: replace with increased breastfeeding, or with fermented milk 
-       products, such as yogurt, or half the milk with nutrient-rich semi-solid food. 
-     • For other foods, follow feeding recommendations for the child’s age: give
+ • If breastfeeding, give more frequent, longer breastfeeds, day and night. 
+ • Other milk: replace with increased breastfeeding, or with fermented milk 
+ products, such as yogurt, or half the milk with nutrient-rich semi-solid food. 
+ • For other foods, follow feeding recommendations for the child’s age: give
  small, frequent meals (at least 6 times a day), and avoid very sweet foods or 
  drinks.
 • Zinc for 14 days
@@ -5808,7 +5808,7 @@ clinical symptopms
 SHOCK
 INVESTIGATIONS
 COMPENSATED SHOCK
-   (tachypnea, tachycardia, normotensive)
+ (tachypnea, tachycardia, normotensive)
 HYPOTENSIVE SHOCK
 (tachypnea, tachycardia, hypotension, peripheral pulses not palpable) 
 20 ml/ kg crystalloid or colloid in 15 minutes
@@ -5822,11 +5822,11 @@ urine output, respiratory distress)
 LABORATORY
 • Increasing trend of platelet count
 • Stable haematocrit without intravenous ﬂuids
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 • Hb, TLC, DLC, Platelets, PCV
 • Positive tourniquet test 
 • NS1 antigen (ELISA method)
-• Chest X-ray                   
+• Chest X-ray 
 • LFT, RFT, 
 • CPK, albumin 
 • USG abdomen
@@ -5864,7 +5864,7 @@ RL 10-15ml/kg/hr
 Assess after every hour by checking HR, 
 RR, BP, CVP and PCV
 PACKED RED CELLS
-• Loss of blood (overt blood)  10% or 
+• Loss of blood (overt blood) 10% or 
 more of total blood volume.
 • Refractory shock 
 • Fluid overload 
@@ -5881,7 +5881,7 @@ WARNING SIGNS
 • Abdominal pain or tenderness
 • Persistent vomiting
 • Clinical ﬂuid accumulation – pleural effusion, 
-  ascites.
+ ascites.
 • Mucosal bleed – malena, epistaxis, gum bleed
 • Liver enlargement > 2 cms
 • Shock (DSS) – weak rapid pulse, pulse 
@@ -5896,7 +5896,7 @@ DENGUE
 • Fluid accumulation with 
 respiratory distress 
 • Severe bleeding
-• Impaired consciousness  
+• Impaired consciousness 
 TREATMENT OF PROBABLE DENGUE 
 WITHOUT WARNING SIGNS
 • Symptomatic ambulatory 
@@ -5950,7 +5950,7 @@ CLUES TO A SPECIFIC DIAGNOSIS
 MANAGEMENT
 INVESTIGATION OF THE FEBRILE CHILD
 (Consider if one or more of the following are warranted. Perform investigations only where result impacts management)
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 <7 DAYS FEVER ALONE 
 ESSENTIAL: 
 If fever <72 hours and 
@@ -6028,7 +6028,7 @@ proﬁle, HIV serology, PET
 scan.
 REFERENCES
 1. World Health Organization. Integrated Management of Childhood Illness: distance learning course. 
-    http://apps.who.int/iris/bitstream/handle/10665/104772/9789241506823_Module-5_eng.pdf;jsessionid=942F89F89671BA396EC7F46C9B5C1158?sequence=7
+ http://apps.who.int/iris/bitstream/handle/10665/104772/9789241506823_Module-5_eng.pdf;jsessionid=942F89F89671BA396EC7F46C9B5C1158?sequence=7
 2. Mahajan P, et al. Consensus Guidelines on Evaluation and Management of the Febrile Child Presenting to the Emergency Department in India. Indian Pediatr 2017; 54: 652-60.
 3. World Health Organization 2015. Government of India National Guidelines for Clinical Management of Dengue Fever. 
 4. Kliegman RM (ed). Nelson Textbook of Pediatrics 20th edition, 2016.
@@ -6040,14 +6040,14 @@ boxes
 OPTIONAL: All 
 investigations mentioned in 
 the prior boxes
-  Fever + respiratory symptoms:
+ Fever + respiratory symptoms:
 • Cough, runny nose: URTI
 • Membrane over tonsils/pharynx: 
 Diphtheria
 • Paroxysmal cough: Pertussis like illness
 • Barking cough: 
 Laryngotracheobronchitis/ croup
-  Fever + rash
+ Fever + rash
 • Red maculopapular rash: Measles, 
 Rubella, Dengue.
 • Fine generalized maculopapular rash 
@@ -6055,7 +6055,7 @@ with systemic dysfunction/shock:
 Meningococcemia. 
 • Itchy erythematous macules evolving 
 to clear vesicles: Varicella
-  Fever + other symptoms:
+ Fever + other symptoms:
 • Parotid gland swelling: Mumps
 • Arthritis: Consider Chikungunya, acute 
 rheumatic fever, JIA
@@ -6088,7 +6088,7 @@ dehydration, etc.
 diagnosis.
 • Any reason deemed by 
 the treating physician.
-  (after appropriate 
+ (after appropriate 
 stabilization and/or 
 initial management) : 
 • Need for intensive care 
@@ -6228,11 +6228,11 @@ Reassess for decreases in heart
 rate, improvement in pulse 
 volume and warm peripheries 
 Admit or initiate treatment as per IMNCI guidelines2 
-  With fast pulse, cold peripheries, poor pulse volume, CRT >3 seconds
-  (Fast pulse: HR> 180 in < 12 month old child,
-                      HR >120 in >12 month old child)
+ With fast pulse, cold peripheries, poor pulse volume, CRT >3 seconds
+ (Fast pulse: HR> 180 in < 12 month old child,
+ HR >120 in >12 month old child)
  Admit, initiate treatment, refer to centre with facility of ICU, 
-ventilation, 24 hour monitoring (if required)  
+ventilation, 24 hour monitoring (if required) 
 GOOD PERIPHERAL PERFUSION
 POOR PERIPHERAL PERFUSION**
 Start O2 with face mask @ 4-6 lit/min, or hood @8-10 
@@ -6249,14 +6249,14 @@ continue.
 Start maintenance ﬂuid in case of other 
 illness 
 Antibiotics
-1. >3 months  Inj Ceftriaxone 100mg/kg/day ( 2 
+1. >3 months Inj Ceftriaxone 100mg/kg/day ( 2 
 divided doses)
-2. <3 month Inj Cefotaxime 200mg/kg (divided   
+2. <3 month Inj Cefotaxime 200mg/kg (divided 
 6-8hrly), 
-      Inj Gentamicin 5-7.5 mg/kg single dose /day
+ Inj Gentamicin 5-7.5 mg/kg single dose /day
 3. If soft tissue infection: consider Inj Cloxacillin 
 200mg/kg divided
-    6 hourly or Inj Amoxicillin- Clavulanic acid 30 
+ 6 hourly or Inj Amoxicillin- Clavulanic acid 30 
 mg/kg/dose 8hrly)
 Inj Adrenaline- 0.3x body weight in mg in 50 
 ml NS or 5% dextrose at 1 ml/hr will give 0.1 
@@ -6268,7 +6268,7 @@ monitoring for hepatomegaly, oxygen saturation, crepitation’s
 in chest (if any of above appears then stop fluids)
  Start Inj Adrenaline infusion 
 @0.1 microgram/kg/min and refer to higher centre
-A Is the child Alert? If not;  V Is the child responding to Voice? If not;  P Is the child responding to Pain?;  U The child who is Unresponsive to voice (or being 
+A Is the child Alert? If not; V Is the child responding to Voice? If not; P Is the child responding to Pain?; U The child who is Unresponsive to voice (or being 
 shaken) AND to pain is Unconscious *Anything below A should be classify as danger sign
 Pulse volume (High volume as 
 well as low volume/feeble 
@@ -6298,7 +6298,7 @@ film, urine routine, blood sugar, CRP, serum
 electrolytes, renal function test, liver function test
 When to refer
 • Shock does not improve after 2nd 
-fluid bolus  
+fluid bolus 
 • Signs of fluid overload
 • No facility for continuous 
 monitoring.
@@ -6306,11 +6306,11 @@ monitoring.
 and inform referring facility 
 When to Suspect Cardiac Failure
 • History of underlying heart disease 
-•  History of forehead sweating/ suck rest suck cycle
-•  Murmur 
-•  Hepatomegaly or basilar crept 
-  
-   If it is suspected be careful in giving fluid bolus 
+• History of forehead sweating/ suck rest suck cycle
+• Murmur 
+• Hepatomegaly or basilar crept 
+ 
+ If it is suspected be careful in giving fluid bolus 
 Complications 
 • Respiratory failure ( excessive increase in the respiratory 
 rates and inability to maintain saturation> 94% with 
@@ -6319,7 +6319,7 @@ ventilation
 • Congestive heart failure- Dobutamine / Milrinone 
 infusion and Furosemide
 • Infections on other sites- explore and treat accordingly 
- #For severe acute malnutrition – consider SAM STW                
+ #For severe acute malnutrition – consider SAM STW 
  #For suspected Dengue follow Dengue Fever STW
 DIAGNOSTIC ALGORITHM
 VITAL SIGNS
@@ -6343,7 +6343,7 @@ SIGNS OF SEVERE DEHYDRATION
 *DISABILITY (AVPU SCALE) 
 INVESTIGATIONS- (Based on symptoms and available facility) 
 MANAGEMENT
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 If no improvement 
 If shock persists 
 Completion of antibiotics 
@@ -6422,7 +6422,7 @@ Blood Culture, Blood
 gases, Ultrasound 
 (inferior vena cava to 
 ascending aorta ratio)
-A. STABILISATION PHASE:  Monitor vitals, urine frequency, stool/vomitus volumes
+A. STABILISATION PHASE: Monitor vitals, urine frequency, stool/vomitus volumes
 INTAKE: IVF (DNS) 4 ml/kg/hr for 2-3 days with early/concomitant initiation of oral feeds (130 ml/kg/day)
 CONDITION
 PLACE OF TREATMENT
@@ -6435,7 +6435,7 @@ HYPOGLYCEMIA
 (RBS <54mg/dL)
  Facilities for supportive 
 monitoring, investigations 
-and IVF    
+and IVF 
 Conscious: 50 ml of 10% Dextrose or 1 tsf sugar in 3 tsf water orally
 Transfer to intensive care 
 facility to manage shock
@@ -6444,17 +6444,17 @@ IMBALANCE
 (emperically)
 Facilities for supportive 
 monitoring, investigations 
-and IVF  
+and IVF 
 Potassium: 3-4 mmol/kg/D, orally for 2 wks 
 Magnesium: 0.4-0.6 mmol/kg/D1 IM followed by oral for 2 wks
 ANEMIA
 Facilities for supportive 
 monitoring, 
-investigations and IVF  
+investigations and IVF 
 Whole blood /PRBC transfusion (10 ml/kg over 3 hrs) : if Hb <4 gm/dL or Hb 4-6.5 gm/dL with respiratory 
 distress with close monitoring and hy. Furosemide (1 mg/kg) at start of transfusion
 FEEDING
-Place of treatment: Facilities for supportive monitoring  
+Place of treatment: Facilities for supportive monitoring 
 Treatment:
 a. 6 months and above: F75 at least 5 times/day gradually 
 increasing to give 150-200 kCal/kg/day (usually 2-3 days) then 
@@ -6469,7 +6469,7 @@ c. Iron: 3 mg/kg/day once weight gain
 has started orally for 6 weeks
 ELECTROLYTES
 Place of treatment: Facilities for supportive 
-monitoring  
+monitoring 
 Treatment:
 a. Vitamin A: >12 months- 2 lac iu, 6-12 
 months: 1 lac iu, <6 months: 0.5 lac 
@@ -6483,7 +6483,7 @@ REFERENCES
 2. Management of severe acute malnutrition in children 6–59 months of age with oedema. Available at http://www.who.int/elena/titles/oedema_sam/en/
 3. Operational guidelines on Facility Based Management of Children with Severe Acute Malnutrition.Available at 
 http://nhm.gov.in/nrhm-components/rmnch-a/child-health-immunization/child-health/guidelines.html
-4.  Kumar R, Kumar P, Aneja S, Kumar V, Rehan HS. Safety and Efﬁcacy of Low-osmolarity ORS vs. Modiﬁed Rehydration Solution for Malnourished Children 
+4. Kumar R, Kumar P, Aneja S, Kumar V, Rehan HS. Safety and Efﬁcacy of Low-osmolarity ORS vs. Modiﬁed Rehydration Solution for Malnourished Children 
 for Treatment of Children with Severe Acute Malnutrition and Diarrhea: A Randomized Controlled Trial. J Trop Pediatr. 2015 Dec;61(6):435-41.
 HYPOTHERMIA 
 (<35.5 ºC or 96 ºF)
@@ -6501,7 +6501,7 @@ SEVERE
 DEHYDRATION 
  Facilities for supportive 
 monitoring, investigations 
-and IVF    
+and IVF 
 Conscious: 50 ml of 10% Dextrose or 1 tsf sugar in 3 tsf water orally
 Transfer to intensive care 
 facility to manage shock
@@ -6522,10 +6522,10 @@ pitting oedema
 • Consider MAM if MUAC is 
 between 11.5- 12.4 cm or WHZ is 
 between -2 to -3 SD
- >5 years  
+ >5 years 
 • Consider SAM if BMI ≤ 3SD 
 (severe thinness)
-• Consider MAM if  BMI ≤ 2 SD 
+• Consider MAM if BMI ≤ 2 SD 
 (thinness)
 TRIAGE
 SAM + GOOD APPETITE + NO MEDICAL 
@@ -6547,8 +6547,8 @@ INFECTIONS
 (empirically)
 Facilities for supportive 
 monitoring, 
-investigations and IVF  
-B. REHABILITATION PHASE  (Transfer to NRC when child meets criteria for discharge* & accepts home available foods)
+investigations and IVF 
+B. REHABILITATION PHASE (Transfer to NRC when child meets criteria for discharge* & accepts home available foods)
 HOW TO PREPARE F75 AND F100
 F75
 F100
@@ -6571,7 +6571,7 @@ in 1 hour:
 AMOUNT TO BE GIVEN: 15 gms or more if < 4 kg; 25 gms or more if 4 – 7 kg; 35 gms or more if 7-10 kg
 **[ Mixture of Roasted groundnut 1000 gm , Milk powder 1200 gms, Sugar 1120 gms, Coconut oil 600 
 gms. To be kept refrigerated for not more than 1 week.]
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 Department of Health Research
 Ministry of Health and Family Welfare, Government of India
 October/ 2019
@@ -6617,7 +6617,7 @@ Asthma/allergy in family.
 Immunization (age 
 appropriate speciﬁcally 
 vaccination included in 
-national schedule and  
+national schedule and 
 Pneumococcus, 
 Inﬂuenza).
 EXAMINATION FOR 
@@ -6686,7 +6686,7 @@ OXYGEN INHALATION: by mask (1-2 L/min) or hood (4-6 L/Minute) to
 maintain oxygen saturation> 95%.
 IV ANTIBIOTICS: 
 • For children 2-59 months: Ampicillin 100-200mg/kg in four divided doses + 
-Gentamicin    5-7.5 mg/kg as single dose daily. 
+Gentamicin 5-7.5 mg/kg as single dose daily. 
 • For children >5 years: Ampicillin/Amoxicillin, add macrolide 
 (Azythromycin/Erythromycin) if atypical pneumonia is suspected. 
 • If suspected Staphylococcal pneumonia in any age (Pneumatocele on 
@@ -6699,7 +6699,7 @@ WHEN AND WHAT TO SWITCH TO ORAL AND DURATION:
 indrawing and accepting orally: switch to oral Amoxicillin to complete a 
 total of 5-7 days duration (include duration of IV also in it).
 • If getting Doxacillin/Amoxyclav: continue oral Cloxacillin or Amoxclav for 2 
-weeks.  
+weeks. 
 • Start feeding as soon as possible when child shows improvement. 
 IF ASSOCIATED SAM: follow treatment guidelines for SAM.
 INVESTIGATIONS
@@ -6815,7 +6815,7 @@ http://apps.who.int/iris/bitstream/handle/10665/137319/9789241507813_eng.pdf;jse
 3. Bradley JS, Byington CL, Shah SS, et al. Executive summary: the management of community-acquired pneumonia in infants and children older than 3 months of age: clinical practice guidelines by the Pediatric 
 Infectious Diseases Society and the Infectious Diseases Society of America. Clin Infect Dis 2011;53:617-30.
 4. Lodha R, Kabra SK, Pandey RM. Antibiotics for community-acquired pneumonia in children. Cochrane Database Syst Rev. 2013 Jun 4;(6):CD004874
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 +-
 Department of Health Research
 Ministry of Health and Family Welfare, Government of India
@@ -6851,32 +6851,32 @@ NEUROLOGICAL SIGNS
 • Cerebellar signs
 • Peripheral neuropathy
 • Confusion
-  CT head (in case of seizure/ delirium tremens)
+ CT head (in case of seizure/ delirium tremens)
 ASSESSMENT (DETAILED HISTORY)
 DIAGNOSIS
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
-  Alcohol dependence (three of the following six criteria to be present for at least one month)
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ Alcohol dependence (three of the following six criteria to be present for at least one month)
 1) A strong desire or sense of compulsion to take alcohol 
 2) Difﬁculty in controlling alcohol use 
 3) Withdrawal state when alcohol use has stopped or been reduced or use of the alcohol (or 
-    benzodiazepines) to relieve or avoid withdrawal symptoms 
+ benzodiazepines) to relieve or avoid withdrawal symptoms 
 4) Evidence of tolerance
 5) Preoccupation with alcohol use
 6) Alcohol use persisting despite clear evidence of harmful consequences 
 MANAGEMENT
 INVESTIGATIONS
-  Hazardous or Harmful use 
-• Involvement in risky behaviours such as  
+ Hazardous or Harmful use 
+• Involvement in risky behaviours such as 
 binge drinking, driving under the 
 inﬂuence of alcohol
 • It should have resulted in harmful 
 physical or psychosocial consequences
-  Poly-substance use
+ Poly-substance use
 INDICATIONS FOR ADMISSION 
-  Failure of outpatient treatment
-  H/o withdrawal seizures/ delirium 
+ Failure of outpatient treatment
+ H/o withdrawal seizures/ delirium 
 tremens
-  Co-morbid signiﬁcant medical 
+ Co-morbid signiﬁcant medical 
 illness and/or psychiatric illness
 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. These broad guidelines are advisory, and are 
 based on expert opinions and available scientiﬁc evidence. There may be variations in the management of an individual patient based on his/her speciﬁc condition, as decided by the 
@@ -6895,7 +6895,7 @@ SIGNS OF HEPATIC DYSFUNCTION
 • Enlarged liver
 • Icterus
 • Abdominal swelling
-  EXAMINATION
+ EXAMINATION
  WITHDRAWAL MANAGEMENT
  
 • Tab Diazepam 
@@ -6911,19 +6911,19 @@ within 7 to 10 days
 • Thiamine 100 mg OD 
 • Signiﬁcant liver 
 dysfunction: 
-  Lorazepam (2 mg 
+ Lorazepam (2 mg 
 Lorazepam equal to 5 
 mg Diazepam)
 CBC
-  Liver function test
-  Blood sugar
-  Electrolytes
+ Liver function test
+ Blood sugar
+ Electrolytes
 *BRIEF INTERVENTION 
 Inquire using open ended questions in a 
 non-judgmental manner. Help patient to evaluate the 
 risks versus the perceived beneﬁts and to arrive at a 
 decision to reduce or stop alcohol use. 
-  Includes (FRAMES) :
+ Includes (FRAMES) :
 • Feedback about alcohol related problems 
 • Responsibility – acknowledging that the patient is 
 responsible for making the decision about their alcohol 
@@ -6940,7 +6940,7 @@ RELAPSE PREVENTION
 (Long term goals- abstinence and socio-occupational 
 integration)
 • Disulﬁram (250 mg OD) 
-    Pre-requisites:
+ Pre-requisites:
 • Motivated patient
 • Patient’s written consent 
 • Under supervision of family members.
@@ -6974,18 +6974,18 @@ Daily alcohol
 consumption
 Drinking in large 
 quantities 
-   (men: 5 or more 
+ (men: 5 or more 
 drinks/ day; 
-   women: 4 or 
+ women: 4 or 
 more drinks/ day)
-  SECONDARY CARE
+ SECONDARY CARE
 • Treatment of withdrawal symptoms 
 • Managment of withdrawal seizure 
  • Inpatient management with benzodiazepines (diazepam or lorazepam)
  • Frequent titration of medication. Higher dosage may be required. 
  • Closer monitoring and nursing care
 • Treatment of additional psychiatric disorder or substance use disorder 
-  TERTIARY CARE
+ TERTIARY CARE
 • Treatment of delirium tremens 
 • R/ o head injury, hepatic encephalopathy, Wernicke’s encephalopathy
 • R/ o other causes of delirium
@@ -6994,13 +6994,13 @@ more drinks/ day)
 • Consult with other medical specialists (like gastroenterology or medicine for 
 hematemesis). 
 • Management for suicidality or violence when emergent threat
-  PRIMARY CARE
+ PRIMARY CARE
 • Alcohol Hazardous/ Harmful users - Brief 
-Intervention* to reduce/stop consumption  
+Intervention* to reduce/stop consumption 
 • Alcohol Dependent users – Advice to stop use 
 and motivate for treatment using Brief 
 intervention*
-  
+ 
 • H/ o withdrawal 
 seizures/ 
 hallucinations
@@ -7028,7 +7028,7 @@ October/ 2019
 Standard Treatment Workﬂow (STW) for the Management of
 ANXIETY DISORDERS
 ICD-10-F40-F42
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 Tension, anxiety, 
 apprehension, fear, 
 worrying
@@ -7051,21 +7051,21 @@ thoughts and
 behaviours
 MANAGEMENT
 PRIMARY CARE LEVEL
-  Psychoeducation 
+ Psychoeducation 
 • Reassurance
-• Explain symptoms are of anxiety/ fear and mimic     
+• Explain symptoms are of anxiety/ fear and mimic 
 symptoms of physical illnesses (e.g., heart attack)
 • Do not investigate excessively. Few investigations 
 like ECG, ECHO maybe necessary in some patients
 • Discourage doctor shopping
-• Do not avoid triggers of panic attacks (e.g.,  physical 
+• Do not avoid triggers of panic attacks (e.g., physical 
 exertion, agoraphobic situations) and fear (e.g., 
 travelling by public transport). 
 • Emphasize avoidance maintains fears and phobias. 
 • OCD: Educate that the unwanted thoughts are a 
 part of illness, and not a reﬂection of character or 
 hidden intentions. 
-  Pharmacological treatment 
+ Pharmacological treatment 
 • Mild illness: Spending time, reassurance, and 
 psychoeducation. May not need any medications.
 • No improvement (few weeks): Escitalopram 5mg / 
@@ -7091,7 +7091,7 @@ with a trial of Escitalopram.
 taken medication at prescribed 
 dose and on a regular basis
 • Second SSRI 
-  (either of them for about 2-3 
+ (either of them for about 2-3 
 months):
  • Sertraline upto 200 mg/day,
  • Fluoxetine upto 60 mg/day, 
@@ -7115,12 +7115,12 @@ TERTIARY CENTRE (MEDICAL COLLEGE,
 REGIONAL MEDICAL CENTRE, PSYCHIATRIC 
 HOSPITAL)
 • Evaluate reasons for treatment resistance like
-  • Wrong diagnosis
-  • Inadequate drug treatment,
-  • Poor adherence to treatment
-  • Inadequate CBT,
-  • Presence of comorbid conditions such as      
-    personality disorders and organicity
+ • Wrong diagnosis
+ • Inadequate drug treatment,
+ • Poor adherence to treatment
+ • Inadequate CBT,
+ • Presence of comorbid conditions such as 
+ personality disorders and organicity
 • Panic disorder: evaluate any medical 
 conditions that mimic panic disorder 
 (hyperthyroidism, hyperparathyroidism, 
@@ -7146,7 +7146,7 @@ This STW has been prepared by national experts of India with feasibility conside
 based on expert opinions and available scientiﬁc evidence. There may be variations in the management of an individual patient based on his/her speciﬁc condition, as decided by the 
 treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information.
 © Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India.
-  Generalized Anxiety Disorder 
+ Generalized Anxiety Disorder 
 (GAD): Chronic feeling of tension, 
 apprehension, anxiety or worrying 
 about a number of events or 
@@ -7154,16 +7154,16 @@ activities that involve every day
 routine life circumstances (e.g., work, 
 school, health, ﬁnance, household 
 chores etc.)
-  Panic Disorder: Recurrent unexpected 
+ Panic Disorder: Recurrent unexpected 
 attacks of intense fear/ anxiety along with 
 physical symptoms (palpitations, feelings of 
 “choking”, trembling, chest pain feeling 
 dizzy/faint etc.)
-  Social Phobia: Marked fear and avoidance of 
+ Social Phobia: Marked fear and avoidance of 
 social situations (e.g., interaction with 
 strangers, meeting unfamiliar people, 
 performing in front of others)
-  Obsessive-compulsive disorder (OCD):  
+ Obsessive-compulsive disorder (OCD): 
 Recurrent and persistent unwanted 
 thoughts (e.g., unwanted sexual and 
 blasphemous thoughts, fear of harming self 
@@ -7172,7 +7172,7 @@ about daily activities etc.) and repetitive
 behaviours (e.g., excessive washing / 
 cleaning, checking, ordering etc.) 
 DIAGNOSIS
-  Agoraphobia: Fear of going out 
+ Agoraphobia: Fear of going out 
 of home alone, being in enclosed 
 spaces (e.g., malls, cinemas etc.), 
 open spaces (e.g., bridges, vast 
@@ -7201,7 +7201,7 @@ Ministry of Health and Family Welfare, Government of India
 October/ 2019
 
 <<<PAGE 54>>>
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 CLINICAL 
 PRESENTATION
 CAUTION
@@ -7275,9 +7275,9 @@ weekly up to 1 mg single daily dose).
  Not to exceed 1 mg/day
 - Response + : continue 3 months f/b slow taper
 - Response - : 4 weeks trial, then refer
-- Monitor adverse effects: weight gain,    
+- Monitor adverse effects: weight gain, 
 extra-pyramidal symptoms (EPS)
-  [if EPS : add I mg Trihexyphenidyl OD morning] 
+ [if EPS : add I mg Trihexyphenidyl OD morning] 
 • Severe hyperactivity and impulsivety:
 - T. Clonidine (starting dose-25 µg single daily 
 dose before sleep, increase by 25 µg weekly up 
@@ -7300,7 +7300,7 @@ Academy of Child & Adolescent Psychiatry. 2007 Jul 1;46(7):894-921.
 • Steiner H, Remsing L. Practice parameter for the assessment and treatment of children and adolescents with oppositional deﬁant disorder. Journal of the American Academy of Child & Adolescent Psychiatry. 
 2007 Jan 1;46(1):126-41.
 REFERENCES 
-  Alcohol and substance abuse
+ Alcohol and substance abuse
 • Analyse the problem behaviors and understand patterns : time of occurance, triggers, 
 duration and consequencies
 • Engage with child in mutually enjoyable, pleasurable activities (playing games, 
@@ -7342,9 +7342,9 @@ as bipolar affective
 disorder, hypomanic or 
 manic episode -> follow 
 the relevant STW)
-  Lack of response to treatment
-  Severe aggression
-  Highly dysfunctional family
+ Lack of response to treatment
+ Severe aggression
+ Highly dysfunctional family
 SECONDARY CARE (DISTRICT HOSPITAL)
 • Evaluate and manage severe behavior disorders – severe ADHD, ODD, and CD, if necessary on 
 short-term inpatient basis
@@ -7361,13 +7361,13 @@ care and protection; children in conﬂict with law)
 using Rutter’s multi-axial system) and all the 
 pointers given above
 • If failed trial of Clonidine/ Moderate ADHD:
-  T. Atomoxetine (starting dose-10 mg single daily 
+ T. Atomoxetine (starting dose-10 mg single daily 
 morning dose after breakfast. Increase up to 
-  1mg/ kg/day under close supervision). 
-  Monitor adverse effects and response
+ 1mg/ kg/day under close supervision). 
+ Monitor adverse effects and response
 • Systematic parent management training / 
 behavioral management and individual therapy 
-  (as given above)
+ (as given above)
 TERTIARY CARE (MEDICAL COLLEGE / REGIONAL REFERRAL CENTRE)
 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. These broad guidelines are advisory, and are 
 based on expert opinions and available scientiﬁc evidence. There may be variations in the management of an individual patient based on his/her speciﬁc condition, as decided by the 
@@ -7377,7 +7377,7 @@ Standard Treatment Workﬂow (STW) for the Management of
 CHILDHOOD BEHAVIORAL DISORDERS
 ICD10- F90-98
 DIAGNOSIS
-  Severe, complicated presentation
+ Severe, complicated presentation
 REASONS FOR REFERRAL
 OPPOSITIONAL DEFIANT DISORDER (ODD)
 • Doesn’t obey or listen, back-answers, rude behaviors
@@ -7398,7 +7398,7 @@ gets easily distracted, disorganized, does not
 complete school work
 • Too mischievous, can’t be left alone, troubles 
 people or damages things, or gets injured
-• Impatient, always in a hurry, can’t wait for his turn,  
+• Impatient, always in a hurry, can’t wait for his turn, 
 does not care for danger, acts without thinking
 ALL 3 DISORDERS
 Poor or erratic school performance and / or 
@@ -7426,7 +7426,7 @@ CHILDHOOD EMOTIONAL DISORDERS
 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. Kindly visit the website of DHR for 
 more information: https://dhr.gov.in/
 © Department of Health Research, Ministry of Health & Family Welfare, Government of India.
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 CAUTION
 • Assessment of suicidal risk 
 and a plan of action is 
@@ -7443,7 +7443,7 @@ bipolar disorder)
 cause similar symptoms 
 (anemia and thyroid 
 disturbance)
-ASSESSMENT  
+ASSESSMENT 
 • Onset, duration, severity and full range of 
 symptoms
 • Home environment, family life and 
@@ -7542,7 +7542,7 @@ patterns
 • Collaborate with school wherever necessary (get school report; explain problem in 
 simple terms, and suggest ways by which school can help)
 • Recognize and manage less common problems such as obsessive compulsive 
-disorder,  psychoses and bipolar disorders  
+disorder, psychoses and bipolar disorders 
 • Manage adolescents with mild / moderate suicidal risk
 TERTIARY CARE (MEDICAL COLLEGE / REGIONAL REFERRAL 
 CENTRE)
@@ -7556,7 +7556,7 @@ contributing to child’s condition
 • Cognitive behavior therapy for older children with 
 severe OCD, depression, and anxiety disorders
 • ECT on case to case basis (older adolescents with 
-severe depression,  mania, psychosis or catatonia 
+severe depression, mania, psychosis or catatonia 
 unresponsive to adequate pharmacological 
 management)
 • Appropriate psycho-social steps if there is abuse, 
@@ -7568,7 +7568,7 @@ This STW has been prepared by national experts of India with feasibility conside
 based on expert opinions and available scientiﬁc evidence. There may be variations in the management of an individual patient based on his/her speciﬁc condition, as decided by the 
 treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information.
 © Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India.
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 SOMATIC (PHYSICALLY UNEXPLAINED) SYMPTOMS 
 • Weakness and tiredness
 • Aches and pains
@@ -7581,8 +7581,8 @@ SYMPTOMS OF DEPRESSION
 • Recent deterioration in school performance
 • Wanting to be alone, withdrawn, not interacting 
 with people
-• Looks unhappy, “off mood”,  crying for trivial or no 
-reason, irritable, sensitive to any criticism  
+• Looks unhappy, “off mood”, crying for trivial or no 
+reason, irritable, sensitive to any criticism 
 • Decreased sleep, loss of appetite and weight loss
 • Talking about death and dying, self harm (eg. 
 self-cutting) or suicidal attempt
@@ -7594,7 +7594,7 @@ marks and ranks
 situations (insects, animals, ghosts)
 • Reluctance or refusal to go to school 
 • Very shy, avoids social situations, scared of talking or 
-interacting  with strangers, 
+interacting with strangers, 
 • Clinging to mother, scared of being separated from 
 mother
 • Frequent expression of suicidal ideation/ 
@@ -7656,7 +7656,7 @@ such children such as CBR programs or parent associations
 bipolar disorder, and psychotic disorders through multi-disciplinary approach
 • Investigate for the cause – review tests already done; imaging, genetic tests, metabolic tests (as per requirement) ;arrange for genetic counselling
 • Manage treatable disorders (like hypothyroidism and inherited metabolic disorders)
-• Manage comorbid physical health problems (like epilepsy, visual /hearing impairment, locomotor/ orthopaedic  problems)
+• Manage comorbid physical health problems (like epilepsy, visual /hearing impairment, locomotor/ orthopaedic problems)
 • Assessment and management for SLD – psychoeducation of the child and parents, liaison with school, teaching basic remediation techniques to 
 parents, helping parents access relevant organizations, issue of exemption certiﬁcates, and decisions about further schooling such as open 
 schooling
@@ -7676,7 +7676,7 @@ damage to brain before, during or
 after birth
 • No medication can improve 
 intelligence
-  Teaching and training to improve 
+ Teaching and training to improve 
 skills and gaining independence
 • Systematic, persistent and repetitive 
 training as per the child’s ability
@@ -7705,11 +7705,11 @@ vegetables.
 • Parallel vocalization to improve utterances (making 
 the same sound as the child immediately). 
 • Improve conceptual skills by classifying, arranging, 
-sorting, and  recognizing and naming activities (for 
+sorting, and recognizing and naming activities (for 
 eg., vegetable sorting, grain sorting, arranging 
 vessels by their size and shape)
 HOME-BASED PARENT MEDIATED SKILLS TRAINING
-• Develop and maintain regular, stimulating  daily 
+• Develop and maintain regular, stimulating daily 
 routines
 • Teach parent to teach child : simple imitation, 
 pointing, pretend-play; self-help skills (eating, 
@@ -7731,7 +7731,7 @@ hand and making them do the activity)
 EDUCATION AND TRAINING
 • Liaise with schools and ensure child attends school that is most appropriate
 • Assist in enrolment to special school
-• Consider training in vocational skills (informal and formal) for older adolescents  
+• Consider training in vocational skills (informal and formal) for older adolescents 
  REASONS 
 FOR 
 REFERRAL
@@ -7793,7 +7793,7 @@ and adaptive skills
 Speciﬁc speech delay – Only 
 lagging in speech with normal 
 intelligence, hearing and 
-non-verbal communication  
+non-verbal communication 
 Autism Spectrum Disorder 
 (ASD) marked impairment in 
 verbal and non-verbal social 
@@ -7801,7 +7801,7 @@ interactions (being solitary or
 “in his own world”, poor 
 response to name call and poor 
 eye-to-eye contact) and 
-stereotyped behaviors  *in 
+stereotyped behaviors *in 
 children under 5 years, avoid 
 diagnosis of ID, name it as 
 global developmental delay 
@@ -7820,7 +7820,7 @@ emotional problems
 • Suspected SLD
 • Genetic counselling
 • Speech therapy or physiotherapy
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 TThis STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. These broad guidelines are advisory, and 
 are based on expert opinions and available scientiﬁc evidence. There may be variations in the management of an individual patient based on his/her speciﬁc condition, as decided by 
 the treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information.
@@ -7849,10 +7849,10 @@ ADDITIONAL SYMPTOMS
 • Diminished appetite
 To make a diagnosis of depression, 
 symptoms must present for at least 2 weeks.
-Cognition  
-   • Hopelessness (about future)
-   • Helplessness (about others)
-   • Worthlessness (about self)
+Cognition 
+ • Hopelessness (about future)
+ • Helplessness (about others)
+ • Worthlessness (about self)
 Assessment of Suicide Risk
 • Suicidal thoughts 
 • Suicidal idea 
@@ -7864,24 +7864,24 @@ REFERRAL TO SECONDARY CARE
 weeks of treatment with ﬁrst 
 line medications
 • Depression in special 
-population: Elderly /  
+population: Elderly / 
 Pregnancy / Lactation / 
 Children / Adolescents 
-• Comorbid medical illness /  
+• Comorbid medical illness / 
 Substance use
 • Suicidal risk assessment
 • Selective Serotonin Reuptake Inhibiters (SSRI) are 
 usually ﬁrst choice (watch for GI bleed and drug 
 interaction)
 • Improvement starts in in 2nd week and expect 
-adequate  response by 6 weeks
-• Duration  of treatment typically lasts 6-9 months  
+adequate response by 6 weeks
+• Duration of treatment typically lasts 6-9 months 
 and Gradual tapering of medication advised for ﬁrst 
 episode 
-• Restart  SSRI , In case of resurgence and recurrence 
+• Restart SSRI , In case of resurgence and recurrence 
 of depressive symptoms 
 • Observe for switch / activation with Antidepressants
-• Watch for  risk of overdose with TCA (Amitriptyline / 
+• Watch for risk of overdose with TCA (Amitriptyline / 
 Imipramine) and Mirtazapine
 • Conﬁrm Diagnosis and Suicide risk 
 assessment
@@ -7891,7 +7891,7 @@ Comorbidities
 Function Test, Electrocardiogram
 • Non Responder - Switch over to SNRI 
 (Venlafaxine 75 – 150 mg, Mirtazapine 
-30 mg) or TCA (Amitriptyline 75  -  
+30 mg) or TCA (Amitriptyline 75 - 
 225mg / Imipramine 75 -225mg)
 • Cognitive Behavioral Therapy / 
 Problem Solving Therapy
@@ -7917,7 +7917,7 @@ depression
 2 or more
 3 or more
 4 or more
-Rule out Bipolar Disorder /  Grief / Adjustment 
+Rule out Bipolar Disorder / Grief / Adjustment 
 Disorder
 INVESTIGATION
 • Haemogram
@@ -7926,8 +7926,8 @@ INVESTIGATION
 • Electrolytes (Sodium) 
 • Rule out secondary medical cause of depression 
 • Rule out use of anticancer drugs 
-(Cyclophoshamide)  / anti retroviral drugs 
-  (Efavirenz, Zidovudine)/ Antibiotics (Dapsone , 
+(Cyclophoshamide) / anti retroviral drugs 
+ (Efavirenz, Zidovudine)/ Antibiotics (Dapsone , 
 Ethambutol)/ Anabolic Steroids/ Propanolol
 • Rule out associated comorbid medical condition – 
 Diabetes, Stroke, Epilepsy, Cancer, Coronary Artery 
@@ -7935,75 +7935,75 @@ Disease and Auto Immune disorder
 AT PRIMARY CARE
 MILD DEPRESSION
 • Advise Behavioral Activation to patients
-• Practicing activity monitoring -  write down your activities / rate your depression / schedule activities that 
-make you feel good /  make a to do list/ set clear and speciﬁc goals
-• Focusing on your value categories – make time for your family /  friends / set clear goals at work  / contribute 
+• Practicing activity monitoring - write down your activities / rate your depression / schedule activities that 
+make you feel good / make a to do list/ set clear and speciﬁc goals
+• Focusing on your value categories – make time for your family / friends / set clear goals at work / contribute 
 to community
 • Reccomend yoga & mediatation 
-• Handling daily task -  monitor sleep /diet and practice good personal hygiene
-• Supportive psychotherapy /  Brief Counselling 
-• Validate the problems and  ensure  frequent follow-up 
-• If no improvement  in 4 to 6 weeks, consider pharmacotherapy
+• Handling daily task - monitor sleep /diet and practice good personal hygiene
+• Supportive psychotherapy / Brief Counselling 
+• Validate the problems and ensure frequent follow-up 
+• If no improvement in 4 to 6 weeks, consider pharmacotherapy
 MODERATE / SEVERE DEPRESSION
-• Tab Escitalopram 10 mg-20 mg /day or  
+• Tab Escitalopram 10 mg-20 mg /day or 
 Cap. Fluoxetine 20mg -40mg /day
 • Tab. Clonazepam 0.25mg – 0.5mg /day for 
-sleep disturbance /  anxiety symptoms 
+sleep disturbance / anxiety symptoms 
 and consider taper and stop after 2 
 weeks.
-• If patient responds  to SSRI in 2 to 4 
-weeks, then continue  treatment for 6 to 9 
+• If patient responds to SSRI in 2 to 4 
+weeks, then continue treatment for 6 to 9 
 months and taper and stop
-BROAD  MANAGEMENT  PLANS
-AT SECONDARY  CARE
+BROAD MANAGEMENT PLANS
+AT SECONDARY CARE
 • No improvement in 2nd 
 line treatment 
 • Immediate risk for 
-suicidal  attempt / 
+suicidal attempt / 
 thought
 • Needing intense 
 counselling/ 
 psychotherapy
-• Co Morbid Substance -  
-Cannabis /  Poly 
+• Co Morbid Substance - 
+Cannabis / Poly 
 substance
-• Pregnancy / Lactation period -  
+• Pregnancy / Lactation period - 
 Pre Conception counselling and 
 preferred drug is 
-  Tab. Sertraline 50 mg – use 
+ Tab. Sertraline 50 mg – use 
 lowest possible dose 
 • Elderly - 
-  Tab. Escitalopram 10 -20 mg or 
+ Tab. Escitalopram 10 -20 mg or 
 Tab. Sertraline 100 mg 
-  (monitor for hyponatremia)
-• Avoid TCAs like Amitriptyline  /  
+ (monitor for hyponatremia)
+• Avoid TCAs like Amitriptyline / 
 Imipramine in Elderly (due to 
 anticholinergic side effects)
-• Adolescents-  Cap. Fluoxetine 
+• Adolescents- Cap. Fluoxetine 
 20 -40 mg /day ( observe for 
 switch / activation/ suicidality) 
 • Reconﬁrm Diagnosis
 • Assess other psychiatric comorbidities
-• Partial Responder - Optimise the SNRI /TCA or  Augment 
+• Partial Responder - Optimise the SNRI /TCA or Augment 
 with Tab. Lithium 300 to 600mg /per day or Tab. Thyroxine 
-25  - 50 ug per day.
-• Non Responder –  Add Tab. Sertraline 100mg or 
-  Tab. Bupropion 300mg  to existing Venlafaxine 150mg / Tab. 
-Mirtazapine 30mg /  Amitriptyline 225mg /  Imipramine 
+25 - 50 ug per day.
+• Non Responder – Add Tab. Sertraline 100mg or 
+ Tab. Bupropion 300mg to existing Venlafaxine 150mg / Tab. 
+Mirtazapine 30mg / Amitriptyline 225mg / Imipramine 
 225mg.
-• Add on Electro Convulsive Therapy for Catatonia /  Suicidality 
-• Add on Cognitive Behavioural Therapy/  Inter Personal 
+• Add on Electro Convulsive Therapy for Catatonia / Suicidality 
+• Add on Cognitive Behavioural Therapy/ Inter Personal 
 Therapy / Problem Solving Therapy 
-• Add on low dose antipsychotic treatment  (Risperidone 2 -4 
+• Add on low dose antipsychotic treatment (Risperidone 2 -4 
 mg / Tab. Olanzapine 5 – 10 mg) for psychotic symptoms
-REFERRAL  TO TERTIARY CARE
+REFERRAL TO TERTIARY CARE
 SPECIAL POPULATION
 AT TERTIARY CARE
 This STW has been prepared by national experts of India with feasibility considerations for various levels of healthcare system in the country. These broad guidelines are advisory, 
 and are based on expert opinions and available scientiﬁc evidence. There may be variations in the management of an individual patient based on his/her speciﬁc condition, as 
 decided by the treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information.
 © Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India.
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 ?
 Assessment 
 of 
@@ -8024,7 +8024,7 @@ enjoyment
 Easy 
 fatigability/ 
 diminished 
-activity  
+activity 
 1
 2
 3
@@ -8042,7 +8042,7 @@ follow up in
 primary care 
 after 
 addressing 
-referral issues     
+referral issues 
 * Watch for 
 adverse 
 effects as 
@@ -8063,9 +8063,9 @@ regular treatment:
 optimal outcome
 - Liaise with social welfare 
 department for disability
-  certiﬁcation & welfare beneﬁts if 
+ certiﬁcation & welfare beneﬁts if 
 continued poor outcomes
-FOLLOW UP:  
+FOLLOW UP: 
 • 2 weeks after initial contact: Check for changes 
 in symptoms and adverse effects (excess sleep, 
 extrapyramidal symptoms (EPS), tiredness) 
@@ -8098,14 +8098,14 @@ dyskinesia
 sexual dysfunction
 INITIATE TREATMENT: 
 • T. Risperidone 
-  2mg HSx1 week f/b 
-  3 – 4 mg HS + 
+ 2mg HSx1 week f/b 
+ 3 – 4 mg HS + 
 Trihexyphenidyl 
 (THP) 2mg(morning)
  • Psychoeducation:
- - medical model of   
+ - medical model of 
 psychosis
-  - address 
+ - address 
 misconceptions & 
 build hope
 - inform about 
@@ -8136,7 +8136,7 @@ This STW has been prepared by national experts of India with feasibility conside
 are based on expert opinions and available scientiﬁc evidence. There may be variations in the management of an individual patient based on his/her speciﬁc condition, as decided by 
 the treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information.
 © Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India.
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 Clarify 
 diagnosis; 
 neuroimaging 
@@ -8175,7 +8175,7 @@ for assertive
 follow up
 • Depression/ 
 anxiety: 
-  Brief 
+ Brief 
 psychological 
 intervention; 
 consider SSRIs*
@@ -8193,7 +8193,7 @@ Behavioral
 • Suicidality: 
 -Inpatient 
 care,
-   -Crisis 
+ -Crisis 
 management, 
 -Management 
 of 
@@ -8259,14 +8259,14 @@ Rehabilitation
 needs
 Pregnancy
 1. Diagnostic confusion: 
-    Inpatient observation for clariﬁcation 
+ Inpatient observation for clariﬁcation 
 of history, thorough neurological / 
 mental status examination, 
 diagnostic psychometry, brain CT 
 Scan or MRI, neurology consultation 
 and urine toxicology screen
 2. Poor outcome: 
-    +Following psychosocial 
+ +Following psychosocial 
 interventions may be offered in 
 isolation or in combination 
 depending on the context in 
@@ -8361,13 +8361,13 @@ October/ 2019
 Standard Treatment Workﬂow (STW) for the Management of
 SOMATOFORM DISORDER (SD)
 ICD10-F45
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 REFERENCES 
 ∙ Desai G & Chaturvedi SK. Medically Unexplained Somatic Symptoms & Chronic Pain – assessment & management. A primer for Healthcare professionals. 1st Edition 2017. Paras medical publisher, Hyderabad, 
 India.
 ∙ World Health Organization. (2017). mhGAP training manuals for the mhGAP intervention guide for mental, neurological and substance use disorders in non-specialized health settings - version 2.0 (for ﬁeld 
-testing). World Health Organization. http://www.who.int/iris/handle/10665/259161.   
-∙ Agarwal V, Srivastava C &  Sitholey P. Clinical Practice Guidelines for the Management of Paediatric Somatoform disorders. Indian Psychiatric Society – Practice guidelines 2018.
+testing). World Health Organization. http://www.who.int/iris/handle/10665/259161. 
+∙ Agarwal V, Srivastava C & Sitholey P. Clinical Practice Guidelines for the Management of Paediatric Somatoform disorders. Indian Psychiatric Society – Practice guidelines 2018.
 ∙ Guidance for health professionals on medically unexplained symptoms (MUS) - https://www.rcpsych.ac.uk/pdf/CHECKED%20MUS%20Guidance_A4_4pp_6.pdf
 ∙ Jacob KS. A simple protocol to manage patients with unexplained somatic symptoms in medical practice. Natl. Med. J. India. 2004; 17: 326-8
 MANAGEMENT
@@ -8387,44 +8387,44 @@ techniques like deep breathing
 disability are genuine 
 ∙ Strengthen supports
 ∙ Regular follow up
-1. No improvement in 2nd line  
-    treatment 
+1. No improvement in 2nd line 
+ treatment 
 2. High suicidal risk
 3. Needing intense counselling/ 
-    psychotherapy
-4. Difﬁcult patients  
+ psychotherapy
+4. Difﬁcult patients 
 A. One or more somatic symptoms that are distressing or result in signiﬁcant disruption of 
-     daily life.
+ daily life.
 B. Excessive thoughts, feelings, or behaviours related to the somatic symptoms or associated 
-    health concerns as manifested by at least one of the following:
+ health concerns as manifested by at least one of the following:
 1. Disproportionate and persistent thoughts about the seriousness of one’s symptoms
 2. Persistently high level of anxiety about health or symptoms 
 3. Excessive time and energy devoted to these symptoms or health concerns
-C. Although only one somatic symptom may not be continuously present, the state of  
-     being symptomatic is persistent (typically more than 6 months) 
-     A persistent course is characterized by severe symptoms, marked impairment, and long  
-     duration (more than 6 months)
-    Severity:     
-  Mild – only one of the symptoms speciﬁed in criterion B is fulﬁlled
-  Moderate – Two or more of the symptoms speciﬁed in criterion B is fulﬁlled
-  Severe – Two or more of the symptoms speciﬁed in criterion B are fulﬁlled, plus there are multiple 
-somatic symptoms (or one very severe somatic symptom)  
-   Following list include the commonest 
-   symptoms
+C. Although only one somatic symptom may not be continuously present, the state of 
+ being symptomatic is persistent (typically more than 6 months) 
+ A persistent course is characterized by severe symptoms, marked impairment, and long 
+ duration (more than 6 months)
+ Severity: 
+ Mild – only one of the symptoms speciﬁed in criterion B is fulﬁlled
+ Moderate – Two or more of the symptoms speciﬁed in criterion B is fulﬁlled
+ Severe – Two or more of the symptoms speciﬁed in criterion B are fulﬁlled, plus there are multiple 
+somatic symptoms (or one very severe somatic symptom) 
+ Following list include the commonest 
+ symptoms
 1. Pain symptoms at multiple sites (such as 
-    abdominal, back, chest, dysmenorrhea, 
-    dysuria, extremity, head, joint, rectal) is often 
-    present
+ abdominal, back, chest, dysmenorrhea, 
+ dysuria, extremity, head, joint, rectal) is often 
+ present
 2. Gastrointestinal sensations (pain, belching, 
-    regurgitation, vomiting, nausea)
+ regurgitation, vomiting, nausea)
 3. Abnormal skin sensations (itching, burning, 
-    tingling, numbness, soreness) and 
-    blotchiness
+ tingling, numbness, soreness) and 
+ blotchiness
 4. Sexual and menstrual complaints 
-    (ejaculatory or erectile dysfunction, 
-    hyperemesis of pregnancy, irregular menses, 
-    menorrhagia, sexual indifference) are also 
-    common
+ (ejaculatory or erectile dysfunction, 
+ hyperemesis of pregnancy, irregular menses, 
+ menorrhagia, sexual indifference) are also 
+ common
 INITIAL ASSESSMENT
 ∙ Detailed clinical examination – to rule out any medical illnesses 
 which might explain the symptoms
@@ -8448,11 +8448,11 @@ This STW has been prepared by national experts of India with feasibility conside
 based on expert opinions and available scientiﬁc evidence. There may be variations in the management of an individual patient based on his/her speciﬁc condition, as decided by the 
 treating physician. There will be no indemnity for direct or indirect consequences. Kindly visit our web portal (stw.icmr.org.in) for more information.
 © Indian Council of Medical Research and Department of Health Research, Ministry of Health & Family Welfare, Government of India.
-  Repeated subjective experience 
+ Repeated subjective experience 
 of physical symptoms which are 
 not explained by any 
 recognizable physical disease
-  Bodily complaints are often 
+ Bodily complaints are often 
 the most common reason for 
 consultation with health 
 professionals
@@ -8466,15 +8466,15 @@ CHALLENGES FACED BY THE DOCTOR
 PRESENTION 
 TO A 
 DOCTOR
-  Pain at 
+ Pain at 
 multiple sites
-  Functional disturbance of 
+ Functional disturbance of 
 different organ systems
-  Fatigue and 
+ Fatigue and 
 exhaustion 
-  Signiﬁcant distress and 
+ Signiﬁcant distress and 
 impairment 
-  Focus of patient is on symptom relief 
+ Focus of patient is on symptom relief 
 rather than cause of illness
 REFER TO 
 SECONDARY 
@@ -8535,7 +8535,7 @@ TREATMENT
 severe runny nose or sneezing
 • Antibiotics in acute follicular tonsillitis: 
 Amoxicillin/ Ampicillin 500mg tid X 5 days
-  In penicillin sensitive individuals: 
+ In penicillin sensitive individuals: 
 Erythromycin estolate 250mg q 6 hrly X 5 
 days with food
 Suspect epidemic ﬂu
@@ -8544,9 +8544,9 @@ respiratory infection, diarrhoea, myalgia,
 breathlessness Refer to higher centre for 
 diagnosis, notiﬁcation and treatment.
 LABORATORY INVESTIGATION: 
- • Total and differential count if sputum is  
-   purulent,
-• X-ray  chest PA view
+ • Total and differential count if sputum is 
+ purulent,
+• X-ray chest PA view
 TREATMENT
 • Symptomatic treatment for fever 
 (Paracetamol or other NSAID), Oral ﬂuids 
@@ -8556,9 +8556,9 @@ nebulization (5mg/ 2.5ml ) 6-8 hourly
 • Antibiotics if there is purulent sputum and 
 polymorphonuclear leukocytosis
 • Amoxicillin 500mg tidX 5 days
-• In penicillin sensitive individuals:   
-       Erythromycin estolate 250mg q 6 hrly 
-       X5 days with food
+• In penicillin sensitive individuals: 
+ Erythromycin estolate 250mg q 6 hrly 
+ X5 days with food
 • If asthma is suspected refer to asthma STW
 SEVERITY ASSESSMENT
 • X-ray
@@ -8580,7 +8580,7 @@ OP
 IP
 ICU
 *65 in the scoring mnemonic refers to age> 65
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 OUT-PATIENT BASED CARE OF CAP (CRB-65 SCORE 0-1)
 POINTS TO NOTE WHILE SHIFTING
 1. If referring to a higher center, give the ﬁrst dose of 
@@ -8599,7 +8599,7 @@ INPATIENT MANAGEMENT OF CAP
 ANTIBIOTIC THERAPY IN THE HOSPITALIZED NON-ICU SETTING
 a. Single agent IV β-lactam
 b. If suspected atypical pathogens, other end organ disease, diabetes, malignancy, 
-severe CAP, use of antibiotics in past 3 months: Combination of IV β-lactam  
+severe CAP, use of antibiotics in past 3 months: Combination of IV β-lactam 
 (Cefotaxime 2 grams TID/ IV Ceftriaxone 1gram BD/ Amoxicillin–Clavulanic acid 1.2 
 grams TID ) + ORAL macrolide (Tab Azithromycin 500 mg PO OD/ Tab 
 Clarithromycin 500 mg PO BD)
@@ -8607,7 +8607,7 @@ ANTIBIOTIC THERAPY IN THE HOSPITALIZED ICU SETTING
 i. Patients without risk factors for Pseudomonas aeruginosa: Manage as above
 ii. Suspected P. aeruginosa (diabetes, chronic lung disease like bronchiectasis, 
 chronic steroid therapy):
-IV Cefepime (1G BD)/ IV Ceftazidime (2G TID)/  Piperacillin–tazobactam(4.5 G QID)/  
+IV Cefepime (1G BD)/ IV Ceftazidime (2G TID)/ Piperacillin–tazobactam(4.5 G QID)/ 
 IV Cefoperazone–sulbactam 1.5G IV TID/ IV Meropenem 1g TID;
 Combination therapy : Aminoglycosides(IV Amikacin)/ Antipseudomonal 
 ﬂuoroquinolones(Levoﬂoxacin/ Moxiﬂoxacin)
@@ -8629,7 +8629,7 @@ symptoms
 • Diabetes 
 • Chronic steroid use
 SYMPTOMS
-  1. Vital 
+ 1. Vital 
 parameters: 
 Sensorium, Pulse, 
 Blood pressure, 
@@ -8647,13 +8647,13 @@ b. Lower respiratory tract: breath
 sounds (type, intensity), added 
 sounds (crackles, wheeze, pleural 
 rub)
-Signs of respiratory failure:  
+Signs of respiratory failure: 
 RR> 30/ min, Abdomin 
 othoracic paradox, cyanosis, 
 speaks in short sentences. 
 Refer Respiratory Failure 
 STW.
-  Frank haemoptysis, may suggest 
+ Frank haemoptysis, may suggest 
 Pulmonary TB or malignancy 
 • Fever, tachycardia, pharyngitis, 
 suffusion of eyes, rhinitis, hoarse 
@@ -8684,9 +8684,9 @@ agitation
 DISCHARGE CRITERIA
 Accepting orally, Afebrile and Hemodynamically stable for a 
 period of at least 48 h
-    REFERRAL TO A HIGHER CENTRE : CLINICAL CRITERIA   
+ REFERRAL TO A HIGHER CENTRE : CLINICAL CRITERIA 
 1. Frank hemoptysis and /or Signs of respiratory failure [listed 
-under in the history and  evaluation sections]
+under in the history and evaluation sections]
 2. CRB-65 score > 1
 3. Oxygen saturation by pulse oximetry ≤ 92% (patients ≤ 50 
 yrs) OR <90% (patients > 50 yrs)
@@ -8703,10 +8703,10 @@ ii. Suspected underlying malignancy
 Desirable
 1. Pulse oximetry in outpatients
 2. Sputum microbiology: In suspected 
-PTB &  non-response after 48 hours of  
+PTB & non-response after 48 hours of 
 antibiotics
 TREATMENT
-1.  Targeted towards Streptococcus pneumoniae
+1. Targeted towards Streptococcus pneumoniae
 2. Oral antibiotics after checking for comorbidities* (Diabetes, CVDs, CKD, CLD, Hepatic 
 Pathology, Cancer, Alcohol Abuse, H/ o antibiotics within last 3 months.)
 a. Without comorbidities: Cap. Amoxicillin (500 mg TDS) / Tab. Erythromycin 
@@ -8730,27 +8730,27 @@ Standard Treatment Workﬂow (STW) for the Management of
 ASTHMA
 ICD-10-J45
 TRY AND RULE OUT
-•  Other obstructive airway 
+• Other obstructive airway 
 disorders – see Table 1 for 
 features that favour asthma 
 over COPD
-•  Other mimics – presence of 
+• Other mimics – presence of 
 fever, constitutional symptoms, 
 purulent sputum, hemoptysis, 
 focal chest signs on physical 
 examination, foreign body 
 aspiration, abnormal chest 
 radiograph, etc.
-  Classic symptoms
+ Classic symptoms
 • Recurrent/ episodic wheezing
 • Breathlessness
 • Cough and/ or chest tightness 
 Supportive features
-•  History of atopy, family history 
+• History of atopy, family history 
 of asthma, presence of triggers, 
 presence of rhonchi on chest 
 auscultation
-•  No alternative explanation for 
+• No alternative explanation for 
 these symptoms
 GUIDING PRINCIPLES
 • Mainstay of pharmacotherapy: Inhaled drugs
@@ -8791,20 +8791,20 @@ daily for ﬁve days
 • Discharge only when symptoms improve, wheezing absent or signiﬁcantly 
 reduced, heart rate <100 bpm, respiratory rate <30/ min, room air sPo2 >94%
 • Schedule follow-up outpatient visit at one week
-LIFE-THREATENING EXACERBATION  
+LIFE-THREATENING EXACERBATION 
 Altered sensorium, orthopnea, cyanosis, 
 paradoxical breathing, hypotension, and/ or 
 bradycardia (heart rate <60 bpm) – immediately 
 refer to higher centre with ICU facility
 APPROACH TO DIAGNOSIS
-•  Clinical assessment is 
+• Clinical assessment is 
 the mainstay
-•  Airway obstruction, and 
+• Airway obstruction, and 
 bronchodilator 
 reversibility, on 
 spirometry (if available) 
 may support diagnosis
-•  Refer patients for further 
+• Refer patients for further 
 work-up if diagnosis is in 
 doubt
 DISEASE EXACERBATION
@@ -8872,7 +8872,7 @@ None
 May or may not be 
 present
 Family History 
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 INITIATION AND MODULATION OF
 ASTHMA PHARMACOTHERAPY
 Regular 
@@ -8882,7 +8882,7 @@ but >2 per
 month)
 Budesonide 
 (100µg) 2 puffs 
-BD plus  
+BD plus 
 Levosabutamol 
 (50µg) 2 puffs 
 sos
@@ -8911,7 +8911,7 @@ Infrequent &
 Intermittent 
 symptoms
 Levosalbutamol 
-(50ug)  
+(50ug) 
 OR
 Salbutamol 
 (100 ug), 
@@ -8971,18 +8971,18 @@ WHEN TO
 SUSPECT?
 REFERENCES 
 SCHEDULE FOLLOW UP VISIT ONE WEEK AFTER DISCHARGE
-•  Altered sensorium
-•  spO2 <88% despite therapy
-•  Heart rate >110 bpm
-•  Systolic blood pressure <90 mm Hg
-•  High risk comorbid conditions (arrhythmia, 
+• Altered sensorium
+• spO2 <88% despite therapy
+• Heart rate >110 bpm
+• Systolic blood pressure <90 mm Hg
+• High risk comorbid conditions (arrhythmia, 
 congestive cardiac failure, poorly controlled 
 diabetes, renal or liver failure)
 Refer to higher centre for further management, 
 and ensure continued supplemental oxygen and 
 nebulization during transfer
 RED FLAG SIGNS FOR PEOPLE HAVING EXCERBATION
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 Persistent Symptoms
 Persistent Symptoms
 Persistent Symptoms
@@ -9007,7 +9007,7 @@ worsening breathlessness
 Risk factors – tobacco 
 smoking, use of solid fuels 
 for cooking, occupational 
-exposures, Age - >35 years  
+exposures, Age - >35 years 
 No other alternative 
 explanation for these 
 symptoms
@@ -9038,14 +9038,14 @@ TREATMENT
 counsel for other risk factors
 • Inhaled drugs are the mainstay
 • Treatment based on severity 
-  assessment (See adjacent ﬁgure)
+ assessment (See adjacent ﬁgure)
 • Follow up: Mild to moderate 
-  disease - 3 to 6 Months; Severe 
+ disease - 3 to 6 Months; Severe 
 disease - 1-3 months
 • Ensure compliance and proper 
 inhaler technique at each visit. 
 • If uncotrolled/ complications 
-  develop, refer to higher center
+ develop, refer to higher center
  DISEASE EXACERBATION
 Three cardinal symptoms:
 • Increase in dyspnea
@@ -9104,7 +9104,7 @@ DISCHARGE CRITERIA
 data to pre-admission levels
 2. Patient able to follow maintenance therapy
 3. Completion of acute medications
-4. Adequate control of  comorbidities
+4. Adequate control of comorbidities
 The category with the worst value should be used for severity classiﬁcation
 *Complications include respiratory failure, cor pulmonale, and secondary polycythemia
 SEVERITY
@@ -9125,7 +9125,7 @@ COMPLICATIONS*
 > 2
 > 2
 NO
-  NO
+ NO
 YES
 <2
 <2
@@ -9158,7 +9158,7 @@ the treating physician. There will be no indemnity for direct or indirect conseq
 1
 Standard Treatment Workﬂow (STW) for the Management of
 RESPIRATORY FAILURE
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 HYPOXIA (SPO2 <90%)
 DIAGNOSIS
 OXYGEN
@@ -9271,38 +9271,38 @@ ABBREVIATIONS
 AE OF COPD
 BRONCHIOLITIS
 ACUTE ASTHMA
-  SYMPTOMS 
+ SYMPTOMS 
 • Wheeze
 • Shortness of 
 Breath
 • Chest Tightness
 • Cough
-  SIGNS 
+ SIGNS 
 • Tachypnea
 • Tachycardia
-• Fall in SPO2  
+• Fall in SPO2 
 • Use of Accessory 
 Muscle 
-  SYMPTOMS 
+ SYMPTOMS 
 • Worsening of 
 Dyspnea 
 • Increase in 
 Sputum 
 Production 
 • Increased Cough
-  SIGNS
+ SIGNS
 • Tachypnea
 • Hypoxemia 
 • Hypercarbia
 • Confusion
 • Drowsy 
 • Peripheral Edema
-  SYMPTOMS
+ SYMPTOMS
 • Cough 
 • Shortness of 
 Breath
 • Wheezing
-  SIGNS
+ SIGNS
 • Cyanosis
 • Nasal Flares 
 • Tachypnea 
@@ -9310,7 +9310,7 @@ Breath
 (children)
 • Crackles and or Rattling 
 sounds in Lung
-  SIGNS
+ SIGNS
 • Tachycardia
 • Pulsus Alterans 
 • Weak Rapid Thready Pulse
@@ -9320,32 +9320,32 @@ sounds in Lung
 • Distended Neck Veins 
 SYMPTOMS
 • Dyspnea or 
-  exertion or rest
+ exertion or rest
 • Chest Pain
 • Wheezing
 • Fatigue 
 HEART FAILURE
-  SYMPTOMS
+ SYMPTOMS
 • Cough with or 
 without Sputum
 • Chest Pain
 • Fever with Chills, 
 Fatigue, Malaise 
-  SIGNS
+ SIGNS
 • Tachypnea
 • Tachycardia
 • Crackles and Rhonchi 
 • Hypoxemia 
 • Pleuritic Chest Pain 
 PNEUMONIA/ LRTI
-  SYMPTOMS
+ SYMPTOMS
 • Sudden Shortness 
 of Breath
 • Chest Pain
 • Calf Pain & or 
 Swelling
 • Hemoptysis 
-  SIGNS
+ SIGNS
 • Syncope 
 • Arrhythmia
 • Tachycardia
@@ -9368,14 +9368,14 @@ Wheezing
 Chest 
 tightness
 SIGNS
-  Tachycardia
+ Tachycardia
 Restlessness 
 Anxiety 
 Confusion
 Seizure
 Cyanosis 
 Asterexis
-Arrhythmia  
+Arrhythmia 
 Look for underlying causes in hypercapnia, headache, bounding pulse, tremor/ﬂap, papilloedema, coma. 
 ABG, CRP, FBC, U&E
 Sputum culture, Blood culture (if febrile)
@@ -9407,7 +9407,7 @@ anticholinergic effects, diuretics, alcohol intake
 Standard Treatment Workﬂow (STW) for the Management of
 ACUTE URINARY RETENTION IN MEN (AUR)
 ICD-10-R33.9
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 ABBREVIATIONS
 IPSS: International Prostate 
 Symptom Score
@@ -9426,7 +9426,7 @@ No prior history
 α blockers for 
 2-4 days 
 T.W.O.C
-  EXAMINATION
+ EXAMINATION
 DEFINITION:
 Emergency 
 condition 
@@ -9449,9 +9449,9 @@ DESIRABLE
 CBC, S. Glucose,S. Creatinine and Electrolytes, USG KUB Urine 
 analysis& Urine culture of the drained urine
 OPTIONAL (ONLY BY SPECIALISTS)
-  NOT TO BE DONE ROUTINELY
+ NOT TO BE DONE ROUTINELY
 • Cystoscopy,CT / MRI,RGU + MCU,Urodynamic studies
-  INDICATIONS FOR HOSPITALIZATION
+ INDICATIONS FOR HOSPITALIZATION
 • Patients of AUR with 
 significant comorbidities
 • Patient of AUR with 
@@ -9459,7 +9459,7 @@ complications listed above
 COMPLICATIONS DUE TO AUR
 • Urinary tract infection
 • Acute kidney injury
-  FOR CATHETERIZATION
+ FOR CATHETERIZATION
 - Use a 14 or 12 Fr Foley 
 urethral catheter 
 - Do not remove catheter earlier 
@@ -9499,7 +9499,7 @@ Trial without catheter
 Ca Prostate
 Faecal 
 impaction 
-  As AUR is an acute emergency, no investigation is required before catheterization to relieve symptoms.  The volume of urine 
+ As AUR is an acute emergency, no investigation is required before catheterization to relieve symptoms. The volume of urine 
 drained should be documented.
 Surgery
 Succeeds
@@ -9508,7 +9508,7 @@ Fails
 Continue 
 medical 
 management
-  COMPLICATIONS DUE TO 
+ COMPLICATIONS DUE TO 
 CATHETERIZATION
 • Post obstructive diuresis with 
 dys-electrolytemia
@@ -9525,10 +9525,10 @@ consumption, recent surgery, UTI, constipation, cold exposure,
 prolonged travel and neurological conditions
 • Medication history
 • Look for risk factors
-  HISTORY
-  RISK FACTORS OF SPONTANEOUS AUR DUE TO BPH
-  RISK FACTORS OF PRECIPITATED AUR 
-  CAUSES
+ HISTORY
+ RISK FACTORS OF SPONTANEOUS AUR DUE TO BPH
+ RISK FACTORS OF PRECIPITATED AUR 
+ CAUSES
 THAT BLOCK 
 THE PASSAGE
 BPH
@@ -9538,8 +9538,8 @@ Neurological diseases e.g. spinal cord compression,
 transverse myelitis, stroke, head injury
 Drug induced eg. opiods, anticholinergics, 
 anti-histaminics, anti-diarrhoeals, flavoxate
-  INVESTIGATIONS
-  MANAGEMENT ALGORITHM
+ INVESTIGATIONS
+ MANAGEMENT ALGORITHM
 Department of Health Research
 Ministry of Health and Family Welfare, Government of India
 October/ 2019
@@ -9591,7 +9591,7 @@ REFERENCES
 if required (primary 
 level)
 • If Anaemia - may trans-
-fuse blood as required  
+fuse blood as required 
 (primary level)
 • Manage clot colic / 
 ﬂank pain with analge-
@@ -9613,12 +9613,12 @@ are unavailable - refer
 • Haematuria should be considered as a symptom of genitourinary malignancy in patients >40years old until 
 proven otherwise
 • Suspected nephrotic/nephritic syndrome: cola coloured urine, proteinuria, anasarca, hypertension - Refer to 
-  nephrologist (tertiary level)
+ nephrologist (tertiary level)
 • Suspect urinary tract infection : presents with dysuria, increased frequency of voiding and other irritative lower 
 urinary tract symptoms with/ without fever- treat with broad spectrum oral antibiotics (primary level)
 GENERAL
 SPECIFIC
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 Stones
 Renal cell cancer
 Bladder tumor
@@ -9668,7 +9668,7 @@ Computed tomography
 Oral Antitubercular treat-
 ment - 6months, refer to a 
 urologist, close follow up 
-  Even single episode of 
+ Even single episode of 
 haematuria warrants 
 complete evaluation 
 MAKE A CLINICAL 
@@ -9689,12 +9689,12 @@ ESSENTIAL
 bladder and prostate region
 DESIRABLE
 • Contrast enhanced computed 
-tomography  of kidney urinary bladder 
+tomography of kidney urinary bladder 
 region/ intravenous pyelography (if KFT 
 normal)
 • Magnetic resonance imaging of Kidney 
 urinary bladder region (if KFT deranged)
-• Urine cytology if > 40yrs  or smoker
+• Urine cytology if > 40yrs or smoker
 • Cystoscopy if > 40 years or smoker
 OPTIONAL
 • Urine culture 
@@ -9745,9 +9745,9 @@ PHC/CHC
 • History and Physical examination( PE)
 • Proper Semen analysis
  Normal Semen report: (Rule out unconsummation, sexual dysfunction, anatomic abnormailities)
- Abnormal Semen report:                                                                             
+ Abnormal Semen report: 
 • Refer to Urologist/ infertility centre
-• Preventive measures: Avoid gonadotoxins, gonadotoxic drugs,  smoking, tobacco, chronic heat , 
+• Preventive measures: Avoid gonadotoxins, gonadotoxic drugs, smoking, tobacco, chronic heat , 
 excess use of mobiles; Encouraging healthy life style: Nutritious diet, regular physical exercise, 
 avoid stress, use of antioxidants and vitamins( Vit. C, Vit E , Zinc)
 • Female partner to be evaluated by gynecologist
@@ -9759,7 +9759,7 @@ DISTRICT HOSPITAL
 • Management of sexual and ejaculatory dysfunction
 • Management of Varicocele and Hypogonadotropic 
 hypogonadism
-• ART: AIH/AID and counselling for adoption.                             
+• ART: AIH/AID and counselling for adoption. 
 TERTIARY LEVEL
 • Additional testing:TRUS, Genetic, ASA, Sperm 
 function tests
@@ -9778,7 +9778,7 @@ PHYSICAL EXAMINATION
 Klinefelter’s). Secondary sexual 
 characters, gynecomastia
 • Penis: hypospadias, 
-epispadiasis, chordee,  
+epispadiasis, chordee, 
 • Testes: volume, consistency, 
 masses, contours
 • Epididymis: ﬂat, turgid, 
@@ -9786,10 +9786,10 @@ nodularity. Vas deferens
 –present/absent thickened or 
 beaded
 • Cords-presence of varicocele. 
-Inguinal or scrotal  scar. 
+Inguinal or scrotal scar. 
 • Rectal examination: cyst, dilated 
 seminal vesicles.
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 (Low volume, ↓pH, Fructose -ve) 
 Retrograde 
 ejaculation ruled out
@@ -9816,7 +9816,7 @@ ICSI
 MANAGEMENT
 OPTIONAL INVESTIGATIONS
 • Hormonal assay: Serum FSH, LH, Prolactin, Testosterone, Estradiol, T/E ratio
-• Culture: Urine, Semen, Prostatic ﬂuid, Antisperm antibodies, Viability assay, Sperm function tests, Scrotal USG & doppler, TRUS, Genetic studies,  
+• Culture: Urine, Semen, Prostatic ﬂuid, Antisperm antibodies, Viability assay, Sperm function tests, Scrotal USG & doppler, TRUS, Genetic studies, 
 • Testicular biopsy (Multiple bilateral preferable)
 TREATMENT ALGORITHM
 HOW TO PROCEED?
@@ -9835,14 +9835,14 @@ Infertility Incidence is
 10-15%. Male factor- 
 contributory in 50% 
 cases.
-Both partners  
+Both partners 
 examined 
 simultaneously*
 Ensure 
 marriage is 
 consummated, 
 couple has 
-frequent  
+frequent 
 timed 
 intercourse 
 with the 
@@ -9880,7 +9880,7 @@ Normal
 No 
 Sperms
 AZOOSPERMIA 
-Microsurgical  
+Microsurgical 
 VEA
 Focal 
 Sperms
@@ -9917,7 +9917,7 @@ DI: Donor Insemination
 TESE: Testicular Sperm Extraction
 SV & ED: Seminal Vesicle & Ejaculatory 
 Duct
-TURED: Trans Urethral  Resection of 
+TURED: Trans Urethral Resection of 
 Ejaculatory Duct
 ART: Assited Reproductive Technique
 AIH: Artiﬁcial Insemination Husband
@@ -9949,7 +9949,7 @@ factor and unexplained
 Antisperm antibodies, Sperm structural defect, Hypogonadism
 • Multiple defects: Varicocele, Cryptorchidism, Genital tract 
 infection, Systemic illness, Prolonged abstinence, Drugs 
-(Sulfasalazine, NFT,  Colchicine, Chemotherapy, GnRh analogs, 
+(Sulfasalazine, NFT, Colchicine, Chemotherapy, GnRh analogs, 
 Spironolactone, Ketokonazole, Anabolic steroids, cocaine, alcohol. 
 Chemicals: heavy metals, herbicides, organic solvents, fungicides, 
 pesticides)
@@ -9966,10 +9966,10 @@ Chromosomal, Hormonal,
 CT/RT, Post torsion testes, 
 orchitis, Cryptorchidism, 
 Idiopathic)
-   Note: If a patient is unable to produce semen consider retrograde 
+ Note: If a patient is unable to produce semen consider retrograde 
 ejaculation and anejaculation. Need further evaluation.
 AIM
-• To ascertain  contributory male 
+• To ascertain contributory male 
 factor
 • Identify potentially correctable 
 conditions
@@ -9999,7 +9999,7 @@ Chordee
 • Testicular torsion, drug history, 
 trauma and swelling
 • H/o past surgeries( hernia repair, 
-orchiopexy, retroperitoneal  
+orchiopexy, retroperitoneal 
 surgery)
 • Family history 
 (infertility,consanguinity,genetic 
@@ -10022,20 +10022,20 @@ treating physician. There will be no indemnity for direct or indirect consequenc
 
 <<<PAGE 69>>>
 To be done in recurrent stone former, stone in 
-children,  bilateral stones, family history of stone, 
+children, bilateral stones, family history of stone, 
 history of gut surgery, solitary kidney and cysteine 
 stones. Typically to be done at 3-4 weeks after stone 
 clearance
 Should include initial metabolic evaluation plus 24-hour 
 urinary levels of calcium,uric acid, and creatinine. 
 Preferable to do urinary oxalate and citrate levels too.
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 Standard Treatment Workﬂow (STW) for the Management of
 RENAL AND URETERIC STONES
 ICD N20.0
 HOW WILL YOUR PATIENT PRESENT AND WHAT TO SUSPECT
 METABOLIC EVALUATION 
-  History of site & type of 
+ History of site & type of 
 pain, associated 
 symptoms hint towards 
 possible site of stones. 
@@ -10049,8 +10049,8 @@ USG
 IVP
 CT Scan
 ADVANTAGES AND DISADVANTAGES
-  Readily available, inexpensive, minimal radiation but needs preparation hence may 
-not be the preferred test in emergency settings  
+ Readily available, inexpensive, minimal radiation but needs preparation hence may 
+not be the preferred test in emergency settings 
 • Order X-KUB and Ultrasound in all patients of 
 suspected renal stones (90% of renal stones are 
 radio-opaque).
@@ -10060,12 +10060,12 @@ available
 pyelography if stone is seen on X-ray
 • CT urography if stone is radiolucent to aid further 
 treatment
-  TIPS FOR ORDERING INVESTIGATIONS 
-  Readily available, no radiation, safe test in pregnancy, detects
-  radiolucent stones, high sensitivity for hydronephrosis. Can miss a ureteric calulus
-  Anatomical and functional imaging, aids in planning surgery but high radiation 
+ TIPS FOR ORDERING INVESTIGATIONS 
+ Readily available, no radiation, safe test in pregnancy, detects
+ radiolucent stones, high sensitivity for hydronephrosis. Can miss a ureteric calulus
+ Anatomical and functional imaging, aids in planning surgery but high radiation 
 and needs preparation. Not useful in poor renal function
-  No contrast required, highly sensitive and speciﬁc, detect radiolucent stones, 
+ No contrast required, highly sensitive and speciﬁc, detect radiolucent stones, 
 detect other causes of ﬂank pain, but risks higher radiation and cost
 MANAGEMENT ALGORITHM
 ∙ Increase daily ﬂuid 
@@ -10093,19 +10093,19 @@ French fries.
 foods like animal 
 protein, alcoholic 
 drinks like beer
-  Warning signs for 
+ Warning signs for 
 immediate referral
 ∙ Anuria
 ∙ Fever with chills and 
 rigors
 ∙ Suspected renal failure
 ∙ Persistent haematuria
-  Medical Expulsive 
+ Medical Expulsive 
 Therapy (MET)
 ∙ Alpha blockers such as
-  Tamsulosin(0.4mg/day); 
+ Tamsulosin(0.4mg/day); 
 Alfuzocin(10mg/day);
-  Doxazocin(4mg/day); 
+ Doxazocin(4mg/day); 
 Silodocin(8mg/day)
 ∙ MET should be offered
 ∙ In Ureteric stones 
@@ -10116,33 +10116,33 @@ or deranged renal
 function.
 ∙ MET can be tried for 
 upto 4 weeks
-  Analgesics 
+ Analgesics 
 Hydration
 Flank Pain,
 Hematuria
-  Fevers with 
+ Fevers with 
 chills & rigors/ 
 Anuria
 Empiric 
 Antibiotic/ 
 hydration
-HIGHER    CENTRE    REFERRAL
-  X- Ray KUB
-  USG Abdomen
-  IVP/ CT Scan
-  Urine Analysis 
-  Initial Metabolic 
+HIGHER CENTRE REFERRAL
+ X- Ray KUB
+ USG Abdomen
+ IVP/ CT Scan
+ Urine Analysis 
+ Initial Metabolic 
 screen
 +
-  Single Stone > 5mm,
-  Baseline 
+ Single Stone > 5mm,
+ Baseline 
 investigation normal
 Renal Stone <1cm
 Uteric Stone >5mm 
 <1cm
 Kidney/ ureteric 
 stone >1cm
-  Counsel the patient 
+ Counsel the patient 
 for future preventive 
 strategies
  Medical expulsive therapy
@@ -10176,12 +10176,12 @@ nausea and vomiting
 • Can present as anuria in bilateral 
 ureteric stones, ureteric stone in a 
 solitary kidney
-  Urine analysis, serum creatinine, 
+ Urine analysis, serum creatinine, 
 electrolytes namely calcium, 
 phosphorous and uric acid. Intact 
 parathyroid hormone and stone 
 analysis are preferrable.
-  Initial biochemical evaluation 
+ Initial biochemical evaluation 
 in all stone formers
 Extended 
 Evaluation
@@ -10222,9 +10222,9 @@ Solid
 Acute infection 
 • Traumatic
 • Ischaemic
-  (e.g. torsion)
+ (e.g. torsion)
 Fluid accumulation, (e.g. Hydrocele,epididymal cyst)
-• Ch. inﬂammatory,  (e.g. Filariasis, TB)
+• Ch. inﬂammatory, (e.g. Filariasis, TB)
 • Tumors
 RED FLAG SIGNS
 INVESTIGATIONS
@@ -10233,15 +10233,15 @@ DISEASE
 Essential
 • TLC/DLC
 • Blood sugar
-   Desirable
+ Desirable
 • Anti ﬁlarial
-   antibody
+ antibody
 SUSPECTING CH. 
 INFLAMMATORY DIS.
 Essential
 • TLC/DLC
 • ESR
-  Desirable
+ Desirable
 • Anti ﬁlarial Ab
 • TB Gold test
 • Scrotal USG
@@ -10252,7 +10252,7 @@ Essential
 • Alfa feto 
 protein
 • Serum LDH
-   Desirable
+ Desirable
 • Scrotal USG
 • Abdomino - 
 Pelvic CECT 
@@ -10260,79 +10260,79 @@ Scan
 SUSPECTING 
 TORSION
 Essential
-•  TLC/DLC
-   Desirable
+• TLC/DLC
+ Desirable
 • Scrotal 
 doppler
 SUSPECTING 
 VARICOCELE
 Essential
 • TLC/DLC
-   Desirable
+ Desirable
 • Scrotal 
 doppler
 HOW TO TREAT COMMON CONDITIONS?
 PARIETAL SWELLINGS
-  FURUNCLE/ABSCESS
+ FURUNCLE/ABSCESS
  • Broad Spectrum Antibiotic
-  Amoxy + Clavulinic acid
+ Amoxy + Clavulinic acid
  • Consider drainage if 
 ﬂuctuations+ or impending 
 rupture
-  REFER
+ REFER
  • If abscess appears part of
-   underlying disease
+ underlying disease
  • Nonresponders
- • Immunocompromised   
-   patient
-  FILARIAL ELEPHANTIASIS
+ • Immunocompromised 
+ patient
+ FILARIAL ELEPHANTIASIS
 • DEC 100 mg TDS x 20 days
 • Doxycycline 100 mg BD x 20 
 days
 • Scrotal Elevation/support
-  REFER
+ REFER
 • Non responders
 • Huge size
 INTRASCROTAL SWELLINGS
-  AC. EPIDIDYMO-ORCHITIS
+ AC. EPIDIDYMO-ORCHITIS
 • If patient had a urinary tract
-  instrumentation or dysuria -
-  suspect bacterial type,
-  treat by - antibiotic and support
-  REFER If no response in 48 hrs
+ instrumentation or dysuria -
+ suspect bacterial type,
+ treat by - antibiotic and support
+ REFER If no response in 48 hrs
 • Treat all other cases as ﬁlarial by - DEC 100 
 mg x TDS x20 days
 • Doxycycline 100 mg x BD x 20 days
 • Give anti inﬂammatory drugs to all
-  HYDROCELE
+ HYDROCELE
 • Small size - no treatment
 • Moderate to large -Do 
-  hydrocelectomy 
+ hydrocelectomy 
 • Aspiration can be performed 
-  under asceptic precautions in select cases
+ under asceptic precautions in select cases
  
-  REFER if not trained to do the surgery
-  CHRONIC EPIDIDYMO-ORCHITIS
+ REFER if not trained to do the surgery
+ CHRONIC EPIDIDYMO-ORCHITIS
 • Mostly ﬁlarial in origin but if -
 - Patient has had H/O UTI or urethral
-  catheterization, suspect bacterial
+ catheterization, suspect bacterial
 - Patient has H/O TB, suspect 
 tuberculosis
 • Treat by DEC 100 mg
-  TDS + Doxycycline 100 mg BD for 20 
+ TDS + Doxycycline 100 mg BD for 20 
 days
-  REFER if
+ REFER if
 • No response to treatment
 • Epididymal abscess or local sinus 
 discharging syrup like pus
-  VARICOCELE
+ VARICOCELE
 • Counsel for semen analysis (2-3 times)
-  REFER if ‘discrepancy in size of testis’ 
+ REFER if ‘discrepancy in size of testis’ 
 and/or ‘abnormal semen parameters 
 present’
 • Rest all cases be given symptomatic 
 treatment
-      KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
+ KEEP A HIGH THRESHOLD FOR INVASIVE PROCEDURES
 PAINFUL
 YES
 NO
@@ -10415,36 +10415,36 @@ Filarial Elephantiasis
 Fluid 
 Accumulation
 • Edema in anasarca,
-  IVC thrombosis
+ IVC thrombosis
 • Urinary extravasation
 Scrotal wall cysts
 Neoplasm
-  Melanoma, Scrotal 
+ Melanoma, Scrotal 
 Carcinoma
-  Dermatoﬁbroma;
+ Dermatoﬁbroma;
 Cystic
 Solid
 Hydrocele
 • Epididymal cyst
 • Spermatocele
 Varicocele
-  Painless
+ Painless
 • Testicular 
 tumor
-  Painful
+ Painful
 • Torsion testis
 • Orchitis
-  Painless
-• Ch. Filarial  
+ Painless
+• Ch. Filarial 
 epididymitis 
 • Ch. Tuberculous 
 Epididymitis
 • Adenomatoid tumor
-  Painful
+ Painful
 • Ac. Epididymitis
-  Painless
+ Painless
 • Lipoma cord
-  Painful 
+ Painful 
 • Funiculitis
 MAKE A CINICAL DIAGNOSIS
 PARIETAL (SCROTAL WALL) SWELLINGS
@@ -10459,7 +10459,7 @@ RED FLAG SIGNS
 <<<PAGE 71>>>
 ADVISORY COMMITTEE
  
-Dr. Balram Bhargava, Secretary, DHR and DG, ICMR - Chairman  
+Dr. Balram Bhargava, Secretary, DHR and DG, ICMR - Chairman 
 Dr. Nikhil Tandon, Dept. of Endocrinology, AIIMS, New Delhi. - Vice Chairman 
 WHO India Country Ofﬁce Representative – Member, Ex ofﬁcio 
 Director General Health Services / Representative- Member, Ex ofﬁcio
@@ -10476,7 +10476,7 @@ Brig. Shakti Vardhan, Dept. of Gyanecology/Oncology, AFMC, Pune - Member
 Dr. Sudeep Gupta, Dept. of Medical Oncology, TATA Memorial, Mumbai - Member 
 Dr. S.K. Dwivedi, Dept. of Cardiology, KGMU, Lucknow - Member 
 Dr. Jeyaraj Durai Pandian, Dept. of Neurology, CMC, Ludhiana - Member 
-Dr. Vivekanand Jha, Nephrologist,  The George Institute for Global Health, Delhi – Member
+Dr. Vivekanand Jha, Nephrologist, The George Institute for Global Health, Delhi – Member
 Dr. Rajdeep Singh, Dept. of Surgery, MAMC, Delhi – Member 
 Dr. Reva Tripathi, Formerly Dept of ObGyn, MAMC, New Delhi- Member. 
 Dr. S. S. Kale, Dept. of Neurosurgery, AIIMS New Delhi- Member 
@@ -10552,13 +10552,13 @@ Col Dr. B. K. Prasad, Command Hospital, Lucknow
 Dr. Anuja Bhargava, Ira Medical College, Lucknow
 Dr. Prem Sagar, AIIMS Delhi
 Dr. Surinder Jindal, PGIMER, Chandigarh
-Dr.  G.C. Khilnani, AIIMS, New  Delhi.
+Dr. G.C. Khilnani, AIIMS, New Delhi.
 Dr. Ashutosh Aggarwal, PGIMER, Chandigarh 
 Dr. Anant Mohan, AIIMS, New Delhi 
 Dr. Raj Kumar, VPCI, Delhi 
 Dr. Alok Nath, SGPGI, Lucknow 
 Dr. Dhruv Chaudhary, PGIMS, Rohtak 
-Dr. Uma Mohan,  St John’s Medical College, Bengalluru 
+Dr. Uma Mohan, St John’s Medical College, Bengalluru 
 Dr. DJ Christopher, CMC, Vellore 
 Dr. Deepak Talwar, Metro Hospital, Noida
 Dr. BN Gangadhar, Director, NIMHANS
@@ -10652,10 +10652,10 @@ Department of Health Research
 Ministry of Health and Family Welfare, Government of India
 
 <<<PAGE 75>>>
-2 0 1 9  E D I T I O N
-V O L U M E  I
+2 0 1 9 E D I T I O N
+V O L U M E I
 P A R T N E R S
-S T A N D A R D  T R E A T M E N T
+S T A N D A R D T R E A T M E N T
 W O R K F L O W S
 Department of Health Research
 Ministry of Health and Family Welfare, Government of India

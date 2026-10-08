@@ -51,7 +51,7 @@ William Schaffner, MD
 Nathaniel Smith, MD, MPH
 Morgan Bobb Swanson, BS
 Abbigail Tumpey, MPH
-Ian Branam, MA, Acting Lead  
+Ian Branam, MA, Acting Lead 
 Health Communication Specialist
 Shelton Bartley, MPH,
 Lowery Johnson, Amanda Ray,
@@ -347,7 +347,7 @@ have questions about?”
 5. Pregnancy intention
 •	 “Do you think you would like to have (more) children 
 in the future?”
-•	  “How important is it to you to prevent pregnancy 
+•	 “How important is it to you to prevent pregnancy 
 (until then)?”
 •	 “Are you or your partner using contraception or 
 practicing any form of birth control?”
@@ -2444,7 +2444,7 @@ preferably at <36 weeks’ gestation, should be considered
 and is recommended for women who are at high risk for 
 acquiring HIV infection, women who receive health care 
 in jurisdictions with high rates of HIV, and women 
-examined in clinical settings in which HIV incidence  is 
+examined in clinical settings in which HIV incidence is 
 ≥1 per 1,000 women screened per year (138,140). 
 •	 HIV screening should be voluntary and free from coercion. 
 Patients should not be tested without their knowledge.
@@ -11286,7 +11286,7 @@ when HPV testing or cotesting is recommended at
 3-year intervals, and cytology testing is recommended 
 at 6-month intervals when HPV testing or cotesting is 
 recommended annually.
-•	  After treatment for a high-grade precancer (moderate or 
+•	 After treatment for a high-grade precancer (moderate or 
 severe dysplasia), surveillance should continue for at least 
 25 years.
 űű Initial testing includes an HPV test or cotest at 6, 18, 
@@ -14805,7 +14805,7 @@ PMID:10824935 https://doi.org/10.1177/095646240001100502
 	231.	Chow EP, Cornelisse VJ, Read TR, Chen MY, Bradshaw CS, Fairley 
 CK. Saliva use in sex: associations with use of smartphone dating 
 applications in men who have sex with men. Int J STD AIDS 
-2 0 1 8 ; 2 9 : 3 6 2 – 6 .  P M I D : 2 8 8 3 5 1 9 7  h t t p s : / / d o i .
+2 0 1 8 ; 2 9 : 3 6 2 – 6 . P M I D : 2 8 8 3 5 1 9 7 h t t p s : / / d o i .
 org/10.1177/0956462417727669
 	232.	Cornelisse VJ, Priest D, Fairley CK, et al. The frequency of kissing as 
 part of sexual activity differs depending on how men meet their male 
@@ -15007,7 +15007,7 @@ https://doi.org/10.1023/A:1011958816438
 	277.	Koh AS, Gómez CA, Shade S, Rowley E. Sexual risk factors among 
 self-identified lesbians, bisexual women, and heterosexual women 
 accessing primary care settings. Sex Transm Dis 2005;32:563–9. 
-P M I D : 1 6 1 1 8 6 0 5  h t t p s : / / d o i . o r g / 1 0 . 1 0 9 7 / 0 1 .
+P M I D : 1 6 1 1 8 6 0 5 h t t p s : / / d o i . o r g / 1 0 . 1 0 9 7 / 0 1 .
 olq.0000175417.17078.21
 
 <<<PAGE 147>>>
@@ -15253,7 +15253,7 @@ PMID:23729971 https://doi.org/10.1007/s11199-012-0216-5
 	332.	Reisner SL, White Hughto JM, Pardee D, Sevelius J. Syndemics and 
 gender affirmation: HIV sexual risk in female-to-male trans masculine 
 adults reporting sexual contact with cisgender males. Int J STD AIDS 
-2 0 1 6 ; 2 7 : 9 5 5 – 6 6 .  P M I D : 2 6 3 8 4 9 4 6  h t t p s : / / d o i .
+2 0 1 6 ; 2 7 : 9 5 5 – 6 6 . P M I D : 2 6 3 8 4 9 4 6 h t t p s : / / d o i .
 org/10.1177/0956462415602418
 	333.	Coleman E, Bockting W, Botzer M, et al. Standards of care for the 
 health of transsexual, transgender, and gender-nonconforming people, 
@@ -15372,7 +15372,7 @@ with CO2 laser and imiquimod. Int J STD AIDS 2015;26:509–11.
 PMID:24970474 https://doi.org/10.1177/0956462414542476
 	358.	Bodsworth NJ, Price R, Davies SC. Gonococcal infection of the 
 neovagina in a male-to-female transsexual. Sex Transm Dis 
-1 9 9 4 ; 2 1 : 2 1 1 – 2 .  P M I D : 7 9 7 4 0 7 1  h t t p s : / / d o i .
+1 9 9 4 ; 2 1 : 2 1 1 – 2 . P M I D : 7 9 7 4 0 7 1 h t t p s : / / d o i .
 org/10.1097/00007435-199407000-00005
 	359.	Haustein UF. Pruritus of the artificial vagina of a transsexual patient 
 caused by gonococcal infection [German]. Hautarzt 1995;46:858–9. 
@@ -15461,7 +15461,7 @@ OLQ.0b013e31815d6de8
 	377.	Blank S, McDonnell DD, Rubin SR, et al. New approaches to syphilis 
 control. Finding opportunities for syphilis treatment and congenital 
 syphilis prevention in a women’s correctional setting. Sex Transm Dis 
-1 9 9 7 ; 2 4 : 2 1 8 – 2 6 .  P M I D : 9 1 0 1 6 3 3  h t t p s : / / d o i .
+1 9 9 7 ; 2 4 : 2 1 8 – 2 6 . P M I D : 9 1 0 1 6 3 3 h t t p s : / / d o i .
 org/10.1097/00007435-199704000-00006
 	378.	Owusu-Edusei K Jr, Gift TL, Chesson HW, Kent CK. Investigating 
 the potential public health benefit of jail-based screening and treatment 
@@ -15552,7 +15552,7 @@ MMWR  /  July 23, 2021  /  Vol. 70  /  No. 4
 US Department of Health and Human Services/Centers for Disease Control and Prevention
 	397.	Morrow KM; Project START Study Group. HIV, STD, and hepatitis 
 risk behaviors of young men before and after incarceration. AIDS Care 
-2 0 0 9 ; 2 1 : 2 3 5 – 4 3 .  P M I D : 1 9 2 2 9 6 9 4  h t t p s : / / d o i .
+2 0 0 9 ; 2 1 : 2 3 5 – 4 3 . P M I D : 1 9 2 2 9 6 9 4 h t t p s : / / d o i .
 org/10.1080/09540120802017586
 	398.	Bryan AD, Magnan RE, Gillman AS, et al. Effect of including alcohol 
 and cannabis content in a sexual risk-reduction intervention on the 
@@ -15585,7 +15585,7 @@ PMID:29927651 https://doi.org/10.2105/AJPH.2018.304499
 	404.	Lucas KD, Miller JL, Eckert V, Horne RL, Samuel MC, Mohle-Boetani 
 JC. Risk, feasibility, and cost evaluation of a prisoner condom access 
 pilot program in one California state prison. J Correct Health Care 
-2 0 1 4 ; 2 0 : 1 8 4 – 9 4 .  P M I D : 2 4 9 3 4 8 3 6  h t t p s : / / d o i .
+2 0 1 4 ; 2 0 : 1 8 4 – 9 4 . P M I D : 2 4 9 3 4 8 3 6 h t t p s : / / d o i .
 org/10.1177/1078345814530869
 	405.	Scott N, McBryde E, Kirwan A, Stoové M. Modelling the impact of 
 condom distribution on the incidence and prevalence of sexually 
@@ -15594,7 +15594,7 @@ transmitted infections in an adult male prison system. PLoS One
 pone.0144869
 	406.	Schacker T, Collier AC, Hughes J, Shea T, Corey L. Clinical and 
 epidemiologic features of primary HIV infection. Ann Intern Med 
-1 9 9 6 ; 1 2 5 : 2 5 7 – 6 4 .  P M I D : 8 6 7 8 3 8 7  h t t p s : / / d o i .
+1 9 9 6 ; 1 2 5 : 2 5 7 – 6 4 . P M I D : 8 6 7 8 3 8 7 h t t p s : / / d o i .
 org/10.7326/0003-4819-125-4-199608150-00001
 	407.	Henn A, Flateau C, Gallien S. Primary HIV infection: clinical 
 presentation, testing, and treatment. Curr Infect Dis Rep 2017;19:37. 
@@ -16141,7 +16141,7 @@ Bras Dermatol 2018;93:592–4. https://doi.org/10.1590/
 abd1806-4841.20187948
 	531.	Marfatia YS, Menon DS, Jose S, Patel BK. Nonhealing genital ulcer 
 in AIDS: a diagnostic dilemma! Indian J Sex Transm Dis AIDS 
-2 0 1 6 ; 3 7 : 1 9 7 – 2 0 0 .  P M I D : 2 7 8 9 0 9 5 8  h t t p s : / / d o i .
+2 0 1 6 ; 3 7 : 1 9 7 – 2 0 0 . P M I D : 2 7 8 9 0 9 5 8 h t t p s : / / d o i .
 org/10.4103/0253-7184.192130
 	532.	Narang T, Kanwar AJ. Genital elephantiasis due to donovanosis: 
 forgotten but not gone yet. Int J STD AIDS 2012;23:835–6. 
@@ -17131,7 +17131,7 @@ PMID:29873691 https://doi.org/10.1093/cid/ciy477
 	760.	Dowe G, Smikle M, King SD, Baum M, Chout R, Williams Y. 
 Symptomatic and asymptomatic chlamydial non-gonococcal urethritis 
 in Jamaica: the potential for HIV transmission. Int J STD AIDS 
-2 0 0 0 ; 1 1 : 1 8 7 – 9 0 .  P M I D : 1 0 7 2 6 9 4 4  h t t p s : / / d o i .
+2 0 0 0 ; 1 1 : 1 8 7 – 9 0 . P M I D : 1 0 7 2 6 9 4 4 h t t p s : / / d o i .
 org/10.1258/0956462001915507
 	761.	Lusk MJ, Garden FL, Rawlinson WD, Naing ZW, Cumming RG, 
 Konecny P. Cervicitis aetiology and case definition: a study in Australian 
@@ -18064,7 +18064,7 @@ s12879-018-3523-9
 	966.	Glaser AM, Geisler WM, Ratliff AE, Xiao L, Waites KB, Gaisa M. Two 
 cases of multidrug-resistant genitourinary Mycoplasma genitalium 
 infection successfully eradicated with minocycline. Int J STD AIDS 
-2 0 1 9 ; 3 0 : 5 1 2 – 4 .  P M I D : 3 0 9 9 9 8 3 6  h t t p s : / / d o i .
+2 0 1 9 ; 3 0 : 5 1 2 – 4 . P M I D : 3 0 9 9 9 8 3 6 h t t p s : / / d o i .
 org/10.1177/0956462418816757
 	967.	Xiao L, Waites KB, Van Der Pol B, Aaron KJ, Hook EW 3rd, Geisler 
 WM. Mycoplasma genitalium infections with macrolide and 
@@ -18086,7 +18086,7 @@ MMWR  /  July 23, 2021  /  Vol. 70  /  No. 4
 US Department of Health and Human Services/Centers for Disease Control and Prevention
 	970.	Swidsinski A, Mendling W, Loening-Baucke V, et al. Adherent biofilms 
 in bacterial vaginosis. Obstet Gynecol 2005;106:1013–23. 
-P M I D : 1 6 2 6 0 5 2 0  h t t p s : / / d o i . o r g / 1 0 . 1 0 9 7 / 0 1 .
+P M I D : 1 6 2 6 0 5 2 0 h t t p s : / / d o i . o r g / 1 0 . 1 0 9 7 / 0 1 .
 AOG.0000183594.45524.d2
 	971.	Brotman RM, Klebanoff MA, Nansel TR, et al. Bacterial vaginosis 
 assessed by Gram stain and diminished colonization resistance to 
@@ -18192,7 +18192,7 @@ immuni.2016.12.013
 association between the concentrations of key vaginal bacteria and 
 the increased risk of HIV acquisition in African women from five 
 cohorts: a nested case-control study. Lancet Infect Dis 2018;18:554–
-6 4 .  P M I D : 2 9 3 9 6 0 0 6  h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 /
+6 4 . P M I D : 2 9 3 9 6 0 0 6 h t t p s : / / d o i . o r g / 1 0 . 1 0 1 6 /
 S1473-3099(18)30058-6
 	 995.	Johnston C, Magaret A, Srinivasan S, et al. P239 Genital HSV-2 
 suppression is not associated with alterations in the vaginal 
@@ -20362,7 +20362,7 @@ ViiV Healthcare and from speaker bureaus for Gilead Sciences and ViiV Healthcare
 Scynexis and received grant funding from Merck & Co. Christina A. Muzny served as a consultant and received research support from Lupin Pharmaceuticals 
 for a randomized controlled trial of secnidazole versus placebo for treatment of trichomoniasis and grants from the National Institutes of Health/National 
 Institute of Allergy and Infectious Diseases; was a speaker for Abbott Molecular, Cepheid, and Roche Diagnostics on topics related to STIs; received personal 
-fees from Lupin Pharmaceuticals, PhagoMed, Cepheid, and Beckton Dickinson;  and served as a consultant for BioFire Diagnostics. Paul Nyirjesy received 
+fees from Lupin Pharmaceuticals, PhagoMed, Cepheid, and Beckton Dickinson; and served as a consultant for BioFire Diagnostics. Paul Nyirjesy received 
 research support from Mycovia Pharmaceuticals, Curatek Pharmaceuticals, Scynexis, and Hologic and served as a consultant for Mycovia Pharmaceuticals, 
 Hologic, Scynexis, Daré Bioscience, and Becton Dickinson. Jeffery Pepest serves on advisory boards for Cooper Surgical and Bayer and provides research support 
 to Merck & Co. Susan Philip is an unpaid public health advisor to GlaxoSmithKline. Anne Rompalo serves on the BioFire Diagnostics advisory board and 

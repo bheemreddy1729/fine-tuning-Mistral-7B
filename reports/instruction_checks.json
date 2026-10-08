@@ -41,7 +41,8 @@
     "when are prolonged beta-lactam": 1,
     "what antibiotic prophylaxis does": 1,
     "how does <term> compare": 2,
-    "why does <term> advise": 3,
+    "why does <term> advise": 2,
+    "how should a suspected": 1,
     "what is reduced-osmolarity <term>": 1,
     "how should an adult": 1,
     "a medium-risk adult with": 1,
@@ -69,7 +70,7 @@
     "a clinician asks whether": 1
   },
   "max_template_share": 0.06,
-  "clinical_words_mean": 68.5,
+  "clinical_words_mean": 68.8,
   "clinical_words_min": 46,
   "clinical_words_max": 91,
   "eval_type_counts": {
@@ -83,11 +84,11 @@
   "checks_passed": true,
   "tokens": {
     "tokenizer": "mistralai/Mistral-7B-v0.1",
-    "mean_tokens": 173.5,
+    "mean_tokens": 173.7,
     "p95_tokens": 219,
     "max_tokens": 239,
     "min_tokens": 132,
-    "total_tokens_one_epoch": 8674,
+    "total_tokens_one_epoch": 8685,
     "proposed_max_seq_length": 256
   }
 }

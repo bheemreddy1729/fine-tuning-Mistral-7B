@@ -1,9 +1,9 @@
 """Part A Step 2: bfloat16 baseline for Mistral-7B-v0.1.
 
-The GPU run belongs on the BITS A100. `check` validates the prompts and
+The GPU run needs a CUDA GPU (it ran on the RTX A6000 pod). `check` validates the prompts and
 settings on any machine and does not download the model.
 
-Tomorrow, from the repo root on the lab pod:
+From the repo root on the GPU pod:
 
     python src/baseline.py run
 """
@@ -149,7 +149,7 @@ def load_baseline():
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
     if not torch.cuda.is_available():
-        raise RuntimeError("Baseline generation needs the A100. CUDA is not available in this process.")
+        raise RuntimeError("Baseline generation needs a CUDA GPU. CUDA is not available in this process.")
     tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token

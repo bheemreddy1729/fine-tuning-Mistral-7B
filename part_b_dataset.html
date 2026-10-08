@@ -7872,17 +7872,17 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>candidate chunks: 100 (50 slots x primary + spare), saved drafts: 51, final pairs: 50
+<pre>candidate chunks: 100 (50 slots x primary + spare), saved drafts: 53, final pairs: 50
 drafting log:
 {
   "drafter": "Claude (claude-sonnet-5-5) via Claude Code, one chunk at a time",
   "prompt_template": "prompts/instruction_draft_prompt.txt",
   "chunks": "data/instruction/chunks.jsonl (seed 42; rank 1 primary, rank 2 spare)",
   "raw_drafts": "data/instruction/drafts_raw.jsonl (saved drafts, one JSON object per attempt)",
-  "validation_loop": "each draft was checked with check_draft() as it was written. Most failing drafts were reworded before being saved; one failing attempt (s10r1, attempt 1) is kept in drafts_raw.jsonl and was replaced by attempt 2.",
-  "attempts_total": 51,
+  "validation_loop": "each draft was checked with check_draft() as it was written. Most failing drafts were reworded before being saved; failing attempts kept in drafts_raw.jsonl were replaced by a later attempt.",
+  "attempts_total": 53,
   "attempts_selected": 50,
-  "attempts_failing_checks_kept_in_raw": 1,
+  "attempts_failing_checks_kept_in_raw": 3,
   "spares_used": [
     "s08r2",
     "s17r2",
@@ -7894,7 +7894,7 @@ drafting log:
     "s48r2",
     "s50r2"
   ],
-  "note": "Spare chunks replaced chunks that were tables of contents or evidence tables. Drafts avoid answering the three fixed Part A prompts directly."
+  "note": "Spare chunks replaced chunks that were tables of contents or evidence tables. Drafts avoid answering the three fixed Part A prompts directly. After the corpus extraction was made whitespace-stable across pymupdf versions, chunk selection moved two ICMR slots (s19, s20); those two pairs were re-drafted as attempt 2 and the earlier attempts stay in drafts_raw.jsonl."
 }
 </pre>
 </div>
@@ -8108,7 +8108,8 @@ RESPONSE   : Per NICE hypertension guidance, the committee noted that some patie
     "when are prolonged beta-lactam": 1,
     "what antibiotic prophylaxis does": 1,
     "how does &lt;term&gt; compare": 2,
-    "why does &lt;term&gt; advise": 3,
+    "why does &lt;term&gt; advise": 2,
+    "how should a suspected": 1,
     "what is reduced-osmolarity &lt;term&gt;": 1,
     "how should an adult": 1,
     "a medium-risk adult with": 1,
@@ -8136,7 +8137,7 @@ RESPONSE   : Per NICE hypertension guidance, the committee noted that some patie
     "a clinician asks whether": 1
   },
   "max_template_share": 0.06,
-  "clinical_words_mean": 68.5,
+  "clinical_words_mean": 68.8,
   "clinical_words_min": 46,
   "clinical_words_max": 91,
   "eval_type_counts": {
@@ -8150,11 +8151,11 @@ RESPONSE   : Per NICE hypertension guidance, the committee noted that some patie
   "checks_passed": true,
   "tokens": {
     "tokenizer": "mistralai/Mistral-7B-v0.1",
-    "mean_tokens": 173.5,
+    "mean_tokens": 173.7,
     "p95_tokens": 219,
     "max_tokens": 239,
     "min_tokens": 132,
-    "total_tokens_one_epoch": 8674,
+    "total_tokens_one_epoch": 8685,
     "proposed_max_seq_length": 256
   }
 }
@@ -8214,9 +8215,9 @@ nice_hypertension      5
 icmr_stw_vol1          4
 icmr_stw_vol3          4
 
-Instruction templates: 44 distinct, largest share 6% (limit 20%)
-Clinical words per response: mean 68.5, min 46, max 91
-Tokens per example (Mistral tokenizer, instruction block + response + EOS): {'tokenizer': 'mistralai/Mistral-7B-v0.1', 'mean_tokens': 173.5, 'p95_tokens': 219, 'max_tokens': 239, 'min_tokens': 132, 'total_tokens_one_epoch': 8674, 'proposed_max_seq_length': 256}
+Instruction templates: 45 distinct, largest share 6% (limit 20%)
+Clinical words per response: mean 68.8, min 46, max 91
+Tokens per example (Mistral tokenizer, instruction block + response + EOS): {'tokenizer': 'mistralai/Mistral-7B-v0.1', 'mean_tokens': 173.7, 'p95_tokens': 219, 'max_tokens': 239, 'min_tokens': 132, 'total_tokens_one_epoch': 8685, 'proposed_max_seq_length': 256}
 </pre>
 </div>
 </div>
