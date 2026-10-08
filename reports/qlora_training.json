@@ -1,0 +1,102 @@
+{
+  "model_id": "mistralai/Mistral-7B-v0.1",
+  "hyperparameters": {
+    "adapter": "B",
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "quantization": "4-bit NF4, double quantization, bfloat16 compute",
+    "epochs": 3,
+    "per_device_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "effective_batch_size": 4,
+    "learning_rate": 0.0002,
+    "lr_scheduler": "linear",
+    "warmup_ratio": 0.03,
+    "optimizer": "paged_adamw_32bit",
+    "weight_decay": 0.0,
+    "max_grad_norm": 1.0,
+    "max_seq_length": 256,
+    "seed": 42,
+    "precision": "bf16",
+    "gradient_checkpointing": true,
+    "gradient_checkpointing_use_reentrant": false,
+    "loss_on": "response and EOS only (prompt tokens masked with -100)"
+  },
+  "train_examples": 40,
+  "eval_examples": 10,
+  "optimizer_steps": 30,
+  "trainable_parameters": 6815744,
+  "total_parameters": 7248547840,
+  "trainable_percent": 0.094,
+  "eval_loss_before_training": 2.1270833015441895,
+  "eval_loss_by_epoch": [
+    {
+      "epoch": 1.0,
+      "step": 10,
+      "eval_loss": 1.5038957595825195
+    },
+    {
+      "epoch": 2.0,
+      "step": 20,
+      "eval_loss": 1.4249526262283325
+    },
+    {
+      "epoch": 3.0,
+      "step": 30,
+      "eval_loss": 1.426715612411499
+    }
+  ],
+  "final_train_loss_logged": 1.0829,
+  "mean_train_loss": 1.3556561787923178,
+  "train_seconds": 45.5,
+  "base_model_gpu_gb": 4.13,
+  "peak_gpu_memory_gb": 5.25,
+  "gpu": "NVIDIA RTX A6000",
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "transformers": "4.46.3",
+    "peft": "0.13.2",
+    "python": "3.12.3"
+  },
+  "bitsandbytes": "0.50.2",
+  "adapter_dir": "adapters/adapter_b",
+  "adapter_files": [
+    "README.md",
+    "adapter_config.json",
+    "adapter_model.safetensors",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer.model",
+    "tokenizer_config.json"
+  ],
+  "inputs_sha256": {
+    "train.jsonl": "d201bead5e38b8feff61a371870eaff77f8c6379ad8f1dc65c0ec20a9e65c5d5",
+    "eval.jsonl": "3f34c528d8dd9f3ef410bff451b0488c0fe2ec1462d2c0c4f489ac9ed460b8e7",
+    "qlora_train.py": "612f7fee3b9c712320d7a612bfca314f8af10570dc2ddad70d25c1118ca9c78f"
+  },
+  "smoke_generate": [
+    {
+      "split": "train",
+      "id": "p01",
+      "instruction": "How should primaquine be dosed to prevent relapse in uncomplicated P. vivax or P. ovale malaria?",
+      "output": "Per WHO malaria guidelines, a single 0.25 mg/kg dose is given on day 1, followed by 0.15 mg/kg daily for 12 days, with a minimum of 7 days in areas with low G6PD deficiency prevalence and 14 days in areas with high prevalence. This output is for educational/reference purposes only and must not replace professional clinical judgment.",
+      "new_tokens": 90,
+      "stopped_on_eos": true,
+      "ends_with_disclaimer": true
+    },
+    {
+      "split": "eval",
+      "id": "p05",
+      "instruction": "How should an antimalarial be dosed in a large or obese adult so that the patient is not under-treated?",
+      "output": "Per WHO malaria guidelines, the dose of artemisinin-based combination therapy is 4 tablets of artesunate plus 3 tablets of partner drug per adult body weight of 40-59 kg, 5 tablets plus 4 tablets for 60-74 kg, 6 tablets plus 5 tablets for 75-99 kg and 7 tablets plus 6 tablets for 100 kg or more. This output is for educational/reference purposes only and must not replace professional clinical judgment.",
+      "new_tokens": 121,
+      "stopped_on_eos": true,
+      "ends_with_disclaimer": true
+    }
+  ]
+}

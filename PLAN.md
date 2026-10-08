@@ -256,7 +256,7 @@ Status: implemented, awaiting your review. Files: `instruction_dataset.jsonl`, `
 
 ### B2 — QLoRA fine-tuning with Adapter B [2 Marks]
 
-Status: closed until B1 is accepted and done
+Status: done, awaiting your review. Ran on the RTX A6000 pod: 30 optimizer steps in 45.5 s, peak 5.25 GB, eval loss 2.127 (untuned 4-bit base) to 1.427; a second same-seed run agrees within 0.0015. Files: `src/qlora_train.py`, `part_b_qlora.ipynb` and `.html`, `reports/qlora_training.json`, `reports/qlora_loss.csv`, `reports/qlora_smoke.json`, `reports/qlora_design_check.json`. The adapter is in `adapters/adapter_b/` on the pod (gitignored). The adapter learned the format (stops on EOS, adds the disclaimer) but not the facts; see the notebook inferences.
 
 **Assignment requirements**
 
@@ -271,7 +271,7 @@ Status: closed until B1 is accepted and done
 |---|---|---|
 | Base load | 4-bit NF4, `bnb_4bit_compute_dtype=bfloat16`, double quant on | Assignment Part C uses the same NF4 pattern; QLoRA standard |
 | LoRA | r=16, alpha=32, dropout 0.05, targets `q_proj`,`v_proj` | Locked Adapter B |
-| Trainer | TRL `SFTTrainer` (lab pin `trl==0.12.1` on Kubeflow; match pod pins where possible) | Assignment SFT setup |
+| Trainer | Plain `transformers.Trainer` with our own response-only collator (no TRL: the brief names only transformers, peft, bitsandbytes, and TRL pins are tied to transformers versions) | Assignment SFT setup, fewer version risks |
 | Dataset | 40 train / 10 eval from B1 | Locked split |
 | Max seq length | **256** (B1 measured max 239 tokens, p95 219) | Covers every example; 512 would only add padding |
 | Epochs | **3** | Small set; more epochs overfit |
@@ -285,7 +285,7 @@ Status: closed until B1 is accepted and done
 | Padding | `pad_token` set to `unk` (not EOS), `padding_side="right"` for training | Pad = EOS makes the collator mask the EOS label |
 | Loss masking | `DataCollatorForCompletionOnlyLM` with `response_template="### Response:"`; `packing=False` | Loss on the answer only; 40 rows cannot afford wasted signal |
 | Eval loss | Also compute eval loss of the **untuned** base on the same 10 rows in the same format | Gives a quantitative before/after for B3 |
-| Dependencies | Pin `torch`, `transformers`, `peft`, `trl==0.12.1`, `bitsandbytes`, `accelerate`, `datasets` in `requirements.txt` after checking the pod versions (the file currently lists only Part A packages) | `SFTTrainer` argument names differ across TRL versions |
+| Dependencies | Pinned in `requirements.txt` to the pod's versions: torch 2.8.0, transformers 4.46.3, accelerate 1.1.1, peft 0.13.2, bitsandbytes 0.50.2. The module sets `USE_TF=0` because the pod's TensorFlow/Keras 3 breaks the transformers import | Reproducible installs |
 
 Code: `src/qlora_train.py` with `check` and `run`. Notebook: `part_b_qlora.ipynb` (calls train, prints hyperparams and train/eval loss).
 

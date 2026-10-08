@@ -1,0 +1,39 @@
+{
+  "design_check_passed": true,
+  "model_id": "mistralai/Mistral-7B-v0.1",
+  "train_examples": 40,
+  "eval_examples": 10,
+  "max_tokens": 239,
+  "mean_tokens": 173.7,
+  "pad_token": "<unk>",
+  "eos_token": "</s>",
+  "optimizer_steps": 30,
+  "response_tokens_in_loss_train": 5338,
+  "hyperparameters": {
+    "adapter": "B",
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "quantization": "4-bit NF4, double quantization, bfloat16 compute",
+    "epochs": 3,
+    "per_device_batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "effective_batch_size": 4,
+    "learning_rate": 0.0002,
+    "lr_scheduler": "linear",
+    "warmup_ratio": 0.03,
+    "optimizer": "paged_adamw_32bit",
+    "weight_decay": 0.0,
+    "max_grad_norm": 1.0,
+    "max_seq_length": 256,
+    "seed": 42,
+    "precision": "bf16",
+    "gradient_checkpointing": true,
+    "gradient_checkpointing_use_reentrant": false,
+    "loss_on": "response and EOS only (prompt tokens masked with -100)"
+  }
+}
