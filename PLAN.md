@@ -2,7 +2,7 @@
 
 Reply with one id, for example `accept A1`. Work starts only for that item. The next item stays pending until you accept it.
 
-Current item: **B1**, closed until accepted. A1 through A7 are done.
+Current item: **Part A Step 2 GPU run**, pending the A100. The code is written. B1 stays closed.
 
 ## Locked already
 
@@ -154,7 +154,19 @@ The notebook displays the extraction row and the before/after table for language
 
 Push to `main` only after every check passes: pipeline, reports, `domain_corpus/`, `data/sources.json`, and `data/raw_pdfs/`. Model weights stay out of the repo. WHO text is pushed with the CC BY-NC-SA 3.0 IGO attribution in `sources.json`.
 
-## Later, after Part A is pushed
+### Part A Step 2 — Baseline model output
+
+Status: code ready, GPU run pending
+
+This is the assignment's Part A Step 2 (1 mark). The plan table below calls the same work B2.
+
+`python src/baseline.py check` confirms three clinical prompts, no system prompt, the shared instruction block, greedy decoding, and `max_new_tokens=150`. It does not download the model.
+
+`python src/baseline.py run` on the A100 loads `mistralai/Mistral-7B-v0.1` in bfloat16 with `AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1")`. It prints parameter count, decoder layers, hidden size, and vocabulary size from the loaded model, then saves `reports/baseline_architecture.json` and `reports/baseline_outputs.csv`. The notebook is `part_a_baseline.ipynb`.
+
+Hidden size is `model.config.hidden_size`: the width of each token representation in the residual stream. The code reads it from the loaded model.
+
+## Later, after the baseline is saved
 
 These stay closed until you accept them.
 
