@@ -1,0 +1,10 @@
+system,prompt_id,new_tokens,tokens_per_second,stopped_on_eos,facts_hit,facts_total,flags,ungrounded_numbers,has_disclaimer,extra_sections,has_references_section
+baseline,malaria_uncomplicated_pf,150,31.693,False,al,7,single_drug_only,,False,3,True
+baseline,sepsis_iv_antibiotics,150,31.868,False,one_hour|broad_spectrum,4,external_guideline,,False,2,True
+baseline,hypertension_first_line,150,31.541,False,acei_arb|ccb,5,thiazide_first_line,,False,1,False
+adapter_bf16,malaria_uncomplicated_pf,73,27.333,True,act|assp,7,quinine_second_line|single_drug_only,,True,0,False
+adapter_bf16,sepsis_iv_antibiotics,128,31.089,True,one_hour|broad_spectrum|source_specific,4,external_guideline,,True,0,False
+adapter_bf16,hypertension_first_line,119,31.23,True,acei_arb|ccb|age_55,5,thiazide_first_line|wrong_age_rule,,True,0,False
+adapter_4bit,malaria_uncomplicated_pf,79,16.739,True,act|assp,7,quinine_second_line|single_drug_only,,True,0,False
+adapter_4bit,sepsis_iv_antibiotics,107,18.418,True,one_hour|broad_spectrum,4,external_guideline,,True,0,False
+adapter_4bit,hypertension_first_line,119,19.019,True,acei_arb|ccb|age_55,5,thiazide_first_line|wrong_age_rule,,True,0,False

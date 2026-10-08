@@ -295,7 +295,7 @@ The notebook must state the four hyperparameters the brief asks for (batch size,
 
 ### B3 — Evaluation and comparative analysis [1 Mark]
 
-Status: closed until B2 is done
+Status: done, awaiting your review. Ran on the RTX A6000 pod. Files: `src/adapter_eval.py`, `part_b_eval.ipynb` and `.html`, `reports/baseline_vs_adapter.csv`, `reports/adapter_eval_scores.csv`, `reports/adapter_eval.json`. Result: the adapter fixes the form (disclaimer 3 of 3, stops by itself 3 of 3, no fake reference sections) but not the content; all three answers contain a claim the corpus contradicts or does not support. Primary comparison is bf16 base + adapter against the regenerated baseline, which reproduced the Part A outputs exactly; a 4-bit + adapter run is reported next to it.
 
 **Assignment requirements**
 
