@@ -16,3 +16,15 @@ Screenshots proving the assignment runs on the BITS lab infrastructure. Captured
 Notes: the lab registry image `bits-sudo-jupyter-pytorch-cuda-full` had no tag available, so the server uses
 `kubeflownotebookswg/jupyter-pytorch-cuda-full:v1.10.0-rc.1` (torch 2.5.1+cu124, Python 3.11, same stack as the guide).
 CPU and memory are capped by the namespace quota (8 CPU, 16 Gi RAM, 32 Gi storage).
+
+## Part A re-run on the lab (2026-10-09, branch `lab-run`)
+
+| File | Shows |
+|---|---|
+| 08_part_a_rerun_on_lab.png | Terminal: `corpus_pipeline.py part-a` finished in 34 s, gate passed |
+| part_a_rerun/part_a_lab.log | Pipeline output: 7 PDFs, 1,122 kept pages, gate passed (same as the locked values in PLAN.md) |
+| part_a_rerun/part_a_before.sha, part_a_after.sha | SHA-256 of `domain_corpus/`, `reports/`, `data/sources.json` before and after the run |
+| part_a_rerun/part_a_cmp.txt | `git diff` summary: 9 report CSVs differ by line endings only (empty diff with `--ignore-space-at-eol`) |
+
+Result: all `domain_corpus/*.txt`, `data/sources.json` and `reports/filter_checks.json` are byte-identical to the earlier run.
+The 9 CSVs differ only in line endings (Windows CRLF vs pod LF), so the Part A numbers reproduce on the lab.

@@ -1,0 +1,20 @@
+ reports/corpus_stats.csv              | 16 ++++++++--------
+ reports/dedup_removed_documents.csv   |  2 +-
+ reports/dedup_removed_pages.csv       | 32 ++++++++++++++++----------------
+ reports/extraction_short_pages.csv    | 56 ++++++++++++++++++++++++++++----------------------------
+ reports/language_noncontent_pages.csv | 56 ++++++++++++++++++++++++++++----------------------------
+ reports/language_removed_pages.csv    |  4 ++--
+ reports/length_removed_documents.csv  |  2 +-
+ reports/pubchem_drug_counts.csv       | 20 ++++++++++----------
+ reports/pubchem_stats.csv             |  6 +++---
+ 9 files changed, 97 insertions(+), 97 deletions(-)
+--- ignoring line endings:
+--- sample:
+diff --git a/reports/corpus_stats.csv b/reports/corpus_stats.csv$
+index a5d0305..bd14619 100644$
+--- a/reports/corpus_stats.csv$
++++ b/reports/corpus_stats.csv$
+@@ -1,8 +1,8 @@$
+-stage,pdf_count,page_count,word_count,character_count,documents_removed,pages_removed,short_page_count,noncontent_pages
+-extracted,7,1165,609037,4242287,0,0,27,0,0$
+-before_language,7,1165,609037,4239849,0,0,27,0,0$
