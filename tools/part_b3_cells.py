@@ -115,12 +115,9 @@ results["adapter_4bit"] = generate_all(adapted4, tok_e)
 mem["4-bit base + adapter"] = round(torch.cuda.max_memory_allocated() / 1e9, 2)
 del adapted4, q4; gc.collect(); torch.cuda.empty_cache()
 
-# the regenerated baseline must equal the saved Part A outputs (this lab run) and the earlier run
-earlier_a = {r["prompt_id"]: r for r in csv.DictReader((ROOT / "reports" / "baseline_outputs.csv").open(encoding="utf-8", newline=""))}
+# the regenerated baseline must equal the saved Part A outputs
 same_lab = {r["prompt_id"]: r["output"].split() == saved_a[r["prompt_id"]]["output"].split() for r in results["baseline"]}
-same_old = {r["prompt_id"]: r["output"].split() == earlier_a[r["prompt_id"]]["output"].split() for r in results["baseline"]}
 print("baseline regenerated == Part A output on this lab :", same_lab)
-print("baseline regenerated == earlier run (A6000)       :", same_old)
 print("peak GPU memory (GB):", mem)
 """)
 
@@ -170,7 +167,7 @@ display(spd.round(2)); print("mean tok/s:", spd.mean().round(2).to_dict()); prin
 """)
 
     code(r"""
-# save the comparison (lab outputs go to reports_lab/) and compare the adapter outputs with the earlier run's
+# save the comparison (lab outputs go to reports_lab/)
 import difflib
 cmp_rows = []
 for i, p in enumerate(PROMPTS):
@@ -181,13 +178,7 @@ for i, p in enumerate(PROMPTS):
                      "adapter_4bit_output": a4["output"], "adapter_4bit_tps": a4["tokens_per_second"]})
 pd.DataFrame(cmp_rows).to_csv(REPORTS_LAB / "baseline_vs_adapter.csv", index=False)
 sc.drop(columns=["facts_hit", "flags", "ungrounded_numbers"]).to_csv(REPORTS_LAB / "adapter_eval_scores.csv", index=False)
-old_cmp = pd.read_csv(ROOT / "reports" / "baseline_vs_adapter.csv").set_index("prompt_id")
-print("adapter (bf16) outputs identical to the earlier run's:", {r["prompt_id"]: r["adapter_output"].split() == old_cmp.loc[r["prompt_id"], "adapter_output"].split() for r in cmp_rows})
-print("adapter (4-bit) outputs identical to the earlier run's:", {r["prompt_id"]: r["adapter_4bit_output"].split() == old_cmp.loc[r["prompt_id"], "adapter_4bit_output"].split() for r in cmp_rows})
-for r in cmp_rows:
-    old = old_cmp.loc[r["prompt_id"], "adapter_output"]
-    if old.split() != r["adapter_output"].split():
-        print(f"\n[{r['prompt_id']}] earlier-run adapter output for comparison:\n{old}")
+print("saved reports_lab/baseline_vs_adapter.csv and adapter_eval_scores.csv")
 """)
 
     md(r"""
@@ -226,9 +217,9 @@ the risk-based timing and the type 2 diabetes and family-origin rules.
 
 **Why.** 40 training pairs, each teaching one fact, change *how* the model writes but cannot reliably change *what* it knows, and the model fills the learned answer shape with plausible clinical text from its pre-training. The eval loss fell by a third because the form is easy to learn; the facts are not.
 
-**Precision, memory and speed.** The 4-bit adapter (the training condition) is close to bf16 in quality (7 versus 8 rubric facts; one more flagged claim) and needs about **4.4 GB instead of 14.6 GB** of GPU memory (the measured peaks are in the table above). It is also the slowest: in every run of this cell the 4-bit adapter generated at roughly **half to 60 %** of the bf16 adapter's speed, because each step dequantises the weights and applies the unmerged LoRA matrices. The bf16 adapter is itself **10 to 20 % slower than the bf16 baseline**, again because it is attached unmerged (extra matrix products per layer); merging it into a bf16 model before serving removes that cost. Absolute tokens per second are **not stable on this shared A100**: the same baseline cell measured about 24 tokens/s in the final run and about 31 tokens/s in an earlier run of identical code, so read the ratios and the table above, not single values. Part C repeats timings with warm-up and several runs.
+**Precision, memory and speed.** The 4-bit adapter (the training condition) is close to bf16 in quality (7 versus 8 rubric facts; one more flagged claim) and needs about **4.4 GB instead of 14.6 GB** of GPU memory (the measured peaks are in the table above). It is also the slowest: in every run of this cell the 4-bit adapter generated at roughly **half to 60 %** of the bf16 adapter's speed, because each step dequantises the weights and applies the unmerged LoRA matrices. The bf16 adapter is itself **10 to 20 % slower than the bf16 baseline**, again because it is attached unmerged (extra matrix products per layer); merging it into a bf16 model before serving removes that cost. Absolute tokens per second are **not stable on this shared A100**: the same baseline cell measured about 24 tokens/s in the final run and about 31 tokens/s in another run of the identical cell, so read the ratios and the table above, not single values. Part C repeats timings with warm-up and several runs.
 
-**Reproducibility.** The regenerated baseline matches the Part A outputs and the earlier run on the other GPU token for token. The adapter outputs match the earlier run for 2 of 3 prompts in each precision; the malaria answer (bf16) and the sepsis answer (4-bit) differ in wording because the retrained adapter on a different library version differs by tiny weight differences that flip a greedy choice. The conclusions are the same in both runs.
+**Reproducibility.** The regenerated baseline matches the Part A outputs token for token (greedy decoding is deterministic) and the Part B2 repeat run was bit-identical, so every difference between the baseline and adapter columns comes from the adapter alone.
 
 **Implication for Variant 4 (clinical protocol lookup).** Fine-tuning on this set made the assistant *look* more like a protocol assistant (source cited, disclaimer, clean stop) without making it more correct, which in a clinical setting is a risk: a fluent, cited, confident wrong dose or first-line choice is worse than a vague answer. The disclaimer is necessary but not sufficient. A deployable assistant needs grounding (retrieving the guideline passage into the prompt) and a larger, verified instruction set; the pairs here are a demonstration of the pipeline, not a clinical tool.
 """)

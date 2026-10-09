@@ -26,5 +26,5 @@ CPU and memory are capped by the namespace quota (8 CPU, 16 Gi RAM, 32 Gi storag
 | part_a_rerun/part_a_before.sha, part_a_after.sha | SHA-256 of `domain_corpus/`, `reports/`, `data/sources.json` before and after the run |
 | part_a_rerun/part_a_cmp.txt | `git diff` summary: 9 report CSVs differ by line endings only (empty diff with `--ignore-space-at-eol`) |
 
-Result: all `domain_corpus/*.txt`, `data/sources.json` and `reports/filter_checks.json` are byte-identical to the earlier run.
+Result: all `domain_corpus/*.txt`, `data/sources.json` and `reports/filter_checks.json` are byte-identical to the committed reference files.
 The 9 CSVs differ only in line endings (Windows CRLF vs pod LF), so the Part A numbers reproduce on the lab.

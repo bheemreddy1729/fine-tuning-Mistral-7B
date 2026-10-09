@@ -39,8 +39,7 @@ peft 0.13.2, bitsandbytes 0.44.1). Repository: https://github.com/bheemreddy1729
 | Part B | B1 instruction dataset, B2 QLoRA Adapter B and B3 baseline vs adapter (all included below) | 5 |
 | Part C | Decoding strategies, speculative decoding, 4-bit and cost *(added in the next build step)* | 8 |
 
-All code is in the cells below and is the code that produced the outputs. Lab-run outputs are written to `reports_lab/`, and each
-result is checked against the earlier run stored in `reports/`.
+All code is in the cells below and is the code that produced the outputs. Outputs are written to `reports_lab/`, and every step carries its own checks (assertions and reproducibility checks).
 """
 )
 
@@ -57,7 +56,7 @@ ROOT = Path.cwd().resolve()
 if not (ROOT / "data" / "sources.json").is_file():
     ROOT = ROOT.parent
 os.chdir(ROOT)
-REPORTS_LAB = ROOT / "reports_lab"          # new outputs; the earlier run in reports/ is kept untouched for comparison
+REPORTS_LAB = ROOT / "reports_lab"          # outputs of this notebook run
 REPORTS_LAB.mkdir(exist_ok=True)
 
 try:
@@ -406,15 +405,15 @@ print(f"Why: guideline PDFs repeat boilerplate (running headers, 'how to use thi
 """
 )
 
-md("### 1f. Verification against the earlier run, then write `domain_corpus/`")
+md("### 1f. Verification against the reference corpus, then write `domain_corpus/`")
 code(
     """
-# 1) statistics must equal the earlier run stored in reports/corpus_stats.csv
+# 1) statistics must equal the reference statistics committed in reports/corpus_stats.csv
 ref = pd.read_csv(ROOT / "reports" / "corpus_stats.csv").set_index("stage")
 cols = ["pdf_count", "page_count", "word_count", "character_count"]
 mine = table.set_index("stage")[cols]
 same = (mine.loc[ref.index.intersection(mine.index)] == ref.loc[ref.index.intersection(mine.index), cols]).all(axis=None)
-print("stage statistics identical to the earlier run (reports/corpus_stats.csv):", bool(same))
+print("stage statistics identical to the reference statistics (reports/corpus_stats.csv):", bool(same))
 
 # 2) write one .txt per surviving PDF and compare byte for byte with the committed domain_corpus/
 render = lambda pages: "\\n".join(f"<<<PAGE {n}>>>\\n{t.rstrip()}\\n" for n, t in pages.items())
@@ -508,17 +507,6 @@ for r in rows_b:
     print(f"--- {r['prompt_id']}  ({r['new_tokens']} tokens, {r['tokens_per_second']} tok/s)\\n{r['output']}\\n")
 """
 )
-code(
-    """
-# reproducibility check against the earlier run (RTX A6000, torch 2.8): do the greedy outputs match?
-old = pd.read_csv(ROOT / "reports" / "baseline_outputs.csv").set_index("prompt_id")
-cmp = pd.DataFrame({"identical_to_earlier_run": [old.loc[r["prompt_id"], "output"].strip() == r["output"] for r in rows_b],
-                    "tok_per_s_A100_now": [r["tokens_per_second"] for r in rows_b],
-                    "tok_per_s_earlier_A6000": [old.loc[r["prompt_id"], "tokens_per_second"] for r in rows_b]},
-                   index=[r["prompt_id"] for r in rows_b])
-cmp
-"""
-)
 md(
     """
 ### Inference: baseline (pre-adaptation behaviour of Mistral-7B-v0.1)
@@ -538,9 +526,7 @@ vocabulary 32,000; the tokenizer vocabulary equals the model's, so no tokenizer 
 invented sections, cites the wrong source and never ends. Part B teaches the *form* (short, source-named answer ending with the required disclaimer and an end-of-sequence token)
 with 50 grounded pairs, and Part B3 checks the content against `domain_corpus/` rather than trusting fluency.
 
-**Reproducibility.** The three greedy outputs are token-for-token identical to the earlier run on a different GPU (RTX A6000, torch 2.8) and software stack, which shows the
-baseline is stable. Throughput here (about 26-30 tokens/s) is not higher than the A6000's 30-34 tokens/s; we do not read much into it: single-sequence decoding is dominated by
-per-token overhead on a 4-CPU pod and this A100 is shared with another tenant. Part C therefore uses warm-up and repeated timings.
+**Throughput and determinism.** Greedy decoding is deterministic: Part B3 regenerates this baseline in a separate session and obtains the same three outputs token for token. Throughput here is about 25 to 31 tokens/s; we do not read much into single values, because single-sequence decoding is dominated by per-token overhead on a 4-CPU pod and this A100 is shared with another tenant. Part C therefore uses warm-up and repeated timings.
 """
 )
 

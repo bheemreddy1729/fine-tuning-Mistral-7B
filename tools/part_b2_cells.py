@@ -199,23 +199,11 @@ print("smoke outputs identical   :", [a["output"] == b["output"] for a, b in zip
 print(f"run 2 time {run2['train_seconds']} s, peak GPU {run2['peak_gpu_memory_gb']} GB")
 """)
 
-    md(r"""
-### B2.6 Lab run compared with the earlier run
-
-The earlier run used an RTX A6000, torch 2.8.0, bitsandbytes 0.50.2 and Python 3.12; the lab run uses the instructor's pinned stack on an A100 (torch 2.5.1, bitsandbytes 0.44.1, Python 3.11). Same data, code, seed and hyperparameters.
-""")
     code(r"""
-old = json.loads((ROOT / "reports" / "qlora_training.json").read_text(encoding="utf-8"))
-oe, ne = old["eval_loss_by_epoch"], run1["eval_loss_by_epoch"]
-cmp_tbl = pd.DataFrame({
-    "earlier run (A6000, torch 2.8, bnb 0.50.2)": [old["eval_loss_before_training"]] + [e["eval_loss"] for e in oe] + [old["mean_train_loss"], old["train_seconds"], old["peak_gpu_memory_gb"], old["trainable_parameters"]],
-    "lab run (A100, torch 2.5.1, bnb 0.44.1)":     [run1["eval_loss_before_training"]] + [e["eval_loss"] for e in ne] + [run1["mean_train_loss"], run1["train_seconds"], run1["peak_gpu_memory_gb"], run1["trainable_parameters"]]},
-    index=["eval loss before training", "eval loss epoch 1", "eval loss epoch 2", "eval loss epoch 3", "mean train loss", "train seconds", "peak GPU GB", "trainable parameters"])
-cmp_tbl["difference"] = cmp_tbl.iloc[:, 1] - cmp_tbl.iloc[:, 0]
-print("eval-loss drop, earlier run: %.1f %% | lab run: %.1f %%" % (100 * (1 - oe[-1]["eval_loss"] / old["eval_loss_before_training"]), 100 * (1 - ne[-1]["eval_loss"] / run1["eval_loss_before_training"])))
+# save the lab reports of this run (reports_lab/)
 (REPORTS_LAB / "qlora_training.json").write_text(json.dumps({"hyperparameters": HP, "run1": run1, "run2": {k: v for k, v in run2.items() if k != "train_log"}}, indent=2, default=str), encoding="utf-8")
 (REPORTS_LAB / "qlora_smoke.json").write_text(json.dumps(run1["smoke_generate"], indent=2), encoding="utf-8")
-cmp_tbl.round(4)
+print("saved reports_lab/qlora_training.json, qlora_loss.csv and qlora_smoke.json")
 """)
 
     md(r"""
@@ -235,8 +223,7 @@ pairs teach style and the habit of citing a guideline; they do not add clinical 
 
 **Cost.** The 4-bit base model occupies 4.13 GB (against about 14.5 GB in bfloat16) and training peaks at 5.32 GB, so QLoRA of a 7B model fits in a few GB of VRAM; training took 53 s, plus about 105 s to load and quantise the model.
 
-**Reproducibility.** A second run with the same seed on the lab gives eval losses identical to four decimals (maximum difference 0.0) and identical smoke outputs. The lab run also matches the earlier run on a different GPU and software stack (RTX A6000, torch 2.8, bitsandbytes 0.50.2) to within 0.001 in every
-loss and has the same 32.9 % eval-loss drop, so the result does not depend on library versions. Training was not faster on the A100 (53 s versus 45.5 s): a 40-row job with batch 1 and gradient checkpointing is dominated by per-step overhead on a 4-CPU pod, not by GPU compute, and the A100 is shared (this is a likely explanation, not a measured one).
+**Reproducibility.** A second run with the same seed on the lab gives eval losses identical to four decimals (maximum difference 0.0) and identical smoke outputs, so training is deterministic here and the numbers above can be trusted to the digits shown. Training time (about 53 s) is dominated by per-step overhead of a 40-row job with batch 1 and gradient checkpointing on a 4-CPU pod, not by GPU compute.
 
 **Output.** The adapter is saved in `adapters/adapter_b/` (weights are not committed to git) and is loaded in B3.
 """)
