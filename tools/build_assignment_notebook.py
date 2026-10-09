@@ -36,7 +36,7 @@ peft 0.13.2, bitsandbytes 0.44.1). Repository: https://github.com/bheemreddy1729
 |---|---|---|
 | Part A, Step 1 | Corpus collection and cleaning (extraction, language, length, deduplication, statistics) | 1 |
 | Part A, Step 2 | bfloat16 baseline: architecture report and 3 prompts | 1 |
-| Part B | B1 instruction dataset (included below); B2 QLoRA Adapter B and B3 baseline vs adapter *(added in the next build steps)* | 5 |
+| Part B | B1 instruction dataset and B2 QLoRA Adapter B (included below); B3 baseline vs adapter *(added in the next build step)* | 5 |
 | Part C | Decoding strategies, speculative decoding, 4-bit and cost *(added in the next build step)* | 8 |
 
 All code is in the cells below and is the code that produced the outputs. Lab-run outputs are written to `reports_lab/`, and each
@@ -547,8 +547,10 @@ per-token overhead on a 4-CPU pod and this A100 is shared with another tenant. P
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import part_b1_cells
+import part_b2_cells
 
 part_b1_cells.add(md, code)
+part_b2_cells.add(md, code)
 
 nb = nbf.v4.new_notebook(cells=cells)
 nb.metadata["kernelspec"] = {"display_name": "Python (LLM venv)", "language": "python", "name": "llm-venv"}
