@@ -1,15 +1,9 @@
-pymupdf>=1.24
-langdetect>=1.0.9
-pandas
-matplotlib
-sentencepiece
+# Extras the BITS Kubeflow image does not ship, installed into the instructor's venv. The notebook installs them itself when missing.
+# Everything else (torch 2.5.1, transformers 4.46.3, peft 0.13.2, accelerate 1.1.1, bitsandbytes 0.44.1, ...) comes from the
+# instructor's setup_env.sh and must NOT be reinstalled or upgraded from this file.
+pymupdf
+langdetect
 nbformat
 nbclient
 nbconvert
-hf_transfer  # pods set HF_HUB_ENABLE_HF_TRANSFER=1
-# Versions below are the ones the pod ran Parts A and B with.
-torch==2.8.0
-transformers==4.46.3
-accelerate==1.1.1
-peft==0.13.2
-bitsandbytes==0.50.2
+hf_transfer
