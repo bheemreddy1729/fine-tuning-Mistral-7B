@@ -7511,7 +7511,7 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=97413709">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9d3a0e00">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7558,7 +7558,7 @@ result is checked against the earlier run stored in <code>reports/</code>.</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3a4e63b1">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=972240a9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7568,7 +7568,7 @@ result is checked against the earlier run stored in <code>reports/</code>.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0b57f4f1">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8aea7250">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7633,7 +7633,7 @@ repo root   : /home/jovyan/data/fine-tuning-Mistral-7B
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a1a9e86c">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=43036203">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7713,7 +7713,7 @@ repo root   : /home/jovyan/data/fine-tuning-Mistral-7B
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=822c5dd6">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=120fb695">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7728,7 +7728,7 @@ Raw PDFs are committed in <code>data/raw_pdfs/</code>, so the run is reproducibl
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=aa7bf679">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ce945700">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7858,7 +7858,7 @@ Raw PDFs are committed in <code>data/raw_pdfs/</code>, so the run is reproducibl
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fe22ccd5">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=534d25ef">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7870,7 +7870,7 @@ page number is never lost. A page with fewer than 30 letters (blank, image-only,
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=dd9ab217">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7f0b4305">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7894,7 +7894,7 @@ page number is never lost. A page with fewer than 30 letters (blank, image-only,
     <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">corpus</span><span class="p">[</span><span class="n">s</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]])</span> <span class="o">==</span> <span class="n">s</span><span class="p">[</span><span class="s2">"page_count"</span><span class="p">]</span>
 
 <span class="k">def</span><span class="w"> </span><span class="nf">stats</span><span class="p">(</span><span class="n">stage</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">removed_docs</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">removed_pages</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
-    <span class="k">return</span> <span class="p">{</span><span class="s2">"stage"</span><span class="p">:</span> <span class="n">stage</span><span class="p">,</span> <span class="s2">"pdf_count"</span><span class="p">:</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">c</span><span class="o">.</span><span class="n">values</span><span class="p">()</span> <span class="k">if</span> <span class="n">p</span><span class="p">),</span> <span class="s2">"page_count"</span><span class="p">:</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">p</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">c</span><span class="o">.</span><span class="n">values</span><span class="p">()),</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s2">"stage"</span><span class="p">:</span> <span class="n">stage</span><span class="p">,</span> <span class="s2">"pdf_count"</span><span class="p">:</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">c</span><span class="o">.</span><span class="n">values</span><span class="p">()</span> <span class="k">if</span> <span class="n">p</span><span class="p">),</span> <span class="s2">"txt_files"</span><span class="p">:</span> <span class="nb">sum</span><span class="p">(</span><span class="mi">1</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">c</span><span class="o">.</span><span class="n">values</span><span class="p">()</span> <span class="k">if</span> <span class="n">p</span><span class="p">),</span> <span class="s2">"page_count"</span><span class="p">:</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">p</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">c</span><span class="o">.</span><span class="n">values</span><span class="p">()),</span>
             <span class="s2">"word_count"</span><span class="p">:</span> <span class="nb">sum</span><span class="p">(</span><span class="n">words</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">c</span><span class="o">.</span><span class="n">values</span><span class="p">()</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">p</span><span class="o">.</span><span class="n">values</span><span class="p">()),</span>
             <span class="s2">"character_count"</span><span class="p">:</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">c</span><span class="o">.</span><span class="n">values</span><span class="p">()</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">p</span><span class="o">.</span><span class="n">values</span><span class="p">()),</span>
             <span class="s2">"documents_removed"</span><span class="p">:</span> <span class="n">removed_docs</span><span class="p">,</span> <span class="s2">"pages_removed"</span><span class="p">:</span> <span class="n">removed_pages</span><span class="p">}</span>
@@ -7945,6 +7945,7 @@ sample page text: 'For a short explanation of why the committee deleted the reco
 <th></th>
 <th>stage</th>
 <th>pdf_count</th>
+<th>txt_files</th>
 <th>page_count</th>
 <th>word_count</th>
 <th>character_count</th>
@@ -7956,6 +7957,7 @@ sample page text: 'For a short explanation of why the committee deleted the reco
 <tr>
 <th>0</th>
 <td>extracted</td>
+<td>7</td>
 <td>7</td>
 <td>1165</td>
 <td>609037</td>
@@ -7971,7 +7973,20 @@ sample page text: 'For a short explanation of why the committee deleted the reco
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e64ee503">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7a462a5b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Inference:-extraction">Inference: extraction<a class="anchor-link" href="#Inference:-extraction">¶</a></h3><p>All 7 PDFs were read page by page (1,165 pages, 609,037 words, about 4.24 million characters) and every page count matches the manifest, so no page was lost or duplicated at
+extraction. 27 pages have fewer than 30 letters: covers, blank separator pages and image-only pages. They carry no usable text, so they are counted separately as
+<em>non-content</em> rather than being passed on to the language filter. Seven source files give seven <code>.txt</code> files (the <code>txt_files</code> column in the statistics tables).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=df733c2e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7983,7 +7998,7 @@ does not return <code>en</code>; shorter pages are non-content and are removed s
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a802a224">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=73891a37">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8060,6 +8075,7 @@ non-content pages (not language removals): 27
 <th></th>
 <th>stage</th>
 <th>pdf_count</th>
+<th>txt_files</th>
 <th>page_count</th>
 <th>word_count</th>
 <th>character_count</th>
@@ -8072,6 +8088,7 @@ non-content pages (not language removals): 27
 <th>0</th>
 <td>before_language</td>
 <td>7</td>
+<td>7</td>
 <td>1165</td>
 <td>609037</td>
 <td>4239849</td>
@@ -8081,6 +8098,7 @@ non-content pages (not language removals): 27
 <tr>
 <th>1</th>
 <td>after_language</td>
+<td>7</td>
 <td>7</td>
 <td>1137</td>
 <td>608691</td>
@@ -8096,7 +8114,7 @@ non-content pages (not language removals): 27
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1a9131a6">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b19b98c3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8109,7 +8127,7 @@ not a cut: it removes nothing here, and that outcome is itself reported below.</
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=55091e4a">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0bcb1a70">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8173,6 +8191,7 @@ not a cut: it removes nothing here, and that outcome is itself reported below.</
 <th></th>
 <th>stage</th>
 <th>pdf_count</th>
+<th>txt_files</th>
 <th>page_count</th>
 <th>word_count</th>
 <th>character_count</th>
@@ -8185,6 +8204,7 @@ not a cut: it removes nothing here, and that outcome is itself reported below.</
 <th>0</th>
 <td>before_length</td>
 <td>7</td>
+<td>7</td>
 <td>1137</td>
 <td>608691</td>
 <td>4237388</td>
@@ -8194,6 +8214,7 @@ not a cut: it removes nothing here, and that outcome is itself reported below.</
 <tr>
 <th>1</th>
 <td>after_length</td>
+<td>7</td>
 <td>7</td>
 <td>1137</td>
 <td>608691</td>
@@ -8209,7 +8230,7 @@ not a cut: it removes nothing here, and that outcome is itself reported below.</
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bf3ff415">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dd278bc4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8226,7 +8247,7 @@ hash and no page or document pair at or above the threshold.</li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=47d5dd3a">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ae5c1498">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8332,6 +8353,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 <th></th>
 <th>stage</th>
 <th>pdf_count</th>
+<th>txt_files</th>
 <th>page_count</th>
 <th>word_count</th>
 <th>character_count</th>
@@ -8344,6 +8366,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 <th>0</th>
 <td>before_dedup</td>
 <td>7</td>
+<td>7</td>
 <td>1137</td>
 <td>608691</td>
 <td>4237388</td>
@@ -8353,6 +8376,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 <tr>
 <th>1</th>
 <td>after_dedup</td>
+<td>7</td>
 <td>7</td>
 <td>1122</td>
 <td>604498</td>
@@ -8368,7 +8392,104 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c387ef15">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=33fc96cf">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Evidence-that-the-filters-did-the-right-thing-(not-only-that-they-ran)">Evidence that the filters did the right thing (not only that they ran)<a class="anchor-link" href="#Evidence-that-the-filters-did-the-right-thing-(not-only-that-they-ran)">¶</a></h3><p>The statistics alone do not show whether the filters removed the <em>right</em> pages, so the removed pages are printed below: the one page the language filter
+removed (with langdetect's probabilities), and examples of exact and near-duplicate pages next to the page that was kept.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=be568980">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">langdetect</span><span class="w"> </span><span class="kn">import</span> <span class="n">detect_langs</span>
+<span class="n">DetectorFactory</span><span class="o">.</span><span class="n">seed</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">sid</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">l</span> <span class="o">=</span> <span class="n">lang_removed</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">corpus</span><span class="p">[</span><span class="n">sid</span><span class="p">][</span><span class="n">n</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"LANGUAGE FILTER removed </span><span class="si">{</span><span class="n">sid</span><span class="si">}</span><span class="s2"> page </span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">letters</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="si">}</span><span class="s2"> letters, langdetect = </span><span class="si">{</span><span class="n">detect_langs</span><span class="p">(</span><span class="n">t</span><span class="p">)[:</span><span class="mi">3</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"  text:"</span><span class="p">,</span> <span class="n">t</span><span class="p">[:</span><span class="mi">450</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="nb">chr</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span> <span class="s2">" | "</span><span class="p">),</span> <span class="nb">chr</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+
+<span class="n">pm</span> <span class="o">=</span> <span class="p">{(</span><span class="n">p</span><span class="p">[</span><span class="s2">"id"</span><span class="p">],</span> <span class="n">p</span><span class="p">[</span><span class="s2">"n"</span><span class="p">]):</span> <span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">pages</span><span class="p">}</span>
+<span class="k">for</span> <span class="n">kind</span><span class="p">,</span> <span class="n">limit</span> <span class="ow">in</span> <span class="p">((</span><span class="s2">"exact"</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="s2">"near"</span><span class="p">,</span> <span class="mi">3</span><span class="p">)):</span>
+    <span class="n">shown</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">removed</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">r</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">!=</span> <span class="n">kind</span><span class="p">:</span> <span class="k">continue</span>
+        <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">pm</span><span class="p">[(</span><span class="n">r</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">r</span><span class="p">[</span><span class="mi">1</span><span class="p">])],</span> <span class="n">pm</span><span class="p">[</span><span class="n">r</span><span class="p">[</span><span class="mi">3</span><span class="p">]]</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">kind</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2"> DUPLICATE: </span><span class="si">{</span><span class="n">a</span><span class="p">[</span><span class="s1">'id'</span><span class="p">]</span><span class="si">}</span><span class="s2"> p.</span><span class="si">{</span><span class="n">a</span><span class="p">[</span><span class="s1">'n'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (removed)  vs  </span><span class="si">{</span><span class="n">b</span><span class="p">[</span><span class="s1">'id'</span><span class="p">]</span><span class="si">}</span><span class="s2"> p.</span><span class="si">{</span><span class="n">b</span><span class="p">[</span><span class="s1">'n'</span><span class="p">]</span><span class="si">}</span><span class="s2"> (kept), Jaccard = </span><span class="si">{</span><span class="n">jaccard</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="s1">'sh'</span><span class="p">],</span><span class="w"> </span><span class="n">b</span><span class="p">[</span><span class="s1">'sh'</span><span class="p">])</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"   removed:"</span><span class="p">,</span> <span class="n">a</span><span class="p">[</span><span class="s2">"text"</span><span class="p">][:</span><span class="mi">220</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="nb">chr</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span> <span class="s2">" | "</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"   kept   :"</span><span class="p">,</span> <span class="n">b</span><span class="p">[</span><span class="s2">"text"</span><span class="p">][:</span><span class="mi">220</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="nb">chr</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span> <span class="s2">" | "</span><span class="p">),</span> <span class="nb">chr</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+        <span class="n">shown</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">shown</span> <span class="o">==</span> <span class="n">limit</span><span class="p">:</span> <span class="k">break</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>LANGUAGE FILTER removed icmr_stw_vol1_2019 page 72: 1765 letters, langdetect = [id:0.5714267846432348, en:0.42857125279541575]
+  text: NAME AND AFFILIATED INSTITUTE | PAEDIATRICS | ROLE | UROLOGY | NEUROLOGY | NEPHROLOGY | Dr. Shally Awasthi, KGMC, Lucknow | Dr. Sushil Kabra, AIIMS, New Delhi | Dr. Neelam Mohan, Medanta, Gurgaon  |   | Dr. Pushpa Kini - KMC, Manipal | Dr. Suvasini Sharma, LHMC,New Delhi | Dr. Joseph Mathew- PGIMER, Chandigarh  | Dr. Surjit Singh, PGIMER, Chandigarh | Dr. Kuldeep Singh, AIIMS, Jodhpur | Dr. Himanshu Chaturvedi, Balrampur Hospital, LKO | Dr. Shinjini Bhatnagar, THSTI, Faridabad |  
+
+EXACT DUPLICATE: icmr_stw_vol3_2022 p.1 (removed)  vs  icmr_stw_vol1_2019 p.1 (kept), Jaccard = 1.000
+   removed: Department of Health Research | Ministry of Health and Family Welfare, Government of India | P A R T N E R S
+   kept   : Department of Health Research | Ministry of Health and Family Welfare, Government of India | P A R T N E R S 
+
+NEAR DUPLICATE: nice_ng253_sepsis p.26 (removed)  vs  nice_ng253_sepsis p.9 (kept), Jaccard = 0.950
+   removed: Why the committee made the 2024 recommendations  | Using the NEWS2 to evaluate risk from sepsis  | Evidence showed an increased risk of intensive care unit (ICU) admission and  | mortality in people with suspected sepsis aged 
+   kept   : Why the committee made the 2024 recommendation  | Using the NEWS2 to evaluate risk from sepsis  | Evidence showed an increased risk of intensive care unit (ICU) admission and  | mortality in people with suspected sepsis aged 1 
+
+NEAR DUPLICATE: nice_ng253_sepsis p.27 (removed)  vs  nice_ng253_sepsis p.10 (kept), Jaccard = 0.983
+   removed: [2024]  | NEWS2 score of 0  | The committee discussed the care for someone with a NEWS2 score of 0. They were  | concerned that a score of 0 may be interpreted as indicating that there was no risk  | and no action was needed. Th
+   kept   : [2024]  | NEWS2 score of 0  | The committee discussed the care for someone with a NEWS2 score of 0. They were  | concerned that a score of 0 may be interpreted as indicating that there was no risk  | and no action was needed. Th 
+
+NEAR DUPLICATE: nice_ng253_sepsis p.35 (removed)  vs  nice_ng253_sepsis p.32 (kept), Jaccard = 0.978
+   removed: How the amended recommendations might affect practice  | The committee carefully considered the threshold at which to prompt immediate  | transfer, to avoid an excessively high volume of referrals, that would put undue  | pres
+   kept   : How the amended recommendations might affect practice  | The committee carefully considered the threshold at which to prompt immediate  | transfer, to avoid an excessively high volume of referrals, that would put undue  | pres 
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ac0315b4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Inference:-what-each-filter-did-and-why">Inference: what each filter did and why<a class="anchor-link" href="#Inference:-what-each-filter-did-and-why">¶</a></h3><ul>
+<li><strong>Language filter (1 page of 1,165 removed, 0.09 %).</strong> The removed page is ICMR STW vol 1 page 72, which langdetect scored 57 % Indonesian and 43 % English. The printed text shows it is a list of
+contributor names and institutions, so this is a <strong>false positive on a names-only page</strong>, not translated clinical text. Nothing clinical was lost, but the case shows the limit of the tool:
+langdetect is reliable on running prose and unreliable on short lists of proper nouns. We keep the page-level rule (it protects against mixed-language annexes) and accept this harmless loss.
+The 27 non-content pages are a different category (too few letters to classify) and are not language removals.</li>
+<li><strong>Length filter (0 documents removed).</strong> Every document keeps hundreds of pages and tens of thousands of words, far above the 3-page and 1,000-word limits. The filter is a guard that would
+catch a scanned or empty file; it removing nothing is the correct outcome for this source list, and the threshold would act on a short fact sheet or a PDF that is mostly images.</li>
+<li><strong>Deduplication (15 pages removed, the largest reduction).</strong> Both <em>exact</em> duplicates are in ICMR STW vol 3 and repeat pages of vol 1; the printed one is the shared partner/cover page. All 13 <em>near</em>
+duplicates are in the NICE sepsis guideline (the three printed pairs score Jaccard 0.95 to 0.98): its "Why the committee made the recommendations" rationale pages appear twice, differing only by edits such as
+"recommendations" versus "recommendation". Keeping the first copy by file name and page number loses no information and prevents the same passage from appearing twice in the instruction dataset
+(which would over-weight it) and in the benchmark prompts.</li>
+<li><strong>Net effect.</strong> 1,165 pages become 1,122 (3.7 % removed), 7 documents stay 7, and the corpus remains well above the instructor's minimum of 300 PDF pages and the brief's minimum of 5 PDFs.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=27b5c784">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8378,12 +8499,12 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7732c9d2">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=017b19e1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">table</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">rows</span><span class="p">)</span>
@@ -8437,6 +8558,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 <th></th>
 <th>stage</th>
 <th>pdf_count</th>
+<th>txt_files</th>
 <th>page_count</th>
 <th>word_count</th>
 <th>character_count</th>
@@ -8449,6 +8571,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 <th>0</th>
 <td>extracted</td>
 <td>7</td>
+<td>7</td>
 <td>1165</td>
 <td>609037</td>
 <td>4242287</td>
@@ -8458,6 +8581,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 <tr>
 <th>1</th>
 <td>before_language</td>
+<td>7</td>
 <td>7</td>
 <td>1165</td>
 <td>609037</td>
@@ -8469,6 +8593,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 <th>2</th>
 <td>after_language</td>
 <td>7</td>
+<td>7</td>
 <td>1137</td>
 <td>608691</td>
 <td>4237388</td>
@@ -8478,6 +8603,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 <tr>
 <th>3</th>
 <td>before_length</td>
+<td>7</td>
 <td>7</td>
 <td>1137</td>
 <td>608691</td>
@@ -8489,6 +8615,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 <th>4</th>
 <td>after_length</td>
 <td>7</td>
+<td>7</td>
 <td>1137</td>
 <td>608691</td>
 <td>4237388</td>
@@ -8499,6 +8626,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 <th>5</th>
 <td>before_dedup</td>
 <td>7</td>
+<td>7</td>
 <td>1137</td>
 <td>608691</td>
 <td>4237388</td>
@@ -8508,6 +8636,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 <tr>
 <th>6</th>
 <td>after_dedup</td>
+<td>7</td>
 <td>7</td>
 <td>1122</td>
 <td>604498</td>
@@ -8538,7 +8667,7 @@ Why: guideline PDFs repeat boilerplate (running headers, 'how to use this guidel
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7eef5574">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=86f55026">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8548,12 +8677,12 @@ Why: guideline PDFs repeat boilerplate (running headers, 'how to use this guidel
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=52614154">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1470081f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 1) statistics must equal the earlier run stored in reports/corpus_stats.csv</span>
@@ -8596,20 +8725,14 @@ Why: guideline PDFs repeat boilerplate (running headers, 'how to use this guidel
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>stage statistics identical to the earlier run (reports/corpus_stats.csv): True
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>domain_corpus/*.txt (PDF documents) byte-identical to the committed files: {'cdc_sti_2021': True, 'icmr_antimicrobial_2019': True, 'icmr_stw_vol1_2019': True, 'icmr_stw_vol3_2022': True, 'nice_ng136_hypertension': True, 'nice_ng253_sepsis': True, 'who_malaria_2024-11-30': True}
+domain_corpus/*.txt (PDF documents) byte-identical to the committed files: {'cdc_sti_2021': True, 'icmr_antimicrobial_2019': True, 'icmr_stw_vol1_2019': True, 'icmr_stw_vol3_2022': True, 'nice_ng136_hypertension': True, 'nice_ng253_sepsis': True, 'who_malaria_2024-11-30': True}
 GATE: 7 PDFs (need &gt;= 5) and 1122 kept PDF pages (need &gt;= 300): passed = True
 Supplementary: 9 PubChem drug-monograph files (built by src/pubchem_monographs.py from public PubChem sections, committed under data/pubchem/sections); they are extra domain text and are not counted in the PDF gate.
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8739,7 +8862,7 @@ Supplementary: 9 PubChem drug-monograph files (built by src/pubchem_monographs.p
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=41f6837e">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=be6801d9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8756,12 +8879,12 @@ base model with <strong>no chat template</strong>, so every run (baseline here, 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e05bb460">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=89462fbf">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">transformers</span><span class="w"> </span><span class="kn">import</span> <span class="n">AutoModelForCausalLM</span><span class="p">,</span> <span class="n">AutoTokenizer</span>
@@ -8804,7 +8927,7 @@ base model with <strong>no chat template</strong>, so every run (baseline here, 
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>model loaded in 14 s
+<pre>model loaded in 15 s
 {
   "model_id": "mistralai/Mistral-7B-v0.1",
   "torch_dtype": "bfloat16",
@@ -8821,12 +8944,12 @@ base model with <strong>no chat template</strong>, so every run (baseline here, 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b10c6bb6">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8cd319d9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">rows_b</span> <span class="o">=</span> <span class="p">[]</span>
@@ -8857,7 +8980,7 @@ base model with <strong>no chat template</strong>, so every run (baseline here, 
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>--- malaria_uncomplicated_pf  (150 tokens, 25.72 tok/s)
+<pre>--- malaria_uncomplicated_pf  (150 tokens, 26.33 tok/s)
 The malaria guidance recommends artemether-lumefantrine (AL) for uncomplicated Plasmodium falciparum malaria in adults and in children weighing at least 25 kg.
 
 ### Evidence:
@@ -8869,7 +8992,7 @@ The malaria guidance recommends AL for uncomplicated Plasmodium falciparum malar
 ### Notes:
 The malaria guidance recommends AL for uncomplicated Plasmodium falciparum malaria in adults and in children weigh
 
---- sepsis_iv_antibiotics  (150 tokens, 30.96 tok/s)
+--- sepsis_iv_antibiotics  (150 tokens, 34.12 tok/s)
 In an adult with suspected sepsis, intravenous antibiotics should be started as soon as possible, ideally within 1 hour of recognition of sepsis.
 
 If the source of infection is still uncertain, broad-spectrum antibiotics should be started.
@@ -8884,7 +9007,7 @@ The SSC guidelines also recommend that broad-spectrum antibiotics should be star
 
 1. Surviving
 
---- hypertension_first_line  (150 tokens, 32.66 tok/s)
+--- hypertension_first_line  (150 tokens, 33.46 tok/s)
 The adult hypertension guidance recommends that the first-line antihypertensive treatment for adults with hypertension is a thiazide-type diuretic, calcium channel blocker, or angiotensin-converting enzyme inhibitor. The choice of first-line antihypertensive treatment is based on the patient's age, comorbidities, and other factors.
 
 ### Evidence:
@@ -8895,12 +9018,12 @@ The adult hypertension guidance is based on a systematic review of the literatur
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d10dd402">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ab8f109e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># reproducibility check against the earlier run (RTX A6000, torch 2.8): do the greedy outputs match?</span>
@@ -8920,7 +9043,7 @@ The adult hypertension guidance is based on a systematic review of the literatur
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8949,19 +9072,19 @@ The adult hypertension guidance is based on a systematic review of the literatur
 <tr>
 <th>malaria_uncomplicated_pf</th>
 <td>True</td>
-<td>25.72</td>
+<td>26.33</td>
 <td>30.2740</td>
 </tr>
 <tr>
 <th>sepsis_iv_antibiotics</th>
 <td>True</td>
-<td>30.96</td>
+<td>34.12</td>
 <td>33.6220</td>
 </tr>
 <tr>
 <th>hypertension_first_line</th>
 <td>True</td>
-<td>32.66</td>
+<td>33.46</td>
 <td>33.6291</td>
 </tr>
 </tbody>
@@ -8972,7 +9095,7 @@ The adult hypertension guidance is based on a systematic review of the literatur
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e3ff9a3d">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=447d04f7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>

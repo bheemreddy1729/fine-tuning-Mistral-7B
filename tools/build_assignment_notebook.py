@@ -160,7 +160,7 @@ for s in SOURCES:
     assert len(corpus[s["id"]]) == s["page_count"]
 
 def stats(stage, c, removed_docs=0, removed_pages=0):
-    return {"stage": stage, "pdf_count": sum(1 for p in c.values() if p), "page_count": sum(len(p) for p in c.values()),
+    return {"stage": stage, "pdf_count": sum(1 for p in c.values() if p), "txt_files": sum(1 for p in c.values() if p), "page_count": sum(len(p) for p in c.values()),
             "word_count": sum(words(t) for p in c.values() for t in p.values()),
             "character_count": sum(len(t) for p in c.values() for t in p.values()),
             "documents_removed": removed_docs, "pages_removed": removed_pages}
@@ -174,6 +174,15 @@ pd.DataFrame(rows)
 """
 )
 
+md(
+    """
+### Inference: extraction
+
+All 7 PDFs were read page by page (1,165 pages, 609,037 words, about 4.24 million characters) and every page count matches the manifest, so no page was lost or duplicated at
+extraction. 27 pages have fewer than 30 letters: covers, blank separator pages and image-only pages. They carry no usable text, so they are counted separately as
+*non-content* rather than being passed on to the language filter. Seven source files give seven `.txt` files (the `txt_files` column in the statistics tables).
+"""
+)
 md(
     """
 ### 1b. Language filter (English only)
@@ -324,6 +333,54 @@ pd.DataFrame(rows[-2:])
 """
 )
 
+md(
+    """
+### Evidence that the filters did the right thing (not only that they ran)
+
+The statistics alone do not show whether the filters removed the *right* pages, so the removed pages are printed below: the one page the language filter
+removed (with langdetect's probabilities), and examples of exact and near-duplicate pages next to the page that was kept.
+"""
+)
+code(
+    """
+from langdetect import detect_langs
+DetectorFactory.seed = 0
+sid, n, l = lang_removed[0]
+t = corpus[sid][n]
+print(f"LANGUAGE FILTER removed {sid} page {n}: {letters(t)} letters, langdetect = {detect_langs(t)[:3]}")
+print("  text:", t[:450].replace(chr(10), " | "), chr(10))
+
+pm = {(p["id"], p["n"]): p for p in pages}
+for kind, limit in (("exact", 1), ("near", 3)):
+    shown = 0
+    for r in removed:
+        if r[2] != kind: continue
+        a, b = pm[(r[0], r[1])], pm[r[3]]
+        print(f"{kind.upper()} DUPLICATE: {a['id']} p.{a['n']} (removed)  vs  {b['id']} p.{b['n']} (kept), Jaccard = {jaccard(a['sh'], b['sh']):.3f}")
+        print("   removed:", a["text"][:220].replace(chr(10), " | "))
+        print("   kept   :", b["text"][:220].replace(chr(10), " | "), chr(10))
+        shown += 1
+        if shown == limit: break
+"""
+)
+
+md(
+    """
+### Inference: what each filter did and why
+
+- **Language filter (1 page of 1,165 removed, 0.09 %).** The removed page is ICMR STW vol 1 page 72, which langdetect scored 57 % Indonesian and 43 % English. The printed text shows it is a list of
+  contributor names and institutions, so this is a **false positive on a names-only page**, not translated clinical text. Nothing clinical was lost, but the case shows the limit of the tool:
+  langdetect is reliable on running prose and unreliable on short lists of proper nouns. We keep the page-level rule (it protects against mixed-language annexes) and accept this harmless loss.
+  The 27 non-content pages are a different category (too few letters to classify) and are not language removals.
+- **Length filter (0 documents removed).** Every document keeps hundreds of pages and tens of thousands of words, far above the 3-page and 1,000-word limits. The filter is a guard that would
+  catch a scanned or empty file; it removing nothing is the correct outcome for this source list, and the threshold would act on a short fact sheet or a PDF that is mostly images.
+- **Deduplication (15 pages removed, the largest reduction).** Both *exact* duplicates are in ICMR STW vol 3 and repeat pages of vol 1; the printed one is the shared partner/cover page. All 13 *near*
+  duplicates are in the NICE sepsis guideline (the three printed pairs score Jaccard 0.95 to 0.98): its "Why the committee made the recommendations" rationale pages appear twice, differing only by edits such as
+  "recommendations" versus "recommendation". Keeping the first copy by file name and page number loses no information and prevents the same passage from appearing twice in the instruction dataset
+  (which would over-weight it) and in the benchmark prompts.
+- **Net effect.** 1,165 pages become 1,122 (3.7 % removed), 7 documents stay 7, and the corpus remains well above the instructor's minimum of 300 PDF pages and the brief's minimum of 5 PDFs.
+"""
+)
 md("### 1e. Corpus statistics before and after every step, and which step removed the most")
 code(
     """
