@@ -110,3 +110,13 @@ notebook builds and parses. Then in the lab, in this order: environment (section
   Do not return a promise from a long fetch (the tool waits 5 s); start it, then poll a window variable.
 - Before every `type_text` into the terminal, redefine your command variable: a stale variable from an earlier call silently re-ran an old command once.
 - The pod's repo clone does not contain files created locally after cloning (e.g. `lab_evidence/`); upload them or push the branch first.
+
+## 7. Lessons from building Part C (session 1, evening)
+
+- **The browser tool acts on the active tab.** If the user (or another tool) switches tabs, `fetch('/notebook/...')` runs against the wrong origin and every call times out. Switch to the JupyterLab tab (`switch_tab`) before each batch of API calls and re-check `page_info()['url']`.
+- **The pod's API gets slow while generation saturates the 4 CPUs** (log fetches and uploads time out). Retry, poll with short calls, and upload large files while the pod is idle. A timed-out upload may leave the old file in place: verify it (for example that the file contains a new symbol) before starting a run.
+- **Never type multi-line commands into the terminal**: newlines are flattened and a heredoc hangs at the `>` prompt. Upload a script through the contents API and run it, or use one-line commands (cancel a stuck prompt with `type_text('\x03')`).
+- **Set `HF_HUB_ENABLE_HF_TRANSFER=1` in the shell before `nohup`**: the 3.4 GB SmolLM2-1.7B download took about 14 minutes without it and a few seconds once cached. The draft models (`HuggingFaceTB/SmolLM2-1.7B-Instruct`, `SmolLM2-360M-Instruct`) and Mistral live in `~/.cache/huggingface` (container disk), so a new pod downloads them again.
+- **Develop one section at a time.** `tools/_dev_c.py` (git-ignored, pod only) builds a mini notebook with only the Part C section you name (`c1`, `c1setup c2`, `c1setup c2setup c3`), so a change can be tested in minutes instead of rerunning the whole notebook. Run it with `nbconvert --execute --allow-errors`, pull the `*_executed.ipynb`, and read the outputs before writing any analysis.
+- **Timings on this shared A100 vary by about 25 % between runs.** Part C therefore alternates the compared configurations and reports ratios. Plain Mistral-7B greedy decoding runs at 25 to 35 tokens/s here (overhead-bound, not bandwidth-bound).
+- **Run times on the lab:** the full notebook (Parts A to C) ran in about 55 minutes in the final run; the model downloads (Mistral 14.5 GB, SmolLM2-1.7B 3.4 GB) are extra on a new pod.

@@ -1,0 +1,4 @@
+Configuration,Peak VRAM (GB),Throughput (tok/s),range of 3 repeats,Cost / 1M tokens (Rs),weights (GB),extra during generation (GB),speed vs bfloat16,cost vs bfloat16
+bfloat16 (Part A baseline),14.51,31.1,31.0 to 31.4,107.17,14.48,0.03,1.0,1.0
+4-bit NF4,4.37,14.14,14.0 to 14.3,235.81,4.13,0.25,0.45,2.2
+4-bit NF4 + speculative decoding,7.85,18.31,18.0 to 18.4,182.06,7.55,0.3,0.59,1.7

@@ -1,7 +1,7 @@
 # PLAN.md: status and next steps (read this first)
 
 Assignment 1B (Domain LLM Adaptation and Production Optimization), Medical and Clinical Literature, Variant 4 (Clinical Protocol Lookup Assistant),
-`mistralai/Mistral-7B-v0.1`. Branch `lab-run`. Last updated 2026-10-09. Marks: Part A 2, Part B 5, Part C 8 (total 15).
+`mistralai/Mistral-7B-v0.1`. Branch `lab-run`. Last updated 2026-10-10. Marks: Part A 2, Part B 5, Part C 8 (total 15).
 Operational setup of the BITS Kubeflow lab is in `lab_runbook/LAB_RUNBOOK.md`; this file tracks **what is delivered and what is left**.
 
 ## 1. If you are an agent resuming this work
@@ -20,7 +20,7 @@ Operational setup of the BITS Kubeflow lab is in `lab_runbook/LAB_RUNBOOK.md`; t
 
 ## 2. Delivered and verified on the lab (A100-SXM4-80GB)
 
-`assignment_1b.ipynb`: 72 cells, executed end to end, 0 errors; HTML exported; reports in `reports/`; proof in `lab_evidence/`.
+`assignment_1b.ipynb`: 112 cells (Parts A, B and C), executed end to end on the lab in about one hour, 0 errors; HTML exported; reports in `reports/`; proof in `lab_evidence/`.
 
 | Item | Result (so you can sanity-check a re-run) | Where |
 |---|---|---|
@@ -29,40 +29,29 @@ Operational setup of the BITS Kubeflow lab is in `lab_runbook/LAB_RUNBOOK.md`; t
 | B1 dataset | 50 pairs (type mix 8/7/8/7/6/7/7, 8 families, none above 20 %, max template share 6 %), disclaimer 50/50, 1-2 sentences, 46-91 clinical words, split 40/10 seed 42. Rebuilt from committed raw drafts, identical to `instruction_dataset.jsonl`. 12-pair spot-check (done by the assistant, 12/12 pass). Tokens mean 173.7, max 239, so max length 256. | `instruction_dataset.jsonl`, `data/instruction/`, `prompts/` |
 | B2 QLoRA | Adapter B (r 16, alpha 32, q_proj and v_proj), 4-bit NF4, lr 2e-4, 3 epochs, batch 1 x 4, max length 256, loss on answer + EOS. Eval loss 2.126 to 1.426 (-32.9 %), 30 steps, 53 s, peak 5.32 GB. A same-seed repeat was bit-identical. Learned the form, not the facts. | `reports/qlora_*` |
 | B3 evaluation | Baseline vs adapter (bf16) vs adapter (4-bit) on the 3 prompts: disclaimer 0/3 to 3/3, stops by itself 0/3 to 3/3, invented sections 3 to 0, rubric facts 5/8/7 of 16, unsupported claims 3/4/5. Adapter fixes the form but gives confident wrong content (e.g. thiazide first line for age 55+). Memory 4.4 GB (4-bit) vs 14.6 GB (bf16). | `reports/baseline_vs_adapter.csv`, `adapter_eval_scores.csv` |
+| C1 decoding (3 marks) | 7 settings x 3 prompts, 150 tokens. Speed is the same for greedy and sampling (within 3 %, about 31 tok/s); beam search about 10 % slower. Greedy gives the most rubric facts (5 of 16, tied with top-p) and is deterministic; temperature 1.2 collapses into gibberish (0 facts); diversity (distinct-2) rises 0.52 to 0.99 from temperature 0.3 to 1.2. 104-word recommendation: deploy greedy. | notebook |
+| C2 speculative (2 marks) | SmolLM2-1.7B-Instruct draft through transformers 4.46.3 universal assisted generation works; output identical to plain greedy (3 of 3); 2.2 to 2.9 tokens per target pass; **speed-up about 1.0x** (median 0.97, range 0.82 to 1.08) because per-token overhead dominates: a draft token costs 0.58 of a target token; the 360M draft has 32 layers like Mistral and is slower (0.77x). | `reports/c2_speculative.csv` |
+| C3 4-bit and cost (3 marks) | 10 prompts (3 fixed + 7 corpus-based, user-approved), greedy: bfloat16 14.5 GB, 31.1 tok/s, Rs 107 per 1M tokens; 4-bit NF4 4.4 GB, 14.1 tok/s, Rs 236 (2.2x); 4-bit + speculative 7.9 GB, 18.3 tok/s, Rs 182. Rubric facts 24, 20, 19 of 44. Recommendation: bfloat16 greedy; 4-bit only when VRAM is the constraint. Optional extension adapter + 4-bit + speculative: 13.5 tok/s, Rs 247, 25 facts, 5 flags. | `reports/c3_*.csv` |
 | Lab proof and docs | 7 screenshots and the instructor's `setup_env`/`check_env` logs in `lab_evidence/`; `README.md`; runbook; repo cleaned of obsolete files. | repo root |
 
 **The trained adapter is committed** in `adapters/adapter_b/` (7 files, 27 MB of float32 weights, 128 tensors, 6,815,744 parameters, sha256 of `adapter_model.safetensors` = `0ab4a10a9df7c4502ad3193fd09671a314f5b8979dbe2f84ea33d8d77b9d18c2`), so B3 and the optional adapter extension can load it on any pod without retraining. It is the adapter produced by the notebook's B2 cells that B3 evaluated; rerunning B2 recreates it identically (same seed). The Mistral base weights are not committed (downloaded from Hugging Face).
 
-## 3. To do: Part C (8 marks), all on the **base** model, never the adapter
+## 3. To do: finish
 
-Add `tools/part_c_cells.py` (same pattern as the B modules, raw-string cells, hooked into the builder), keep every cell executed with outputs, and write detailed inferences for each step.
-Use the same 3 fixed prompts, `max_new_tokens = 150`, the same `### Instruction/### Response` format, and the base model loaded in bfloat16 as in Part A.
-
-1. **C1 decoding strategies (3 marks).** Greedy, beam search (4 beams), top-k (50), top-p (0.9), temperature 0.3, 0.7 and 1.2 (the brief's table has three temperature columns). 3 prompts x 7 settings. Record the generated text and tokens/s (warm-up first; repeat timings
-   because the A100 is shared and speeds vary ~25 % run to run, so report ratios). Fill the brief's comparison table. Add a corpus-based quality rubric as in B3 (facts and unsupported claims). Write the **100-word** deployment recommendation citing specific cells of the table (factual domain: expect greedy or low temperature).
-2. **C2 speculative decoding (2 marks).** Draft model `HuggingFaceTB/SmolLM2-1.7B-Instruct`; its vocabulary (~49k) differs from Mistral's (32k), so use transformers 4.46.3 universal assisted generation (`assistant_tokenizer`). Both models must fit in VRAM. Benchmark on the C1 prompts, report speed-up
-   and any quality difference (greedy speculative output should match plain greedy). Biggest technical risk; fallback if the cross-tokenizer path fails: a draft with Mistral's vocabulary, with the reason documented.
-3. **C3 4-bit quantisation and cost (3 marks).** `BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.bfloat16)`. **10 domain prompts** = the 3 fixed ones plus 7 new ones written from the corpus (none overlapping the 50 training instructions) with the best decoder from C1.
-   Table of bfloat16 (Part A baseline), 4-bit NF4 and 4-bit + speculative: peak VRAM, throughput, **cost per 1M tokens = (1,000,000 / tok_s) / 3600 x 12.00** (the lab GPU is an A100, rate Rs 12/hr). Add a 2-3 sentence recommendation citing the measured cost and quality trade-off.
-   **The 7 new prompts must be shown to the user for approval before running.**
-4. **Optional, no marks.** Adapter + 4-bit + speculative decoding, as the brief's extension; a short run is worthwhile because B3 showed the adapter hurts content.
-
-## 4. To do: finish
-
-1. Rebuild and execute the full notebook on the lab (runbook section 6), export HTML, pull the results, validate (0 errors, no earlier-machine text, key checks True).
+1. Rebuild and execute the full notebook on the lab only if something changed (runbook section 6; about one hour), export HTML, pull the results, validate (0 errors, no earlier-machine text, key checks True).
 2. Final screenshots into `lab_evidence/`; update `README.md` and this file.
 3. Clean-run test on the pod with the removed files absent (the notebook must run top to bottom with only the files in this repo plus the instructor's environment).
 4. Ask the user before opening the PR `lab-run` to `main`. After the PR: `main` holds the final submission; old history remains in git.
 
-## 5. Open items and known soft spots
+## 4. Open items and known soft spots
 
-- 7 extra Part C prompts: draft from the corpus, **show the user for approval**.
+- Part C finding to keep in mind: speculative decoding gives no wall-clock gain on the bfloat16 target in this setup (about 1.0x) and 4-bit costs about 2.2x more per token; both are explained in the notebook, and the recommendation is bfloat16 greedy.
 - The B1 spot-check was done by the assistant, not a human; the user may want to read a few pairs (the notebook shows three beside their source text).
 - B3 rests on 3 prompts and a pattern-based rubric; the analysis says so and relies on reading the outputs.
 - The instructor's rule is 300 PDF pages in total, not per document (the per-document reading in an old note was wrong). The corpus gate is correct as it stands.
 - The lab registry image `bits-sudo-jupyter-pytorch-cuda-full` has no tag; the server uses `kubeflownotebookswg/jupyter-pytorch-cuda-full:v1.10.0-rc.1` (runbook section 1).
 
-## 6. File map
+## 5. File map
 
 | Path | Purpose |
 |---|---|

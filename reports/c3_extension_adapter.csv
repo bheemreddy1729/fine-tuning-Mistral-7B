@@ -1,0 +1,3 @@
+,Peak VRAM (GB),Throughput (tok/s),Cost / 1M tokens (Rs),rubric facts,flags,ends with disclaimer,mean new tokens
+4-bit + adapter,4.37,12.66,263.2,25,5,7,113.6
+4-bit + adapter + speculative,7.84,13.5,246.83,25,5,7,112.4
