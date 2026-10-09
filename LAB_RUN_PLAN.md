@@ -67,6 +67,6 @@ deliverable set the brief asks for: `assignment_1b.ipynb` (executed, outputs vis
 - Check the four deliverables, update `PLAN.md`, and commit on `lab-run`. Pushing and replacing `main` only on user approval.
 
 ## Decisions needed from the user
-1. OK to work on branch `lab-run` (old outputs stay on `main`)?
-2. Part C temperatures 0.3 / 0.7 / 1.2 as above?
-3. Write the 7 extra C3 prompts from the corpus myself, and show them for approval before running?
+1. DECIDED: work on branch `lab-run`; PR to `main` after the lab verifies everything.
+2. DECIDED: user wants the best config for full marks: temperatures 0.3 / 0.7 / 1.2 as above.
+3. DECIDED: Claude writes the 7 extra C3 prompts from the corpus, aiming for full marks.
