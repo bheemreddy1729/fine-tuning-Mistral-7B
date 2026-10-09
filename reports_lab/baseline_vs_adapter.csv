@@ -1,0 +1,28 @@
+prompt_id,baseline_output,adapter_output,baseline_tps,adapter_tps,baseline_new_tokens,adapter_new_tokens,adapter_stopped_on_eos,adapter_has_disclaimer,adapter_4bit_output,adapter_4bit_tps
+malaria_uncomplicated_pf,"The malaria guidance recommends artemether-lumefantrine (AL) for uncomplicated Plasmodium falciparum malaria in adults and in children weighing at least 25 kg.
+
+### Evidence:
+The malaria guidance recommends AL for uncomplicated Plasmodium falciparum malaria in adults and in children weighing at least 25 kg.
+
+### References:
+1. World Health Organization. Guidelines for the treatment of malaria. 2015.
+
+### Notes:
+The malaria guidance recommends AL for uncomplicated Plasmodium falciparum malaria in adults and in children weigh","Per WHO malaria guidance, the recommended treatment is artemisinin-based combination therapy (ACT) with artesunate plus sulfadoxine-pyrimethamine (SP) or amodiaquine plus SP, with artesunate given intravenously for 3 days followed by oral therapy for 2 days, and the full course must be completed. This output is for educational/reference purposes only and must not replace professional clinical judgment.",24.243,21.952,150,97,True,True,"Per WHO malaria guidance, the first-line treatment is artemisinin-based combination therapy (ACT) with artesunate plus sulfadoxine-pyrimethamine (AS+SP), and the second-line treatment is quinine plus clindamycin. This output is for educational/reference purposes only and must not replace professional clinical judgment.",13.416
+sepsis_iv_antibiotics,"In an adult with suspected sepsis, intravenous antibiotics should be started as soon as possible, ideally within 1 hour of recognition of sepsis.
+
+If the source of infection is still uncertain, broad-spectrum antibiotics should be started.
+
+### Evidence:
+
+The Surviving Sepsis Campaign (SSC) guidelines recommend that intravenous antibiotics should be started as soon as possible, ideally within 1 hour of recognition of sepsis.
+
+The SSC guidelines also recommend that broad-spectrum antibiotics should be started if the source of infection is still uncertain.
+
+### References:
+
+1. Surviving","Per Sepsis-3 guidelines, antibiotics should be started within 1 hour of recognition of sepsis, and the choice of antibiotics should be based on the most likely source of infection, with broad-spectrum coverage including gram-negative and anaerobic organisms. If the source is still uncertain, empiric coverage should include gram-positive, gram-negative and anaerobic organisms, and the antibiotic regimen should be adjusted as soon as the source is identified. This output is for educational/reference purposes only and must not replace professional clinical judgment.",24.623,21.882,150,128,True,True,"Per SSC sepsis guidelines, antibiotics should be started within 1 hour of recognition of sepsis and the choice of antibiotics depends on local resistance patterns and the most likely source of infection. If the source is still uncertain, broad-spectrum antibiotics should cover gram-negative and gram-positive organisms, including MRSA, and empiric coverage for Pseudomonas is not recommended. This output is for educational/reference purposes only and must not replace professional clinical judgment.",13.406
+hypertension_first_line,"The adult hypertension guidance recommends that the first-line antihypertensive treatment for adults with hypertension is a thiazide-type diuretic, calcium channel blocker, or angiotensin-converting enzyme inhibitor. The choice of first-line antihypertensive treatment is based on the patient's age, comorbidities, and other factors.
+
+### Evidence:
+The adult hypertension guidance is based on a systematic review of the literature and expert consensus. The review included studies that evaluated the effectiveness and safety of different antihypertensive treatments in adults with hypertension. The guidance recommends a thiazide-type di","Per the NICE hypertension guideline, the first-line treatment is a thiazide-like diuretic, with a calcium channel blocker as an alternative, and an ACE inhibitor or ARB as a third option. For people aged 55 or older, a thiazide-like diuretic is the first choice, with a calcium channel blocker as an alternative, and an ACE inhibitor or ARB as a third option. This output is for educational/reference purposes only and must not replace professional clinical judgment.",24.597,22.017,150,119,True,True,"Per the NICE hypertension guideline, the first-line treatment is a thiazide-like diuretic, with an ACE inhibitor or ARB as an alternative, and a calcium channel blocker as a third option. For people aged 55 or older, a thiazide-like diuretic is the first choice, with an ACE inhibitor or ARB as an alternative, and a calcium channel blocker as a third option. This output is for educational/reference purposes only and must not replace professional clinical judgment.",12.262

@@ -36,7 +36,7 @@ peft 0.13.2, bitsandbytes 0.44.1). Repository: https://github.com/bheemreddy1729
 |---|---|---|
 | Part A, Step 1 | Corpus collection and cleaning (extraction, language, length, deduplication, statistics) | 1 |
 | Part A, Step 2 | bfloat16 baseline: architecture report and 3 prompts | 1 |
-| Part B | B1 instruction dataset and B2 QLoRA Adapter B (included below); B3 baseline vs adapter *(added in the next build step)* | 5 |
+| Part B | B1 instruction dataset, B2 QLoRA Adapter B and B3 baseline vs adapter (all included below) | 5 |
 | Part C | Decoding strategies, speculative decoding, 4-bit and cost *(added in the next build step)* | 8 |
 
 All code is in the cells below and is the code that produced the outputs. Lab-run outputs are written to `reports_lab/`, and each
@@ -528,7 +528,7 @@ vocabulary 32,000; the tokenizer vocabulary equals the model's, so no tokenizer 
 
 **What the three outputs show** (all three ran to the 150-token cap; none stopped by itself, so the base model has no sense of where an answer ends):
 - *Malaria.* It names artemether-lumefantrine, a real WHO option, but gives no dose, weight band or duration, repeats the same sentence under an invented
-  `### Evidence` heading, then adds `### References` citing "WHO, 2015" although the corpus guideline is the 2024 edition. This is a hallucinated citation and format drift.
+  `### Evidence` heading, then adds `### References` pointing to a 2015 edition rather than the 2024 guideline in our corpus. That is format drift and a source that is not the corpus.
 - *Sepsis.* "As soon as possible, ideally within 1 hour" and "broad-spectrum if the source is uncertain" are plausible, but the answer attributes them to the
   Surviving Sepsis Campaign rather than the NICE guidance in our corpus, and again appends `### Evidence` / `### References` scaffolding.
 - *Hypertension.* It lists a thiazide-type diuretic, calcium channel blocker or ACE inhibitor, then says the choice "is based on age, comorbidities and other factors"
@@ -548,9 +548,11 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import part_b1_cells
 import part_b2_cells
+import part_b3_cells
 
 part_b1_cells.add(md, code)
 part_b2_cells.add(md, code)
+part_b3_cells.add(md, code)
 
 nb = nbf.v4.new_notebook(cells=cells)
 nb.metadata["kernelspec"] = {"display_name": "Python (LLM venv)", "language": "python", "name": "llm-venv"}
