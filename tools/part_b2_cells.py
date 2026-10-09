@@ -225,5 +225,5 @@ pairs teach style and the habit of citing a guideline; they do not add clinical 
 
 **Reproducibility.** A second run with the same seed on the lab gives eval losses identical to four decimals (maximum difference 0.0) and identical smoke outputs, so training is deterministic here and the numbers above can be trusted to the digits shown. Training time (about 53 s) is dominated by per-step overhead of a 40-row job with batch 1 and gradient checkpointing on a 4-CPU pod, not by GPU compute.
 
-**Output.** The adapter is saved in `adapters/adapter_b/` (weights are not committed to git) and is loaded in B3.
+**Output.** The adapter is saved in `adapters/adapter_b/` (the 27 MB of weights are committed to the repository) and is loaded in B3.
 """)

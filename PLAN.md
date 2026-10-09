@@ -31,7 +31,7 @@ Operational setup of the BITS Kubeflow lab is in `lab_runbook/LAB_RUNBOOK.md`; t
 | B3 evaluation | Baseline vs adapter (bf16) vs adapter (4-bit) on the 3 prompts: disclaimer 0/3 to 3/3, stops by itself 0/3 to 3/3, invented sections 3 to 0, rubric facts 5/8/7 of 16, unsupported claims 3/4/5. Adapter fixes the form but gives confident wrong content (e.g. thiazide first line for age 55+). Memory 4.4 GB (4-bit) vs 14.6 GB (bf16). | `reports/baseline_vs_adapter.csv`, `adapter_eval_scores.csv` |
 | Lab proof and docs | 7 screenshots and the instructor's `setup_env`/`check_env` logs in `lab_evidence/`; `README.md`; runbook; repo cleaned of obsolete files. | repo root |
 
-Not committed by design: model weights and `adapters/` (git-ignored). The adapter exists on the pod only; **a new pod must rerun the B2 cells (about 2 minutes) before B3**.
+**The trained adapter is committed** in `adapters/adapter_b/` (7 files, 27 MB of float32 weights, 128 tensors, 6,815,744 parameters, sha256 of `adapter_model.safetensors` = `0ab4a10a9df7c4502ad3193fd09671a314f5b8979dbe2f84ea33d8d77b9d18c2`), so B3 and the optional adapter extension can load it on any pod without retraining. It is the adapter produced by the notebook's B2 cells that B3 evaluated; rerunning B2 recreates it identically (same seed). The Mistral base weights are not committed (downloaded from Hugging Face).
 
 ## 3. To do: Part C (8 marks), all on the **base** model, never the adapter
 
@@ -70,6 +70,7 @@ Use the same 3 fixed prompts, `max_new_tokens = 150`, the same `### Instruction/
 | `instruction_dataset.jsonl`, `domain_corpus/*.txt` | Deliverables: fine-tuning data and cleaned corpus |
 | `tools/` | Generators of the notebook (`build_assignment_notebook.py`, `part_b1_cells.py`, `part_b2_cells.py`, `part_b3_cells.py`) |
 | `data/` | `sources.json`, `raw_pdfs/`, `instruction/` (chunks, raw drafts, metadata, train/eval), `pubchem/` |
+| `adapters/adapter_b/` | The trained Adapter B (committed, 27 MB) |
 | `prompts/` | Exact LLM prompt template for drafting the pairs |
 | `reports/` | Notebook outputs (baseline, QLoRA, B3 scores) and two reference inputs (`corpus_stats.csv`, `instruction_spotcheck.csv`) |
 | `lab_evidence/` | Screenshots and logs proving the lab run |

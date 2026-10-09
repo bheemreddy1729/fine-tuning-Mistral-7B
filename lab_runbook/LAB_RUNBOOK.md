@@ -6,7 +6,7 @@ Namespace: `2025ae05142-s1-26-aimlzg536`. Dashboard: https://kubeflow-csisrlab.b
 ## Status and next steps
 
 **See `../PLAN.md`** for what is delivered, what is left (Part C and the final steps), the working rules and the file map. This runbook covers only how to set up and drive a lab session.
-Two facts you need before starting: branch `lab-run` holds the work, and the trained adapter is **not** committed, so a new pod must rerun the B2 cells (about 2 minutes) before B3.
+Two facts you need before starting: branch `lab-run` holds the work (it is pushed to GitHub), and the trained adapter is **committed** in `adapters/adapter_b/`, so a new pod does not need to retrain it before B3.
 
 ## 0. Limits of this namespace (the root of most failures)
 
@@ -91,7 +91,7 @@ Two facts you need before starting: branch `lab-run` holds the work, and the tra
 ## 5. Use the next session's time well
 
 Prepare locally, before booking, so lab minutes go to execution only: the Part C cells (`tools/part_c_cells.py`), the 7 extra Part C prompts (approved by the user), and the check that the
-notebook builds and parses. Then in the lab, in this order: environment (section 1), rerun B2 so `adapters/adapter_b/` exists (the adapter is not committed), build and execute
+notebook builds and parses. Then in the lab, in this order: environment (section 1), check that `adapters/adapter_b/` is present after the clone (it is committed), build and execute
 `assignment_1b.ipynb` (section 6), export HTML, screenshots into `lab_evidence/`, commit.
 
 ## 6. Lessons from building the unified notebook on the lab (session 1, later part)

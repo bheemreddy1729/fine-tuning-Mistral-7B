@@ -18,6 +18,7 @@ Executed on the BITS Prayogshala / Kubeflow lab, NVIDIA A100-SXM4-80GB, with the
 | Folder | Contents |
 |---|---|
 | `data/` | `sources.json` (title, URL, licence, size, pages of each PDF), `raw_pdfs/`, `instruction/` (chunks, raw LLM drafts, metadata, train/eval split), `pubchem/` (raw PubChem sections) |
+| `adapters/adapter_b/` | The trained QLoRA adapter (r 16, alpha 32, q_proj and v_proj): `adapter_model.safetensors` (27 MB), config and tokenizer files |
 | `prompts/` | The exact prompt template used to draft the instruction pairs |
 | `reports/` | Results written by the notebook (baseline, QLoRA losses, baseline-vs-adapter scores) and two reference files it reads |
 | `lab_evidence/` | Screenshots and logs proving the run on the lab (GPU, memory, storage, environment check) |
@@ -28,8 +29,8 @@ Executed on the BITS Prayogshala / Kubeflow lab, NVIDIA A100-SXM4-80GB, with the
 ## Reproduce
 
 On a GPU Kubeflow server (A100, the instructor's `setup_env.sh` already run), see `lab_runbook/LAB_RUNBOOK.md`. In short:
-`../venv/bin/python -m nbconvert --to notebook --execute --inplace assignment_1b.ipynb`. The adapter weights are not committed
-(they are produced by the notebook's QLoRA step).
+`../venv/bin/python -m nbconvert --to notebook --execute --inplace assignment_1b.ipynb`. The trained Adapter B (27 MB) is committed in
+`adapters/adapter_b/`; the notebook's QLoRA step recreates it deterministically. The Mistral base weights are downloaded from Hugging Face.
 
 ## Status
 

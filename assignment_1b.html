@@ -10988,7 +10988,7 @@ resident status that is not in the trained answer. For the unseen row p05 it pro
 pairs teach style and the habit of citing a guideline; they do not add clinical knowledge. B3 therefore compares <strong>claims against the corpus</strong>, not only the format.</p>
 <p><strong>Cost.</strong> The 4-bit base model occupies 4.13 GB (against about 14.5 GB in bfloat16) and training peaks at 5.32 GB, so QLoRA of a 7B model fits in a few GB of VRAM; training took 53 s, plus about 105 s to load and quantise the model.</p>
 <p><strong>Reproducibility.</strong> A second run with the same seed on the lab gives eval losses identical to four decimals (maximum difference 0.0) and identical smoke outputs, so training is deterministic here and the numbers above can be trusted to the digits shown. Training time (about 53 s) is dominated by per-step overhead of a 40-row job with batch 1 and gradient checkpointing on a 4-CPU pod, not by GPU compute.</p>
-<p><strong>Output.</strong> The adapter is saved in <code>adapters/adapter_b/</code> (weights are not committed to git) and is loaded in B3.</p>
+<p><strong>Output.</strong> The adapter is saved in <code>adapters/adapter_b/</code> (the 27 MB of weights are committed to the repository) and is loaded in B3.</p>
 </div>
 </div>
 </div>
