@@ -3,24 +3,10 @@
 Written 2026-10-09 after the first lab session. Follow the checklist in order. Every "DON'T" below cost us time.
 Namespace: `2025ae05142-s1-26-aimlzg536`. Dashboard: https://kubeflow-csisrlab.bits-pilani.ac.in/?ns=2025ae05142-s1-26-aimlzg536
 
-> **This is the only lab document to share.** It holds the current status, what is left, and everything needed to start a new lab session.
-> Last updated 2026-10-09.
-
 ## Status and next steps
 
-**Done and verified on the lab (A100-SXM4-80GB, the instructor's pinned environment).** `assignment_1b.ipynb` is executed end to end with zero errors for:
-Part A (corpus cleaning and bfloat16 baseline), B1 (50-pair dataset), B2 (QLoRA Adapter B) and B3 (baseline vs adapter), with its HTML export, the lab reports in `reports/`, and the proof screenshots in `lab_evidence/`.
-
-**Left to do (Part C, 8 marks), all on the base model, never on the adapter:**
-1. **C1 decoding strategies (3 marks).** Greedy, beam search (4 beams), top-k (50), top-p (0.9) and temperature 0.3 / 0.7 / 1.2, on the 3 fixed prompts, `max_new_tokens = 150`, with tokens/s and a 100-word deployment recommendation that cites the table.
-2. **C2 speculative decoding (2 marks).** `HuggingFaceTB/SmolLM2-1.7B-Instruct` as the draft model. Its vocabulary differs from Mistral's, so use transformers 4.46.3 universal assisted generation (`assistant_tokenizer`); report speed-up and any quality change.
-3. **C3 4-bit and cost (3 marks).** NF4 on 10 prompts (the 3 fixed ones plus 7 written from the corpus and approved by the user) with the best decoder from C1; peak VRAM, tokens/s and cost per 1M tokens at the A100 rate of Rs 12/hr for bfloat16, 4-bit and 4-bit + speculative; a 2 to 3 sentence recommendation. Optional, no marks: adapter + 4-bit + speculative.
-4. **Finish.** Add Part C to the notebook through `tools/` (see section 6), run it on the lab, export HTML, add the final screenshots, rewrite `README.md`, clean-run test on the pod with the removed files absent, then open a PR from `lab-run` to `main`.
-
-**Working rules (from the user).** The instructor's pinned versions win over anything else. One step at a time with approval. Choose the performance-best configuration within the quota, aiming for full marks. Take screenshots of the notebook, memory and storage at each milestone into `lab_evidence/`.
-Nothing is pushed to GitHub without asking.
-
-**Where things are.** Branch `lab-run` (local; push it before a new pod can clone it). Notebook source: `tools/build_assignment_notebook.py` plus `tools/part_b1_cells.py`, `part_b2_cells.py`, `part_b3_cells.py`. The trained adapter is on the pod only (`adapters/adapter_b/`, git-ignored): a new pod must rerun B2 (about 2 minutes) before B3.
+**See `../PLAN.md`** for what is delivered, what is left (Part C and the final steps), the working rules and the file map. This runbook covers only how to set up and drive a lab session.
+Two facts you need before starting: branch `lab-run` holds the work, and the trained adapter is **not** committed, so a new pod must rerun the B2 cells (about 2 minutes) before B3.
 
 ## 0. Limits of this namespace (the root of most failures)
 
