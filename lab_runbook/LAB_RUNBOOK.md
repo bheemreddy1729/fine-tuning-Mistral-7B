@@ -37,6 +37,8 @@ Two facts you need before starting: branch `lab-run` holds the work (it is pushe
 5. Connect, open a Terminal, then:
    ```bash
    cd ~/data && ls                      # venv, setup_env.sh, check_env.py, fine-tuning-Mistral-7B should still be there
+   # if setup_env.sh / check_env.py are missing, the repo carries the instructor's copies (unchanged):
+   #   cp fine-tuning-Mistral-7B/lab_runbook/instructor_scripts/* ~/data/
    bash ./setup_env.sh                  # re-registers the kernel; fast if the venv survived (full install took ~10 min)
    ./venv/bin/python ./check_env.py     # must end with "All checks passed"
    ```

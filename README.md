@@ -24,7 +24,7 @@ Executed on the BITS Prayogshala / Kubeflow lab, NVIDIA A100-SXM4-80GB, with the
 | `lab_evidence/` | Screenshots and logs proving the run on the lab (GPU, memory, storage, environment check) |
 | `tools/` | The scripts that generate `assignment_1b.ipynb` |
 | `PLAN.md` | **Start here**: what is delivered, what is left, rules for anyone resuming the work |
-| `lab_runbook/` | Step-by-step guide to set up and drive a new lab session |
+| `lab_runbook/` | Step-by-step guide to set up and drive a new lab session, with the instructor's `setup_env.sh` and `check_env.py` in `instructor_scripts/` |
 
 ## Reproduce
 
