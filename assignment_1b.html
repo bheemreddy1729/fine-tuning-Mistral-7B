@@ -7511,7 +7511,7 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=57ff6b4d">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a8d033f7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7552,12 +7552,12 @@ peft 0.13.2, bitsandbytes 0.44.1). Repository: <a href="https://github.com/bheem
 </tr>
 </tbody>
 </table>
-<p>All code is in the cells below and is the code that produced the outputs. Outputs are written to <code>reports_lab/</code>, and every step carries its own checks (assertions and reproducibility checks).</p>
+<p>All code is in the cells below and is the code that produced the outputs. Outputs are written to <code>reports/</code>, and every step carries its own checks (assertions and reproducibility checks).</p>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cf0f3184">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bb3b4b58">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7567,7 +7567,7 @@ peft 0.13.2, bitsandbytes 0.44.1). Repository: <a href="https://github.com/bheem
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=84216522">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=642b8447">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7585,8 +7585,8 @@ peft 0.13.2, bitsandbytes 0.44.1). Repository: <a href="https://github.com/bheem
 <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">ROOT</span> <span class="o">/</span> <span class="s2">"data"</span> <span class="o">/</span> <span class="s2">"sources.json"</span><span class="p">)</span><span class="o">.</span><span class="n">is_file</span><span class="p">():</span>
     <span class="n">ROOT</span> <span class="o">=</span> <span class="n">ROOT</span><span class="o">.</span><span class="n">parent</span>
 <span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="n">ROOT</span><span class="p">)</span>
-<span class="n">REPORTS_LAB</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">"reports_lab"</span>          <span class="c1"># outputs of this notebook run</span>
-<span class="n">REPORTS_LAB</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">REPORTS_DIR</span> <span class="o">=</span> <span class="n">ROOT</span> <span class="o">/</span> <span class="s2">"reports"</span>          <span class="c1"># outputs of this notebook run</span>
+<span class="n">REPORTS_DIR</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
 <span class="k">try</span><span class="p">:</span>
     <span class="kn">import</span><span class="w"> </span><span class="nn">pymupdf</span><span class="o">,</span><span class="w"> </span><span class="nn">langdetect</span>
@@ -7626,7 +7626,7 @@ repo root   : /home/jovyan/data/fine-tuning-Mistral-7B
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8a748ba3">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bf03ae21">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7706,7 +7706,7 @@ repo root   : /home/jovyan/data/fine-tuning-Mistral-7B
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2ada507c">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cd7b62c5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7721,7 +7721,7 @@ Raw PDFs are committed in <code>data/raw_pdfs/</code>, so the run is reproducibl
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a9eacd16">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8a5bbfbd">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7851,7 +7851,7 @@ Raw PDFs are committed in <code>data/raw_pdfs/</code>, so the run is reproducibl
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2d97ecf2">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f3538ac0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7863,7 +7863,7 @@ page number is never lost. A page with fewer than 30 letters (blank, image-only,
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=4eae45ea">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c0bb087b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7966,7 +7966,7 @@ sample page text: 'For a short explanation of why the committee deleted the reco
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3edaae06">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=63ca97b3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7979,7 +7979,7 @@ extraction. 27 pages have fewer than 30 letters: covers, blank separator pages a
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=819681e8">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=49d9abea">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7991,7 +7991,7 @@ does not return <code>en</code>; shorter pages are non-content and are removed s
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b310de69">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5ae7db92">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8107,7 +8107,7 @@ non-content pages (not language removals): 27
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b2d9035e">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=04e85d77">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8120,7 +8120,7 @@ not a cut: it removes nothing here, and that outcome is itself reported below.</
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=141553ae">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=76755c25">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8223,7 +8223,7 @@ not a cut: it removes nothing here, and that outcome is itself reported below.</
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=26d3c386">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3e86dc6a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8240,7 +8240,7 @@ hash and no page or document pair at or above the threshold.</li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=fdf6ebd1">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c65a8ec4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8385,7 +8385,7 @@ pages removed per source: {'icmr_stw_vol3_2022': 2, 'nice_ng253_sepsis': 13}
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2b277639">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5ee37a23">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8396,7 +8396,7 @@ removed (with langdetect's probabilities), and examples of exact and near-duplic
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f94f96dc">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0f44e874">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8459,7 +8459,7 @@ NEAR DUPLICATE: nice_ng253_sepsis p.35 (removed)  vs  nice_ng253_sepsis p.32 (ke
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=72df8453">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=837e5e6f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8482,7 +8482,7 @@ duplicates are in the NICE sepsis guideline (the three printed pairs score Jacca
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1656cefb">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=97be8da4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8492,7 +8492,7 @@ duplicates are in the NICE sepsis guideline (the three printed pairs score Jacca
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=94db1251">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0ec65fa1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8660,7 +8660,7 @@ Why: guideline PDFs repeat boilerplate (running headers, 'how to use this guidel
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5a25e17d">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3af0e3e8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8670,7 +8670,7 @@ Why: guideline PDFs repeat boilerplate (running headers, 'how to use this guidel
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c1459dce">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6092fff1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8719,13 +8719,7 @@ Why: guideline PDFs repeat boilerplate (running headers, 'how to use this guidel
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>stage statistics identical to the reference statistics (reports/corpus_stats.csv): True
 domain_corpus/*.txt (PDF documents) byte-identical to the committed files: {'cdc_sti_2021': True, 'icmr_antimicrobial_2019': True, 'icmr_stw_vol1_2019': True, 'icmr_stw_vol3_2022': True, 'nice_ng136_hypertension': True, 'nice_ng253_sepsis': True, 'who_malaria_2024-11-30': True}
-</pre>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>GATE: 7 PDFs (need &gt;= 5) and 1122 kept PDF pages (need &gt;= 300): passed = True
+GATE: 7 PDFs (need &gt;= 5) and 1122 kept PDF pages (need &gt;= 300): passed = True
 Supplementary: 9 PubChem drug-monograph files (built by src/pubchem_monographs.py from public PubChem sections, committed under data/pubchem/sections); they are extra domain text and are not counted in the PDF gate.
 </pre>
 </div>
@@ -8861,7 +8855,7 @@ Supplementary: 9 PubChem drug-monograph files (built by src/pubchem_monographs.p
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a9e745e3">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3ed8e6d4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8878,7 +8872,7 @@ base model with <strong>no chat template</strong>, so every run (baseline here, 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=458c2def">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=28512a54">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8926,7 +8920,7 @@ base model with <strong>no chat template</strong>, so every run (baseline here, 
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>model loaded in 12 s
+<pre>model loaded in 8 s
 {
   "model_id": "mistralai/Mistral-7B-v0.1",
   "torch_dtype": "bfloat16",
@@ -8943,7 +8937,7 @@ base model with <strong>no chat template</strong>, so every run (baseline here, 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=513f858b">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=92610e66">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8963,8 +8957,8 @@ base model with <strong>no chat template</strong>, so every run (baseline here, 
                    <span class="s2">"new_tokens"</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">new</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="s2">"elapsed_seconds"</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">dt</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="s2">"tokens_per_second"</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">new</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="n">dt</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span>
                    <span class="s2">"model_id"</span><span class="p">:</span> <span class="n">MODEL_ID</span><span class="p">,</span> <span class="s2">"torch_dtype"</span><span class="p">:</span> <span class="s2">"bfloat16"</span><span class="p">,</span> <span class="s2">"decoding"</span><span class="p">:</span> <span class="s2">"greedy"</span><span class="p">,</span> <span class="s2">"max_new_tokens"</span><span class="p">:</span> <span class="mi">150</span><span class="p">})</span>
 
-<span class="p">(</span><span class="n">REPORTS_LAB</span> <span class="o">/</span> <span class="s2">"baseline_architecture.json"</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">arch</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">)</span>
-<span class="n">base</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">rows_b</span><span class="p">);</span> <span class="n">base</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">REPORTS_LAB</span> <span class="o">/</span> <span class="s2">"baseline_outputs.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="p">(</span><span class="n">REPORTS_DIR</span> <span class="o">/</span> <span class="s2">"baseline_architecture.json"</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">arch</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">)</span>
+<span class="n">base</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">rows_b</span><span class="p">);</span> <span class="n">base</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">REPORTS_DIR</span> <span class="o">/</span> <span class="s2">"baseline_outputs.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">rows_b</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"--- </span><span class="si">{</span><span class="n">r</span><span class="p">[</span><span class="s1">'prompt_id'</span><span class="p">]</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="n">r</span><span class="p">[</span><span class="s1">'new_tokens'</span><span class="p">]</span><span class="si">}</span><span class="s2"> tokens, </span><span class="si">{</span><span class="n">r</span><span class="p">[</span><span class="s1">'tokens_per_second'</span><span class="p">]</span><span class="si">}</span><span class="s2"> tok/s)</span><span class="se">\n</span><span class="si">{</span><span class="n">r</span><span class="p">[</span><span class="s1">'output'</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
@@ -8979,7 +8973,7 @@ base model with <strong>no chat template</strong>, so every run (baseline here, 
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>--- malaria_uncomplicated_pf  (150 tokens, 25.6 tok/s)
+<pre>--- malaria_uncomplicated_pf  (150 tokens, 27.22 tok/s)
 The malaria guidance recommends artemether-lumefantrine (AL) for uncomplicated Plasmodium falciparum malaria in adults and in children weighing at least 25 kg.
 
 ### Evidence:
@@ -8991,7 +8985,7 @@ The malaria guidance recommends AL for uncomplicated Plasmodium falciparum malar
 ### Notes:
 The malaria guidance recommends AL for uncomplicated Plasmodium falciparum malaria in adults and in children weigh
 
---- sepsis_iv_antibiotics  (150 tokens, 33.84 tok/s)
+--- sepsis_iv_antibiotics  (150 tokens, 32.92 tok/s)
 In an adult with suspected sepsis, intravenous antibiotics should be started as soon as possible, ideally within 1 hour of recognition of sepsis.
 
 If the source of infection is still uncertain, broad-spectrum antibiotics should be started.
@@ -9006,7 +9000,7 @@ The SSC guidelines also recommend that broad-spectrum antibiotics should be star
 
 1. Surviving
 
---- hypertension_first_line  (150 tokens, 32.06 tok/s)
+--- hypertension_first_line  (150 tokens, 33.37 tok/s)
 The adult hypertension guidance recommends that the first-line antihypertensive treatment for adults with hypertension is a thiazide-type diuretic, calcium channel blocker, or angiotensin-converting enzyme inhibitor. The choice of first-line antihypertensive treatment is based on the patient's age, comorbidities, and other factors.
 
 ### Evidence:
@@ -9018,7 +9012,7 @@ The adult hypertension guidance is based on a systematic review of the literatur
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3c9314b1">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8570fbce">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9043,7 +9037,7 @@ with 50 grounded pairs, and Part B3 checks the content against <code>domain_corp
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=181e1a09">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=99a9cf34">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9064,7 +9058,7 @@ everything after drafting is deterministic code that can be re-run without any L
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=af6fda95">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=befcf372">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9147,7 +9141,7 @@ everything after drafting is deterministic code that can be re-run without any L
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b36e8eb1">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7ee4f6e7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9159,7 +9153,7 @@ pages of a family are adjacent. The result is compared with the committed <code>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ea8f89ee">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b55f95f9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9365,7 +9359,7 @@ pages of a family are adjacent. The result is compared with the committed <code>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9fc28b27">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b3e71f61">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9377,7 +9371,7 @@ the chunk. <code>{pair_type}</code>, <code>{source_file}</code>, <code>{page}</c
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=390e3f46">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=37fe42c4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9437,7 +9431,7 @@ raw drafts    : data/instruction/drafts_raw.jsonl (committed, unedited)
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a7eafc2f">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dcb31cca">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9451,7 +9445,7 @@ and capitalised terms) and at least two templates per type, no duplicate instruc
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d48a3fa5">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c3984e1a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9586,7 +9580,7 @@ drafts rejected by the checks and replaced by the spare page's draft or a later 
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f9d615a6">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=14e0860a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9596,7 +9590,7 @@ drafts rejected by the checks and replaced by the spare page's draft or a later 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=cf752bc0">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=66d9728b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9649,7 +9643,7 @@ RESPONSE   : Per NICE hypertension guidance, the committee noted that some patie
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=69c23a22">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1b8446a9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9660,7 +9654,7 @@ the clinical text (rule: 1 to 3 sentences, at least 30 words).</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a4e73b79">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7ce020bb">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9828,7 +9822,7 @@ Instructions that near-duplicate a fixed prompt: 0
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=161fba4d">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3009d3b0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9838,7 +9832,7 @@ Instructions that near-duplicate a fixed prompt: 0
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=75228c95">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d671f4a0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9877,7 +9871,7 @@ Adapter B trainable parameters (r=16, q_proj+v_proj): 6,815,744 = 0.094% of the 
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6edb2064">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dfafd716">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9893,7 +9887,7 @@ parameters (0.09 % of the model).</p>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=635e3e86">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f74693ab">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9904,7 +9898,7 @@ parameters (0.09 % of the model).</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=58a7357c">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=da3b15ae">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -9999,7 +9993,7 @@ dihydroartemisinin and lumef
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1032afb9">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bebdc160">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10009,7 +10003,7 @@ dihydroartemisinin and lumef
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=959abc38">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=40df85f6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10044,7 +10038,7 @@ eval ids   : ['p05', 'p10', 'p12', 'p17', 'p20', 'p24', 'p26', 'p27', 'p30', 'p4
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2bddf7d2">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=08b16a80">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10064,7 +10058,7 @@ prompts ask. None of the 50 instructions near-duplicates the three fixed prompts
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=99d952cd">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c309a114">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10087,7 +10081,7 @@ never learn to stop (the baseline never stopped by itself).</li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d8876d37">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d5cbb28f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10249,7 +10243,7 @@ Hyperparameters (the four the brief asks for are batch size, learning rate, epoc
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d6904983">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=594b7fd2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10260,7 +10254,7 @@ training answer, the answer ends with the disclaimer, pad differs from EOS, and 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bd615806">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e58a5dd2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10323,7 +10317,7 @@ last 8 label ids: [1580, 459, 9013, 5024, 15193, 16548, 28723, 2] | EOS id: 2
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=02a47d57">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b0e263e6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10334,7 +10328,7 @@ and runs a smoke generation on one training and one held-out instruction (never 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7db98b73">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2846beee">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10417,7 +10411,7 @@ and runs a smoke generation on one training and one held-out instruction (never 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
 <div>
 <progress max="10" style="width:300px; height:20px; vertical-align: middle;" value="20"></progress>
-      [10/10 00:18]
+      [10/10 00:17]
     </div>
 </div>
 </div>
@@ -10426,7 +10420,7 @@ and runs a smoke generation on one training and one held-out instruction (never 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
 <div>
 <progress max="30" style="width:300px; height:20px; vertical-align: middle;" value="30"></progress>
-      [30/30 00:48, Epoch 3/3]
+      [30/30 00:46, Epoch 3/3]
     </div>
 <table border="1" class="dataframe">
 <thead>
@@ -10442,19 +10436,19 @@ and runs a smoke generation on one training and one held-out instruction (never 
 <td>1</td>
 <td>1.536200</td>
 <td>1.504697</td>
-<td>0.007300</td>
+<td>0.003100</td>
 </tr>
 <tr>
 <td>2</td>
 <td>1.184600</td>
 <td>1.424510</td>
-<td>0.007300</td>
+<td>0.003100</td>
 </tr>
 <tr>
 <td>3</td>
 <td>1.079500</td>
 <td>1.426378</td>
-<td>0.007300</td>
+<td>0.003100</td>
 </tr>
 </tbody>
 </table><p>
@@ -10464,7 +10458,7 @@ and runs a smoke generation on one training and one held-out instruction (never 
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>trainable parameters: 6,815,744 of 7,248,547,840 (0.094 %)
-optimizer steps: 30 | training time: 50.1 s | model load: 91.9 s
+optimizer steps: 30 | training time: 48.8 s | model load: 99.1 s
 GPU memory: base model in 4-bit 4.13 GB, peak during training 5.32 GB
 eval loss: untuned 4-bit base 2.1264 -&gt; epoch 1: 1.5047, epoch 2: 1.4245, epoch 3: 1.4264
 adapter files: ['README.md', 'adapter_config.json', 'adapter_model.safetensors', 'special_tokens_map.json', 'tokenizer.json', 'tokenizer.model', 'tokenizer_config.json']
@@ -10474,7 +10468,7 @@ adapter files: ['README.md', 'adapter_config.json', 'adapter_model.safetensors',
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5f650449">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1b43b359">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10484,7 +10478,7 @@ adapter files: ['README.md', 'adapter_config.json', 'adapter_model.safetensors',
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c766e5a5">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8eeb5b72">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10499,7 +10493,7 @@ adapter files: ['README.md', 'adapter_config.json', 'adapter_model.safetensors',
 <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">ys</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s2">"o"</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"#e45756"</span><span class="p">);</span> <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s2">"Eval loss (10 held-out pairs); step 0 = untuned 4-bit base"</span><span class="p">);</span> <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">"step"</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">ys</span><span class="p">):</span> <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">y</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">),</span> <span class="n">textcoords</span><span class="o">=</span><span class="s2">"offset points"</span><span class="p">,</span> <span class="n">xytext</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">),</span> <span class="n">ha</span><span class="o">=</span><span class="s2">"center"</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">();</span> <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="p">(</span><span class="n">REPORTS_LAB</span> <span class="o">/</span> <span class="s2">"qlora_loss.csv"</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">tl</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">),</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">)</span>
+<span class="p">(</span><span class="n">REPORTS_DIR</span> <span class="o">/</span> <span class="s2">"qlora_loss.csv"</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">tl</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">),</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"training loss: first step </span><span class="si">{</span><span class="n">tl</span><span class="p">[</span><span class="s1">'loss'</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, last step </span><span class="si">{</span><span class="n">tl</span><span class="p">[</span><span class="s1">'loss'</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, mean </span><span class="si">{</span><span class="n">run1</span><span class="p">[</span><span class="s1">'mean_train_loss'</span><span class="p">]</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="n">tl</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
 </pre></div>
@@ -10801,7 +10795,7 @@ adapter files: ['README.md', 'adapter_config.json', 'adapter_model.safetensors',
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=821b79f8">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1bd831e0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10811,7 +10805,7 @@ adapter files: ['README.md', 'adapter_config.json', 'adapter_model.safetensors',
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ea5aed89">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=abb9f41b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10850,7 +10844,7 @@ TRAINED ANSWER for p01: Per WHO malaria guidelines, relapse prevention uses a hi
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8c395c18">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6ecb0055">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10860,7 +10854,7 @@ TRAINED ANSWER for p01: Per WHO malaria guidelines, relapse prevention uses a hi
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0b5e8aa8">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=969e459b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10890,7 +10884,7 @@ TRAINED ANSWER for p01: Per WHO malaria guidelines, relapse prevention uses a hi
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
 <div>
 <progress max="10" style="width:300px; height:20px; vertical-align: middle;" value="20"></progress>
-      [10/10 00:17]
+      [10/10 00:20]
     </div>
 </div>
 </div>
@@ -10899,7 +10893,7 @@ TRAINED ANSWER for p01: Per WHO malaria guidelines, relapse prevention uses a hi
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
 <div>
 <progress max="30" style="width:300px; height:20px; vertical-align: middle;" value="30"></progress>
-      [30/30 00:47, Epoch 3/3]
+      [30/30 00:57, Epoch 3/3]
     </div>
 <table border="1" class="dataframe">
 <thead>
@@ -10915,19 +10909,19 @@ TRAINED ANSWER for p01: Per WHO malaria guidelines, relapse prevention uses a hi
 <td>1</td>
 <td>1.536200</td>
 <td>1.504697</td>
-<td>0.003100</td>
+<td>0.004000</td>
 </tr>
 <tr>
 <td>2</td>
 <td>1.184600</td>
 <td>1.424510</td>
-<td>0.003100</td>
+<td>0.004000</td>
 </tr>
 <tr>
 <td>3</td>
 <td>1.079500</td>
 <td>1.426378</td>
-<td>0.003100</td>
+<td>0.004000</td>
 </tr>
 </tbody>
 </table><p>
@@ -10941,13 +10935,13 @@ eval loss by epoch, run 1 : [1.5047, 1.4245, 1.4264]
 eval loss by epoch, run 2 : [1.5047, 1.4245, 1.4264]
 max |difference| in eval loss: 0.0
 smoke outputs identical   : [True, True]
-run 2 time 49.3 s, peak GPU 5.32 GB
+run 2 time 60.2 s, peak GPU 5.32 GB
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=11c65866">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bee6f36d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10955,10 +10949,10 @@ run 2 time 49.3 s, peak GPU 5.32 GB
 <div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># save the lab reports of this run (reports_lab/)</span>
-<span class="p">(</span><span class="n">REPORTS_LAB</span> <span class="o">/</span> <span class="s2">"qlora_training.json"</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">({</span><span class="s2">"hyperparameters"</span><span class="p">:</span> <span class="n">HP</span><span class="p">,</span> <span class="s2">"run1"</span><span class="p">:</span> <span class="n">run1</span><span class="p">,</span> <span class="s2">"run2"</span><span class="p">:</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">run2</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">k</span> <span class="o">!=</span> <span class="s2">"train_log"</span><span class="p">}},</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="nb">str</span><span class="p">),</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">)</span>
-<span class="p">(</span><span class="n">REPORTS_LAB</span> <span class="o">/</span> <span class="s2">"qlora_smoke.json"</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">run1</span><span class="p">[</span><span class="s2">"smoke_generate"</span><span class="p">],</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">),</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"saved reports_lab/qlora_training.json, qlora_loss.csv and qlora_smoke.json"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># save the lab reports of this run (reports/)</span>
+<span class="p">(</span><span class="n">REPORTS_DIR</span> <span class="o">/</span> <span class="s2">"qlora_training.json"</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">({</span><span class="s2">"hyperparameters"</span><span class="p">:</span> <span class="n">HP</span><span class="p">,</span> <span class="s2">"run1"</span><span class="p">:</span> <span class="n">run1</span><span class="p">,</span> <span class="s2">"run2"</span><span class="p">:</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">run2</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">k</span> <span class="o">!=</span> <span class="s2">"train_log"</span><span class="p">}},</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="nb">str</span><span class="p">),</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">)</span>
+<span class="p">(</span><span class="n">REPORTS_DIR</span> <span class="o">/</span> <span class="s2">"qlora_smoke.json"</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">run1</span><span class="p">[</span><span class="s2">"smoke_generate"</span><span class="p">],</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">),</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"saved reports/qlora_training.json, qlora_loss.csv and qlora_smoke.json"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -10971,14 +10965,14 @@ run 2 time 49.3 s, peak GPU 5.32 GB
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>saved reports_lab/qlora_training.json, qlora_loss.csv and qlora_smoke.json
+<pre>saved reports/qlora_training.json, qlora_loss.csv and qlora_smoke.json
 </pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a3be1d18">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a1f22f85">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -10999,7 +10993,7 @@ pairs teach style and the habit of citing a guideline; they do not add clinical 
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a44f17bf">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=167cb695">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11017,7 +11011,7 @@ neither in the prompt nor in that corpus file are listed as ungrounded. A patter
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c7519402">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=953b8578">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11068,7 +11062,7 @@ neither in the prompt nor in that corpus file are listed as ungrounded. A patter
     <span class="n">corpus_text</span> <span class="o">=</span> <span class="n">squash</span><span class="p">((</span><span class="n">ROOT</span> <span class="o">/</span> <span class="n">p</span><span class="p">[</span><span class="s2">"corpus_target"</span><span class="p">])</span><span class="o">.</span><span class="n">read_text</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">))</span>
     <span class="n">problems</span> <span class="o">+=</span> <span class="p">[</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">p</span><span class="p">[</span><span class="s1">'id'</span><span class="p">]</span><span class="si">}</span><span class="s2">: quote not found: </span><span class="si">{</span><span class="n">q</span><span class="si">}</span><span class="s2">"</span> <span class="k">for</span> <span class="n">q</span> <span class="ow">in</span> <span class="n">RUBRIC</span><span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]][</span><span class="s2">"quotes"</span><span class="p">]</span> <span class="k">if</span> <span class="n">squash</span><span class="p">(</span><span class="n">q</span><span class="p">)</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">corpus_text</span><span class="p">]</span>
 <span class="n">problems</span> <span class="o">+=</span> <span class="p">[</span><span class="sa">f</span><span class="s2">"missing </span><span class="si">{</span><span class="n">ADAPTER_DIR</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">n</span><span class="si">}</span><span class="s2">"</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">"adapter_model.safetensors"</span><span class="p">,</span> <span class="s2">"adapter_config.json"</span><span class="p">)</span> <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">ADAPTER_DIR</span> <span class="o">/</span> <span class="n">n</span><span class="p">)</span><span class="o">.</span><span class="n">is_file</span><span class="p">()]</span>
-<span class="n">saved_a</span> <span class="o">=</span> <span class="p">{</span><span class="n">r</span><span class="p">[</span><span class="s2">"prompt_id"</span><span class="p">]:</span> <span class="n">r</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">csv</span><span class="o">.</span><span class="n">DictReader</span><span class="p">((</span><span class="n">REPORTS_LAB</span> <span class="o">/</span> <span class="s2">"baseline_outputs.csv"</span><span class="p">)</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s2">""</span><span class="p">))}</span>
+<span class="n">saved_a</span> <span class="o">=</span> <span class="p">{</span><span class="n">r</span><span class="p">[</span><span class="s2">"prompt_id"</span><span class="p">]:</span> <span class="n">r</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">csv</span><span class="o">.</span><span class="n">DictReader</span><span class="p">((</span><span class="n">REPORTS_DIR</span> <span class="o">/</span> <span class="s2">"baseline_outputs.csv"</span><span class="p">)</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8"</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s2">""</span><span class="p">))}</span>
 <span class="n">problems</span> <span class="o">+=</span> <span class="p">[]</span> <span class="k">if</span> <span class="nb">list</span><span class="p">(</span><span class="n">saved_a</span><span class="p">)</span> <span class="o">==</span> <span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">PROMPTS</span><span class="p">]</span> <span class="k">else</span> <span class="p">[</span><span class="s2">"baseline_outputs.csv prompt ids differ"</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"design check problems:"</span><span class="p">,</span> <span class="n">problems</span> <span class="ow">or</span> <span class="s2">"none"</span><span class="p">,</span> <span class="s2">"| rubric quotes verified in the corpus:"</span><span class="p">,</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">r</span><span class="p">[</span><span class="s2">"quotes"</span><span class="p">])</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">RUBRIC</span><span class="o">.</span><span class="n">values</span><span class="p">()))</span>
 <span class="k">assert</span> <span class="ow">not</span> <span class="n">problems</span>
@@ -11118,7 +11112,7 @@ neither in the prompt nor in that corpus file are listed as ungrounded. A patter
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a84df6d3">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e2d44bc0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11128,7 +11122,7 @@ neither in the prompt nor in that corpus file are listed as ungrounded. A patter
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=32f7a93f">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9346c721">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11179,7 +11173,7 @@ peak GPU memory (GB): {'bf16 base (+ adapter)': 14.56, '4-bit base + adapter': 4
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=db3669f6">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0e484f00">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11189,7 +11183,7 @@ peak GPU memory (GB): {'bf16 base (+ adapter)': 14.56, '4-bit base + adapter': 4
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e610931a">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ebe83847">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11284,7 +11278,7 @@ Per the NICE hypertension guideline, the first-line treatment is a thiazide-like
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=76beae0b">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1739cff9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11294,7 +11288,7 @@ Per the NICE hypertension guideline, the first-line treatment is a thiazide-like
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d70e416f">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5e87e344">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11575,7 +11569,7 @@ Per the NICE hypertension guideline, the first-line treatment is a thiazide-like
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4be5d050">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8be462ac">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11585,7 +11579,7 @@ Per the NICE hypertension guideline, the first-line treatment is a thiazide-like
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=aeec5643">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ab58b22e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11637,24 +11631,24 @@ Per the NICE hypertension guideline, the first-line treatment is a thiazide-like
 <tbody>
 <tr>
 <th>malaria_uncomplicated_pf</th>
-<td>32.86</td>
-<td>26.39</td>
-<td>13.25</td>
-<td>25.60</td>
+<td>29.20</td>
+<td>22.00</td>
+<td>12.02</td>
+<td>27.22</td>
 </tr>
 <tr>
 <th>sepsis_iv_antibiotics</th>
-<td>33.38</td>
-<td>26.30</td>
-<td>13.33</td>
-<td>33.84</td>
+<td>30.30</td>
+<td>21.57</td>
+<td>11.92</td>
+<td>32.92</td>
 </tr>
 <tr>
 <th>hypertension_first_line</th>
-<td>33.79</td>
-<td>26.63</td>
-<td>13.70</td>
-<td>32.06</td>
+<td>26.35</td>
+<td>22.97</td>
+<td>11.41</td>
+<td>33.37</td>
 </tr>
 </tbody>
 </table>
@@ -11664,14 +11658,14 @@ Per the NICE hypertension guideline, the first-line treatment is a thiazide-like
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>mean tok/s: {'baseline tok/s (this run)': 33.34, 'adapter bf16 tok/s': 26.44, 'adapter 4-bit tok/s': 13.43, 'baseline tok/s (Part A)': 30.5}
+<pre>mean tok/s: {'baseline tok/s (this run)': 28.62, 'adapter bf16 tok/s': 22.18, 'adapter 4-bit tok/s': 11.78, 'baseline tok/s (Part A)': 31.17}
 peak GPU memory (GB): {'bf16 base (+ adapter)': 14.56, '4-bit base + adapter': 4.42}
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=34e83d77">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=aae81999">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -11679,7 +11673,7 @@ peak GPU memory (GB): {'bf16 base (+ adapter)': 14.56, '4-bit base + adapter': 4
 <div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># save the comparison (lab outputs go to reports_lab/)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># save the comparison (lab outputs go to reports/)</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">difflib</span>
 <span class="n">cmp_rows</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">p</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">PROMPTS</span><span class="p">):</span>
@@ -11688,9 +11682,9 @@ peak GPU memory (GB): {'bf16 base (+ adapter)': 14.56, '4-bit base + adapter': 4
                      <span class="s2">"adapter_tps"</span><span class="p">:</span> <span class="n">a</span><span class="p">[</span><span class="s2">"tokens_per_second"</span><span class="p">],</span> <span class="s2">"baseline_new_tokens"</span><span class="p">:</span> <span class="n">b</span><span class="p">[</span><span class="s2">"new_tokens"</span><span class="p">],</span> <span class="s2">"adapter_new_tokens"</span><span class="p">:</span> <span class="n">a</span><span class="p">[</span><span class="s2">"new_tokens"</span><span class="p">],</span>
                      <span class="s2">"adapter_stopped_on_eos"</span><span class="p">:</span> <span class="n">a</span><span class="p">[</span><span class="s2">"stopped_on_eos"</span><span class="p">],</span> <span class="s2">"adapter_has_disclaimer"</span><span class="p">:</span> <span class="n">a</span><span class="p">[</span><span class="s2">"output"</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="n">DISCLAIMER</span><span class="p">),</span>
                      <span class="s2">"adapter_4bit_output"</span><span class="p">:</span> <span class="n">a4</span><span class="p">[</span><span class="s2">"output"</span><span class="p">],</span> <span class="s2">"adapter_4bit_tps"</span><span class="p">:</span> <span class="n">a4</span><span class="p">[</span><span class="s2">"tokens_per_second"</span><span class="p">]})</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cmp_rows</span><span class="p">)</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">REPORTS_LAB</span> <span class="o">/</span> <span class="s2">"baseline_vs_adapter.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="n">sc</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">"facts_hit"</span><span class="p">,</span> <span class="s2">"flags"</span><span class="p">,</span> <span class="s2">"ungrounded_numbers"</span><span class="p">])</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">REPORTS_LAB</span> <span class="o">/</span> <span class="s2">"adapter_eval_scores.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"saved reports_lab/baseline_vs_adapter.csv and adapter_eval_scores.csv"</span><span class="p">)</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cmp_rows</span><span class="p">)</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">REPORTS_DIR</span> <span class="o">/</span> <span class="s2">"baseline_vs_adapter.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">sc</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">"facts_hit"</span><span class="p">,</span> <span class="s2">"flags"</span><span class="p">,</span> <span class="s2">"ungrounded_numbers"</span><span class="p">])</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">REPORTS_DIR</span> <span class="o">/</span> <span class="s2">"adapter_eval_scores.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"saved reports/baseline_vs_adapter.csv and adapter_eval_scores.csv"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -11703,14 +11697,14 @@ peak GPU memory (GB): {'bf16 base (+ adapter)': 14.56, '4-bit base + adapter': 4
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>saved reports_lab/baseline_vs_adapter.csv and adapter_eval_scores.csv
+<pre>saved reports/baseline_vs_adapter.csv and adapter_eval_scores.csv
 </pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=43913a43">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d1161438">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>

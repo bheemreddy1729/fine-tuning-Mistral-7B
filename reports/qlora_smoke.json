@@ -3,8 +3,8 @@
     "split": "train",
     "id": "p01",
     "instruction": "How should primaquine be dosed to prevent relapse in uncomplicated P. vivax or P. ovale malaria?",
-    "output": "Per WHO malaria guidelines, a single 0.25 mg/kg dose is given on day 1, followed by 0.15 mg/kg daily for 12 days, with a minimum of 7 days in areas with low G6PD deficiency prevalence and 14 days in areas with high prevalence. This output is for educational/reference purposes only and must not replace professional clinical judgment.",
-    "new_tokens": 90,
+    "output": "Per WHO malaria guidelines, a single 0.25 mg/kg dose is given on day 1, followed by 0.15 mg/kg daily for 12 days, with glucose-6-phosphate dehydrogenase (G6PD) testing first and treatment only if G6PD deficiency is ruled out or the patient is a non-P. falciparum malaria endemic area resident. This output is for educational/reference purposes only and must not replace professional clinical judgment.",
+    "new_tokens": 114,
     "stopped_on_eos": true,
     "ends_with_disclaimer": true
   },
@@ -12,8 +12,8 @@
     "split": "eval",
     "id": "p05",
     "instruction": "How should an antimalarial be dosed in a large or obese adult so that the patient is not under-treated?",
-    "output": "Per WHO malaria guidelines, the dose of artemisinin-based combination therapy is 4 tablets of artesunate plus 3 tablets of partner drug per adult body weight of 40-59 kg, 5 tablets plus 4 tablets for 60-74 kg, 6 tablets plus 5 tablets for 75-99 kg and 7 tablets plus 6 tablets for 100 kg or more. This output is for educational/reference purposes only and must not replace professional clinical judgment.",
-    "new_tokens": 121,
+    "output": "Per WHO malaria guidelines, the dose of artemisinin-based combination therapy is 4 tablets of artesunate plus 3 tablets of partner drug per adult body weight of 40-59 kg, 5 tablets plus 4 tablets for 60-74 kg, 6 tablets plus 5 tablets for 75-99 kg and 7 tablets plus 6 tablets for 100 kg or more, with a maximum of 24 tablets per adult. This output is for educational/reference purposes only and must not replace professional clinical judgment.",
+    "new_tokens": 133,
     "stopped_on_eos": true,
     "ends_with_disclaimer": true
   }

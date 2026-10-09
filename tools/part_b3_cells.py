@@ -59,7 +59,7 @@ for p in PROMPTS:
     corpus_text = squash((ROOT / p["corpus_target"]).read_text(encoding="utf-8"))
     problems += [f"{p['id']}: quote not found: {q}" for q in RUBRIC[p["id"]]["quotes"] if squash(q) not in corpus_text]
 problems += [f"missing {ADAPTER_DIR / n}" for n in ("adapter_model.safetensors", "adapter_config.json") if not (ADAPTER_DIR / n).is_file()]
-saved_a = {r["prompt_id"]: r for r in csv.DictReader((REPORTS_LAB / "baseline_outputs.csv").open(encoding="utf-8", newline=""))}
+saved_a = {r["prompt_id"]: r for r in csv.DictReader((REPORTS_DIR / "baseline_outputs.csv").open(encoding="utf-8", newline=""))}
 problems += [] if list(saved_a) == [p["id"] for p in PROMPTS] else ["baseline_outputs.csv prompt ids differ"]
 print("design check problems:", problems or "none", "| rubric quotes verified in the corpus:", sum(len(r["quotes"]) for r in RUBRIC.values()))
 assert not problems
@@ -167,7 +167,7 @@ display(spd.round(2)); print("mean tok/s:", spd.mean().round(2).to_dict()); prin
 """)
 
     code(r"""
-# save the comparison (lab outputs go to reports_lab/)
+# save the comparison (lab outputs go to reports/)
 import difflib
 cmp_rows = []
 for i, p in enumerate(PROMPTS):
@@ -176,9 +176,9 @@ for i, p in enumerate(PROMPTS):
                      "adapter_tps": a["tokens_per_second"], "baseline_new_tokens": b["new_tokens"], "adapter_new_tokens": a["new_tokens"],
                      "adapter_stopped_on_eos": a["stopped_on_eos"], "adapter_has_disclaimer": a["output"].strip().endswith(DISCLAIMER),
                      "adapter_4bit_output": a4["output"], "adapter_4bit_tps": a4["tokens_per_second"]})
-pd.DataFrame(cmp_rows).to_csv(REPORTS_LAB / "baseline_vs_adapter.csv", index=False)
-sc.drop(columns=["facts_hit", "flags", "ungrounded_numbers"]).to_csv(REPORTS_LAB / "adapter_eval_scores.csv", index=False)
-print("saved reports_lab/baseline_vs_adapter.csv and adapter_eval_scores.csv")
+pd.DataFrame(cmp_rows).to_csv(REPORTS_DIR / "baseline_vs_adapter.csv", index=False)
+sc.drop(columns=["facts_hit", "flags", "ungrounded_numbers"]).to_csv(REPORTS_DIR / "adapter_eval_scores.csv", index=False)
+print("saved reports/baseline_vs_adapter.csv and adapter_eval_scores.csv")
 """)
 
     md(r"""

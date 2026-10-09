@@ -39,7 +39,7 @@ peft 0.13.2, bitsandbytes 0.44.1). Repository: https://github.com/bheemreddy1729
 | Part B | B1 instruction dataset, B2 QLoRA Adapter B and B3 baseline vs adapter (all included below) | 5 |
 | Part C | Decoding strategies, speculative decoding, 4-bit and cost *(added in the next build step)* | 8 |
 
-All code is in the cells below and is the code that produced the outputs. Outputs are written to `reports_lab/`, and every step carries its own checks (assertions and reproducibility checks).
+All code is in the cells below and is the code that produced the outputs. Outputs are written to `reports/`, and every step carries its own checks (assertions and reproducibility checks).
 """
 )
 
@@ -56,8 +56,8 @@ ROOT = Path.cwd().resolve()
 if not (ROOT / "data" / "sources.json").is_file():
     ROOT = ROOT.parent
 os.chdir(ROOT)
-REPORTS_LAB = ROOT / "reports_lab"          # outputs of this notebook run
-REPORTS_LAB.mkdir(exist_ok=True)
+REPORTS_DIR = ROOT / "reports"          # outputs of this notebook run
+REPORTS_DIR.mkdir(exist_ok=True)
 
 try:
     import pymupdf, langdetect
@@ -501,8 +501,8 @@ for p in PROMPTS:
                    "new_tokens": int(new.shape[0]), "elapsed_seconds": round(dt, 4), "tokens_per_second": round(new.shape[0] / dt, 2),
                    "model_id": MODEL_ID, "torch_dtype": "bfloat16", "decoding": "greedy", "max_new_tokens": 150})
 
-(REPORTS_LAB / "baseline_architecture.json").write_text(json.dumps(arch, indent=2) + "\\n", encoding="utf-8")
-base = pd.DataFrame(rows_b); base.to_csv(REPORTS_LAB / "baseline_outputs.csv", index=False)
+(REPORTS_DIR / "baseline_architecture.json").write_text(json.dumps(arch, indent=2) + "\\n", encoding="utf-8")
+base = pd.DataFrame(rows_b); base.to_csv(REPORTS_DIR / "baseline_outputs.csv", index=False)
 for r in rows_b:
     print(f"--- {r['prompt_id']}  ({r['new_tokens']} tokens, {r['tokens_per_second']} tok/s)\\n{r['output']}\\n")
 """

@@ -166,7 +166,7 @@ xs = [0] + list(el["step"]); ys = [run1["eval_loss_before_training"]] + list(el[
 ax[1].plot(xs, ys, marker="o", color="#e45756"); ax[1].set_title("Eval loss (10 held-out pairs); step 0 = untuned 4-bit base"); ax[1].set_xlabel("step")
 for x, y in zip(xs, ys): ax[1].annotate(f"{y:.3f}", (x, y), textcoords="offset points", xytext=(0, 6), ha="center", fontsize=8)
 plt.tight_layout(); plt.show()
-(REPORTS_LAB / "qlora_loss.csv").write_text(tl.to_csv(index=False), encoding="utf-8")
+(REPORTS_DIR / "qlora_loss.csv").write_text(tl.to_csv(index=False), encoding="utf-8")
 print(f"training loss: first step {tl['loss'].iloc[0]:.3f}, last step {tl['loss'].iloc[-1]:.3f}, mean {run1['mean_train_loss']:.3f}")
 tl.round(4)
 """)
@@ -200,10 +200,10 @@ print(f"run 2 time {run2['train_seconds']} s, peak GPU {run2['peak_gpu_memory_gb
 """)
 
     code(r"""
-# save the lab reports of this run (reports_lab/)
-(REPORTS_LAB / "qlora_training.json").write_text(json.dumps({"hyperparameters": HP, "run1": run1, "run2": {k: v for k, v in run2.items() if k != "train_log"}}, indent=2, default=str), encoding="utf-8")
-(REPORTS_LAB / "qlora_smoke.json").write_text(json.dumps(run1["smoke_generate"], indent=2), encoding="utf-8")
-print("saved reports_lab/qlora_training.json, qlora_loss.csv and qlora_smoke.json")
+# save the lab reports of this run (reports/)
+(REPORTS_DIR / "qlora_training.json").write_text(json.dumps({"hyperparameters": HP, "run1": run1, "run2": {k: v for k, v in run2.items() if k != "train_log"}}, indent=2, default=str), encoding="utf-8")
+(REPORTS_DIR / "qlora_smoke.json").write_text(json.dumps(run1["smoke_generate"], indent=2), encoding="utf-8")
+print("saved reports/qlora_training.json, qlora_loss.csv and qlora_smoke.json")
 """)
 
     md(r"""
