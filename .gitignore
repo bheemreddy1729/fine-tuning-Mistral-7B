@@ -231,3 +231,7 @@ adapters/*
 checkpoints/
 # the trained Adapter B (27 MB) is part of the submission
 !adapters/adapter_b/*.safetensors
+
+# development helpers, not part of the submission
+tools/_dev_*.py
+dev_*.ipynb
