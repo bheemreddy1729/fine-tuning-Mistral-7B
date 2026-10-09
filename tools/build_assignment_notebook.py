@@ -1,4 +1,4 @@
-"""Builds assignment_1b.ipynb (unexecuted). Every cell holds the real code, nothing is imported from src/.
+"""Builds assignment_1b.ipynb (unexecuted). Every cell holds the real code, nothing is imported from other modules of the repository.
 
     python tools/build_assignment_notebook.py          # writes assignment_1b.ipynb
     jupyter nbconvert --to notebook --execute --inplace assignment_1b.ipynb
@@ -431,7 +431,7 @@ print("domain_corpus/*.txt (PDF documents) byte-identical to the committed files
 pdf_pages = sum(len(p) for p in after_dedup.values())
 pubchem = sorted(out_dir.glob("pubchem_*.txt"))
 print(f"GATE: {len(after_dedup)} PDFs (need >= 5) and {pdf_pages} kept PDF pages (need >= 300): passed = {len(after_dedup) >= 5 and pdf_pages >= 300}")
-print(f"Supplementary: {len(pubchem)} PubChem drug-monograph files (built by src/pubchem_monographs.py from public PubChem sections, committed under"
+print(f"Supplementary: {len(pubchem)} PubChem drug-monograph files (built from public PubChem clinical sections; provenance in data/sources.json, raw sections under"
       f" data/pubchem/sections); they are extra domain text and are not counted in the PDF gate.")
 pd.DataFrame([{"file": f.name, "pages": len(re.findall(r"^<<<PAGE ", f.read_text(encoding='utf-8'), re.M)),
                "words": words(f.read_text(encoding='utf-8'))} for f in sorted(out_dir.glob("*.txt"))])
