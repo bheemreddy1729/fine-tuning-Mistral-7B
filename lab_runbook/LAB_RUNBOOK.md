@@ -20,17 +20,15 @@ Two facts you need before starting: the final work is on `main` (the branch `lab
 ## 1. Next-session checklist (about 10 min to a running server)
 
 1. Book the slot in Prayogshala, Start Session, sign in again at the Dex page, open the Kubeflow dashboard.
-2. **Volumes page first.** Existing volumes: `llm-data` (15 Gi NFS, holds the venv, repo and logs) plus two empty leftovers,
-   `llm-lab-workspace` and `llm-lab-ws` (6 Gi each). Delete the two leftovers (red trash icon, you must click it yourself:
-   my automated clicks never got a confirmation dialog). That frees 12 Gi of storage quota.
+2. **Volumes page first.** As of 2026-10-10 the namespace is **empty**: the notebook server and every volume were deleted when the work was finished, so the whole storage quota (32 Gi) is free and nothing has to be reused. (The `New Volume` button on this page is disabled for this account; volumes are created from the notebook form in step 3.) Everything needed is in the GitHub repo, so a fresh volume loses nothing.
 3. Notebooks, New Notebook, fill the form:
    - Name: `llm-gpu` (any name).
    - Type: JupyterLab. Image: Custom Notebook dropdown, pick `kubeflownotebookswg/jupyter-pytorch-cuda-full:v1.10.0-rc.1`.
      (Optional: try `10.152.183.210:5000/bits-sudo-jupyter-pytorch-cuda-full` first, it is the guide's image, but it failed with
      `ImagePullBackOff ... :latest not found`. Look at the Events tab within 1 minute and fall back immediately if it fails.)
    - CPU 4, memory 15.5. GPUs: 1, vendor NVIDIA. Affinity/Tolerations, Tolerations Group: NVIDIA A100 GPU Node.
-   - **Workspace volume: delete it** (trash icon). Storage quota cannot take a new one and the guide says it is scratch only.
-   - Data Volumes: Attach existing volume, Type Kubernetes Volume, name `llm-data`, mount path `/home/jovyan/data`.
+   - **Data volume (new):** Data Volumes, Add new volume, name `llm-data`, size **15 Gi**, storage class **nfs-client**, access mode **ReadWriteMany**, mount path `/home/jovyan/data`. Everything (venv, repo) lives here.
+   - **Workspace volume:** the instructor's guide asks for a 6 Gi one; with an empty namespace the quota (15 + 6 = 21 of 32 Gi) allows it, and it is only scratch space. If a pod ever fails with `exceeded quota ... requests.storage`, delete the workspace volume row in the form: nothing in the notebook needs it. Keep the data volume name different from any existing volume.
    - Shared memory: leave enabled. Launch.
 4. "Submitting new Notebook..." can hang for up to ~90 s. **Do not click Launch twice.** Open the Notebooks list instead.
    A green tick means ready. If it shows a warning, open the details page and read the message.
@@ -47,7 +45,7 @@ Two facts you need before starting: the final work is on `main` (the branch `lab
    `./venv/bin/pip install -q pymupdf langdetect nbformat nbclient nbconvert hf_transfer`
 7. Repo: `cd ~/data/fine-tuning-Mistral-7B && git pull` on `main` (on a fresh volume: `git clone https://github.com/bheemreddy1729/fine-tuning-Mistral-7B`).
 8. Take the evidence screenshots again (notebook running, details, volumes, memory/storage/GPU, check_env) into `lab_evidence/`.
-9. **When you are done, STOP the notebook server** (Notebooks page, square icon) **before closing the browser.** The instructor's rule: the GPUs are shared and stay attached to your ID until you stop the server, which blocks other students (it is busy in the last week before a submission). Stopping is enough; deleting the server is not required. The data volume `llm-data` is kept either way, and a stopped server can be started again with its settings; a deleted one must be recreated from step 3. Colab is the fallback if no GPU slot is free.
+9. **When you are done, STOP the notebook server** (Notebooks page, square icon) **before closing the browser.** The instructor's rule: the GPUs are shared and stay attached to your ID until you stop the server, which blocks other students (it is busy in the last week before a submission). Stopping is enough; deleting the server is not required. A stopped server keeps its volumes and can be started again with its settings; a deleted server must be recreated from step 3, and a deleted volume loses its venv (setup then takes about 10 minutes again). Colab is the fallback if no GPU slot is free.
 
 ## 2. DON'T list
 
