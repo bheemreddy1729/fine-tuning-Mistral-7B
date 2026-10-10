@@ -47,9 +47,11 @@ Two facts you need before starting: the final work is on `main` (the branch `lab
    `./venv/bin/pip install -q pymupdf langdetect nbformat nbclient nbconvert hf_transfer`
 7. Repo: `cd ~/data/fine-tuning-Mistral-7B && git pull` on `main` (on a fresh volume: `git clone https://github.com/bheemreddy1729/fine-tuning-Mistral-7B`).
 8. Take the evidence screenshots again (notebook running, details, volumes, memory/storage/GPU, check_env) into `lab_evidence/`.
+9. **When you are done, STOP the notebook server** (Notebooks page, square icon) **before closing the browser.** The instructor's rule: the GPUs are shared and stay attached to your ID until you stop the server, which blocks other students (it is busy in the last week before a submission). Stopping is enough; deleting the server is not required. The data volume `llm-data` is kept either way, and a stopped server can be started again with its settings; a deleted one must be recreated from step 3. Colab is the fallback if no GPU slot is free.
 
 ## 2. DON'T list
 
+- **DON'T leave the notebook server running when you are not using it**: it keeps a shared GPU attached to your ID (see step 9 above).
 - **DON'T install or upgrade anything that is in the instructor's list**: torch 2.5.1+cu124, transformers 4.46.3, peft 0.13.2, accelerate 1.1.1,
   bitsandbytes 0.44.1, trl 0.12.1. `requirements.txt` in this repo now holds only the extras the image lacks (pymupdf, langdetect, nbformat, nbclient,
   nbconvert, hf_transfer), so `../venv/bin/pip install -r requirements.txt` is safe; any older copy that pins torch or bitsandbytes is not.
