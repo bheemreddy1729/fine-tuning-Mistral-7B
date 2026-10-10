@@ -536,11 +536,13 @@ import part_b1_cells
 import part_b2_cells
 import part_b3_cells
 import part_c_cells
+import final_summary_cells
 
 part_b1_cells.add(md, code)
 part_b2_cells.add(md, code)
 part_b3_cells.add(md, code)
 part_c_cells.add(md, code)
+final_summary_cells.add(md)
 
 nb = nbf.v4.new_notebook(cells=cells)
 nb.metadata["kernelspec"] = {"display_name": "Python (LLM venv)", "language": "python", "name": "llm-venv"}

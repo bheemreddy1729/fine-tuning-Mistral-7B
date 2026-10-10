@@ -6,7 +6,7 @@ Namespace: `2025ae05142-s1-26-aimlzg536`. Dashboard: https://kubeflow-csisrlab.b
 ## Status and next steps
 
 **See `../PLAN.md`** for what is delivered, what is left (Part C and the final steps), the working rules and the file map. This runbook covers only how to set up and drive a lab session.
-Two facts you need before starting: branch `lab-run` holds the work (it is pushed to GitHub), and the trained adapter is **committed** in `adapters/adapter_b/`, so a new pod does not need to retrain it before B3.
+Two facts you need before starting: the final work is on `main` (the branch `lab-run` was merged into it), and the trained adapter is **committed** in `adapters/adapter_b/`, so a new pod does not need to retrain it before B3.
 
 ## 0. Limits of this namespace (the root of most failures)
 
@@ -45,7 +45,7 @@ Two facts you need before starting: branch `lab-run` holds the work (it is pushe
    If `venv/` is gone, `setup_env.sh` rebuilds it. Budget 10+ minutes on NFS (the guide's "2-4 minutes" is optimistic).
 6. Install the extras Part A needs, into the venv only:
    `./venv/bin/pip install -q pymupdf langdetect nbformat nbclient nbconvert hf_transfer`
-7. Repo: `cd ~/data/fine-tuning-Mistral-7B && git fetch && git switch lab-run` (or clone with `-b lab-run` once the branch is pushed).
+7. Repo: `cd ~/data/fine-tuning-Mistral-7B && git pull` on `main` (on a fresh volume: `git clone https://github.com/bheemreddy1729/fine-tuning-Mistral-7B`).
 8. Take the evidence screenshots again (notebook running, details, volumes, memory/storage/GPU, check_env) into `lab_evidence/`.
 
 ## 2. DON'T list
@@ -66,7 +66,7 @@ Two facts you need before starting: branch `lab-run` holds the work (it is pushe
 - DON'T `| tail` a long command if you want live output: it buffers until the end. Use `tee file.log` and read the file.
 - DON'T trust single timings: the A100 is shared. Warm up, repeat, and measure VRAM with `torch.cuda.max_memory_allocated`.
 - DON'T delete old reports, adapters or outputs until the part is finished and the user has approved (user rule).
-  Lab work goes on branch `lab-run`; `main` keeps the old outputs. PR to `main` only after verification.
+  Work on a branch and open a pull request to `main` only after verification on the lab (the final submission is already on `main`).
 
 ## 3. Facts verified in session 1
 

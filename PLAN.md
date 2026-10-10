@@ -1,7 +1,7 @@
 # PLAN.md: status and next steps (read this first)
 
 Assignment 1B (Domain LLM Adaptation and Production Optimization), Medical and Clinical Literature, Variant 4 (Clinical Protocol Lookup Assistant),
-`mistralai/Mistral-7B-v0.1`. Branch `lab-run`. Last updated 2026-10-10. Marks: Part A 2, Part B 5, Part C 8 (total 15).
+`mistralai/Mistral-7B-v0.1`. The final work is on `main` (the working branch `lab-run` was merged on 2026-10-10). Last updated 2026-10-10. Marks: Part A 2, Part B 5, Part C 8 (total 15).
 Operational setup of the BITS Kubeflow lab is in `lab_runbook/LAB_RUNBOOK.md`; this file tracks **what is delivered and what is left**.
 
 ## 1. If you are an agent resuming this work
@@ -13,7 +13,7 @@ Operational setup of the BITS Kubeflow lab is in `lab_runbook/LAB_RUNBOOK.md`; t
    - **Instructor's pinned environment wins** (torch 2.5.1+cu124, transformers 4.46.3, peft 0.13.2, accelerate 1.1.1, bitsandbytes 0.44.1, trl 0.12.1). Never upgrade or downgrade these.
    - **One step at a time**, user approval between steps. Aim for full marks and the performance-best configuration within the namespace quota.
    - **Never mention any earlier or other machine or software stack** (anything from before the lab run) in the notebook, HTML, reports or docs. The assignment is accounted for on the lab A100 only; if you find such text, remove it.
-   - **Do not push `main` or open the PR without asking.** `lab-run` may be pushed. Never put secrets or the user's token in files.
+   - **Ask before pushing to `main`** (it holds the final submission): work on a branch and open a pull request. Never put secrets or the user's token in files.
    - Take screenshots of the notebook, memory and storage at each milestone into `lab_evidence/` (git tracked).
    - Analysis must be honest and checked against the corpus text; verify every claim before writing it (the user wants "detailed inferences and justification").
 4. Execute long jobs on the pod in the background (`nohup ... > log &`) and poll the log; the browser tool can drop. See runbook section 6.
@@ -42,7 +42,9 @@ Operational setup of the BITS Kubeflow lab is in `lab_runbook/LAB_RUNBOOK.md`; t
 2. **Done (2026-10-10), clean-run test.** A fresh clone of `lab-run` (commit `b2e3c40`, 84 tracked files, none of the removed files) on the pod, notebook executed top to bottom: 0 errors. Deterministic results identical to the committed run (corpus gate and statistics, B1 rebuild,
    B2 eval losses 2.1264 to 1.5047 / 1.4245 / 1.4264, B3 outputs, C3 quality table). Timings within about 7 % (bfloat16 33.0 against 31.1 tokens/s, 4-bit 15.0 against 14.1, speculative speed-ups 1.01 / 0.97 / 0.90 against 1.03 / 1.00 / 0.89). The test folder `~/data/clean_test` on the pod can be deleted.
 3. **Done (2026-10-10).** Final milestone screenshots in `lab_evidence/` (08 to 10): finished run, pod memory, storage and GPU, Kubeflow server and volumes.
-4. **Open, needs the user.** Merge pull request #1 (`lab-run` into `main`). Do not merge without asking. After the merge `main` holds the final submission; old history stays in git.
+4. **Done (2026-10-10).** Pull request #1 (`lab-run` into `main`) was merged with a merge commit (`871eadb`); `main` holds the final submission and the old history stays in git.
+5. **Done (2026-10-10), deliverables check against the brief's Submission Deliverables.** `assignment_1b.ipynb` (112 cells plus a closing summary of the final prompts, hyperparameters and benchmarking settings; every code cell has saved output, 0 errors), `assignment_1b.html` (outputs visible), `instruction_dataset.jsonl` (50 rows, only `instruction` and `response`), `domain_corpus/*.txt` (16 files): all present on `main`; the 18 per-part requirements were checked in the notebook.
+6. **Open decision (user).** The brief's C3 load line is `BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type='nf4', bnb_4bit_compute_dtype=torch.bfloat16)`; the notebook adds `bnb_4bit_use_double_quant=True` (the QLoRA recipe, stated in the C3 text). Removing it would raise the 4-bit memory figure by a few tenths of a GB and needs a rerun of the notebook (about one hour) to keep outputs consistent.
 
 ## 4. Open items and known soft spots
 

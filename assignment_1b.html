@@ -14427,6 +14427,101 @@ but more unsupported claims than the base model (5 flags against 2 to 3), the sa
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=315e3bf2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<hr/>
+<h2 id="Final-prompts,-hyperparameters-and-benchmarking-settings-(summary)">Final prompts, hyperparameters and benchmarking settings (summary)<a class="anchor-link" href="#Final-prompts,-hyperparameters-and-benchmarking-settings-(summary)">¶</a></h2><p>The brief asks for the final prompts, the key hyperparameters and the benchmarking settings. They are used in the cells above; this section collects them in one place.</p>
+<p><strong>Environment.</strong> BITS Prayogshala / Kubeflow notebook server, one NVIDIA A100-SXM4-80GB (shared with other users), 4 CPU, 15.5 Gi RAM; Python 3.11, torch 2.5.1+cu124, transformers 4.46.3, peft 0.13.2, bitsandbytes 0.44.1. Model <code>mistralai/Mistral-7B-v0.1</code> with its own tokenizer throughout (a base model with no chat template);
+draft model <code>HuggingFaceTB/SmolLM2-1.7B-Instruct</code> with its own tokenizer (and <code>SmolLM2-360M-Instruct</code> for the ablation).</p>
+<p><strong>Prompt format (no system prompt, every part).</strong></p>
+<pre><code>### Instruction:
+{instruction}
+
+### Response:
+</code></pre>
+<p><strong>Final prompts.</strong> The first three are the baseline and evaluation prompts of Parts A, B3, C1 and C2; all ten are used in C3. The seven new prompts are drawn from the corpus and do not overlap the training instructions (highest word-set similarity 0.35, limit 0.70).</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>id</th>
+<th>prompt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>malaria_uncomplicated_pf</td>
+<td>What treatment does the malaria guidance recommend for uncomplicated Plasmodium falciparum malaria in adults and in children weighing at least 25 kg?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>sepsis_iv_antibiotics</td>
+<td>In an adult with suspected sepsis, when should intravenous antibiotics be started, and what should happen if the source of infection is still uncertain?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>hypertension_first_line</td>
+<td>What first-line antihypertensive treatment does the adult hypertension guidance recommend, and how does age change that choice?</td>
+</tr>
+<tr>
+<td>4</td>
+<td>n01_malaria_second_line</td>
+<td>A patient with uncomplicated P. falciparum malaria has treatment failure within 28 days. What second-line treatment does WHO recommend, and which longer regimens are no longer generally recommended?</td>
+</tr>
+<tr>
+<td>5</td>
+<td>n02_gonorrhoea_regimen</td>
+<td>What single-dose regimen does CDC recommend for uncomplicated gonococcal infection of the cervix, urethra or rectum in adults, and how does the dose change with body weight?</td>
+</tr>
+<tr>
+<td>6</td>
+<td>n03_syphilis_primary</td>
+<td>What is the recommended treatment for primary or secondary syphilis in adults?</td>
+</tr>
+<tr>
+<td>7</td>
+<td>n04_bacterial_vaginosis</td>
+<td>Which regimens does CDC recommend for bacterial vaginosis?</td>
+</tr>
+<tr>
+<td>8</td>
+<td>n05_cystitis_icmr</td>
+<td>What does ICMR list as the drug of choice for acute cystitis, and when should nitrofurantoin or fosfomycin be avoided?</td>
+</tr>
+<tr>
+<td>9</td>
+<td>n06_diarrhoea_zinc</td>
+<td>How much zinc does the ICMR workflow advise for a child with acute diarrhoea, and for how long?</td>
+</tr>
+<tr>
+<td>10</td>
+<td>n07_metronidazole</td>
+<td>Which infections is metronidazole indicated for, and what advice does PubChem give about alcohol?</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Part A (corpus and baseline).</strong> 7 PDFs; a page with fewer than 30 letters is non-content; language filter <code>langdetect</code> (seed 0), per page; length filter at least 3 pages and 1,000 words per document; deduplication by SHA-256 of the normalised page, then Jaccard similarity of at least 0.90 on 5-word shingles for pages and documents; corpus gate 5 PDFs and 300 kept PDF pages (1,122 kept).
+Baseline: bfloat16, greedy, <code>max_new_tokens = 150</code>, no system prompt.</p>
+<p><strong>Part B (dataset and QLoRA).</strong> Instruction dataset: 50 pairs, type mix 8 / 7 / 8 / 7 / 6 / 7 / 7, 8 source families (none above 30 %), no instruction template above 20 %, 1 to 3 sentences and at least 30 clinical words per answer, Variant 4 disclaimer on every answer, split 80/20 with seed 42 (40 train, 10 eval), maximum token length 239.
+Adapter B: LoRA r = 16, alpha = 32, dropout 0.05 on <code>q_proj</code> and <code>v_proj</code> (6,815,744 trainable parameters); 4-bit NF4 base with double quantization and bfloat16 compute; 3 epochs (30 optimizer steps); per-device batch size 1 with 4 gradient-accumulation steps (effective batch 4); learning rate 2e-4, linear schedule, 3 % warm-up; optimizer <code>paged_adamw_32bit</code>, weight decay 0, gradient clipping 1.0;
+maximum sequence length 256; seed 42; bfloat16; gradient checkpointing; loss on the answer and end-of-sequence token only. Evaluation (B3): greedy, 150 new tokens, bfloat16 base + unmerged adapter (and 4-bit base + adapter).</p>
+<p><strong>Part C (inference).</strong></p>
+<ul>
+<li><em>C1 decoding:</em> greedy; beam search (4 beams, early stopping); top-k 50; top-p 0.9; temperature 0.3, 0.7 and 1.2 (top-k and top-p switched off for pure temperature scaling); <code>max_new_tokens = 150</code>; sampling seed 42 (diversity from seeds 1, 2 and 3); speed = mean of 2 identical-seed runs after a warm-up.</li>
+<li><em>C2 speculative decoding:</em> target Mistral-7B in bfloat16, draft SmolLM2-1.7B-Instruct, universal assisted generation (target and draft tokenizers passed explicitly), greedy; draft tokens per round compared at 3, 5 and 8 (constant) and the adaptive heuristic schedule (selected: heuristic, 5); speed-up = median of 15 paired ratios from 5 alternating runs of plain and speculative decoding; ablation with the 360M draft.</li>
+<li><em>C3 quantization and cost:</em> <code>BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_use_double_quant=True, bnb_4bit_compute_dtype=torch.bfloat16)</code>; best decoder from C1 (greedy); the 10 prompts above; throughput = total new tokens / total time over the 10 prompts, median of 3 alternating repeats after a warm-up; peak VRAM = resident weights + largest extra allocation during generation;
+cost per 1M tokens = (1,000,000 / throughput) / 3600 x Rs 12.00 per hour (the brief's A100 rate). Optional extension: Adapter B + 4-bit + speculative decoding, 2 passes.</li>
+</ul>
+<p><strong>Reproducibility.</strong> Fixed seeds (42 throughout; 1 to 3 for the C1 diversity samples), the data and drafts under <code>data/</code>, and the trained adapter in <code>adapters/adapter_b/</code> are committed; the notebook was re-run from a fresh clone of the repository with identical results for everything deterministic.</p>
+</div>
+</div>
+</div>
+</div>
 </main>
 </body>
 </html>

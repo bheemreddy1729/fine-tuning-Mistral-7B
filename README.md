@@ -34,4 +34,4 @@ On a GPU Kubeflow server (A100, the instructor's `setup_env.sh` already run), se
 
 ## Status
 
-Parts A, B and C are complete and verified on the lab; the remaining steps are a clean-run test and the pull request. See `PLAN.md`.
+Parts A, B and C are complete and verified on the lab, including a clean-run test from a fresh clone; the working branch `lab-run` has been merged into `main`. See `PLAN.md`.
