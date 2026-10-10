@@ -41,7 +41,7 @@ Operational setup of the BITS Kubeflow lab is in `lab_runbook/LAB_RUNBOOK.md`; t
 1. **Done.** Notebook rebuilt and executed on the lab (about 55 minutes), HTML exported, reports pulled and validated (0 errors, no earlier-machine text, key checks True).
 2. **Done (2026-10-10), clean-run test.** A fresh clone of `lab-run` (commit `b2e3c40`, 84 tracked files, none of the removed files) on the pod, notebook executed top to bottom: 0 errors. Deterministic results identical to the committed run (corpus gate and statistics, B1 rebuild,
    B2 eval losses 2.1264 to 1.5047 / 1.4245 / 1.4264, B3 outputs, C3 quality table). Timings within about 7 % (bfloat16 33.0 against 31.1 tokens/s, 4-bit 15.0 against 14.1, speculative speed-ups 1.01 / 0.97 / 0.90 against 1.03 / 1.00 / 0.89). The test folder `~/data/clean_test` on the pod can be deleted.
-3. **Open.** Final milestone screenshots into `lab_evidence/` (finished run, GPU memory, storage) if wanted; the current ones cover server, volumes, GPU and environment check.
+3. **Done (2026-10-10).** Final milestone screenshots in `lab_evidence/` (08 to 10): finished run, pod memory, storage and GPU, Kubeflow server and volumes.
 4. **Open, needs the user.** Merge pull request #1 (`lab-run` into `main`). Do not merge without asking. After the merge `main` holds the final submission; old history stays in git.
 
 ## 4. Open items and known soft spots
