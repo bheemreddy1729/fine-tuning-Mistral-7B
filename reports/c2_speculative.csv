@@ -1,0 +1,4 @@
+prompt_id,plain_tok_s,speculative_tok_s,speed_up_median,speed_up_min,speed_up_max,target_passes_plain,target_passes_spec,tokens_per_target_pass,identical_text
+malaria_uncomplicated_pf,31.84,32.39,1.03,0.97,1.08,150,52,2.88,True
+sepsis_iv_antibiotics,32.28,31.24,1.0,0.96,1.01,150,55,2.73,True
+hypertension_first_line,31.35,27.99,0.89,0.82,0.93,150,68,2.21,True

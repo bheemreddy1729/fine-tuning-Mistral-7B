@@ -4,10 +4,8 @@
   "parameter_count": 7241732096,
   "num_hidden_layers": 32,
   "hidden_size": 4096,
-  "hidden_size_meaning": "Width of each token representation in the residual stream.",
   "vocab_size": 32000,
   "tokenizer_vocab_size": 32000,
-  "tokenizer_source": "mistralai/Mistral-7B-v0.1",
-  "gpu_name": "NVIDIA RTX A6000",
-  "gpu_memory_gb": 47.7
+  "gpu_name": "NVIDIA A100-SXM4-80GB",
+  "gpu_memory_gb": 84.99
 }

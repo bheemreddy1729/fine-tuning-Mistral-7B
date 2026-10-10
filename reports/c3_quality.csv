@@ -1,0 +1,4 @@
+Configuration,rubric facts mentioned,of,unsupported-claim flags,ungrounded numbers,prompts with invented sections,identical to bfloat16 output,identical to 4-bit output
+bfloat16 (Part A baseline),24,44,3,3,9,10,0
+4-bit NF4,20,44,2,1,9,0,10
+4-bit NF4 + speculative decoding,19,44,2,0,8,0,6
